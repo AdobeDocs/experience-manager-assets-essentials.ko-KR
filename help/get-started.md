@@ -2,14 +2,14 @@
 title: ' [!DNL Assets Essentials] 사용 시작'
 description: 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 [!DNL Assets Essentials]의 알려진 문제입니다.
 role: Business Practitioner, Leader
-source-git-commit: 825297959b19361260121949c99ede37dced9a9c
+source-git-commit: 4a7fe369485db5cae843694c68f84133c9118337
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 2%
+source-wordcount: '451'
+ht-degree: 1%
 
 ---
 
-# [!DNL Experience Manager Assets Essentials] {#assets-essentials-get-started} 사용 시작
+# [!DNL Experience Manager Assets Essentials] 사용 시작 {#assets-essentials-get-started}
 
 <!-- TBD: Make links for these steps. -->
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 또한 [사용자 인터페이스에 대한 이해](/help/navigate-view.md), [사용 사례 목록](#use-cases), <!-- TBD: [supported file types](/help/supported-file-formats.md), --> 및 [알려진 문제](/help/release-notes.md#known-issues)가 도움이 될 수 있습니다.
 
-## [!DNL Assets Essentials] {#get-access}에 대한 액세스 수신
+## [!DNL Assets Essentials]에 대한 액세스 수신 {#get-access}
 
 Adobe은 솔루션을 프로비저닝하고 조직의 지정된 개인을 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/welcome.ug.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 제공할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
 
@@ -49,7 +49,7 @@ When logging in, after providing the credentials, you can be prompted to select 
 ![Select an account to login](assets/do-not-localize/login-experience.gif)
 -->
 
-## [!DNL Assets Essentials] 사용 사례  {#use-cases}
+## [!DNL Assets Essentials] 사용 사례 {#use-cases}
 
 [!DNL Assets Essentials]을 사용하여 수행할 수 있는 다양한 DAM(디지털 자산 관리) 작업은 아래에 나와 있습니다.
 
@@ -69,13 +69,16 @@ When logging in, after providing the credentials, you can be prompted to select 
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
 -->
 
-## ![피드백 ](assets/do-not-localize/feedback-icon.png) 아이콘제품 피드백 제공  {#provide-feedback}
+## ![피드백 ](assets/do-not-localize/feedback-icon.png) 아이콘제품 피드백 제공 {#provide-feedback}
 
 Adobe은 솔루션에 대한 피드백을 환영합니다. 작업 애플리케이션을 전환하지 않고 피드백을 제공하려면 사용자 인터페이스에서 [!UICONTROL Feedback] 옵션을 사용합니다. 또한 스크린샷 또는 문제 비디오 녹화 등의 파일을 첨부할 수도 있습니다.
 
 ![인터페이스의 피드백 옵션](assets/feedback-panel.png)
 
-문서에 대한 피드백을 제공하려면 이 페이지 편집 ![페이지 편집](assets/do-not-localize/edit-page.png)을 클릭하거나 오른쪽 여백에 GitHub 문제](assets/do-not-localize/github-issue.png)로그 를 만드십시오. ![ 콘텐츠를 업데이트하고 GitHub 가져오기 요청을 제출하거나 GitHub에서 문제 또는 티켓을 만듭니다.
+문서에 대한 피드백을 제공하려면 [!UICONTROL Edit this page] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL Log an issue] ![오른쪽 사이드바에서 GitHub 문제](assets/do-not-localize/github-issue.png)를 만드십시오. 다음 중 하나를 수행할 수 있습니다.
+
+* 컨텐츠를 업데이트하고 GitHub 가져오기 요청을 제출합니다.
+* GitHub에서 문제 또는 티켓을 만듭니다. 문제를 만들 때 자동으로 채워진 문서 이름을 유지합니다.
 
 >[!MORELIKETHIS]
 >
