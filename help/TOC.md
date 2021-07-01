@@ -8,10 +8,10 @@ user-guide-description: Adobe Experience Manager Assets Essentials 사용 방법
 feature-set: Experience Manager Assets,Experience Manager
 feature: 자산 관리
 role: Business Practitioner, Leader
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 4%
 
 + [솔루션 개요](introduction.md)
 + [릴리스 노트](release-notes.md)
++ [사용자 배포 및 추가](deploy-administer.md)
 + [ [!DNL Assets Essentials] 사용 시작](get-started.md)
 + [자산 보기](navigate-view.md)
 + [자산 업로드 및 추가](add-delete.md)
