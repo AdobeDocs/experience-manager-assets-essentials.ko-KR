@@ -2,9 +2,9 @@
 title: 저장소에 자산 업로드
 description: 자산을 [!DNL Assets Essentials]에 업로드하고, 업로드 상태를 확인하고, 업로드 문제를 해결하십시오.
 role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,11 @@ ht-degree: 0%
 
 *그림:선택한 자산을 업로드하기 전에 큐에서 자산을 추가하거나 제거할 수 있습니다.*
 
-## 업로드 진행 상태 및 상태 보기 {#upload-progress}
+>[!CAUTION]
+>
+>파일 이름에 공백이 없는 자산을 사용합니다. 댓글에 대한 답글이 그러한 자산에 대해 작동하지 않습니다.
+
+## 업로드 진행률 및 상태 보기 {#upload-progress}
 
 많은 자산 또는 중첩된 폴더를 [!DNL Assets Essentials]에 업로드할 때 중복된 자산 및 네트워크 문제와 같은 다양한 이유로 일부 자산을 업로드하지 못할 수 있습니다.
 
@@ -44,13 +48,13 @@ ht-degree: 0%
 
 *그림:업로드 상태에 따라 업로드하려는 자산을 필터링하거나 업로드 진행 상태를 기반으로 필터링합니다.*
 
-자산이 업로드된 직후 Assets Essentials은 자산을 처리하여 축소판 그림을 생성하고 메타데이터를 처리합니다. 많은 자산의 경우 처리에 시간이 좀 걸립니다. 축소판이 표시되지 않고 자리 표시자 축소판에서 처리 메시지가 표시되면 몇 분 후에 폴더를 다시 확인합니다.
+자산이 업로드되면 바로 [!DNL Assets Essentials] 이 자산을 처리하여 축소판 그림을 생성하고 메타데이터를 처리합니다. 많은 자산의 경우 처리에 시간이 좀 걸립니다. 축소판이 표시되지 않고 자리 표시자 축소판에서 처리 메시지가 표시되면 몇 분 후에 폴더를 다시 확인합니다.
 
 ![업로드 시 처리](assets/upload-processing.png)
 
 ## 자산 표현물 {#renditions}
 
-Assets Essentials은 업로드된 자산을 거의 실시간으로 처리하고 지원되는 다양한 파일 유형에 대해 변환을 생성합니다. 이미지용으로 만들어진 표현물은 업로드된 이미지의 버전 크기가 조정됩니다. 자산뿐만 아니라 적절한 버전을 사용하기 위한 표현물도 다운로드할 수 있습니다. [자산을 미리 볼 때 자산의 모든 렌디션을 볼 수 있습니다](/help/navigate-view.md#preview-assets).
+[!DNL Assets Essentials] 업로드된 자산을 거의 실시간으로 그리고 지원되는 다양한 파일 유형에 대해 처리하며 변환을 생성합니다. 이미지용으로 만들어진 표현물은 업로드된 이미지의 버전 크기가 조정됩니다. 자산뿐만 아니라 적절한 버전을 사용하기 위한 표현물도 다운로드할 수 있습니다. [자산을 미리 볼 때 자산의 모든 렌디션을 볼 수 있습니다](/help/navigate-view.md#preview-assets).
 
 ![표현물](assets/renditions-view-download.png)
 
