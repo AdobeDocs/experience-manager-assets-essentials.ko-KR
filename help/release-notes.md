@@ -3,7 +3,7 @@ title: 릴리스 노트
 description: 릴리스 노트 및 [!DNL Assets Essentials]의 알려진 문제
 role: Business Practitioner,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: a52db0574483d3c17643a2c35c95be67c6608602
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
@@ -27,5 +27,9 @@ ht-degree: 2%
 ## 알려진 문제 {#known-issues}
 
 현재 [!DNL Assets Essentials]에 알려진 문제가 없습니다.
+
+<!--
+* Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
+-->
 
 문제가 발생하거나 심지어 개선 요청이 발생하면 [팀에 피드백](#provide-feedback)을 제공합니다.
