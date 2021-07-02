@@ -2,9 +2,9 @@
 title: 사용자 배포 및 관리
 description: ' [!DNL Assets Essentials]에서 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Administrator
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '834'
 ht-degree: 2%
 
 ---
@@ -30,11 +30,15 @@ ht-degree: 2%
 
    ![[!DNL Assets Essentials] 카드 로그인  [!DNL Admin Console]](assets/essentials-in-admin-console.png)
 
+   *그림: [!DNL Assets Essentials] 카드  [!DNL Admin Console].*
+
 1. [!DNL Cloud Manager]에서 `AEM Assets Essentials - Cloud Manager` 제품에 관리자로 자신을 추가하십시오. 대신 조직의 다른 구성원을 추가하거나 두 명 이상의 관리자를 추가할 수 있습니다.
 
 1. ![아이콘](assets/do-not-localize/add-icon.svg)을 [!UICONTROL Select product profiles]에 클릭한 다음 [!UICONTROL Deployment Manager - Assets Essentials]을 **[!UICONTROL product profile]**(으)로 선택합니다. 이 단계에 추가된 사용자는 [!DNL Cloud Manager]에 액세스할 수 있는 Adobe의 이메일을 수신하고 배포를 수행할 수 있습니다.
 
    ![관리자를 추가하고 의 제품 프로필을 선택합니다  [!DNL Admin Console]](assets/adminconsole-user1.png)
+
+   *그림:관리자를 추가하고 에서 제품 프로필을 선택합니다  [!DNL Admin Console].*
 
 1. [!DNL Cloud Manager]에 액세스하려면 [!DNL Cloud Manager]에 액세스할 수 있는 이메일의 링크를 클릭하십시오. 또는 브라우저에서 `https://experience.adobe.com/#/cloud-manager/`에 액세스합니다.
 
@@ -48,9 +52,13 @@ ht-degree: 2%
 
    ![에서 환경 추가  [!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png)
 
+   *그림:에서 환경을 추가하여 사용 [!DNL Cloud Manager] 을 시작합니다  [!DNL Assets Essentials].*
+
 1. 환경이 만들어지면 [!DNL Admin Console]에 액세스하고 조직의 사용자를 [!DNL Assets Essentials] 솔루션에 추가할 수 있습니다. ![옵션 아이콘](assets/do-not-localize/options-ellipses-icon.png)을 클릭하고 **[!UICONTROL Manage Access]** 옵션을 선택합니다.
 
    ![준비 환경  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+
+   *그림:사용할 준비가  [!DNL Cloud Manager] 된 의 환경.*
 
 ## 사용자 관리 {#add-users-to-essentials}
 
@@ -65,9 +73,13 @@ ht-degree: 2%
 
    ![두 가지 유형의 사용자를 위한 두 개의 프로필](assets/adminconsole-user-types.png)
 
+   *그림:두 개의 프로필을 사용하여 두 가지 유형의 사용자를 추가할 수 있습니다.*
+
 1. 사용자를 그룹에 추가하려면 그룹을 클릭하고 **[!UICONTROL Add User]** 을 선택한 다음 사용자 세부 정보를 제공한 다음 **[!UICONTROL Save]** 를 클릭합니다. 사용자를 추가하면 사용자는 시작할 이메일 초대를 받습니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 해제할 수 있습니다.
 
    ![사용자를  [!DNL Assets Essentials]](assets/adminconsole-add-user.png)
+
+   *그림:사용자를  [!DNL Assets Essentials] 의 을(를)  [!DNL Admin Console].*
 
 1. 그룹에서 사용자를 제거하려면 그룹을 클릭하고 기존 사용자를 선택한 다음 **[!UICONTROL Remove User]** 을 선택합니다.
 
@@ -81,11 +93,15 @@ ht-degree: 2%
 
 1. 사용자가 문제를 보고할 때 **[!UICONTROL Program Overview]** 인터페이스에서 [!DNL Assets Essentials]의 서비스 상태를 확인합니다. 솔루션의 일반적인 작업 중에 상태는 `Running`입니다. [!DNL Cloud Manager]에 다른 상태가 표시되면 [!DNL Admin Console] 지원 섹션에서 지원 티켓을 만듭니다.
 
-   ![의 실행  [!DNL Assets Essentials] 상태  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+   ![의  [!DNL Assets Essentials] 상태  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+
+   *그림:의 일반적인  [!DNL Assets Essentials] 상태는  [!DNL Cloud Manager] 입니다 `Running`.*
 
 1. 최근 액세스 로그를 다운로드하려면 ![옵션 아이콘](assets/do-not-localize/options-ellipses-icon.png)을 클릭하고 **[!UICONTROL Download Logs]**&#x200B;를 선택한 다음 화면에 나타나는 지침을 따르십시오. 로그를 사용하여 HTTPS 액세스 요청을 감사할 수 있습니다.
 
-   ![로그 다운로드 옵션](assets/cloudmanager-download-logs.png)
+   ![ 액세스 로그를 다운로드하는 옵션](assets/cloudmanager-download-logs.png)
+
+   *그림:액세스 로그를 다운로드하는 옵션입니다.*
 
 >[!MORELIKETHIS]
 >
