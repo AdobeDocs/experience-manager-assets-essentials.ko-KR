@@ -1,9 +1,9 @@
 ---
 title: 지원되는 파일 형식
 description: 다양한 사용 사례에 대해 지원되는 파일 형식 [!DNL Assets Essentials]
-role: User,Leader,Administrator,Architect,Developer
+role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 25%
