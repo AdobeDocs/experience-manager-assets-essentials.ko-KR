@@ -1,8 +1,8 @@
 ---
 title: ' [!DNL Assets Essentials]에서 자산 검색 및 검색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 검색합니다.'
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -10,7 +10,7 @@ ht-degree: 1%
 ---
 
 
-# [!DNL Assets Essentials] {#search-assets}에서 자산 검색
+# [!DNL Assets Essentials]에서 자산 검색 {#search-assets}
 
 [!DNL Assets Essentials] 은 기본적으로 작동하는 효과적인 검색을 제공합니다. 전체 텍스트 검색이므로 검색은 포괄적입니다. 강력한 검색 기능을 사용하면 적절한 자산을 빠르게 찾고 컨텐츠 속도를 향상시킬 수 있습니다. [!DNL Assets Essentials] 은 전체 텍스트 검색을 제공하고 스마트 태그, 제목, 만든 날짜 및 저작권 등의 메타데이터를 통해 검색할 수 있습니다.
 
