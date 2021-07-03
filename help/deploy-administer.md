@@ -1,8 +1,8 @@
 ---
 title: 사용자 배포 및 관리
 description: ' [!DNL Assets Essentials]에서 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
-role: Administrator
-source-git-commit: a9dfa9cc9e971faf24e5275c843fb1d0247d18c9
+role: Admin
+source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 1%
