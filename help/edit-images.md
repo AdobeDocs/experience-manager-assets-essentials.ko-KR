@@ -1,8 +1,8 @@
 ---
 title: 이미지 편집
 description: ' [!DNL Adobe Photoshop Express] 전원 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
-role: Business Practitioner
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# [!DNL Assets Essentials] {#edit-images}에서 이미지 편집
+# [!DNL Assets Essentials]에서 이미지 편집 {#edit-images}
 
 [!DNL Assets Essentials] 에서는 기본적으로 제공되는 사용자 친화적인 편집 옵션을 제공합니다 [!DNL Adobe Photoshop Express]. 사용 가능한 편집 작업은 스팟 복구, 자르기 및 곧게 조정, 이미지 크기 조정 및 이미지 조정입니다.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 <!-- TBD: See if we should give backlinks to PS docs for these concepts.
 For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). -->
 
-## 이미지 자르기 및 곧게 만들기 {#crop-straighten-images}
+## 이미지 자르기 및 곧게 {#crop-straighten-images}
 
 자르기 및 곧게 옵션을 사용하여 기본 자르기를 수행하고, 이미지를 회전하고, 가로 또는 세로로 뒤집고, 인기 있는 소셜 미디어 웹 사이트에 적합한 크기로 자를 수 있습니다.
 
