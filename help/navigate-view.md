@@ -1,8 +1,8 @@
 ---
 title: '[!DNL Assets Essentials] 사용자 인터페이스'
 description: ' [!DNL Assets Essentials]에서 및 탐색의 사용자 인터페이스를 이해합니다.'
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -10,13 +10,13 @@ ht-degree: 0%
 ---
 
 
-# 파일 및 폴더로 이동하고 자산 {#view-assets-and-details} 을 봅니다.
+# 파일 및 폴더로 이동하고 자산을 봅니다 {#view-assets-and-details}
 
 <!-- TBD: Give screenshots of all views with many assets. Zoom out to showcase how the thumbnails/tiles flow on the UI in different views. -->
 
 <!-- TBD: The options in left sidebar may change. Shared with me and Shared by me are missing for now. Update this section as UI is updated. -->
 
-## [!DNL Assets Essentials] 사용자 인터페이스 {#understand-interface-navigation} 이해
+## [!DNL Assets Essentials] 사용자 인터페이스 이해 {#understand-interface-navigation}
 
 [!DNL Assets Essentials] 은 직관적이고 사용자에게 친숙한 사용자 인터페이스를 제공합니다. 깨끗한 인터페이스를 통해 자산 및 관련 정보를 쉽게 찾고 기억할 수 있습니다.
 
