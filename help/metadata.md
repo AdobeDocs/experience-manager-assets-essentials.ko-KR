@@ -1,9 +1,9 @@
 ---
 title: 메타데이터 관리
 description: ' [!DNL Assets Essentials]에 있는 자산의 메타데이터 관리'
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이러한 이유로 Assets는 디지털 자산에 대한 메타데이터를 만들고, 관리하고 교환하는 올바른 방법을 제공합니다.
 
-## 메타데이터 {#view-metadata} 보기
+## 메타데이터 보기 {#view-metadata}
 
 자산의 메타데이터를 보려면, 자산으로 이동하거나 자산을 검색하고, 자산을 선택한 다음 도구 모음에서 **[!UICONTROL Details]** 를 클릭합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 제목, 설명 및 업로드 날짜와 같은 기본 메타데이터는 [!UICONTROL Basic] 탭에서 사용할 수 있습니다. [!UICONTROL Advanced] 탭에는 카메라 모델, 렌즈 세부 사항 및 지오태그와 같은 고급 메타데이터가 더 포함되어 있습니다. [!UICONTROL Tags] 탭에는 이미지의 내용을 기반으로 자동으로 적용된 태그가 포함되어 있습니다.
 
-## 메타데이터 {#update-metadata} 업데이트
+## 메타데이터 업데이트 {#update-metadata}
 
 몇 개의 메타데이터 필드를 수동으로 업데이트할 수 있습니다. 이 필드에는 [!UICONTROL Title], [!UICONTROL Description], [!UICONTROL Author] 및 [!UICONTROL Keywords]가 포함됩니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 스마트 태그에는 신뢰도 점수가 백분율로 포함되어 있습니다. 적용된 태그와 연관된 신뢰도를 나타냅니다. 자동으로 적용된 스마트 태그를 중재할 수 있습니다.
 
-## 태그 {#manually-tag} 추가 또는 업데이트
+## 태그 추가 또는 업데이트 {#manually-tag}
 
 [!DNL Adobe Sensei] 스마트 서비스를 사용하여 자동으로 추가되는 스마트 태그 외에도 자산에 태그를 더 추가할 수 있습니다. 미리 볼 자산을 열고 [!UICONTROL Tags] 을 클릭한 다음 [!UICONTROL Keywords] 필드에 원하는 키워드를 입력합니다. 태그를 추가하려면 Return 키를 누릅니다. [!DNL Assets Essentials] 키워드를 거의 실시간으로 인덱싱하며 팀이 곧 새 키워드를 사용하여 업데이트된 자산을 검색할 수 있습니다.
 
