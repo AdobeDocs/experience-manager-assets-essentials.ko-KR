@@ -1,9 +1,9 @@
 ---
 title: 디지털 자산 관리
 description: ' [!DNL Assets Essentials]에서 자산을 이동, 삭제, 복사, 이름 변경, 업데이트 및 버전입니다.'
-role: Business Practitioner,Leader
+role: User,Leader
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -75,7 +75,7 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
    ![버전 내역에서 새 버전의 자산을 업로드하는 옵션](assets/view-asset-versions2.png)
 
-### 자산 버전 보기 {#view-versions}
+### 자산의 버전 보기 {#view-versions}
 
 자산의 중복 사본 또는 수정된 복사본을 업로드할 때 해당 버전을 만들 수 있습니다. 버전 관리를 사용하면 내역 자산을 검토하고 필요한 경우 이전 버전으로 되돌릴 수 있습니다.
 
