@@ -1,8 +1,8 @@
 ---
 title: 다른 Adobe 솔루션과 통합
 description: '[!DNL Assets Essentials] 다른 Adobe 솔루션과 통합하고 기본 애플리케이션 내에서 내장 경험을 제공합니다.'
-role: Business Practitioner
-source-git-commit: a8393bb70ac20a9b9100c34d012627e15355c384
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 3%
