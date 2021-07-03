@@ -1,8 +1,8 @@
 ---
 title: 저장소에 자산 업로드
 description: 자산을 [!DNL Assets Essentials]에 업로드하고, 업로드 상태를 확인하고, 업로드 문제를 해결하십시오.
-role: Business Practitioner
-source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
