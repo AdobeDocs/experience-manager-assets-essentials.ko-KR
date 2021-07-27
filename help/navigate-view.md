@@ -2,9 +2,9 @@
 title: '[!DNL Assets Essentials] 사용자 인터페이스'
 description: ' [!DNL Assets Essentials]에서 및 탐색의 사용자 인터페이스를 이해합니다.'
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,29 @@ ht-degree: 0%
 
 ![[!DNL Assets Essentials] 사용자 인터페이스](assets/essentials-interface1.png)
 
-*그림:첫 번째 로그인 화면 및 주요 기능을 찾을 위치.*
-     *A:왼쪽 사이드바를 사용하여 저장소를 찾고 다른 몇 가지 옵션에 액세스할 수 있습니다.*
-     *B:왼쪽 사이드바를 표시하거나 축소하여 자산 보기 영역을 늘립니다.*
-     *C:검색 결과를 필터링합니다.*
-     *D:검색 상자.*
-     *E:자산을 정렬하는 옵션.*
-     *F:제품 피드백을 제공합니다.*
-     *G:사용자 환경 설정을 편집하거나 로그아웃합니다.*
-     *H:다른 보기 간에 전환합니다.*
+*그림: 첫 번째 로그인 화면 및 주요 기능을 찾을 위치.*
+     *A: 왼쪽 사이드바를 사용하여 저장소를 찾고 다른 몇 가지 옵션에 액세스할 수 있습니다.*
+     *B: 왼쪽 사이드바를 표시하거나 축소하여 자산 보기 영역을 늘립니다.*
+     *C: 검색 결과를 필터링합니다.*
+     *D: 검색 상자.*
+     *E: 자산을 정렬하는 옵션.*
+     *F: 제품 피드백을 제공합니다.*
+     *G: 사용자 환경 설정을 편집하거나 로그아웃합니다.*
+     *H: 다른 보기 간에 전환합니다.*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
 ## 자산 및 폴더 찾아보기 및 보기 {#browse-repository}
 
-기본 사용자 인터페이스 또는 왼쪽 사이드바에서 필요한 파일 또는 폴더를 찾을 수 있습니다. 탐색 시 인터페이스를 사용하여 자산 축소판을 보고 저장소를 시각적으로 찾아보거나 자산 세부 사항을 보고 원하는 자산을 빠르게 찾을 수 있습니다. 왼쪽 사이드바에서 사용할 수 있는 옵션은 다음과 같습니다.
+기본 사용자 인터페이스 또는 왼쪽 사이드바에서 폴더를 찾을 수 있습니다. 탐색 시 인터페이스를 사용하여 자산 축소판을 보고 저장소를 시각적으로 찾아보거나 자산 세부 사항을 보고 원하는 자산을 빠르게 찾을 수 있습니다. 왼쪽 사이드바에서 사용할 수 있는 옵션은 다음과 같습니다.
 
-* **자산**:액세스 권한이 있는 트리 보기의 모든 폴더 및 자산 목록입니다.
-* **최근에 본 항목**:최근에 미리 본 자산 목록입니다. [!DNL Assets Essentials] 미리 보는 자산만 표시합니다. 저장소 파일 또는 폴더를 검색할 때 스크롤한 자산이 여기에 표시되지 않습니다.
-* **라이브러리**:CCT( [!DNL Adobe Creative Cloud Team] Libraries) 보기에 액세스합니다. 이 보기는 사용자가 CCT 라이브러리에 대한 권한이 있는 경우에만 볼 수 있습니다.
+* **자산**: 액세스 권한이 있는 트리 뷰의 모든 폴더 목록입니다.
+* **최근에 본 항목**: 최근에 미리 본 자산 목록입니다. [!DNL Assets Essentials] 미리 보는 자산만 표시합니다. 저장소 파일 또는 폴더를 검색할 때 스크롤한 자산이 표시되지 않습니다.
+* **휴지통**:
+
+<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+* **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
+-->
 
 <!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
@@ -64,7 +68,7 @@ ht-degree: 0%
 
 ![폴더 찾아보기](assets/browsing-folders.png)
 
-*그림:계층을 찾아보려면 왼쪽 사이드바의 탐색 표시를 사용합니다.*
+*그림: 계층을 찾아보려면 왼쪽 사이드바의 탐색 표시를 사용합니다.*
 
 ## 자산 미리 보기 {#preview-assets}
 
@@ -74,18 +78,18 @@ ht-degree: 0%
 
 ![자산 미리 보기](assets/preview-asset.png)
 
-*A:저장소의 현재 폴더 또는 현재 검색 결과로 돌아갑니다.*
-*B:미리 보고 있는 파일의 이름과 형식입니다.*
-*C:기본 메타데이터.*
-*D:고급 메타데이터.*
-*E:키워드 및 스마트 태그.*
-*F:자산을 미리 보고 메타데이터 정보를 참조하십시오.*
-*G:주석 및 주석 달기*
-*H:버전을 보고 관리합니다.*
-*I:이미지의 렌디션을 봅니다.*
-*J:이미지를 편집합니다.*
-*K:자세히 미리 봅니다. 확대/축소, 전체 화면 및 기타 옵션.*
-*L:폴더로 돌아가지 않고 현재 폴더의 이전 또는 다음 자산으로 진행합니다.*
+*A: 저장소의 현재 폴더 또는 현재 검색 결과로 돌아갑니다.*
+*B: 미리 보고 있는 파일의 이름과 형식입니다.*
+*C: 기본 메타데이터.*
+*D: 고급 메타데이터.*
+*E: 키워드 및 스마트 태그.*
+*F: 자산을 미리 보고 메타데이터 정보를 참조하십시오.*
+*G: 주석 및 주석 달기*
+*H: 버전을 보고 관리합니다.*
+*I: 이미지의 렌디션을 봅니다.*
+*J: 이미지를 편집합니다.*
+*K: 자세히 미리 봅니다. 확대/축소, 전체 화면 및 기타 옵션.*
+*L: 폴더로 돌아가지 않고 현재 폴더의 이전 또는 다음 자산으로 진행합니다.*
 
 <!-- TBD: Describe the options.
 
