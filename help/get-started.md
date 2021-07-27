@@ -2,9 +2,9 @@
 title: ' [!DNL Assets Essentials] 사용 시작'
 description: 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 [!DNL Assets Essentials]의 알려진 문제입니다.
 role: User, Leader
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 [!DNL Assets Essentials]을 사용하여 디지털 자산을 관리하려면 다음 세 단계만 필요합니다.
 
-* **1단계**: [](/help/add-delete.md) 자산을 업로드하고  [](/help/navigate-view.md) 봅니다.
-* **2단계**: [](/help/search.md) 자산 검색 및  [](/help/manage-organize.md#download) 다운로드.
-* **3단계**: [자산을 관리하고 ](/help/manage-organize.md) 구성합니다.
+* **1단계**:  [](/help/add-delete.md) 자산을 업로드하고  [](/help/navigate-view.md) 봅니다.
+* **2단계**:  [](/help/search.md) 자산 검색 및  [](/help/manage-organize.md#download) 다운로드.
+* **3단계**:  [자산](/help/manage-organize.md) 을 관리하고 구성합니다.
 
-[!DNL Assets Essentials]을 사용하려면 [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets)에 로그인합니다. 액세스 권한을 받으려면 조직의 관리자에게 문의하십시오.
+[!DNL Assets Essentials]을 사용하려면 [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets)에 로그인합니다. 로그인할 때 `Company or School Account` 을 선택합니다. 액세스 권한을 받으려면 조직의 관리자에게 문의하십시오.
 
 또한 [사용자 인터페이스에 대한 이해](/help/navigate-view.md), [사용 사례 목록](#use-cases), <!-- TBD: [supported file types](/help/supported-file-formats.md), --> 및 [알려진 문제](/help/release-notes.md#known-issues)가 도움이 될 수 있습니다.
 
@@ -56,11 +56,11 @@ When logging in, after providing the credentials, you can be prompted to select 
 | 사용자 작업 | 기능 및 방법 정보 |
 |-----|------|
 | 자산을 추가하려면 어떻게 해야 합니까? | <ul> <li> [자산 업로드](/help/add-delete.md) </li> <li> [표현물](/help/add-delete.md#renditions) </li> </ul> |
-| 자산 또는 관련 정보를 업데이트하려면 어떻게 해야 합니까? | <ul> <li>기존 자산 변경</li> <li>[버전 ](/help/manage-organize.md#create-versions) 및  [보기 버전 만들기](/help/navigate-view.md#view-versions)</li> <li>[이미지 편집](/help/edit-images.md)</li> </ul> |
-| 자산을 검색하려면 어떻게 합니까? | <ul> <li>[저장소 찾아보기](/help/navigate-view.md#view-assets-and-details) </li> <li> [자산 ](/help/navigate-view.md#preview-assets) 미리 보기 및  [자산 다운로드](/help/manage-organize.md) </li> <li>[자세한 메타데이터 보기](/help/metadata.md) </li> <li>[자산 검색](/help/search.md)</li></ul> |
-| 저장소에서 자산을 편집하려면 어떻게 해야 합니까? | <ul> <li>[Adobe Photoshop Express를 사용한 브라우저 내 편집](/help/edit-images.md)</li> <li>[소셜 미디어 프로필용 자르기](/help/edit-images.md#crop-straighten-images)</li> <li>[버전 보기 및 관리](/help/manage-organize.md#create-versions)</li> <li>[자산 링크 Adobe](/help/integration.md#integrations) 사용</ul></ul> |
-| 저장소에서 자산을 검색하려면 어떻게 합니까? | <ul> <li>[특정 폴더 내에서 검색](/help/search.md)</li> <li>[저장된 검색](/help/search.md)</li> <li>[최근에 본 자산 검색](/help/search.md)</li> <li>[전체 텍스트 검색](/help/search.md) |
-| 새 자산을 추가하려면 어떻게 해야 합니까? | <ul> <li>[새 자산 및 폴더 업로드](/help/add-delete.md#add-assets)</li> <li>[업로드 진행 모니터링 및 업로드 관리](/help/add-delete.md)</li> <li>[중복 해결](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| 자산 또는 관련 정보를 업데이트하려면 어떻게 해야 합니까? | <ul> <li>기존 자산 변경</li> <li>[버전 ](/help/manage-organize.md#create-versions) 및  [보기 버전 만들기](/help/manage-organize.md#view-versions)</li> <li>[이미지 편집](/help/edit-images.md)</li> </ul> |
+| 자산을 검색하려면 어떻게 합니까? | <ul> <li>[저장소 찾아보기](/help/navigate-view.md#view-assets-and-details) </li> <li> [자산 ](/help/navigate-view.md#preview-assets) 미리 보기 및  [자산 다운로드](/help/manage-organize.md#download) </li> <li>[자세한 메타데이터 보기](/help/metadata.md) </li> <li>[자산 검색](/help/search.md)</li></ul> |
+| 저장소에서 자산을 편집하려면 어떻게 해야 합니까? | <ul> <li>[Adobe Photoshop Express를 사용한 브라우저 내 편집](/help/edit-images.md)</li> <li>[소셜 미디어 프로필용 자르기](/help/edit-images.md#crop-straighten-images)</li> <li>[버전 보기 및 관리](/help/manage-organize.md#view-versions)</li> <li>[자산 링크 Adobe](/help/integration.md#integrations) 사용</ul></ul> |
+| 저장소에서 자산을 검색하려면 어떻게 합니까? | <ul> <li>[특정 폴더 내에서 검색](/help/search.md#refine-search-results)</li> <li>[저장된 검색](/help/search.md#saved-search)</li> <li>[최근에 본 자산 검색](/help/search.md)</li> <li>[전체 텍스트 검색](/help/search.md) |
+| 새 자산을 추가하려면 어떻게 해야 합니까? | <ul> <li>[새 자산 및 폴더 업로드](/help/add-delete.md#add-assets)</li> <li>[업로드 진행 모니터링 및 업로드 관리](/help/add-delete.md#upload-progress)</li> <li>[중복 해결](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
 | [!DNL Assets Essentials]을 다른 솔루션과 통합할 수 있습니까? | <ul> <li>[에서 자산 선택기 사용 [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] 대상 [!DNL Creative Cloud]](/help/integration.md)</li> <li>[!DNL Creative Cloud Team] 라이브러리와 통합</li> </ul> |
 
 <!--TBD: Merge in above table when these use cases are documented/available.
