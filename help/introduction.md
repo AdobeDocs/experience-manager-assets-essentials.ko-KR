@@ -2,9 +2,9 @@
 title: ' [!DNL Assets Essentials] 소개'
 description: Assets Essentials 개요 및 솔루션 개요
 role: User,Leader
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Adobe은 디지털 자산을 최대한 활용할 수 있는 강력한 DAM(디지
 
 사용자의 경우 [!DNL Assets Essentials]으로 디지털 자산을 관리하는 것은 다음 3단계처럼 간단합니다. [시작하기 [!DNL Assets Essentials]](/help/get-started.md)를 참조하십시오.
 
-* **1단계**:자산을 업로드하고 봅니다.
-* **2단계**:필요한 자산을 검색하고 다운로드합니다.
-* **3단계**:자산을 관리 및 구성합니다.
+* **1단계**: 자산을 업로드하고 봅니다.
+* **2단계**: 자산을 검색하고 다운로드합니다.
+* **3단계**: 자산을 관리 및 구성합니다.
 
 >[!MORELIKETHIS]
 >
