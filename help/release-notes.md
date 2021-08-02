@@ -3,9 +3,9 @@ title: 릴리스 노트
 description: 릴리스 노트 및 [!DNL Assets Essentials]의 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: fd95cf87ae8e5449471cd580405b228c32ede264
+source-git-commit: cbeb6f6f59da164115af52dfdbb97023b84bc1d1
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 Assets Essentials의 현재 릴리스는 2021년 7월 29일에 릴리스된 2021.7.0이며 다음 업데이트가 있습니다.
 
-* [!DNL Settings] 아래의 [!UICONTROL Metadata Forms] 옵션의 자산 세부 사항 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 지정된 메타데이터 양식을 만들고 관리할 수 있습니다.
+* [!DNL Settings] 아래의 [!UICONTROL Metadata Forms] 옵션의 자산 세부 사항 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 지정된 메타데이터 양식을 만들고 관리할 수 있습니다. [메타데이터 양식](metadata.md#metadata-forms)을 참조하십시오.
 * 많은 하위 폴더가 있는 중첩된 폴더를 업로드할 때 향상된 성능을 비롯한 다양한 버그 수정 및 제품 개선 사항이 있습니다.
 
 ## 알려진 문제 {#known-issues}
