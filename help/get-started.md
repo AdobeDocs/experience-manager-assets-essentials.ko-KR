@@ -2,9 +2,9 @@
 title: ' [!DNL Assets Essentials] 사용 시작'
 description: 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 [!DNL Assets Essentials]의 알려진 문제입니다.
 role: User, Leader
-source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
+source-git-commit: 135832e18bdf7ae66f29638cf548088a83daee8d
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -57,10 +57,11 @@ When logging in, after providing the credentials, you can be prompted to select 
 |-----|------|
 | 자산을 추가하려면 어떻게 해야 합니까? | <ul> <li> [자산 업로드](/help/add-delete.md) </li> <li> [표현물](/help/add-delete.md#renditions) </li> </ul> |
 | 자산 또는 관련 정보를 업데이트하려면 어떻게 해야 합니까? | <ul> <li>기존 자산 변경</li> <li>[버전 ](/help/manage-organize.md#create-versions) 및  [보기 버전 만들기](/help/manage-organize.md#view-versions)</li> <li>[이미지 편집](/help/edit-images.md)</li> </ul> |
-| 자산을 검색하려면 어떻게 합니까? | <ul> <li>[저장소 찾아보기](/help/navigate-view.md#view-assets-and-details) </li> <li> [자산 ](/help/navigate-view.md#preview-assets) 미리 보기 및  [자산 다운로드](/help/manage-organize.md#download) </li> <li>[자세한 메타데이터 보기](/help/metadata.md) </li> <li>[자산 검색](/help/search.md)</li></ul> |
+| 자산을 검색하려면 어떻게 합니까? | <ul> <li>[저장소 찾아보기](/help/navigate-view.md#view-assets-and-details) </li> <li> [자산 ](/help/navigate-view.md#preview-assets) 미리 보기 및  [자산 다운로드](/help/manage-organize.md#download) </li> <li>[자산 검색](/help/search.md)</li></ul> |
 | 저장소에서 자산을 편집하려면 어떻게 해야 합니까? | <ul> <li>[Adobe Photoshop Express를 사용한 브라우저 내 편집](/help/edit-images.md)</li> <li>[소셜 미디어 프로필용 자르기](/help/edit-images.md#crop-straighten-images)</li> <li>[버전 보기 및 관리](/help/manage-organize.md#view-versions)</li> <li>[자산 링크 Adobe](/help/integration.md#integrations) 사용</ul></ul> |
 | 저장소에서 자산을 검색하려면 어떻게 합니까? | <ul> <li>[특정 폴더 내에서 검색](/help/search.md#refine-search-results)</li> <li>[저장된 검색](/help/search.md#saved-search)</li> <li>[최근에 본 자산 검색](/help/search.md)</li> <li>[전체 텍스트 검색](/help/search.md) |
 | 새 자산을 추가하려면 어떻게 해야 합니까? | <ul> <li>[새 자산 및 폴더 업로드](/help/add-delete.md#add-assets)</li> <li>[업로드 진행 모니터링 및 업로드 관리](/help/add-delete.md#upload-progress)</li> <li>[중복 해결](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| 메타데이터 작업 | <ul> <li>[자세한 메타데이터 보기](/help/metadata.md) </li> <li> [새 메타데이터 양식 만들기](/help/metadata.md#metadata-forms) </li> </ul> |
 | [!DNL Assets Essentials]을 다른 솔루션과 통합할 수 있습니까? | <ul> <li>[에서 자산 선택기 사용 [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] 대상 [!DNL Creative Cloud]](/help/integration.md)</li> <li>[!DNL Creative Cloud Team] 라이브러리와 통합</li> </ul> |
 
 <!--TBD: Merge in above table when these use cases are documented/available.
