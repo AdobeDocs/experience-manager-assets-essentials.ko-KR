@@ -3,9 +3,9 @@ title: 디지털 자산 관리
 description: ' [!DNL Assets Essentials]에서 자산을 이동, 삭제, 복사, 이름 변경, 업데이트 및 버전입니다.'
 role: User,Leader
 contentOwner: AG
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,17 @@ ht-degree: 0%
 
 ![자산을 선택할 때의 도구 모음 옵션](assets/toolbar-image-selected.png)
 
-*그림:선택한 이미지에 대한 도구 모음에서 사용할 수 있는 옵션.*
+*그림: 선택한 이미지에 대한 도구 모음에서 사용할 수 있는 옵션.*
 
 * ![아이콘 선택 ](assets/do-not-localize/close-icon.png) 취소선택 항목을 선택 취소합니다.
 * ![세부 ](assets/do-not-localize/edit-in-icon.png) 정보 아이콘자산을 미리 보고 세부 메타데이터를 보려면 클릭합니다. 미리 볼 때 버전을 보고 이미지를 편집할 수 있습니다.
 * ![다운로드 ](assets/do-not-localize/download-icon.png) 아이콘선택한 자산을 로컬 파일 시스템에 다운로드합니다.
 * ![삭제 ](assets/do-not-localize/delete-icon.png) 아이콘 선택한 자산 또는 폴더를 삭제합니다.
-* 
-
-   <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) --> Checkout an asset.
+* 자산 체크아웃. <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
 * ![복사 ](assets/do-not-localize/copy-icon.png) 아이콘선택한 파일이나 폴더를 복사합니다.
 * ![이동 ](assets/do-not-localize/move-icon.png) 아이콘선택한 자산이나 폴더를 저장소 계층 구조의 다른 위치로 이동합니다.
 * ![이름 ](assets/do-not-localize/rename-icon.png) 바꾸기 아이콘선택한 자산 또는 폴더의 이름을 변경합니다. 고유 이름을 사용하지 않으면 경고가 발생하여 이름을 다시 바꿀 수 없습니다. 새 이름으로 다시 시도할 수 있습니다.
-* 
-   <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) --> Assign tasks to other users to collaborate on an asset.
+* 자산에 공동 작업할 작업을 다른 사용자에게 할당합니다. <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
 
 자산 축소판에서 동일한 옵션을 볼 수 있습니다.
 
@@ -42,11 +39,11 @@ ht-degree: 0%
 
 ![자산을 선택할 때의 도구 모음 옵션](assets/toolbar-folder-selected.png)
 
-*그림:선택한 폴더의 도구 모음에서 사용할 수 있는 옵션.*
+*그림: 선택한 폴더의 도구 모음에서 사용할 수 있는 옵션.*
 
 ![자산을 선택할 때의 도구 모음 옵션](assets/toolbar-pdf-selected.png)
 
-*그림:선택한 PDF 파일의 도구 모음에서 사용할 수 있는 옵션.*
+*그림: 선택한 PDF 파일의 도구 모음에서 사용할 수 있는 옵션.*
 
 ## 자산 다운로드 및 분배 {#download}
 
@@ -63,13 +60,13 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
    ![업로드할 때 버전 만들기](assets/uploads-manage-duplicates.png)
 
-   *그림:기존 자산과 이름이 같은 자산을 업로드할 때 자산의 버전을 만들 수 있습니다.*
+   *그림: 기존 자산과 이름이 같은 자산을 업로드할 때 자산의 버전을 만들 수 있습니다.*
 
 * 이미지를 편집하고 **[!UICONTROL Save as Version]** 을 클릭합니다. [이미지 편집](/help/edit-images.md)을 참조하십시오.
 
    ![편집된 이미지를 버전으로 저장](assets/edit-image2.png)
 
-   *그림:편집된 이미지를 버전으로 저장합니다.*
+   *그림: 편집된 이미지를 버전으로 저장합니다.*
 
 * 기존 자산의 버전을 엽니다. **[!UICONTROL New Version]** 을 클릭하고 저장소에 있는 자산의 최신 버전을 업로드합니다.
 
@@ -85,4 +82,4 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
 ![자산의 버전 보기](assets/view-asset-versions1.png)
 
-*그림:자산의 버전을 보거나 이전 버전으로 되돌리거나 다른 새 버전을 업로드하십시오.*
+*그림: 자산의 버전을 보거나 이전 버전으로 되돌리거나 다른 새 버전을 업로드하십시오.*
