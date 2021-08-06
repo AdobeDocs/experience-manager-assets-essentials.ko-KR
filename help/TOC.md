@@ -4,13 +4,13 @@ product: adobe experience manager
 audience: end-user
 user-guide-title: Experience Manager Assets Essentials 안내서
 breadcrumb-title: Assets Essentials 안내서
-user-guide-description: Adobe Experience Manager Assets Essentials 사용 방법을 알아봅니다.
+user-guide-description: Assets Essentials은 다른 Experience Cloud 애플리케이션 내에서 작동하는 간단한 자산 관리 솔루션입니다.
 feature-set: Experience Manager Assets,Experience Manager
 feature: 자산 관리
 role: User,Leader
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: de379a71d5e5cbd62b42ce3618c67d3d7a6fd941
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '66'
 ht-degree: 3%
 
 ---
