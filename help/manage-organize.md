@@ -3,9 +3,9 @@ title: 디지털 자산 관리
 description: ' [!DNL Assets Essentials]에서 자산을 이동, 삭제, 복사, 이름 변경, 업데이트 및 버전입니다.'
 role: User,Leader
 contentOwner: AG
-source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
+source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 * ![세부 ](assets/do-not-localize/edit-in-icon.png) 정보 아이콘자산을 미리 보고 세부 메타데이터를 보려면 클릭합니다. 미리 볼 때 버전을 보고 이미지를 편집할 수 있습니다.
 * ![다운로드 ](assets/do-not-localize/download-icon.png) 아이콘선택한 자산을 로컬 파일 시스템에 다운로드합니다.
 * ![삭제 ](assets/do-not-localize/delete-icon.png) 아이콘 선택한 자산 또는 폴더를 삭제합니다.
-* 자산 체크아웃. <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
+* ![체크아웃 ](assets/do-not-localize/checkout-icon.png) 아이콘선택한 자산을 체크아웃합니다.
 * ![복사 ](assets/do-not-localize/copy-icon.png) 아이콘선택한 파일이나 폴더를 복사합니다.
 * ![이동 ](assets/do-not-localize/move-icon.png) 아이콘선택한 자산이나 폴더를 저장소 계층 구조의 다른 위치로 이동합니다.
 * ![이름 ](assets/do-not-localize/rename-icon.png) 바꾸기 아이콘선택한 자산 또는 폴더의 이름을 변경합니다. 고유 이름을 사용하지 않으면 경고가 발생하여 이름을 다시 바꿀 수 없습니다. 새 이름으로 다시 시도할 수 있습니다.
-* 자산에 공동 작업할 작업을 다른 사용자에게 할당합니다. <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
+* ![작업 할당 ](assets/do-not-localize/review-delegate-icon.png) 아이콘자산에 공동 작업할 다른 사용자에게 작업을 할당합니다.
 
 자산 축소판에서 동일한 옵션을 볼 수 있습니다.
 
