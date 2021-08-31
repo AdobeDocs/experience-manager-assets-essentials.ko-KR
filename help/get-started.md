@@ -2,10 +2,10 @@
 title: ' [!DNL Assets Essentials] 사용 시작'
 description: 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 [!DNL Assets Essentials]의 알려진 문제입니다.
 role: User, Leader
-source-git-commit: 135832e18bdf7ae66f29638cf548088a83daee8d
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 1%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
@@ -55,19 +55,21 @@ When logging in, after providing the credentials, you can be prompted to select 
 
 | 사용자 작업 | 기능 및 방법 정보 |
 |-----|------|
-| 자산을 추가하려면 어떻게 해야 합니까? | <ul> <li> [자산 업로드](/help/add-delete.md) </li> <li> [표현물](/help/add-delete.md#renditions) </li> </ul> |
-| 자산 또는 관련 정보를 업데이트하려면 어떻게 해야 합니까? | <ul> <li>기존 자산 변경</li> <li>[버전 ](/help/manage-organize.md#create-versions) 및  [보기 버전 만들기](/help/manage-organize.md#view-versions)</li> <li>[이미지 편집](/help/edit-images.md)</li> </ul> |
-| 자산을 검색하려면 어떻게 합니까? | <ul> <li>[저장소 찾아보기](/help/navigate-view.md#view-assets-and-details) </li> <li> [자산 ](/help/navigate-view.md#preview-assets) 미리 보기 및  [자산 다운로드](/help/manage-organize.md#download) </li> <li>[자산 검색](/help/search.md)</li></ul> |
-| 저장소에서 자산을 편집하려면 어떻게 해야 합니까? | <ul> <li>[Adobe Photoshop Express를 사용한 브라우저 내 편집](/help/edit-images.md)</li> <li>[소셜 미디어 프로필용 자르기](/help/edit-images.md#crop-straighten-images)</li> <li>[버전 보기 및 관리](/help/manage-organize.md#view-versions)</li> <li>[자산 링크 Adobe](/help/integration.md#integrations) 사용</ul></ul> |
-| 저장소에서 자산을 검색하려면 어떻게 합니까? | <ul> <li>[특정 폴더 내에서 검색](/help/search.md#refine-search-results)</li> <li>[저장된 검색](/help/search.md#saved-search)</li> <li>[최근에 본 자산 검색](/help/search.md)</li> <li>[전체 텍스트 검색](/help/search.md) |
-| 새 자산을 추가하려면 어떻게 해야 합니까? | <ul> <li>[새 자산 및 폴더 업로드](/help/add-delete.md#add-assets)</li> <li>[업로드 진행 모니터링 및 업로드 관리](/help/add-delete.md#upload-progress)</li> <li>[중복 해결](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
-| 메타데이터 작업 | <ul> <li>[자세한 메타데이터 보기](/help/metadata.md) </li> <li> [새 메타데이터 양식 만들기](/help/metadata.md#metadata-forms) </li> </ul> |
-| [!DNL Assets Essentials]을 다른 솔루션과 통합할 수 있습니까? | <ul> <li>[에서 자산 선택기 사용 [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] 대상 [!DNL Creative Cloud]](/help/integration.md)</li> <li>[!DNL Creative Cloud Team] 라이브러리와 통합</li> </ul> |
+| 자산 찾아보기 및 보기 | <ul> <li>[리포지토리 찾아보기](/help/navigate-view.md#view-assets-and-details) </li> <li> [자산 미리 보기](/help/navigate-view.md#preview-assets) <li> [자산의 표현물 보기](/help/add-delete.md#renditions) </li> <li>[자산의 버전 보기](/help/manage-organize.md#view-versions)</li></ul> |
+| 새 자산 추가 | <ul> <li>[새 자산 및 폴더 업로드](/help/add-delete.md#add-assets)</li> <li>[업로드 진행 모니터링 및 업로드 관리](/help/add-delete.md#upload-progress)</li> <li>[중복 해결](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| 자산 또는 관련 정보 업데이트 | <ul> <li>[이미지 편집](/help/edit-images.md)</li> <li>[버전 ](/help/manage-organize.md#create-versions) 및  [보기 버전 만들기](/help/manage-organize.md#view-versions)</li> <li>[이미지 편집](/help/edit-images.md)</li> </ul> |
+| 자산 편집 | <ul> <li>[Adobe Photoshop Express를 사용한 브라우저 내 편집](/help/edit-images.md)</li> <li>[소셜 미디어 프로필용 자르기](/help/edit-images.md#crop-straighten-images)</li> <li>[버전 보기 및 관리](/help/manage-organize.md#view-versions)</li> <li>[사용 [!DNL Adobe Asset Link]](/help/integration.md#integrations)</ul></ul> |
+| 저장소에서 자산 검색 | <ul> <li>[특정 폴더 내에서 검색](/help/search.md#refine-search-results)</li> <li>[저장된 검색](/help/search.md#saved-search)</li> <li>[최근에 본 자산 검색](/help/search.md)</li> <li>[전체 텍스트 검색](/help/search.md) |
+| 자산 다운로드 | <ul> <li> [자산 미리 보기](/help/navigate-view.md#preview-assets) </li> <li> [자산 다운로드](/help/manage-organize.md#download) <li> [표현물 다운로드](/help/add-delete.md#renditions) </li></ul> |
+| 메타데이터 작업 | <ul> <li>[자세한 메타데이터 보기](/help/metadata.md) </li> <li> [메타데이터 업데이트](/help/metadata.md#update-metadata)</li> <li> [새 메타데이터 양식 만들기](/help/metadata.md#metadata-forms) </li> </ul> |
+| 다른 솔루션과 통합 | <ul> <li>[에서 자산 선택기 사용 [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] 대상 [!DNL Creative Cloud]](/help/integration.md)</li> <li>[통합 [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
-<!--TBD: Merge in above table when these use cases are documented/available.
+<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
+
 -->
 
 ## ![피드백 ](assets/do-not-localize/feedback-icon.png) 아이콘제품 피드백 제공 {#provide-feedback}

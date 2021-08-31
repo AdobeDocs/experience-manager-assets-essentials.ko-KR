@@ -3,7 +3,7 @@ title: 디지털 자산 관리
 description: ' [!DNL Assets Essentials]에서 자산을 이동, 삭제, 복사, 이름 변경, 업데이트 및 버전입니다.'
 role: User,Leader
 contentOwner: AG
-source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
