@@ -3,9 +3,9 @@ title: 릴리스 노트
 description: 릴리스 노트 및 [!DNL Assets Essentials]의 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # [!DNL Assets Essentials] 릴리스 노트 {#release-notes}
 
-[!DNL Assets Essentials] 의 현재 릴리스는 2021년 8월 30일에 릴리스됩니다. [!DNL Workfront] 사용자가 작업 관리 컨텍스트에서 디지털 자산을 관리할 수 있도록 해주는 [!DNL Adobe Workfront] 과의 통합을 제공합니다. 다른 Adobe 솔루션과의 [통합](/help/integration.md)을 참조하십시오.
+[!DNL Assets Essentials] 의 현재 릴리스는 2021년 8월 30일에 릴리스됩니다. [!DNL Workfront] 사용자가 작업 관리 컨텍스트에서 디지털 자산을 관리할 수 있도록 해주는 [!DNL Adobe Workfront] 과의 통합을 제공합니다. 자세한 내용은 [다른 Adobe 솔루션과의 통합](/help/integration.md)을 참조하십시오.
 
 솔루션에 대해 자세히 알아보려면 [소개 [!DNL Assets Essentials]](introduction.md)를 참조하십시오. 기능 사용을 시작하려면 [시작하기](/help/get-started.md)를 참조하십시오.
 
@@ -46,4 +46,4 @@ ht-degree: 1%
 * 중첩된 폴더를 포함한 자산을 업로드하고 추가합니다. 자산 및 버전을 미리 봅니다.
 * 신속한 자산 검색을 위해 전체 텍스트 검색, 고급 검색 필터 및 저장된 검색을 수행할 수 있습니다.
 * 업데이트, 삭제, 다운로드 및 메타데이터와 같은 기본 자산 관리 작업입니다.
-* [!DNL Assets Essentials] 이 사용 가능합니다  [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
+* [!DNL Assets Essentials] 메시지를 만들  [!DNL Adobe Journey Optimizer] 때 자산을 관리할 사용자가 사용할 수 있습니다. 자세한 내용은 [다른 Adobe 솔루션과의 통합](/help/integration.md)을 참조하십시오.

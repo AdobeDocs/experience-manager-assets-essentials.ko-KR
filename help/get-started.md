@@ -2,9 +2,9 @@
 title: ' [!DNL Assets Essentials] 사용 시작'
 description: 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 [!DNL Assets Essentials]의 알려진 문제입니다.
 role: User, Leader
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 2%
 
 ---
