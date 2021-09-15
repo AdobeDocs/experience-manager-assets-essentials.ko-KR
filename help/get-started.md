@@ -2,10 +2,11 @@
 title: ' [!DNL Assets Essentials] 사용 시작'
 description: 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 [!DNL Assets Essentials]의 알려진 문제입니다.
 role: User, Leader
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 2%
 
 ## [!DNL Assets Essentials]에 대한 액세스 수신 {#get-access}
 
-Adobe은 솔루션을 프로비저닝하고 조직의 지정된 개인을 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/welcome.ug.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 제공할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
+Adobe은 솔루션을 프로비저닝하고 조직의 지정된 개인을 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 제공할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
 
 ## 구성 [!DNL Assets Essentials] {#configuration}
 

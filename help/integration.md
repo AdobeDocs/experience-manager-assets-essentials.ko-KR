@@ -2,13 +2,13 @@
 title: 다른 Adobe 솔루션과 통합
 description: '[!DNL Assets Essentials] 다른 Adobe 솔루션과 통합하고 기본 애플리케이션 내에서 내장 경험을 제공합니다.'
 role: User
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '284'
+ht-degree: 3%
 
 ---
-
 
 # 다른 Adobe 솔루션과 통합 {#integrations}
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 포함된 [!DNL Assets Essentials] 경험은 다음 솔루션과 통합할 수 있습니다.
 
-* **[!DNL Creative Cloud for Enterprise]**:  [Adobe Asset Link 인앱 ](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html) 패널 크리에이티브 전문가가 지원되는  [!DNL Assets Essentials] 데스크탑 앱 내에서  [!DNL Adobe Creative Cloud] 리포지토리에 연결합니다. 이 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 자산 액세스를 간소화하여 컨텐츠 속도를 높입니다. [을(를) 사용하여 자산 관리 [!DNL Adobe Asset Link]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-assets-using-adobe-asset-link.ug.html)를 참조하십시오.
+* **[!DNL Creative Cloud for Enterprise]**:  [Adobe Asset Link 인앱 ](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html) 패널 크리에이티브 전문가가 지원되는  [!DNL Assets Essentials] 데스크탑 앱 내에서  [!DNL Adobe Creative Cloud] 리포지토리에 연결합니다. 이 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 자산 액세스를 간소화하여 컨텐츠 속도를 높입니다. [을(를) 사용하여 자산 관리 [!DNL Adobe Asset Link]](https://helpx.adobe.com/kr/enterprise/using/manage-assets-using-adobe-asset-link.html)를 참조하십시오.
 
 * **[!DNL Adobe Journey Optimizer]**:  [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/products/journey-optimizer/adobe-journey-optimizer.html) 고객을 위한 여정 관리를 간소화하여 옴니채널 캠페인에 지능형 의사 결정 및 통찰력을 제공합니다. [!DNL Journey Optimizer] 을 사용하여 메시지를 디자인할 때 [!DNL Journey Optimizer] 인터페이스 내에서 직접 [!DNL Assets Essentials] 리포지토리에 액세스할 수 있습니다. 사용자는 [!DNL Assets Essentials]의 포함된 사용자 인터페이스를 사용하여 자산에 액세스할 수 있습니다. 전자 메일 콘텐츠를 만들려면 [도움말 문서](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html) 또는 [비디오 자습서 를 참조하여](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)을(를) 만드십시오. [!DNL Assets Essentials] 
 
