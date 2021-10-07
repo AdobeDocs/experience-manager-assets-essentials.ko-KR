@@ -1,8 +1,8 @@
 ---
-source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
+source-git-commit: 15070ea99308741242b43206ed69cf1dbddca890
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 # [!DNL Adobe Experience Manager] 설명서에 기여하는 지침
@@ -37,9 +37,9 @@ Adobe에서는 설명서에 대한 기여를 환영하지만 당사의 가져오
 
 [!DNL Experience Manager] 설명서를 개선하기 위해 필요한 모든 아이디어를 기여할 수 있습니다. 그러나 주석, 문제 및 가져오기 요청만 *기여*&#x200B;에 해당합니다. [!DNL Experience Manager] 사용, [!DNL Experience Manager] 프로젝트 구현 또는 기술 문제 해결 방법에 대한 질문에 답변하기 위해 마련된 것이 아닙니다.
 
-[!DNL Experience Manager] 사용 또는 기술 오류에 대한 질문은 [[!DNL Experience Cloud] 지원 포털](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)을 통해 일반적인 지원 프로세스를 통해 보고하거나 [Experience Manager 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)에서 다루어야 합니다.
+[!DNL Experience Manager] 사용 또는 기술 오류에 대한 질문은 [[!DNL Experience Manager] 지원 포털](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)을 통해 일반적인 지원 프로세스를 통해 보고하거나 [Experience Manager 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)에서 다루어야 합니다.
 
-***[!DNL Experience Manager]설명서 기여는 Adobe 고객 지원 센터를 대체할 수 없으며*** 지원 관련 질문에 대한 답변을 구하는 기여는 거부됩니다.
+***[!DNL Experience Manager]설명서 기여는 Adobe 고객 지원*** 을 대체할 수 없으며 지원 관련 질문에 대한 답변을 구하는 기여는 거부됩니다.
 
 ### 기여는 해당 설명서 페이지를 명확하게 참조해야 합니다.
 
