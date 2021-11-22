@@ -3,7 +3,7 @@ title: '[!DNL Assets Essentials] 사용자 인터페이스'
 description: 의 사용자 인터페이스 및 탐색 이해 [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
+source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![[!DNL Assets Essentials] 사용자 인터페이스](assets/essentials-interface1.png)
 
-*그림: 첫 번째 로그인 화면 및 주요 기능을 찾을 위치.*
+*그림: 로그인 후 첫 번째 화면과 주요 기능의 위치.*
     *A: 왼쪽 사이드바를 사용하여 저장소를 찾고 다른 몇 가지 옵션에 액세스할 수 있습니다.*
     *B: 왼쪽 사이드바를 표시하거나 축소하여 자산 보기 영역을 늘립니다.*
     *C: 검색 결과를 필터링합니다.*
