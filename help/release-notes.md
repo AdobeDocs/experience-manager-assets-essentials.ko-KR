@@ -4,9 +4,9 @@ description: 릴리스 노트 및 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
+source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 의 알려진 문제 목록 [!DNL Assets Essentials] 오퍼링은 지속적으로 수정 및 업데이트됩니다.
 
-* 개별 자산은 시스템의 하위 폴더에만 상위 폴더(Assets)에 업로드할 수 없습니다. <!-- CQ-4337638 -->
+* 없음
 
 문제가 발생하거나 개선 요청이 있을 경우, [피드백 제공](#provide-feedback) 팀
 
