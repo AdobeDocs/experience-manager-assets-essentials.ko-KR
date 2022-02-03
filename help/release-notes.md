@@ -4,7 +4,7 @@ description: 릴리스 노트 및 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 73d5e66cfb2315f730329b5db9e6e648c1fe017d
+source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 의 릴리스 노트 [!DNL Assets Essentials] {#release-notes}
 
-의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 1월 27일에 릴리스됩니다. 이 릴리스 사용:
+의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 2월 3일에 릴리스됩니다. 이 릴리스 사용:
 
 * [!DNL Assets Essentials] 이제 링크를 생성하고 액세스 권한이 없는 다른 사용자와 자산을 공유할 수 있습니다 [!DNL Assets Essentials] 응용 프로그램. 다음을 정의할 수 있습니다. <!-- CQ-4329575 -->
 
