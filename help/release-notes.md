@@ -4,24 +4,16 @@ description: 릴리스 노트 및 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
+source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
 
 # 의 릴리스 노트 [!DNL Assets Essentials] {#release-notes}
 
-의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 2월 3일에 릴리스됩니다. 이 릴리스 사용:
-
-* [!DNL Assets Essentials] 이제 링크를 생성하고 액세스 권한이 없는 다른 사용자와 자산을 공유할 수 있습니다 [!DNL Assets Essentials] 응용 프로그램. 다음을 정의할 수 있습니다. <!-- CQ-4329575 -->
-
-   * 링크의 만료 날짜
-
-   * 수신자가 링크에 액세스한 후 자산을 다운로드할 수 있는 경우.
-
-   이러한 설정을 기반으로 링크의 수신자가 자산을 미리 보거나 다운로드하도록 선택할 수 있습니다.
+의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 2월 3일에 릴리스됩니다. 이 릴리스에서는 다음을 제공합니다.
 
 * 을 위한 성능 개선 [!UICONTROL Create Folder] 작업. <!-- CQ-4338818 -->
 

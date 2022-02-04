@@ -8,10 +8,10 @@ user-guide-description: Assets Essentials는 다른 Experience Cloud 애플리�
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: 2288978e148f26b7020e5792cba00b91ba180e55
+source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 44%
+source-wordcount: '64'
+ht-degree: 46%
 
 ---
 
@@ -29,5 +29,4 @@ ht-degree: 44%
 + [자산 관리 작업](manage-organize.md)
 + [이미지 편집](edit-images.md)
 + [자산 메타데이터 관리](metadata.md)
-+ [자산에 대한 링크 공유](share-links-for-assets.md)
 + [다른 솔루션과 통합](integration.md)
