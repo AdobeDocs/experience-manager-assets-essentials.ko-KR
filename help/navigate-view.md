@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Assets Essentials] 사용자 인터페이스'
+title: '"[!DNL Assets Essentials] 사용자 인터페이스"'
 description: 의 사용자 인터페이스 및 탐색 이해 [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
+source-git-commit: 0a0f520b0c023120995b3af327661212604fac0d
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
