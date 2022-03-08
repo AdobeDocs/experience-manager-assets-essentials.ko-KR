@@ -5,7 +5,7 @@ role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 0a0f520b0c023120995b3af327661212604fac0d
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,10 @@ ht-degree: 0%
 
 in [!DNL Assets Essentials]이렇게 하면 자산, 폴더 및 검색 결과를 4가지 유형의 레이아웃으로 볼 수 있습니다.
 
-* ![목록 보기 아이콘](assets/do-not-localize/list-view.png) [!UICONTROL List View]
-* ![격자 보기 아이콘](assets/do-not-localize/grid-view.png) [!UICONTROL Grid View]
-* ![갤러리 보기 아이콘](assets/do-not-localize/gallery-view.png) [!UICONTROL Gallery View]
-* ![폭포 보기 아이콘](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View]
+* ![목록 보기 아이콘](assets/do-not-localize/list-view.png) [!UICONTROL 목록 보기]
+* ![격자 보기 아이콘](assets/do-not-localize/grid-view.png) [!UICONTROL 그리드 보기]
+* ![갤러리 보기 아이콘](assets/do-not-localize/gallery-view.png) [!UICONTROL 갤러리 보기]
+* ![폭포 보기 아이콘](assets/do-not-localize/waterfall-view.png) [!UICONTROL 워터폴 뷰]
 
 자산을 찾으려면 자산을 의 오름차순이나 내림차순으로 정렬할 수 있습니다. `Name`, `Relevancy`, `Size`, `Modified`, 및 `Created`.
 
@@ -74,7 +74,7 @@ in [!DNL Assets Essentials]이렇게 하면 자산, 폴더 및 검색 결과를 
 
 자산을 사용, 공유 또는 다운로드하기 전에 보다 밀접하게 볼 수 있습니다. 미리 보기 기능을 사용하면 이미지뿐만 아니라 지원되는 몇 가지 다른 자산 유형을 볼 수 있습니다.
 
-자산을 미리 보려면 자산을 선택하고 을(를) 클릭합니다 [!UICONTROL Details] ![세부 사항 아이콘](assets/do-not-localize/edit-in-icon.png) 를 클릭합니다. 자산을 볼 수 있을 뿐만 아니라 세부 메타데이터를 보고 다른 작업을 수행할 수도 있습니다.
+자산을 미리 보려면 자산을 선택하고 을(를) 클릭합니다 [!UICONTROL 세부 사항] ![세부 사항 아이콘](assets/do-not-localize/edit-in-icon.png) 를 클릭합니다. 자산을 볼 수 있을 뿐만 아니라 세부 메타데이터를 보고 다른 작업을 수행할 수도 있습니다.
 
 ![자산 미리 보기](assets/preview-asset.png)
 

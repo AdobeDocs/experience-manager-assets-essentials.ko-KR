@@ -6,7 +6,7 @@ contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 2월 3일에 릴리스됩니다. 이 릴리스에서는 다음을 제공합니다.
 
-* 을 위한 성능 개선 [!UICONTROL Create Folder] 작업. <!-- CQ-4338818 -->
+* 을 위한 성능 개선 [!UICONTROL 폴더 만들기] 작업. <!-- CQ-4338818 -->
 
 ## 알려진 문제 {#known-issues}
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 [!DNL Assets Essentials] 2021.7.0은 2021년 7월 29일에 출시되며 다음 업데이트가 있습니다.
 
-* 의 자산 세부 사항 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 지정된 메타데이터 양식을 만들고 관리할 수 있습니다 [!UICONTROL Metadata Forms] 옵션 아래의 [!DNL Settings]. 자세한 내용은 [메타데이터 양식](metadata.md#metadata-forms).
+* 의 자산 세부 사항 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 지정된 메타데이터 양식을 만들고 관리할 수 있습니다 [!UICONTROL 메타데이터 Forms] 옵션 아래의 [!DNL Settings]. 자세한 내용은 [메타데이터 양식](metadata.md#metadata-forms).
 * 많은 하위 폴더가 있는 중첩된 폴더를 업로드할 때 향상된 성능을 비롯한 다양한 버그 수정 및 제품 개선 사항이 있습니다.
 
 ### 2021.6.0 릴리스 {#june2021}

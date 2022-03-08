@@ -1,16 +1,16 @@
 ---
-title: ' [!DNL Assets Essentials]에서 자산 검색 및 검색'
-description: ' [!DNL Assets Essentials]에서 자산을 검색하고 검색합니다.'
+title: 에서 자산 검색 및 검색 [!DNL Assets Essentials]
+description: 에서 자산 검색 및 검색 [!DNL Assets Essentials].
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+exl-id: be9597a3-056c-436c-a09e-15a03567c85a
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-
-# [!DNL Assets Essentials]에서 자산 검색 {#search-assets}
+# 에서 자산 검색 [!DNL Assets Essentials] {#search-assets}
 
 [!DNL Assets Essentials] 은 기본적으로 작동하는 효과적인 검색을 제공합니다. 전체 텍스트 검색이므로 검색은 포괄적입니다. 강력한 검색 기능을 사용하면 적절한 자산을 빠르게 찾고 컨텐츠 속도를 향상시킬 수 있습니다. [!DNL Assets Essentials] 은 전체 텍스트 검색을 제공하고 스마트 태그, 제목, 만든 날짜 및 저작권 등의 메타데이터를 통해 검색할 수 있습니다.
 
@@ -30,23 +30,23 @@ ht-degree: 1%
 
 ![검색 필터](assets/filters1.png)
 
-*그림:다양한 매개 변수를 기반으로 검색된 자산을 필터링합니다.*
+*그림: 다양한 매개 변수를 기반으로 검색된 자산을 필터링합니다.*
 
-* 파일 형식:지원되는 파일 형식, `Images`, `Documents` 및 `Videos`별로 검색 결과를 필터링합니다.
-* MIME 유형:지원되는 파일 형식 중 하나 이상을 필터링합니다.<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
-* 이미지 크기:이미지를 필터링할 최소 및 최대 차원 중 하나 이상을 제공합니다. 크기는 픽셀 단위로 제공되며 이미지의 파일 크기가 아닙니다.
-* 날짜 만들기:메타데이터에 제공된 자산의 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
-* 수정한 날짜:자산의 마지막 수정 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
+* 파일 형식: 지원되는 파일 형식별로 검색 결과를 필터링합니다. `Images`, `Documents`, 및 `Videos`.
+* MIME 유형: 지원되는 파일 형식 중 하나 이상을 필터링합니다. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
+* 이미지 크기: 이미지를 필터링할 최소 및 최대 차원 중 하나 이상을 제공합니다. 크기는 픽셀 단위로 제공되며 이미지의 파일 크기가 아닙니다.
+* 날짜 만들기: 메타데이터에 제공된 자산의 생성 날짜입니다. 사용되는 표준 날짜 형식은 다음과 같습니다 `yyyy-mm-dd`.
+* 수정한 날짜: 자산의 마지막 수정 날짜입니다. 사용되는 표준 날짜 형식은 다음과 같습니다 `yyyy-mm-dd`.
 
-`Name`, `Relevancy`, `Size`, `Modified` 및 `Created`의 순서를 늘이거나 줄이면 검색된 자산을 정렬할 수 있습니다.
+검색된 자산을 `Name`, `Relevancy`, `Size`, `Modified`, 및 `Created`.
 
 ## 저장된 검색 {#saved-search}
 
-검색 기능은 [!DNL Assets Essentials]에서 매우 쉽게 사용할 수 있습니다. 검색 상자 내에서 키워드를 입력하고 Return 키를 눌러 결과를 볼 수 있을 뿐만 아니라 한 번의 클릭으로 최근에 검색한 키워드를 다시 빠르게 검색할 수도 있습니다.
+검색 기능은에서 매우 쉽게 사용할 수 있습니다 [!DNL Assets Essentials]. 검색 상자 내에서 키워드를 입력하고 Return 키를 눌러 결과를 볼 수 있을 뿐만 아니라 한 번의 클릭으로 최근에 검색한 키워드를 다시 빠르게 검색할 수도 있습니다.
 
-메타데이터 및 자산 유형에 대한 특정 기준에 따라 검색 결과를 필터링할 수도 있습니다. 자주 사용하는 필터의 경우 검색 경험을 향상시키기 위해 [!DNL Assets Essentials]을(를) 사용하여 검색 매개 변수를 저장할 수 있습니다. 그런 다음 저장된 검색을 선택하여 검색하고 한 번의 클릭으로 필터를 적용할 수도 있습니다.
+메타데이터 및 자산 유형에 대한 특정 기준에 따라 검색 결과를 필터링할 수도 있습니다. 자주 사용하는 필터의 경우 검색 경험을 향상시키기 위해 [!DNL Assets Essentials] 검색 매개 변수를 저장할 수 있습니다. 그런 다음 저장된 검색을 선택하여 검색하고 한 번의 클릭으로 필터를 적용할 수도 있습니다.
 
-저장된 검색을 만들려면 일부 자산을 검색하고, 하나 이상의 필터를 적용하고 [!UICONTROL Filters] 패널에서 [!UICONTROL Save Search] 를 클릭합니다.
+저장된 검색을 만들려면 일부 자산을 검색하고, 하나 이상의 필터를 적용하고 를 클릭합니다 [!UICONTROL 검색 저장] 에서 [!UICONTROL 필터] 패널.
 
 ![필터 패널에서 저장된 검색](assets/saved-search.png)
 
