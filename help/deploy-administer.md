@@ -1,18 +1,18 @@
 ---
-title: 사용자 배포 및 관리
+title: 사용자 관리 및 관리
 description: 의 배포 및 사용자 관리와 같은 관리 사용 사례 [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: cbf75aaf05a0f3d798edf4d508325b28d9ca0dcb
+source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
 
-# 배포 [!DNL Assets Essentials] 사용자를 추가하고 {#administer}
+# 관리 [!DNL Assets Essentials] 사용자를 추가하고 {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] 은 해당 고객에 대해 Adobe이 프로비저닝합니다. 프로비저닝의 일부로서, [!DNL Assets Essentials] 가 의 고객 조직에 추가됩니다. [!DNL Adobe Admin Console]. 또한 고객은 [!DNL Experience Manager Cloud Manager] 을 배포 도구 및 [!DNL Admin Console] 사용자 권한 관리 [!DNL Assets Essentials] 솔루션.
+[!DNL Adobe Experience Manager Assets Essentials] 은 해당 고객에 대해 Adobe이 프로비저닝합니다. 프로비저닝의 일부로서, [!DNL Assets Essentials] 가 의 고객 조직에 추가됩니다. [!DNL Adobe Admin Console]. 관리자는 [!DNL Admin Console] 사용자 권한 관리 [!DNL Assets Essentials] 솔루션 및 응용 프로그램 관리자에게 할당하여 사용 권한 및 메타데이터 양식을 [!DNL Assets Essentials].
 
 ## Assets Essentials 자동 배포 {#automatic-deployment-assets-essentials}
 
@@ -24,6 +24,7 @@ Assets Essentials 솔루션이 프로비저닝되면 관리자는 Adobe에서 �
 
 관리자는 Assets Essentials 솔루션을 성공적으로 배포한 후 다음 작업을 수행해야 합니다.
 
+* [사용자 그룹, 폴더 구조 및 권한 할당 설정](manage-permissions.md) 을 참조하십시오. 팔로우 [모범 사례](permission-management-best-practices.md) 간단하고 효과적인 권한 설정을 보장할 수 있습니다.
 * [사용자 액세스 관리](#add-users-to-essentials) 조직 구성원에게 [!DNL Assets Essentials].
 * 원할 경우, [서비스 상태 및 로그 보기](#view-logs).
 
@@ -36,16 +37,18 @@ Assets Essentials 솔루션이 프로비저닝되면 관리자는 Adobe에서 �
 
 관리자는 액세스 권한이 있는 사용자를 관리합니다 [!DNL Assets Essentials]. 관리자는 [!DNL Adobe Admin Console] 사용자 액세스를 추가 또는 제거하려면 [!DNL Assets Essentials] 에는 다음과 같은 두 가지 유형의 사용자 액세스 권한이 있습니다.
 
+* **[!DNL Assets Essentials]관리자** 애플리케이션에 대한 관리자 액세스 권한이 있습니다. 모든 최종 사용자 기능 외에도 이 그룹의 응용 프로그램 관리자는 전체 응용 프로그램 저장소의 모든 폴더 및 그룹/사용자에 대한 권한을 관리할 수 있습니다.
 * **[!DNL Assets Essentials]사용자** 전체 사용자 인터페이스에 액세스할 수 있습니다. 이러한 사용자는 디지털 자산을 업로드, 구성, 태그 지정 및 찾을 수 있습니다.
 * **[!DNL Assets Essentials]소비자 사용자**: 에서 포함된 자산 선택 경험에 액세스할 수 있습니다. [!DNL Adobe Journey Optimizer] 이메일 템플릿 편집기. 자세한 내용은 [사용 [!DNL Assets Essentials] in [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
 
-in [!DNL Admin Console]과 같은 두 액세스 유형은 [!UICONTROL 제품 프로필]. 두 프로필 중 하나에 조직 구성원을 추가하고 제거하려면 다음 단계를 수행합니다.
+in [!DNL Admin Console]과 같은 세 가지 액세스 유형은 [!UICONTROL 제품 프로필]. 두 프로필 중 하나에 조직 구성원을 추가하고 제거하려면 다음 단계를 수행합니다.
 
-1. 액세스 [!DNL Admin Console] 조직의 경우 **[!UICONTROL 제품]** 상단 막대에서 **[!UICONTROL AEM Assets Essentials]**&#x200B;를 클릭한 다음 [!DNL Assets Essentials] 환경. [!DNL Assets Essentials] 에는 일반 사용자와 소비자 사용자에 대한 액세스를 나타내는 두 개의 제품 프로필이 있습니다.
+1. 액세스 [!DNL Admin Console] 조직의 경우 **[!UICONTROL 제품]** 상단 막대에서 **[!UICONTROL AEM Assets Essentials]**&#x200B;를 클릭한 다음 [!DNL Assets Essentials] 환경. [!DNL Assets Essentials] 에는 관리자, 일반 및 소비자 사용자에 대한 액세스를 나타내는 세 개의 제품 프로필이 있습니다.
 
-   ![두 가지 유형의 사용자를 위한 두 개의 프로필](assets/adminconsole-user-types.png)
+   ![세 가지 유형의 사용자를 위한 3개의 프로필](assets/admin-console-admin-profile.png)
+   <!-- Need to update screenshot to include 3 profiles -->
 
-   *그림: 두 개의 프로필을 사용하여 두 가지 유형의 사용자를 추가할 수 있습니다.*
+   *그림: 세 가지 프로필을 사용하여 세 가지 유형의 사용자를 추가할 수 있습니다.*
 
 1. 사용자를 그룹에 추가하려면 그룹을 클릭하고 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하고 사용자 세부 사항을 제공한 다음 를 클릭합니다. **[!UICONTROL 저장]**. 사용자를 추가하면 사용자는 시작할 이메일 초대를 받습니다. 의 제품 프로필 설정에서 이메일 초대를 해제할 수 있습니다 [!DNL Admin Console].
 

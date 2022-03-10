@@ -8,10 +8,10 @@ user-guide-description: Assets Essentials는 다른 Experience Cloud 애플리�
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
+source-git-commit: be84c4c7a5e2f3220cde54f1d01007e9dacf183a
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 48%
+source-wordcount: '77'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,9 @@ ht-degree: 48%
 + [솔루션 개요](introduction.md)
 + [릴리스 노트](release-notes.md)
 + [사용자 배포 및 추가](deploy-administer.md)
++ 폴더 액세스 관리{#folder-access}
+   + [폴더 권한 관리](manage-permissions.md)
+   + [권한 관리 우수 사례](permission-management-best-practices.md)
 + [사용 시작 [!DNL Assets Essentials]](get-started.md)
 + [지원되는 파일 유형 및 사용 사례](supported-file-formats.md)
 + [자산 보기](navigate-view.md)
@@ -29,4 +32,5 @@ ht-degree: 48%
 + [자산 관리 작업](manage-organize.md)
 + [이미지 편집](edit-images.md)
 + [자산 메타데이터 관리](metadata.md)
++ [에셋 공유](share-links-for-assets.md)
 + [다른 솔루션과 통합](integration.md)
