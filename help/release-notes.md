@@ -4,7 +4,7 @@ description: 릴리스 노트 및 [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 211233202b667f9d25713491c8ae59e002139777
+source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 의 릴리스 노트 [!DNL Assets Essentials] {#release-notes}
 
-의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 3월 3일에 릴리스됩니다. 이 릴리스에서는 다음을 제공합니다.
+의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 3월 9일에 릴리스됩니다. 이 릴리스에서는 다음을 제공합니다.
 
 * [!DNL Assets Essentials] 이제 를 사용하여 다음을 수행할 수 있습니다. [링크 생성 및 외부 이해 관계자와 자산 공유](share-links-for-assets.md)에 대한 액세스 권한이 없는 [!DNL Assets Essentials] 응용 프로그램. 링크에 대한 만료 날짜를 정의한 다음, 전자 메일 또는 메시징 서비스와 같은 기본 통신 방법을 사용하여 다른 사용자와 링크를 공유할 수 있습니다. 링크를 받은 사람은 자산을 미리 보고 다운로드할 수 있습니다.
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * 고객 피드백을 기반으로 개선 사항 및 버그 수정.
 
-게다가, [!DNL Adobe Asset Link] Creative Cloud 확장(Photoshop, Illustrator 및 InDesign)은 [새 버전 3.2.0](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)로 설정되며, 패널 시작 시간 및 다운로드 속도가 개선되었습니다.
+게다가, [!DNL Adobe Asset Link] Creative Cloud 확장(Photoshop, Illustrator 및 InDesign)은 [새 버전 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)로 설정되며, 패널 시작 시간 및 다운로드 속도가 개선되었습니다.
 
 
 ## 알려진 문제 {#known-issues}
