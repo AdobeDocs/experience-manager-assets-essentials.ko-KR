@@ -2,7 +2,7 @@
 title: AEM Assets Essentials에서 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials을 사용하면 관리자가 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만들고 액세스 수준을 관리하기 위해 해당 그룹에 권한을 할당합니다. 관리자는 폴더 수준의 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 424517e7961bcc39cd3048ebc750fe1b4b06f659
+source-git-commit: 57aa6f4641deb8cc687a462a380404e8fc3b6844
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Assets Essentials 리포지토리의 폴더에 대한 권한을 관리하려면 
 
 조직의 비즈니스 목표에 적합한 폴더 구조를 만듭니다. 기존 폴더 구조를 Assets Essentials 저장소에 업로드하는 경우 구조를 검토해야 합니다. 자세한 내용은 [효과적인 권한 관리를 위한 우수 사례](permission-management-best-practices.md).
 
-## 폴더에 대한 권한 관리 {#manage-permissions-folders}
+## 폴더에 대한 권한 관리 {#manage-permissions-on-folders}
 
 사용자 그룹 또는 사용자에게 다음 권한을 할당할 수 있습니다. Adobe은 사용자에게 권한을 할당하는 것을 권장하지 않습니다.
 
