@@ -2,7 +2,7 @@
 title: AEM Assets Essentials에서 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials을 사용하면 관리자가 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만들고 액세스 수준을 관리하기 위해 해당 그룹에 권한을 할당합니다. 관리자는 폴더 수준의 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
+source-git-commit: 98879f59bd1bb5725f51f91bfa638f2de6759e9a
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Assets Essentials을 사용하면 관리자가 저장소에서 사용할 수 있
 
 다음 데이터 흐름 다이어그램은 Assets Essentials 리포지토리에서 사용 가능한 폴더에 대한 권한을 구성 및 관리하기 위해 수행하는 작업 순서를 보여 줍니다.
 
-![자산을 선택할 때의 도구 모음 옵션](assets/permissions-management.png)
+![자산을 선택할 때의 도구 모음 옵션](assets/permissions-management-updated.png)
 
 ## 폴더의 권한을 관리하기 전에 {#before-managing-permissions}
 
@@ -93,7 +93,7 @@ Assets Essentials 리포지토리의 폴더에 대한 권한을 관리하려면 
 
 에 편집 권한을 제공해야 하는 경우 `Marketing` 폴더 - 조직의 마케팅 부서에만 할당하고 다른 사용자에게 권한을 봅니다. `Can View` 수퍼 그룹에 대한 권한 `All Authenticated Users` 및 `Can Edit` 하위 그룹에 대한 권한 `Marketing`.
 
-![권한 할당](assets/permissions-management-groups.png)
+![권한 할당](assets/permissions-management-groups-updated.png)
 
 **권한 상속**
 
@@ -183,7 +183,7 @@ Admin Console에서 다음 사용자 그룹을 만듭니다.
 * 법률 팀
 
 다음 다이어그램은 폴더 계층 구조 및 각 사용자 그룹에 지정된 권한을 보여줍니다.
-![권한 할당](assets/use-case-permissions-mamagement.png)
+![권한 할당](assets/use-case-permissions-management.png)
 
 다음은 폴더 계층 구조의 모든 사용자 그룹에 대한 액세스 수준입니다.
 
