@@ -74,7 +74,7 @@ ht-degree: 100%
 
 에셋을 사용, 공유 또는 다운로드하기 전에 더 자세히 볼 수 있습니다. 미리보기 기능을 사용하면 이미지뿐만 아니라 지원되는 몇 가지 에셋 유형을 볼 수 있습니다.
 
-에셋을 미리 보려면 에셋을 선택하고 상단의 도구 모음에서 [!UICONTROL 세부 정보](![details icon](assets/do-not-localize/edit-in-icon.png))를 클릭합니다. 에셋을 볼 수 있을 뿐만 아니라 세부 메타데이터를 보고 다른 작업을 수행할 수도 있습니다.
+에셋을 미리 보려면 에셋을 선택하고 상단의 도구 모음에서 [!UICONTROL 세부 정보] (![details icon](assets/do-not-localize/edit-in-icon.png))를 클릭합니다. 에셋을 볼 수 있을 뿐만 아니라 세부 메타데이터를 보고 다른 작업을 수행할 수도 있습니다.
 
 ![에셋 미리보기](assets/preview-asset.png)
 
