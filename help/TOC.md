@@ -9,9 +9,9 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
 source-git-commit: be84c4c7a5e2f3220cde54f1d01007e9dacf183a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '77'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 85%
 + [솔루션 개요](introduction.md)
 + [릴리스 정보](release-notes.md)
 + [배포 및 사용자 추가](deploy-administer.md)
-+ 폴더 액세스 관리{#folder-access}
++ 액세스 폴더 관리{#folder-access}
    + [폴더 권한 관리](manage-permissions.md)
-   + [권한 관리 우수 사례](permission-management-best-practices.md)
+   + [권한 관리에 대한 모범 사례](permission-management-best-practices.md)
 + [ [!DNL Assets Essentials] 사용 시작하기](get-started.md)
 + [지원되는 파일 형식 및 사용 사례](supported-file-formats.md)
 + [에셋 보기](navigate-view.md)
