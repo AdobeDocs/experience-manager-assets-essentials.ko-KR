@@ -3,13 +3,13 @@ cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets
 product: adobe experience manager
 type: Documentation
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-assets-essentials.ko-KR
+git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.ko-KR
 mini-toc-levels: 1
 index: true
 source-git-commit: bd544f8afe112d5a95d5a3266f8d74bff4ef04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,5 +27,5 @@ In TOC.md file
 
 | 메타데이터 | 기능 |
 |--- |--- |
-| user-guide-title | 문서 헤더에서 링크로 사용됨. |
-| user-guide-url | 학습 및 지원 허브 페이지를 엽니다. |
+| user-guide-title | 문서 헤더에서 링크로 사용됩니다. |
+| user-guide-url | [학습 및 지원] 허브 페이지를 엽니다. |
