@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]의 액세스 방법, 로그인 경험, �
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 
 또한 [사용자 인터페이스에 대한 이해](/help/navigate-view.md), [사용 사례 목록](#use-cases), <!-- TBD: [supported file types](/help/supported-file-formats.md), --> 및 [알려진 문제](/help/release-notes.md#known-issues) 등의 추가 참조 정보도 유용할 수 있습니다.
 
-## [!DNL Assets Essentials]에 대한 액세스 권한을 받습니다. {#get-access}
+## [!DNL Assets Essentials]에 대한 액세스 권한 받기 {#get-access}
 
 Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 부여할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
 
@@ -36,7 +36,7 @@ Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관
 
 다른 조직에 속해 있는 경우 조직을 변경하고 다양한 조직의 계정에 액세스할 수도 있습니다.
 
-을 변경하려면 [!UICONTROL Experience Cloud 환경 설정], 클릭 [!UICONTROL 기본 설정].
+[!UICONTROL Experience Cloud 환경 설정]을 변경하려면 [!UICONTROL 환경 설정]을 클릭합니다.
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/theme-change.png)
 
@@ -65,11 +65,11 @@ Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관
 
 ## ![feedback icon](assets/do-not-localize/feedback-icon.png) 제품 피드백 제공 {#provide-feedback}
 
-Adobe는 해당 솔루션에 대한 피드백을 환영합니다. 작업 애플리케이션을 전환하지 않고 피드백을 제공하려면 [!UICONTROL 피드백] 사용자 인터페이스의 옵션. 또한 이 옵션을 통해 스크린샷이나 비디오 녹화 등 문제와 관련된 파일을 첨부할 수 있습니다.
+Adobe는 해당 솔루션에 대한 피드백을 환영합니다. 작업 중인 애플리케이션을 전환하지 않고도 피드백을 제공하려면 사용자 인터페이스의 [!UICONTROL 피드백] 옵션을 사용하십시오. 또한 이 옵션을 통해 스크린샷이나 비디오 녹화 등 문제와 관련된 파일을 첨부할 수 있습니다.
 
 ![인터페이스의 피드백 옵션](assets/feedback-panel.png)
 
-설명서에 대한 피드백을 입력하려면 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 다운로드할 수 있습니다. 다음 중 하나를 수행할 수 있습니다.
+문서에 대한 피드백을 제공하려면 오른쪽 사이드바에서 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 클릭하십시오. 다음 중 하나를 수행할 수 있습니다.
 
 * 콘텐츠를 업데이트하고 GitHub 끌어오기 요청을 제출합니다.
 * GitHub에서 문제 또는 티켓을 만듭니다. 문제를 만들 때 자동으로 채워진 기사 이름을 유지합니다.
