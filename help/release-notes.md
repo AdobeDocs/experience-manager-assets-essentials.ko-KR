@@ -5,25 +5,25 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 3월 9일에 릴리스됩니다. 이 릴리스는 다음을 제공합니다.
+[!DNL Assets Essentials]의 최신 릴리스는 2022년 3월 9일에 릴리스되었습니다. 이 릴리스는 다음을 제공합니다.
 
-* [!DNL Assets Essentials] 이제 를 사용하여 다음을 수행할 수 있습니다. [링크 생성 및 외부 이해 관계자와 자산 공유](share-links-for-assets.md)에 대한 액세스 권한이 없는 [!DNL Assets Essentials] 응용 프로그램. 링크에 대한 만료 날짜를 정의한 다음, 전자 메일 또는 메시징 서비스와 같은 기본 통신 방법을 사용하여 다른 사용자와 링크를 공유할 수 있습니다. 링크를 받은 사람은 자산을 미리 보고 다운로드할 수 있습니다.
+* 이제 [!DNL Assets Essentials]에서는 [링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 에셋을 공유](share-links-for-assets.md)할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 에셋을 미리 보고 다운로드할 수 있습니다.
 
-* 다음 [!DNL Assets Essentials] now includs [관리자 제품 프로필](deploy-administer.md#add-users-to-essentials) 기존 일반 및 소비자 사용자 제품 프로필 외에 추가 Admin Console. 이제 관리자는 관리자 제품 프로필에 다른 사용자를 할당할 수 있습니다.
+* 이제 [!DNL Assets Essentials]는 기존 기본 및 소비자 사용자 제품 프로필과 더불어 Admin Console의 [관리자 제품 프로필](deploy-administer.md#add-users-to-essentials)로 구성됩니다. 이제 관리자는 관리자 제품 프로필에 다른 사용자를 할당할 수 있습니다.
 
-* 이제 관리자가 Assets Essentials을 사용하여 [저장소에서 사용할 수 있는 폴더에 대한 액세스 수준 관리](manage-permissions.md). 관리자는 사용자 그룹을 만들고 액세스 수준을 관리하기 위해 해당 그룹에 권한을 할당할 수 있습니다. 폴더 수준의 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
+* 이제 Assets Essentials에서 관리자는 [저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리](manage-permissions.md)할 수 있습니다. 관리자는 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
 
-* 고객 피드백을 기반으로 개선 사항 및 버그 수정.
+* 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
 
-게다가, [!DNL Adobe Asset Link] Creative Cloud 확장(Photoshop, Illustrator 및 InDesign)은 [새 버전 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)로 설정되며, 패널 시작 시간 및 다운로드 속도가 개선되었습니다.
+또한 패널 시작 시간 및 다운로드 속도에 대한 성능이 개선된 Creative Cloud용 [!DNL Adobe Asset Link] 확장 프로그램(Photoshop, Illustrator 및 InDesign)의 [신규 버전 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)가 릴리스되었습니다.
 
 
 ## 알려진 문제 {#known-issues}
@@ -38,9 +38,9 @@ ht-degree: 59%
 
 ### 2022.1.0 릴리스 {#january-2022}
 
-[!DNL Assets Essentials] 는 2022년 2월 3일에 출시되며 다음 업데이트가 있습니다.
+[!DNL Assets Essentials]는 다음 업데이트와 함께 2022년 2월 3일에 릴리스됩니다.
 
-* 을 위한 성능 개선 [!UICONTROL 폴더 만들기] 작업. <!-- CQ-4338818 -->
+* [!UICONTROL 폴더 생성] 작업의 성능이 향상되었습니다. <!-- CQ-4338818 -->
 
 ### 2021.11.0 릴리스 {#november-2021}
 
@@ -60,7 +60,7 @@ ht-degree: 59%
 
 [!DNL Assets Essentials] 2021.7.0은 다음 업데이트와 함께 2021년 7월 29일에 출시됩니다.
 
-* 의 자산 세부 사항 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 지정된 메타데이터 양식을 만들고 관리할 수 있습니다 [!UICONTROL 메타데이터 Forms] 옵션 아래의 [!DNL Settings]. [메타데이터 양식](metadata.md#metadata-forms)을 참조하십시오.
+* [!DNL Settings] 아래 [!UICONTROL 메타데이터 양식] 옵션의 에셋 세부 정보 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 지정 메타데이터 양식을 만들고 관리할 수 있습니다. [메타데이터 양식](metadata.md#metadata-forms)을 참조하십시오.
 * 여러 하위 폴더가 있는 중첩 폴더를 업로드할 때의 성능 향상되는 등 다양한 버그 수정 및 제품 개선 사항이 있습니다.
 
 ### 2021.6.0 릴리스 {#june2021}
