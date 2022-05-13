@@ -3,16 +3,18 @@ title: 사용자 관리
 description: ' [!DNL Assets Essentials]에서의 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
+workflow-type: tm+mt
+source-wordcount: '1139'
+ht-degree: 99%
 
 ---
 
 # [!DNL Assets Essentials] 관리 및 사용자 추가 {#administer}
 
 [!DNL Adobe Experience Manager Assets Essentials]는 Adobe에서 고객을 위해 프로비저닝합니다. 프로비저닝의 일부로 [!DNL Assets Essentials]가 [!DNL Adobe Admin Console]의 고객 조직에 추가됩니다. 관리자는 [!DNL Admin Console]을 사용하여 [!DNL Assets Essentials] 솔루션에 대한 사용자 권한을 관리하며 [!DNL Assets Essentials]에서 권한 및 메타데이터 양식을 설정하도록 애플리케이션 관리자를 할당합니다.
+
+Assets Essentials을 관리하기 위한 여정 기반 경험의 경우 이 아이콘을 클릭합니다 [링크](adminster-aem-assets-essentials.md).
 
 ## Assets Essentials 자동 배포 {#automatic-deployment-assets-essentials}
 

@@ -2,8 +2,8 @@
 title: AEM Assets Essentials의 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 57aa6f4641deb8cc687a462a380404e8fc3b6844
-workflow-type: ht
+source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
+workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서
 
 사용자 그룹을 만든 다음 해당 그룹에 Assets Essentials 저장소의 폴더 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 그런 다음 사용자 그룹에 사용자를 할당할 수 있습니다.
 
-![그룹 및 제품 프로필에 사용자 추가](assets/user-groups-product-profiles-updated.png)
+![그룹 및 제품 프로필에 사용자 추가](assets/user-groups-product-profiles.svg)
 
 사용자 그룹에 사용자를 추가(1)하고 [Assets Essentials 제품 프로필에 사용자를 추가(2)](#add-admin-users)할 수 있습니다. 그러나 Assets Essentials 제품 프로필에 사용자 그룹을 바로 추가(3)할 수는 없습니다.
 
