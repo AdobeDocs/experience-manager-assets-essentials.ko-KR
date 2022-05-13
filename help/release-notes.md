@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,8 +36,6 @@ ht-degree: 69%
 [!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
 
 * 를 사용하여 자산을 필터링할 수 없습니다 `No Status` 자산 상태.
-
-* 가 있는 자산을 찾아보거나 검색할 수 없습니다 `Expired` 상태. 딥 링크 또는 URL을 사용해야만 자산에 액세스할 수 있습니다.
 
 * Assets Essentials은 비공개 컬렉션 만들기를 지원하지 않습니다.
 
