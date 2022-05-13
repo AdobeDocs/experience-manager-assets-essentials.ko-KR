@@ -2,18 +2,52 @@
 title: 릴리스 정보
 description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제'
 role: User,Leader,Admin,Architect,Developer
-contentOwner: AG
+contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
-workflow-type: ht
-source-wordcount: '549'
-ht-degree: 100%
+source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 69%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-[!DNL Assets Essentials]의 최신 릴리스는 2022년 3월 9일에 릴리스되었습니다. 이 릴리스는 다음을 제공합니다.
+의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 5월 12일에 릴리스됩니다. 이 릴리스는 다음을 제공합니다.
+
+* [!DNL Assets Essentials] 이제에서 지원 [컬렉션 만들기](manage-collections.md). 컬렉션은 Experience Manager Assets Essentials에 포함된 자산 세트입니다. 컬렉션을 사용하여 사용자 간에 자산을 공유합니다. 폴더와 달리 컬렉션에는 다른 위치의 자산이 포함될 수 있습니다.
+
+* 이제 Assets Essentials을 사용하여 다음을 수행할 수도 있습니다 [사용자 지정 필터 추가](search.md#custom-filters) 를 사용자 인터페이스에 추가합니다. 그런 다음 표준 필터 외에 이러한 사용자 지정 필터를 적용하여 검색 결과를 세분화할 수 있습니다.
+
+* 이제 Assets Essentials에서 다음을 수행할 수 있습니다 [상태 설정](manage-organize.md#set-asset-status) 저장소에서 사용할 수 있는 자산입니다. 디지털 자산의 다운스트림 소비를 더 잘 제어하고 관리하려면 자산 상태를 설정하십시오.
+
+* 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+## Chrome의 시크릿 모드 {#incognito-mode}
+
+이번 릴리스를 통해 Adobe는 UI 게재의 성능 및 Assets Essentials의 특정 기능(자산 및 이미지 편집에 주석을 달 수 있는 기능은 브라우저 로컬 저장소 및 사용 중인 타사 쿠키에 따라 다름)을 최적화하고 있습니다. Chrome 웹 브라우저의 시크릿 모드에서는 기본적으로 타사 쿠키를 차단합니다. 사용자에게는 모든 기능에 계속 액세스할 수 있는 다양한 옵션이 있습니다.
+
+* 사용자가 브라우저 세션을 구분해야 하는 경우 Incognito 모드 대신 Chrome 프로필을 사용하십시오
+
+* 설정 해제 `Block third-party cookies` chrome의 Incognito 모드 화면
+
+## 알려진 문제 {#known-issues}
+
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+
+* 를 사용하여 자산을 필터링할 수 없습니다 `No Status` 자산 상태.
+
+* 가 있는 자산을 찾아보거나 검색할 수 없습니다 `Expired` 상태. 딥 링크 또는 URL을 사용해야만 자산에 액세스할 수 있습니다.
+
+* Assets Essentials은 비공개 컬렉션 만들기를 지원하지 않습니다.
+
+문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
+
+## 이전 릴리스 {#past-release}
+
+### 2022.2.0 {#march-2022}
+
+[!DNL Assets Essentials] 는 2022년 3월 9일에 출시되며 다음 업데이트가 있습니다.
 
 * 이제 [!DNL Assets Essentials]에서는 [링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 에셋을 공유](share-links-for-assets.md)할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 에셋을 미리 보고 다운로드할 수 있습니다.
 
@@ -25,16 +59,6 @@ ht-degree: 100%
 
 또한 패널 시작 시간 및 다운로드 속도에 대한 성능이 개선된 Creative Cloud용 [!DNL Adobe Asset Link] 확장 프로그램(Photoshop, Illustrator 및 InDesign)의 [신규 버전 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)가 릴리스되었습니다.
 
-
-## 알려진 문제 {#known-issues}
-
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
-
-* 없음
-
-문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
-
-## 이전 릴리스 {#past-release}
 
 ### 2022.1.0 릴리스 {#january-2022}
 

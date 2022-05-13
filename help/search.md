@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 에셋 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 0420b0836affe453cced6789ea4a7c56660e9f0a
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 57%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 100%
 
 *그림: 다양한 매개 변수를 기반으로 검색된 에셋을 필터링합니다.*
 
+* 자산 상태: 을 사용하여 검색 결과 필터링 `Approved` 또는 `Rejected` 자산 상태.
+
 * 파일 형식: 지원되는 파일 형식(`Images`, `Documents` 및 `Videos`)으로 검색 결과를 필터링합니다.
 * MIME 유형: 지원되는 파일 형식 중 하나 이상을 필터링합니다. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 이미지 크기: 이미지를 필터링할 최소 및 최대 크기 중 하나 이상을 제공합니다. 크기는 픽셀 단위의 치수로 제공되며 이는 이미지의 파일 크기가 아닙니다.
@@ -39,6 +41,66 @@ ht-degree: 100%
 * 수정 날짜: 에셋이 마지막으로 수정된 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
 
 검색된 에셋을 `Name`, `Relevancy`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+
+## 사용자 지정 필터 관리 {#custom-filters}
+
+**필요한 권한:**  `Can Edit`, `Owner`또는 관리자
+
+Assets Essentials을 사용하면 사용자 지정 필터를 사용자 인터페이스에 추가할 수도 있습니다. 그런 다음 사용자 지정 필터 및 [표준 필터](#refine-search-results) 검색 결과를 세분화하기 위해
+
+Assets Essentials은 다음 사용자 지정 필터를 제공합니다.
+
+<table>
+    <tbody>
+     <tr>
+      <th><strong>사용자 지정 필터 이름</strong></th>
+      <th><strong>설명</strong></th>
+     </tr>
+     <tr>
+      <td>제목</td>
+      <td>자산 제목을 사용하여 자산을 필터링합니다. 대/소문자를 구분하는 검색 기준에서 지정하는 제목은 결과에 표시할 자산의 정확한 제목과 일치해야 합니다.</td>
+     </tr>
+     <tr>
+      <td>이름</td>
+      <td>자산 파일 이름을 사용하여 자산을 필터링합니다. 대/소문자를 구분하는 검색 기준에 지정하는 이름은 결과에 표시할 자산의 정확한 파일 이름과 일치해야 합니다.</td>
+     </tr>
+     <tr>
+      <td>자산 크기</td>
+      <td>결과에 표시할 자산의 검색 조건에서 크기 범위를 바이트 단위로 정의하여 자산을 필터링합니다.</td>
+     </tr>
+     <tr>
+      <td>예측된 태그</td>
+      <td>자산 스마트 태그를 사용하여 자산을 필터링합니다. 대/소문자를 구분하는 검색 기준에서 지정하는 스마트 태그 이름은 결과에 표시할 자산의 정확한 스마트 태그 이름과 일치해야 합니다. 검색 기준에서는 여러 스마트 태그를 지정할 수 없습니다.</td>
+     </tr>    
+    </tbody>
+   </table>
+
+### 사용자 지정 필터 추가 {#add-custom-filters}
+
+사용자 지정 필터를 추가하려면:
+
+1. 클릭 **[!UICONTROL 필터]**.
+
+1. 에서 **[!UICONTROL 사용자 지정 필터]** 섹션을 클릭합니다. **[!UICONTROL 편집]** 또는 **[!UICONTROL 필터 추가]**.
+
+   ![사용자 지정 필터 추가](assets/add-custom-filters.png)
+
+1. 설정 **[!UICONTROL 사용자 지정 필터 관리]** 대화 상자에서 기존 필터 목록에 추가해야 하는 필터를 선택합니다. 선택 **[!UICONTROL 사용자 지정 필터]** 모든 필터를 선택합니다.
+
+1. 클릭 **[!UICONTROL 확인]** 를 눌러 사용자 인터페이스에 필터를 추가합니다.
+
+### 사용자 지정 필터 제거 {#remove-custom-filters}
+
+사용자 지정 필터를 제거하려면 다음을 수행하십시오.
+
+1. 클릭 **[!UICONTROL 필터]**.
+
+1. 에서 **[!UICONTROL 사용자 지정 필터]** 섹션을 클릭합니다. **[!UICONTROL 편집]**.
+
+1. 설정 **[!UICONTROL 사용자 지정 필터 관리]** 대화 상자에서 기존 필터 목록에서 제거해야 하는 필터를 선택 취소합니다.
+
+1. 클릭 **[!UICONTROL 확인]** 사용자 인터페이스에서 필터를 제거합니다.
+
 
 ## 저장된 검색 {#saved-search}
 

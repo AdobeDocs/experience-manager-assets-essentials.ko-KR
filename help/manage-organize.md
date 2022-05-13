@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 에셋을 이동하고, 삭제하�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 79%
 
 ---
 
@@ -83,3 +83,65 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 ![에셋의 버전 보기](assets/view-asset-versions1.png)
 
 *그림: 에셋 버전 보기, 이전 버전으로 되돌리기 또는 다른 새로운 버전 업로드*
+
+## 자산 상태 관리 {#manage-asset-status}
+
+**필요한 권한:**  `Can Edit`, `Owner`, 또는 자산에 대한 관리자 권한.
+
+Assets Essentials을 사용하면 저장소에서 사용할 수 있는 자산에 대한 상태를 설정할 수 있습니다. 디지털 자산의 다운스트림 소비를 더 잘 제어하고 관리하려면 자산 상태를 설정하십시오.
+
+자산에 대해 다음 상태를 설정할 수 있습니다.
+
+* 승인됨
+
+* 거부됨
+
+* 상태 없음
+
+### 자산 상태 설정 {#set-asset-status}
+
+자산 상태를 설정하려면 다음을 수행하십시오.
+
+1. 자산을 선택하고 을(를) 클릭합니다 **[!UICONTROL 세부 사항]** 클릭합니다.
+
+1. 에서 **[!UICONTROL 기본]** 탭의 아래에서 자산 상태를 선택합니다 **[!UICONTROL 상태]** 드롭다운 목록. 가능한 값에는 승인됨, 거부됨 및 상태 없음(기본값)이 포함됩니다.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/342495)
+
+<!--
+
+### Set asset expiration date {#set-asset-expiration-date}
+
+To set asset expiration date:
+
+1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+
+1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+
+The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
+
+-->
+
+자산 상태에 따라 자산을 필터링할 수도 있습니다. 자세한 내용은 [Assets Essentials에서 자산 검색](search.md).
+
+## 자산 상태 필드를 포함하도록 메타데이터 양식을 사용자 지정합니다 {#customize-asset-status-metadata-form}
+
+**필요한 권한:** 관리자
+
+Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 에셋의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 에셋의 거버넌스 및 검색 기능을 개선합니다.
+
+메타데이터 양식에 메타데이터 필드를 추가하는 방법에 대한 자세한 내용은 [메타데이터 Forms](metadata.md##metadata-forms).
+
+**양식에 자산 상태 메타데이터 필드 추가**
+
+자산 상태 메타데이터 필드를 양식에 추가하려면 을 **[!UICONTROL 자산 상태]** 구성 요소를 왼쪽 레일에서 폼으로 가져옵니다. 매핑 속성은 자동으로 미리 채워집니다. 양식을 저장하여 변경 사항을 확인합니다.
+
+<!--
+
+**Add Expiration Date metadata field to the form**
+
+To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
+
+-->
+
+
