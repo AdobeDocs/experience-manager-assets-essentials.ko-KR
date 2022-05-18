@@ -1,13 +1,13 @@
 ---
 title: Adobe Workfront과 Assets Essentials 통합
 description: Workfront 애플리케이션 내의 Assets Essentials 리포지토리에 액세스할 수 있도록 Assets Essentials을 Adobe Workfront 애플리케이션과 통합합니다.
-source-git-commit: 7d49060ba2e02bd9c5caf9753ef56b5feed5b3df
+exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
+source-git-commit: 507d5de0fad337f5c84dab28bc396dbfa7c5afe1
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 16%
 
 ---
-
 
 # Adobe Workfront과 Assets Essentials 통합 {#integrate-assets-essentials-workfront}
 
@@ -66,7 +66,7 @@ Assets Essentials 제품 프로필에 사용자를 할당하는 방법에 대한
 
 ## Experience Manager Assets Essentials 통합 구성 {#configure-assets-essentials-integration}
 
-Admin Console을 사용하여 Workfront 및 Assets Essentials 제품 프로필에 사용자를 추가한 후 다음을 수행할 수 있습니다 [Experience Manager Assets Essentials 통합 구성](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
+Admin Console을 사용하여 Workfront 및 Assets Essentials 제품 프로필에 사용자를 추가한 후 다음을 수행할 수 있습니다 [Adobe Workfront과 Experience Manager Assets Essentials 통합 구성](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
 
 통합을 설정한 후 다음을 수행할 수 있습니다.
 
