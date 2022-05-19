@@ -2,9 +2,9 @@
 title: Adobe Workfront과 Assets Essentials 통합
 description: Workfront 애플리케이션 내의 Assets Essentials 리포지토리에 액세스할 수 있도록 Assets Essentials을 Adobe Workfront 애플리케이션과 통합합니다.
 exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
-source-git-commit: 507d5de0fad337f5c84dab28bc396dbfa7c5afe1
+source-git-commit: 1bb5f1aa1bb03b38964f13f40dc2d2d675a0480f
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '634'
 ht-degree: 16%
 
 ---
@@ -61,6 +61,8 @@ Adobe Admin Console을 사용하여 Workfront에서 사용자 및 시스템 관�
 
 * **[!DNL Assets Essentials]사용자** 전체 Assets Essentials 사용자 인터페이스에 액세스할 수 있습니다. 이러한 사용자는 Assets Essentials 애플리케이션에서 디지털 자산을 업로드, 구성, 태그 지정 및 찾을 수 있습니다. 또한 사용자는에서 포함된 자산 선택 경험에 액세스할 수 있습니다 [!DNL Adobe Workfront] 응용 프로그램.
 * **[!DNL Assets Essentials]소비자 사용자**: 에서 포함된 자산 선택 경험에 액세스할 수 있습니다. [!DNL Adobe Workfront] 응용 프로그램.
+
+또한 **[!DNL Assets Essentials]관리자** 애플리케이션에 대한 관리자 액세스 권한을 제공하는 제품 프로필입니다.
 
 Assets Essentials 제품 프로필에 사용자를 할당하는 방법에 대한 자세한 내용은 [Assets Essentials 제품 프로필에 사용자 할당](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
 
