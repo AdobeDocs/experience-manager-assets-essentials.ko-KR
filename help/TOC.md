@@ -10,8 +10,8 @@ feature: Asset Management
 role: User,Leader
 source-git-commit: e0e16fd3c2f491e5f828bb45efe9193f6f137f5a
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
