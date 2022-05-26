@@ -2,10 +2,10 @@
 title: 폴더 권한을 효율적으로 관리하는 방법
 description: 효율적인 권한 관리에 대한 모범 사례
 exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
-source-git-commit: 98dafd932fb31dea06225f256f0e6bfe205e4d7b
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 89%
 
 ---
 
@@ -63,3 +63,11 @@ Assets Essentials 저장소에 폴더 구조를 생성할 때에는 다음 사�
 * 폴더 구조에 [액세스 거부] 권한을 신중하게 사용하고 되도록 긍정적인 권한(편집 가능, 보기 가능, 소유자)를 적용합니다.
 
 폴더 구조를 효율적이고 간단하게 하는 방법에 대한 예는 [폴더 권한 관리](manage-permissions.md##manage-permissions-folders)를 참조하십시오.
+
+## 다음 단계 {#next-steps}
+
+* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+
+* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+
+* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)

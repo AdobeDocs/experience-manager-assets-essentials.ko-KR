@@ -2,10 +2,10 @@
 title: 컬렉션 관리
 description: 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: c9ec24336c69271bb5db21032ce46f672749f5ae
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 91%
 
 ---
 
@@ -126,3 +126,11 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 삭제해야 하는 컬렉션을 선택합니다.
 
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+
+## 다음 단계 {#next-steps}
+
+* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+
+* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+
+* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)

@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] 사용 시작하기'
 description: ' [!DNL Assets Essentials]의 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 알려진 문제'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 86%
 
 ---
 
@@ -55,6 +55,17 @@ Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관
 | 메타데이터 작업 | <ul> <li>[세부 메타데이터 보기](/help/metadata.md) </li> <li> [메타데이터 업데이트](/help/metadata.md#update-metadata)</li> <li> [새 메타데이터 양식 만들기](/help/metadata.md#metadata-forms) </li> </ul> |
 | 다른 솔루션과 통합 | <ul> <li>[ [!DNL Adobe Journey Optimizer]](/help/integration.md)에서 에셋 선택기 사용</li> <li>[[!DNL Adobe Asset Link] 대상 [!DNL Creative Cloud]](/help/integration.md)</li> <li>[ [!DNL Adobe Workfront]](/help/integration.md)와 통합</li> </ul> |
 
+## 다음 단계 {#next-steps}
+
+* [Assets Essentials 시작을 위한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
+
+* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+
+* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+
+* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)
+
+
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
@@ -63,16 +74,20 @@ Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관
 
 -->
 
-## ![feedback icon](assets/do-not-localize/feedback-icon.png) 제품 피드백 제공 {#provide-feedback}
+<!-- 
 
-Adobe는 해당 솔루션에 대한 피드백을 환영합니다. 작업 중인 애플리케이션을 전환하지 않고도 피드백을 제공하려면 사용자 인터페이스의 [!UICONTROL 피드백] 옵션을 사용하십시오. 또한 이 옵션을 통해 스크린샷이나 비디오 녹화 등 문제와 관련된 파일을 첨부할 수 있습니다.
+## ![feedback icon](assets/do-not-localize/feedback-icon.png) Provide product feedback {#provide-feedback}
 
-![인터페이스의 피드백 옵션](assets/feedback-panel.png)
+Adobe welcomes feedback about the solution. To provide feedback without even switching your working application, use the [!UICONTROL Feedback] option in the user interface. It also lets you attach files such as screenshots or video recording of an issue.
 
-문서에 대한 피드백을 제공하려면 오른쪽 사이드바에서 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 클릭하십시오. 다음 중 하나를 수행할 수 있습니다.
+  ![feedback option in the interface](assets/feedback-panel.png)
 
-* 콘텐츠를 업데이트하고 GitHub 끌어오기 요청을 제출합니다.
-* GitHub에서 문제 또는 티켓을 만듭니다. 문제를 만들 때 자동으로 채워진 기사 이름을 유지합니다.
+To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit the page](assets/do-not-localize/edit-page.png) or [!UICONTROL Log an issue] ![create a GitHub issue](assets/do-not-localize/github-issue.png) from the right sidebar. You can do one of the following: 
+
+* Make the content updates and submit a GitHub pull request.
+* Create an issue or ticket in GitHub. Retain the automatically populated article name when creating an issue.
+
+-->
 
 >[!MORELIKETHIS]
 >

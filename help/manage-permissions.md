@@ -2,10 +2,10 @@
 title: AEM Assets Essentials의 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
-workflow-type: ht
-source-wordcount: '1580'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '1643'
+ht-degree: 96%
 
 ---
 
@@ -202,3 +202,13 @@ Admin Console에 다음과 같은 사용자 그룹을 생성합니다.
 * /projects/project-x: 모든 사용자는 폴더 및 그 하위 폴더를 볼 수 있습니다. [프로젝트 관리 팀] 사용자 그룹은 편집 권한을 가지며 폴더 및 그 하위 폴더에 대한 권한([소유자] 권한)을 관리할 수 있습니다. [프로젝트 X 팀] 사용자 그룹은 편집 권한을 가집니다.
 
 * /legal: 모든 사용자는 `All Authenticated Users` 그룹에 대한 `Deny Access` 권한에 따라 폴더에 액세스할 수 없습니다. [법무 팀] 사용자 그룹은 편집 권한을 가집니다.
+
+## 다음 단계 {#next-steps}
+
+* [Assets Essentials에서 권한을 관리하려면 비디오를 시청하십시오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+
+* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+
+* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+
+* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)

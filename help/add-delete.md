@@ -3,10 +3,10 @@ title: 저장소에 에셋 업로드
 description: 에셋을  [!DNL Assets Essentials]에 업로드하고, 업로드 상태를 보고, 업로드 관련 문제를 해결합니다.
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 92%
 
 ---
 
@@ -95,3 +95,13 @@ ht-degree: 100%
    *그림: 파일 및 폴더에 대한 작업은 에셋 또는 폴더 타일에서 사용할 수 있습니다.*
 
 * 에셋 또는 폴더를 선택하고 도구 모음에서 **[!UICONTROL 삭제]**(![delete icon](assets/do-not-localize/delete-icon.png))를 클릭합니다.
+
+## 다음 단계 {#next-steps}
+
+* [Assets Essentials에서 자산을 업로드하려면 비디오를 시청하십시오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
+
+* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+
+* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+
+* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)
