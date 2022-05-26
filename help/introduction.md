@@ -1,12 +1,12 @@
 ---
 title: ' [!DNL Assets Essentials] 소개'
-description: Experience Cloud 애플리케이션 내에서 작동하는 간단한 도구인 AEM Assets Essentials를 사용하여 자산을 관리합니다.
+description: Experience Cloud 애플리케이션 내에서 작동하는 간단한 도구인 AEM Assets Essentials로 에셋을 관리하십시오.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 source-git-commit: 2c2d490da79cb2f5d2069049baf3944aaa0050a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
