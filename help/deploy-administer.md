@@ -26,7 +26,7 @@ Assets Essentials 솔루션이 프로비저닝되면 관리자는 Adobe로부터
 
 Assets Essentials 솔루션이 정상적으로 배포된 후 관리자는 다음 작업을 수행해야 합니다.
 
-* [사용자 그룹, 폴더 구조를 설정하고 솔루션에 대한 권한을 할당합니다](manage-permissions.md). [모범 사례](permission-management-best-practices.md)를 따라 간단하고 효율적인 방법으로 권한을 설정합니다.
+* [사용자 그룹, 폴더 구조를 설정하고 솔루션에 대한 권한을 할당](manage-permissions.md)합니다. [모범 사례](permission-management-best-practices.md)를 따라 간단하고 효율적인 방법으로 권한을 설정합니다.
 * [!DNL Assets Essentials]에 대한 조직 구성원의 [사용자 액세스를 관리](#add-users-to-essentials)합니다.
 * 필요한 경우 [서비스 상태 및 로그를 봅니다](#view-logs).
 
@@ -100,7 +100,7 @@ Assets Essentials 솔루션이 정상적으로 배포된 후 관리자는 다음
 
 1. [!DNL Admin Console]의 `AEM Assets Essentials - Cloud Manager` 제품 프로필에 자신을 관리자로 추가합니다. 자신 대신 조직의 다른 멤버를 추가하거나 두 명 이상의 관리자를 추가할 수 있습니다.
 
-1. ![추가 아이콘](assets/do-not-localize/add-icon.svg)을 클릭하여 [!UICONTROL 제품 프로필을 선택]한 다음 [!UICONTROL Deployment Manager - Assets Essentials]를 **[!UICONTROL 제품 프로필]**&#x200B;로 선택합니다. 이 단계에서 추가된 사용자는 Adobe로부터 [!DNL Cloud Manager]에 대한 액세스 권한이 포함된 이메일을 수신하며 배포를 수행할 수 있습니다.
+1. ![추가 아이콘](assets/do-not-localize/add-icon.svg)를 클릭하여 [!UICONTROL 제품 프로필을 선택]한 다음 [!UICONTROL Deployment Manager - Assets Essentials]를 **[!UICONTROL 제품 프로필]**&#x200B;로 선택합니다. 이 단계에서 추가된 사용자는 Adobe로부터 [!DNL Cloud Manager]에 대한 액세스 권한이 포함된 이메일을 수신하며 배포를 수행할 수 있습니다.
 
    ![관리자 추가 및 [!DNL Admin Console]](assets/adminconsole-user1.png)에서 제품 프로필 선택
 
@@ -120,7 +120,7 @@ Assets Essentials 솔루션이 정상적으로 배포된 후 관리자는 다음
 
    *그림: [!DNL Assets Essentials]를 사용하려면 [!DNL Cloud Manager]에 환경을 추가하십시오.*
 
-1. 몇 분 후에 환경이 성공적으로 생성되면 [!DNL Admin Console]에 액세스하고 조직의 사용자를 [!DNL Assets Essentials] 솔루션에 추가할 수 있습니다. ![옵션 아이콘](assets/do-not-localize/options-ellipses-icon.png)을 클릭하고 **[!UICONTROL 액세스 관리]** 옵션을 선택합니다.
+1. 몇 분 후에 환경이 정상적으로 생성되면 [!DNL Admin Console]에 액세스하고 조직의 사용자를 [!DNL Assets Essentials] 솔루션에 추가할 수 있습니다. ![옵션 아이콘](assets/do-not-localize/options-ellipses-icon.png)을 클릭하고 **[!UICONTROL 액세스 관리]** 옵션을 선택합니다.
 
    ![[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)에서 환경 준비
 
