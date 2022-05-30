@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -146,13 +146,13 @@ To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** c
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials에서 자산을 관리하려면 비디오를 시청하십시오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+* [Assets Essentials의 에셋 관리에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
 
-* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+* Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
 
-* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 
 
