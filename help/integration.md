@@ -4,9 +4,9 @@ description: “[!DNL Assets Essentials]는 다른 Adobe 솔루션과 통합되�
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 75%
 
 * **[!DNL Creative Cloud for Enterprise]**: [Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 에셋에 대한 액세스 단계를 간소화하여 콘텐츠 속도를 높입니다. [ [!DNL Adobe Asset Link]를 사용하여 에셋 관리](https://helpx.adobe.com/kr/enterprise/using/manage-assets-using-adobe-asset-link.html)를 참조하십시오.
 
-   [비디오를 시청하여 Adobe Creative Cloud 라이브러리와 Assets Essentials 통합](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html)
+   [Assets Essentials를 Adobe Creative Cloud Libraries와 통합하는 방법에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html)
 
 * **[!DNL Adobe Journey Optimizer]**: [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/products/journey-optimizer/adobe-journey-optimizer.html)는 고객에게 지능적인 의사결정과 통찰력을 통해 옴니채널 캠페인을 제공할 수 있도록 여정 관리를 간소화합니다. [!DNL Journey Optimizer]를 사용하여 메시지를 디자인할 때 [!DNL Journey Optimizer] 인터페이스 내에서 [!DNL Assets Essentials] 저장소에 직접 액세스할 수 있습니다. 사용자는 [!DNL Assets Essentials]의 임베드된 사용자 인터페이스를 사용하여 에셋에 액세스할 수 있습니다. [ [!DNL Assets Essentials] 도움말 문서](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ko-KR) 또는 [비디오 튜토리얼을 사용하여 이메일 콘텐츠 만들기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=ko-KR)를 참조하십시오.
 
-   [메시지 편집기를 사용하여 이메일 컨텐츠를 만들려면 비디오를 시청하십시오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
+   [메시지 편집기로 이메일 콘텐츠를 만들려면 비디오 보기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=ko-KR)
 
 * **[!DNL Adobe Workfront]**: [[!DNL Adobe Workfront]](https://www.workfront.com/)는 업무의 전체 라이프사이클을 한 곳에서 관리할 수 있도록 도와주는 작업 관리 애플리케이션입니다. [!DNL Adobe Workfront]와 [!DNL Assets Essentials] 간의 기본 통합을 통해 조직은 작업과 에셋 관리를 본질적으로 연결하여 콘텐츠 속도와 마켓 출시 속도를 개선할 수 있습니다. 작업 관리의 맥락에서 사용자는 동일한 솔루션에서 필요한 문서와 이미지에 액세스할 수 있습니다. [!DNL Assets Essentials]는 신규 [!DNL Workfront] 고객이 별도로 구매할 수 있는 추가 기능으로 제공됩니다. [ [!DNL Workfront] 및 [!DNL Essentials] 통합 구성 및 사용](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)을 참조하십시오.
 
-   [비디오를 시청하여 Adobe Workfront 및 Assets Essentials 통합을 구성합니다](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
+   [Adobe Workfront 및 Assets Essentials 통합 구성에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
 
 ## 다음 단계 {#next-steps}
 
-* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+* Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
 
-* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 <!-- TBD: Hiding this link till GA. Do not even include the beta mention as discussed with Greg. Beta is done with customers selected by the Accounts team. It is not an open Beta program. At GA, document this.
 
