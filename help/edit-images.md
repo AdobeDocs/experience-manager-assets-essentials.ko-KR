@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Photoshop Express] 기반 옵션을 사용하여 이�
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '544'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ TBD: Insert a video of the available social media options.
 
 ## 다음 단계 {#next-steps}
 
-* 을 사용하여 제품 피드백을 제공합니다. [!UICONTROL 피드백] Assets Essentials 사용자 인터페이스에서 사용할 수 있는 옵션
+* Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* 을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![gitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용할 수 있습니다.
+* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
 
-* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 >[!MORELIKETHIS]
 >
