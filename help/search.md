@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 
 *그림: 다양한 매개변수를 기반으로 검색된 에셋을 필터링합니다.*
 
-* 자산 상태: 을 사용하여 검색 결과 필터링 `Approved`, `Rejected`, 또는 `No Status` 자산 상태.
+* 에셋 상태: `Approved`, `Rejected` 또는 `No Status` 에셋 상태를 사용하여 검색 결과를 필터링합니다.
 
 * 파일 형식: 지원되는 파일 형식(`Images`, `Documents` 및 `Videos`)으로 검색 결과를 필터링합니다.
 * MIME 유형: 지원되는 파일 형식 중 하나 이상을 필터링합니다. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
