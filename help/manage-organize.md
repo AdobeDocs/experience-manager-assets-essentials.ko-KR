@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -109,15 +109,15 @@ Assets Essentials를 사용하면 저장소에서 사용 가능한 에셋의 상
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
 
-### 자산 만료 날짜 설정 {#set-asset-expiration-date}
+### 에셋 만료 날짜 설정 {#set-asset-expiration-date}
 
-자산 만료 날짜를 설정하려면 다음을 수행하십시오.
+에셋 만료 날짜를 설정하려면 다음 작업을 수행하십시오.
 
 1. 에셋을 선택하고 도구 모음에서 **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
 
-1. 에서 **[!UICONTROL 기본]** 탭에서 을 사용하여 자산의 만료 날짜를 설정합니다.  **[!UICONTROL 만료 날짜]** 필드.
+1. **[!UICONTROL 기본]** 탭에서 **[!UICONTROL 만료 날짜]** 필드를 사용하여 에셋의 만료 날짜를 설정합니다.
 
-다음 `Expired` 자산 카드 표시기가 무시됩니다 `Approved` 또는 `Rejected` 자산에 대한 지표 세트.
+`Expired` 에셋 카드 표시기는 에셋에 대해 설정된 `Approved` 또는 `Rejected` 표시기보다 우선합니다.
 
 에셋 상태에 따라 에셋을 필터링할 수도 있습니다. 자세한 내용은 [Assets Essentials에서 에셋 검색](search.md)을 참조하십시오.
 
@@ -135,7 +135,7 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 **양식에 만료 날짜 메타데이터 필드 추가**
 
-만료 날짜 메타데이터 필드를 양식에 추가하려면 **[!UICONTROL 날짜]** 구성 요소를 왼쪽 레일에서 폼으로 가져옵니다. 지정 **만료 날짜** 레이블 및 `pur:expirationDate` 를 매핑 속성으로 사용하십시오. 변경 사항을 확인하려면 양식을 저장하십시오.
+만료 날짜 메타데이터 필드를 양식에 추가하려면 **[!UICONTROL 날짜]** 구성 요소를 왼쪽 레일에서 양식으로 드래그하십시오. 레이블로 **만료 날짜**&#x200B;를 지정하고 매핑 속성으로 `pur:expirationDate`를 지정합니다. 변경 사항을 확인하려면 양식을 저장하십시오.
 
 ## 다음 단계 {#next-steps}
 
