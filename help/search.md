@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
      </tr>
      <tr>
       <td>제목</td>
-      <td>에셋 제목을 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials이 검색 기준과 부분적으로 일치하는 결과에 자산을 표시하도록 할 수 있습니다. 예를 들어 <b>ma*</b> 검색 기준으로 Assets Essentials은 결과에 시장, 마케팅, 남성, 맨체스터 등과 같은 제목이 있는 자산을 표시합니다.</td>
+      <td>에셋 제목을 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials가 검색 기준과 부분적으로 일치하는 결과에 에셋을 표시할 수 있습니다. 예를 들어 <b>ma*</b>를 검색 기준으로 정의하는 경우 Assets Essentials는 결과에 market, marketing, man, manchester 등의 제목을 가진 에셋을 표시합니다.</td>
      </tr>
      <tr>
       <td>이름</td>
-      <td>에셋 필터 이름을 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials이 검색 기준과 부분적으로 일치하는 결과에 자산을 표시하도록 할 수 있습니다.</td>
+      <td>에셋 필터 이름을 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials가 검색 기준과 부분적으로 일치하는 결과에 에셋을 표시할 수 있습니다.</td>
      </tr>
      <tr>
       <td>에셋 크기</td>
@@ -70,7 +70,7 @@ Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
      </tr>
      <tr>
       <td>예측된 태그</td>
-      <td>에셋 스마트 태그를 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials이 검색 기준과 부분적으로 일치하는 결과에 자산을 표시하도록 할 수 있습니다. 검색 기준에서 쉼표로 구분된 여러 스마트 태그를 지정할 수 있습니다.</td>
+      <td>에셋 스마트 태그를 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials가 검색 기준과 부분적으로 일치하는 결과에 에셋을 표시할 수 있습니다. 검색 기준에 쉼표로 구분된 여러 스마트 태그를 지정할 수 있습니다.</td>
      </tr>    
     </tbody>
    </table>
