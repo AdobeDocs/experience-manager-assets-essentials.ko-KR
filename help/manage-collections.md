@@ -2,7 +2,7 @@
 title: 컬렉션 관리
 description: 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 88dd604492ffd5be305fe2f54edae1f158247e26
+source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 91%
@@ -33,7 +33,7 @@ You can share collections with various users that are assigned different levels 
 
 * [컬렉션 메타데이터 보기 및 편집](#view-edit-collection-metadata)
 
-* [컬렉션 요소 다운로드](#download-collection-elements)
+* [컬렉션 다운로드](#download-collection)
 
 * [컬렉션 삭제](#delete-collection)
 
