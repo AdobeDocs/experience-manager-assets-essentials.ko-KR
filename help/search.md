@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 에셋 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
-workflow-type: ht
-source-wordcount: '774'
-ht-degree: 100%
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 91%
 
 ---
 
@@ -37,8 +37,12 @@ ht-degree: 100%
 * 파일 형식: 지원되는 파일 형식(`Images`, `Documents` 및 `Videos`)으로 검색 결과를 필터링합니다.
 * MIME 유형: 지원되는 파일 형식 중 하나 이상을 필터링합니다. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 이미지 크기: 이미지를 필터링할 최소 및 최대 크기 중 하나 이상을 제공합니다. 크기는 픽셀 단위의 치수로 제공되며 이는 이미지의 파일 크기가 아닙니다.
-* 생성 날짜: 메타데이터에 입력된 에셋 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
+* 작성일: 메타데이터에 제공된 자산의 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
 * 수정 날짜: 에셋이 마지막으로 수정된 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
+
+* 만료 날짜: 검색 결과를 `Expired` 자산 상태. 또한 자산에 대한 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
+
+* 사용자 지정 필터: [사용자 지정 필터 추가](#custom-filters) Assets Essentials 사용자 인터페이스에 연결할 수 없습니다. 표준 필터 외에 사용자 지정 필터를 적용하여 검색 결과를 세분화합니다.
 
 검색된 에셋을 `Name`, `Relevancy`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
@@ -58,11 +62,11 @@ Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
      </tr>
      <tr>
       <td>제목</td>
-      <td>에셋 제목을 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials가 검색 기준과 부분적으로 일치하는 결과에 에셋을 표시할 수 있습니다. 예를 들어 <b>ma*</b>를 검색 기준으로 정의하는 경우 Assets Essentials는 결과에 market, marketing, man, manchester 등의 제목을 가진 에셋을 표시합니다.</td>
+      <td>에셋 제목을 사용하여 에셋을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 제목은 결과에 표시할 에셋의 정확한 제목과 일치해야 합니다.</td>
      </tr>
      <tr>
       <td>이름</td>
-      <td>에셋 필터 이름을 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials가 검색 기준과 부분적으로 일치하는 결과에 에셋을 표시할 수 있습니다.</td>
+      <td>에셋 필터 이름을 사용하여 에셋을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 이름은 결과에 표시할 에셋의 정확한 파일 이름과 일치해야 합니다.</td>
      </tr>
      <tr>
       <td>에셋 크기</td>
@@ -70,10 +74,19 @@ Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
      </tr>
      <tr>
       <td>예측된 태그</td>
-      <td>에셋 스마트 태그를 사용하여 에셋을 필터링합니다. 와일드카드 연산자(*)를 사용하여 Assets Essentials가 검색 기준과 부분적으로 일치하는 결과에 에셋을 표시할 수 있습니다. 검색 기준에 쉼표로 구분된 여러 스마트 태그를 지정할 수 있습니다.</td>
+      <td>에셋 스마트 태그를 사용하여 에셋을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 스마트 태그 이름은 결과에 표시할 에셋의 정확한 스마트 태그 이름과 일치해야 합니다. 검색 기준에 여러 스마트 태그를 지정할 수 없습니다.</td>
      </tr>    
     </tbody>
    </table>
+
+<!--
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. For example, if you define <b>ma*</b> as the search criteria, Assets Essentials displays assets with title, such as, market, marketing, man, manchester, and so on in the results.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. You can specify multiple smart tags separated by a comma in the search criteria.
+
+   -->
 
 ### 맞춤형 필터 추가 {#add-custom-filters}
 

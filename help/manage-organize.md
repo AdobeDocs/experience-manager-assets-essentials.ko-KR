@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 에셋을 이동하고, 삭제하�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 95%
 
 ---
 
@@ -110,6 +110,8 @@ Assets Essentials를 사용하면 저장소에서 사용 가능한 에셋의 상
 
 
 ### 에셋 만료 날짜 설정 {#set-asset-expiration-date}
+
+Assets Essentials을 사용하면 저장소에서 사용할 수 있는 자산에 대해 만료 날짜를 설정할 수도 있습니다. 그러면 다음 작업을 수행할 수 있습니다 [검색 결과 필터링](search.md#refine-search-results) 기준 `Expired` 자산 상태. 또한 자산에 대한 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
 
 에셋 만료 날짜를 설정하려면 다음 작업을 수행하십시오.
 
