@@ -4,14 +4,67 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
-workflow-type: ht
-source-wordcount: '761'
-ht-degree: 100%
+source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 86%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
+
+의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 6월 16일에 릴리스됩니다.
+
+이 릴리스는 다음을 제공합니다.
+
+**자산 상태 개선 사항**
+
+* 이제 Assets Essentials을 사용하여 다음을 수행할 수 있습니다 [자산에 대한 만료 날짜 설정](manage-organize.md#set-asset-status). 또한 다음을 수행할 수 있습니다 [자산 필터링](search.md#refine-search-results) 기준 `Expired` 자산 상태 및 만료 날짜 범위.
+
+* 이제 휴지통으로 이동할 수 있는 모든 자산에 대한 자산 상태 표시기를 볼 수 있습니다. 따라서 상태를 기반으로 자산을 복원하기로 결정할 수 있습니다.
+
+**검색 필터 개선 사항**
+
+* 이제 Assets Essentials을 사용하여 다음을 수행할 수 있습니다 [자산 필터링](search.md#refine-search-results) 사용 `No Status` 자산 상태.
+
+<!--
+
+* Assets Essentials now supports [using a wildcard operator (*) while using custom filters](search.md#custom-filters) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+-->
+
+**컬렉션 개선 사항**
+
+<!--
+
+* Assets Essentials now enables you to [create Private collections](manage-collections.md#create-collection).
+
+-->
+
+* 이제 Assets Essentials이 을 지원합니다 [컬렉션 다운로드](manage-collections.md).
+
+* 이제 컬렉션에 대한 설명 메타데이터 필드를 편집할 수 있습니다.
+
+**설명서 개선 사항**
+
+* 의 새 버전 [Assets Essentials 개요 설명서](introduction.md) 이제 을 사용할 수 있습니다.
+
+**고객 피드백을 기반으로 개선 사항**
+
+* 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+
+## 알려진 문제 {#known-issues}
+
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+
+* Assets Essentials는 비공개 컬렉션 생성을 지원하지 않습니다.
+
+문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
+
+## 이전 릴리스 {#past-release}
+
+### 2022.4.0 {#april-2022}
 
 [!DNL Assets Essentials]의 최신 릴리스는 2022년 5월 12일에 릴리스되었습니다. 이 릴리스는 다음을 제공합니다.
 
@@ -23,25 +76,13 @@ ht-degree: 100%
 
 * 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
 
-## Chrome의 시크릿 모드 {#incognito-mode}
+#### Chrome의 시크릿 모드 {#incognito-mode}
 
 이 릴리스에서는 브라우저의 로컬 저장소 및 사용 가능한 서드파티 쿠키에 따라 Assets Essentials의 UI 전달 성능 및 특정 기능(에셋 댓글 달기 및 이미지 편집)을 최적화하고 있습니다. Chrome 웹 브라우저의 시크릿 모드는 기본적으로 서드파티 쿠키를 차단합니다. 사용자는 모든 기능에 계속 액세스할 수 있는 여러 가지 옵션을 사용할 수 있습니다.
 
 * 사용자가 브라우저 세션을 분리해야 하는 경우 시크릿 모드 대신 Chrome 프로필 사용
 
 * Chrome의 시크릿 모드 화면에서 `Block third-party cookies` 끄기
-
-## 알려진 문제 {#known-issues}
-
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
-
-* `No Status` 에셋 상태를 사용하여 에셋을 필터링할 수 없습니다.
-
-* Assets Essentials는 비공개 컬렉션 생성을 지원하지 않습니다.
-
-문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
-
-## 이전 릴리스 {#past-release}
 
 ### 2022.2.0 {#march-2022}
 
