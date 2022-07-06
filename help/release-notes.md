@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 6월 16일에 릴리스됩니다.
+[!DNL Assets Essentials]의 최신 릴리스는 2022년 6월 16일에 출시되었습니다.
 
 이 릴리스는 다음을 제공합니다.
 
-**자산 상태 개선 사항**
+**에셋 상태 개선 사항**
 
-* 이제 Assets Essentials을 사용하여 다음을 수행할 수 있습니다 [자산에 대한 만료 날짜 설정](manage-organize.md#set-asset-status). 또한 다음을 수행할 수 있습니다 [자산 필터링](search.md#refine-search-results) 기준 `Expired` 자산 상태 및 만료 날짜 범위.
+* 이제 Assets Essentials를 사용하여 [에셋의 만료 날짜를 설정](manage-organize.md#set-asset-status)할 수 있습니다. 또한 `Expired` 에셋 상태 및 만료 날짜 범위를 기반으로 [에셋을 필터링](search.md#refine-search-results)할 수 있습니다.
 
-* 이제 휴지통으로 이동할 수 있는 모든 자산에 대한 자산 상태 표시기를 볼 수 있습니다. 따라서 상태를 기반으로 자산을 복원하기로 결정할 수 있습니다.
+* 이제 휴지통에서 사용 가능한 모든 에셋에 대한 에셋 상태 표시기를 볼 수 있습니다. 결과적으로 에셋 상태에 따라 에셋의 복원 여부를 결정할 수 있습니다.
 
 **검색 필터 개선 사항**
 
-* 이제 Assets Essentials을 사용하여 다음을 수행할 수 있습니다 [자산 필터링](search.md#refine-search-results) 사용 `No Status` 자산 상태.
+* Assets Essentials에서는 이제 `No Status` 에셋 상태를 사용하여 [에셋을 필터링](search.md#refine-search-results)할 수 있습니다.
 
 <!--
 
@@ -41,15 +41,15 @@ ht-degree: 86%
 
 -->
 
-* 이제 Assets Essentials이 을 지원합니다 [컬렉션 다운로드](manage-collections.md).
+* Assets Essentials는 이제 [컬렉션 다운로드](manage-collections.md)를 지원합니다.
 
 * 이제 컬렉션에 대한 설명 메타데이터 필드를 편집할 수 있습니다.
 
 **설명서 개선 사항**
 
-* 의 새 버전 [Assets Essentials 개요 설명서](introduction.md) 이제 을 사용할 수 있습니다.
+* 이제 [Assets Essentials 개요 설명서](introduction.md)의 새 버전을 사용할 수 있습니다.
 
-**고객 피드백을 기반으로 개선 사항**
+**고객 피드백을 기반으로 한 개선 사항**
 
 * 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
 
@@ -66,7 +66,7 @@ ht-degree: 86%
 
 ### 2022.4.0 {#april-2022}
 
-[!DNL Assets Essentials]의 최신 릴리스는 2022년 5월 12일에 릴리스되었습니다. 이 릴리스는 다음을 제공합니다.
+[!DNL Assets Essentials]의 최신 릴리스는 2022년 5월 12일에 출시되었습니다. 이 릴리스는 다음을 제공합니다.
 
 * [!DNL Assets Essentials]는 이제 [컬렉션 생성](manage-collections.md)을 지원합니다. 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다. 폴더와 달리 컬렉션에는 서로 다른 위치의 에셋이 포함될 수 있습니다.
 
