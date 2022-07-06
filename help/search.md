@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 91%
 * 파일 형식: 지원되는 파일 형식(`Images`, `Documents` 및 `Videos`)으로 검색 결과를 필터링합니다.
 * MIME 유형: 지원되는 파일 형식 중 하나 이상을 필터링합니다. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 이미지 크기: 이미지를 필터링할 최소 및 최대 크기 중 하나 이상을 제공합니다. 크기는 픽셀 단위의 치수로 제공되며 이는 이미지의 파일 크기가 아닙니다.
-* 작성일: 메타데이터에 제공된 자산의 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
+* 생성 날짜: 메타데이터에 입력된 에셋 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
 * 수정 날짜: 에셋이 마지막으로 수정된 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
 
-* 만료 날짜: 검색 결과를 `Expired` 자산 상태. 또한 자산에 대한 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
+* 만료 날짜: `Expired` 에셋 상태를 기반으로 검색 결과를 필터링합니다. 또한 에셋의 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
 
-* 사용자 지정 필터: [사용자 지정 필터 추가](#custom-filters) Assets Essentials 사용자 인터페이스에 연결할 수 없습니다. 표준 필터 외에 사용자 지정 필터를 적용하여 검색 결과를 세분화합니다.
+* 맞춤형 필터: Assets Essentials 사용자 인터페이스에 [맞춤형 필터를 추가](#custom-filters)합니다. 표준 필터 외에 맞춤형 필터를 적용하여 검색 결과를 구체화합니다.
 
 검색된 에셋을 `Name`, `Relevancy`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
@@ -142,6 +142,6 @@ When userA is searching and userB add an asset that matches search results, will
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
