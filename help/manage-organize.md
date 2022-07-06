@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Assets Essentials를 사용하면 저장소에서 사용 가능한 에셋의 상
 
 ### 에셋 만료 날짜 설정 {#set-asset-expiration-date}
 
-Assets Essentials을 사용하면 저장소에서 사용할 수 있는 자산에 대해 만료 날짜를 설정할 수도 있습니다. 그러면 다음 작업을 수행할 수 있습니다 [검색 결과 필터링](search.md#refine-search-results) 기준 `Expired` 자산 상태. 또한 자산에 대한 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
+Assets Essentials를 사용하면 저장소에서 사용 가능한 에셋의 만료 날짜를 설정할 수도 있습니다. 그런 다음 `Expired` 에셋 상태를 기반으로 [검색 결과를 필터링](search.md#refine-search-results)할 수 있습니다. 또한 에셋의 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
 
 에셋 만료 날짜를 설정하려면 다음 작업을 수행하십시오.
 
@@ -145,7 +145,7 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
