@@ -2,10 +2,10 @@
 title: 컬렉션 관리
 description: 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -47,7 +47,7 @@ You can share collections with various users that are assigned different levels 
 
 1. Private 컬렉션이나 Public 컬렉션을 만들어야 하는 경우 선택합니다. 공개 컬렉션은 모든 사용자가 보고 편집할 수 있습니다. 그러나 개인 컬렉션은 작성자와 관리자 권한이 있는 사용자가 사용할 수 있습니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 컬렉션을 생성합니다.
+1. 클릭 **[!UICONTROL 만들기]** 컬렉션을 만들려면
 
 ![컬렉션 만들기](assets/create-collection.png)
 
