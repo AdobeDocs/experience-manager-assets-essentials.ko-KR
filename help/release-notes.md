@@ -4,14 +4,58 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 80%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
+
+의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 7월 14일에 릴리스됩니다.
+
+이 릴리스는 다음을 제공합니다.
+
+**Smart Collections**
+
+검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 자산이 있는 경우 [스마트 컬렉션 만들기](manage-collections.md#create-smart-collection)로 설정하면 스마트 컬렉션의 컨텐츠가 자동으로 업데이트됩니다.
+
+**알림**
+
+Assets Essentials 알림을 사용하면 다음 작업을 수행할 수 있습니다. [저장소에서 사용할 수 있는 자산 또는 폴더에서 수행되는 작업을 모니터링합니다](manage-notifications.md). 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 카테고리를 구성할 수도 있습니다.
+
+**보고**
+
+자산 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 내의 사용자 활동을 평가할 수 있습니다. 보고서 및 라이브 통계 대시보드는 사용자가 배포에서 사용할 수 있는 자산과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. [보고서의 정보를 사용합니다](manage-reports.md) 를 사용하여 기업 내 및 고객별로 자산의 채택을 측정합니다.
+
+자산 다운로드 보고서 및 라이브 통계 대시보드 모듈을 보고 다운로드 중인 자산과 다운로드 빈도를 확인합니다.
+
+**고객 피드백을 기반으로 한 개선 사항**
+
+고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+
+## 알려진 문제 {#known-issues}
+
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Assets Essentials은 스마트 컬렉션 편집을 지원하지 않습니다.
+
+* 개인 컬렉션은 생성자와 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 권한을 위임할 수 없습니다.
+
+문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
+
+## 이전 릴리스 {#past-release}
+
+### 2022.5.0 {#may-2022}
 
 [!DNL Assets Essentials]의 최신 릴리스는 2022년 6월 16일에 출시되었습니다.
 
@@ -52,17 +96,6 @@ ht-degree: 100%
 **고객 피드백을 기반으로 한 개선 사항**
 
 * 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
-
-
-## 알려진 문제 {#known-issues}
-
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
-
-* Assets Essentials는 비공개 컬렉션 생성을 지원하지 않습니다.
-
-문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
-
-## 이전 릴리스 {#past-release}
 
 ### 2022.4.0 {#april-2022}
 

@@ -1,26 +1,25 @@
 ---
 title: Assets Essentials에서 보고서 관리
-description: Assets Essentials의 보고서에 있는 정보를 사용하여 주요 성공 지표를 도출하여 기업 내 및 고객별로 자산의 채택을 측정합니다.
-source-git-commit: 511b7904eca972e76f55e574c7c364dd88fb1721
+description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
+exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
+source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '491'
 ht-degree: 4%
 
 ---
 
 # 보고서 관리 {#manage-reports}
 
-자산 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 배포의 유틸리티를 평가할 수 있습니다. 보고서는 사용자가 배포에서 사용할 수 있는 자산과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
-
-보고서의 정보를 사용하여 주요 성공 지표를 도출하여 기업 내 및 고객별로 자산의 채택을 측정합니다.
+자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
 
 ## 보고서 액세스 {#access-reports}
 
-에 할당된 모든 사용자 [Assets Essentials 관리자 제품 프로필](deploy-administer.md) 에서는 Assets Essentials의 라이브 통계 및 보고서에 액세스할 수 있습니다.
+에 할당된 모든 사용자 [Assets Essentials 관리자 제품 프로필](deploy-administer.md) 에서는 라이브 통계 대시보드에 액세스하고 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
 
 ## 라이브 통계 보기 {#view-live-statistics}
 
-Assets Essentials을 사용하면 Assets Essentials 배포에 대해 자동으로 생성된 다운로드 데이터를 볼 수 있습니다. 최근 30일 동안 또는 지난 12개월 동안 수행된 자산 다운로드 수를 표시하도록 선택할 수 있습니다.
+Assets Essentials을 사용하면 라이브 통계 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안 실시간 이벤트 지표를 볼 수 있습니다.
 
 ![에셋 선택 시 도구 모음 옵션](assets/asset-reports-live-statistics.png)
 
@@ -99,9 +98,9 @@ Assets Essentials을 사용하면 Assets Essentials 배포에 대해 자동으�
     </tbody>
    </table>
 
-## 보고서 목록 보기 {#view-report-list}
+## 기존 보고서 보기 {#view-report-list}
 
-후 [보고서 만들기](#create-report), 보고서 목록을 보고 를 선택하여 CSV 형식으로 다운로드하거나 삭제할 수 있습니다.
+후 [보고서 만들기](#create-report)기존 보고서 목록을 보고 선택하여 CSV 형식으로 다운로드하거나 삭제할 수 있습니다.
 
 보고서 목록을 보려면 **[!UICONTROL 설정]** > **[!UICONTROL 보고서]**.
 
