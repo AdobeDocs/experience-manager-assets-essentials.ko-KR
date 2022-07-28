@@ -3,9 +3,9 @@ title: 컬렉션 관리
 description: 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ You can share collections with various users that are assigned different levels 
 
 1. 컬렉션에 대한 제목 및 설명(선택 사항)을 지정합니다.
 
-1. Private 컬렉션이나 Public 컬렉션을 만들어야 하는 경우 선택합니다. 공개 컬렉션은 모든 사용자가 보고 편집할 수 있습니다. 그러나 개인 컬렉션은 작성자와 관리자 권한이 있는 사용자가 사용할 수 있습니다.
+1. 개인 컬렉션 또는 공개 컬렉션을 만들어야 하는 경우 선택합니다. 공개 컬렉션은 모든 사용자가 보고 편집할 수 있습니다. 그러나 개인 컬렉션은 작성자와 관리자 권한이 있는 사용자가 사용할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 만들기]** 컬렉션을 만들려면
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 컬렉션을 생성합니다.
 
 ![컬렉션 만들기](assets/create-collection.png)
 
@@ -71,23 +71,23 @@ You can share collections with various users that are assigned different levels 
 
 컬렉션에 에셋을 추가하려면 왼쪽 레일에서 **[!UICONTROL 컬렉션]**&#x200B;을 클릭하고 에셋을 추가할 컬렉션을 클릭하고 **[!UICONTROL 컬렉션에 추가]**&#x200B;를 클릭하고 에셋을 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭할 수도 있습니다.
 
-## 스마트 컬렉션 만들기 {#create-smart-collection}
+## Smart Collection 만들기 {#create-smart-collection}
 
-검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. 스마트 컬렉션을 만드는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 자산이 있으면 스마트 컬렉션의 콘텐츠가 자동으로 업데이트됩니다.
+검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. Smart Collection을 생성하는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 에셋이 있는 경우 해당 Smart Collection의 콘텐츠가 자동으로 업데이트됩니다.
 
-스마트 컬렉션을 만들려면:
+Smart Collection을 만들려면 다음 작업을 수행하십시오.
 
-1. 클릭 **[!UICONTROL 필터]** 및 [검색 기준 정의](search.md##refine-search-results).
+1. **[!UICONTROL 필터]**&#x200B;를 클릭한 다음 [검색 기준을 정의](search.md##refine-search-results)합니다.
 
-1. 클릭 **[!UICONTROL 다른 이름으로 저장]** 그런 다음 **[!UICONTROL Smart Collection]**.
+1. **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL Smart Collection]**&#x200B;을 선택합니다.
 
-1. 설정 [!UICONTROL 스마트 컬렉션 만들기] 대화 상자에서 스마트 컬렉션의 제목과 설명을 지정합니다.
+1. [!UICONTROL Smart Collection 만들기] 대화 상자에서 해당 Smart Collection의 제목과 설명을 지정합니다.
 
-1. 선택 **[!UICONTROL 공용 컬렉션]** 모든 사용자가 컬렉션에 액세스해야 하는 경우. 선택 **[!UICONTROL 개인 컬렉션]** 컬렉션에 액세스하려면 제한된 사용자 그룹이 필요한 경우.
+1. 모든 사용자가 컬렉션에 액세스할 수 있도록 하려면 **[!UICONTROL 공개 컬렉션]**&#x200B;을 선택합니다. 제한된 사용자 그룹만 컬렉션에 액세스할 수 있도록 하려면 **[!UICONTROL 개인 컬렉션]**&#x200B;을 선택합니다.
 
-1. 클릭 **[!UICONTROL 만들기]** 스마트 컬렉션을 만들려면
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 Smart Collection을 생성합니다.
 
-![스마트 컬렉션 만들기](assets/create-smart-collection.png)
+![Smart Collection 만들기](assets/create-smart-collection.png)
 
 
 ## 컬렉션에서 에셋 제거 {#remove-assets-from-collection}
