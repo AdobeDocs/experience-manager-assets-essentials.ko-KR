@@ -5,31 +5,31 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1117'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-의 현재 릴리스 [!DNL Assets Essentials] 는 2022년 7월 14일에 릴리스됩니다.
+[!DNL Assets Essentials]의 최신 릴리스는 2022년 7월 14일에 출시되었습니다.
 
 이 릴리스는 다음을 제공합니다.
 
-**Smart Collections**
+**Smart Collection**
 
-검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 자산이 있는 경우 [스마트 컬렉션 만들기](manage-collections.md#create-smart-collection)로 설정하면 스마트 컬렉션의 컨텐츠가 자동으로 업데이트됩니다.
+검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. [Smart Collection을 생성](manage-collections.md#create-smart-collection)하는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 에셋이 있는 경우 해당 Smart Collection의 콘텐츠가 자동으로 업데이트됩니다.
 
 **알림**
 
-Assets Essentials 알림을 사용하면 다음 작업을 수행할 수 있습니다. [저장소에서 사용할 수 있는 자산 또는 폴더에서 수행되는 작업을 모니터링합니다](manage-notifications.md). 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 카테고리를 구성할 수도 있습니다.
+Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 에셋 또는 폴더에서 수행된 작업을 모니터링](manage-notifications.md)할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
 
 **보고**
 
-자산 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 내의 사용자 활동을 평가할 수 있습니다. 보고서 및 라이브 통계 대시보드는 사용자가 배포에서 사용할 수 있는 자산과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. [보고서의 정보를 사용합니다](manage-reports.md) 를 사용하여 기업 내 및 고객별로 자산의 채택을 측정합니다.
+에셋 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 내의 사용자 활동을 평가할 수 있습니다. 보고서 및 라이브 통계 대시보드는 사용자가 배포에서 사용할 수 있는 에셋과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. [보고서의 정보를 사용](manage-reports.md)하여 기업 내 또는 고객에 의한 Assets의 채택률을 측정하기 위한 주요 성공 지표를 도출할 수 있습니다.
 
-자산 다운로드 보고서 및 라이브 통계 대시보드 모듈을 보고 다운로드 중인 자산과 다운로드 빈도를 확인합니다.
+에셋 다운로드 보고서 및 라이브 통계 대시보드 모듈을 보고 다운로드 중인 에셋 및 다운로드 빈도를 확인할 수 있습니다.
 
 **고객 피드백을 기반으로 한 개선 사항**
 
@@ -47,9 +47,9 @@ Assets Essentials 알림을 사용하면 다음 작업을 수행할 수 있습�
 -->
 
 
-* Assets Essentials은 스마트 컬렉션 편집을 지원하지 않습니다.
+* Assets Essentials는 Smart Collection 편집을 지원하지 않습니다.
 
-* 개인 컬렉션은 생성자와 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 권한을 위임할 수 없습니다.
+* 개인 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
 
 문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
 
@@ -65,7 +65,7 @@ Assets Essentials 알림을 사용하면 다음 작업을 수행할 수 있습�
 
 * 이제 Assets Essentials를 사용하여 [에셋의 만료 날짜를 설정](manage-organize.md#set-asset-status)할 수 있습니다. 또한 `Expired` 에셋 상태 및 만료 날짜 범위를 기반으로 [에셋을 필터링](search.md#refine-search-results)할 수 있습니다.
 
-* 이제 휴지통에서 사용 가능한 모든 에셋에 대한 에셋 상태 표시기를 볼 수 있습니다. 결과적으로 에셋 상태에 따라 에셋의 복원 여부를 결정할 수 있습니다.
+* 이제 Trash에서 사용 가능한 모든 에셋에 대한 에셋 상태 표시기를 볼 수 있습니다. 결과적으로 에셋 상태에 따라 에셋의 복원 여부를 결정할 수 있습니다.
 
 **검색 필터 개선 사항**
 
