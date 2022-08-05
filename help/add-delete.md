@@ -3,10 +3,10 @@ title: 저장소에 에셋 업로드
 description: 에셋을  [!DNL Assets Essentials]에 업로드하고, 업로드 상태를 보고, 업로드 관련 문제를 해결합니다.
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 94%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 *그림: 선택한 에셋을 업로드하기 전에 대기열에서 에셋을 추가하거나 제거할 수 있습니다.*
 
->[!CAUTION]
+>[!TIP]
 >
->파일 이름에 공백이 없는 에셋을 사용하십시오. 댓글에 대한 답글은 이러한 에셋에 대해 지원되지 않습니다.
+>폴더 구조를 Assets Essentials에 업로드하는 경우 폴더 구조로 .ZIP 파일을 만들 필요가 없으므로 폴더 구조를 직접 업로드할 수 있습니다. Assets Essentials에 업로드된 .ZIP 파일은 하나의 ZIP 자산으로 저장되며 업로드 후 자동으로 추출되지 않습니다.
 
 ## 업로드 진행 상황 및 상태 보기 {#upload-progress}
 
@@ -102,6 +102,6 @@ ht-degree: 100%
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
