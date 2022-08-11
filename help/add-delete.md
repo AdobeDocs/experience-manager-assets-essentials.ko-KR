@@ -4,9 +4,9 @@ description: 에셋을  [!DNL Assets Essentials]에 업로드하고, 업로드 �
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!TIP]
 >
->폴더 구조를 Assets Essentials에 업로드하는 경우 폴더 구조로 .ZIP 파일을 만들 필요가 없으므로 폴더 구조를 직접 업로드할 수 있습니다. Assets Essentials에 업로드된 .ZIP 파일은 하나의 ZIP 자산으로 저장되며 업로드 후 자동으로 추출되지 않습니다.
+>폴더 구조를 Assets Essentials에 업로드하는 경우 해당 폴더 구조로 .ZIP 파일을 생성할 필요가 없으며, 폴더 구조를 바로 업로드하면 됩니다. Assets Essentials에 업로드되는 .ZIP 파일은 하나의 ZIP 에셋으로 저장되며 업로드 후 자동으로 추출되지 않습니다.
 
 ## 업로드 진행 상황 및 상태 보기 {#upload-progress}
 
