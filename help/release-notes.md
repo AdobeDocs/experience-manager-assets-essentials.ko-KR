@@ -4,32 +4,38 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
-workflow-type: ht
-source-wordcount: '1117'
-ht-degree: 100%
+source-git-commit: b44ded8b1678e9b7c1c5eda3f350072e51b52f32
+workflow-type: tm+mt
+source-wordcount: '1269'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-[!DNL Assets Essentials]의 최신 릴리스는 2022년 7월 14일에 출시되었습니다.
+현재 Assets Essentials 릴리스는 2022년 8월 16일에 릴리스됩니다.
 
 이 릴리스는 다음을 제공합니다.
 
-**Smart Collection**
+**컬렉션에 대한 알림**
 
-검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. [Smart Collection을 생성](manage-collections.md#create-smart-collection)하는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 에셋이 있는 경우 해당 Smart Collection의 콘텐츠가 자동으로 업데이트됩니다.
+이제 Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 컬렉션에서 수행되는 작업을 모니터링할 수 있습니다. 알림이 전송될 컬렉션을 선택하고 구독해야 합니다. 컬렉션에 대해 수행되는 삭제, 공유 링크, 이동, 이름 변경 및 업데이트 작업과 같이 알림이 전송되는 작업을 구성할 수도 있습니다.
 
-**알림**
+**스마트 컬렉션 편집**
 
-Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 에셋 또는 폴더에서 수행된 작업을 모니터링](manage-notifications.md)할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
+또한 Assets Essentials은 스마트 컬렉션을 만드는 동안 사용되는 검색 기준을 편집하는 기능을 제공합니다.  새 검색 기준을 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다.
 
-**보고**
+<!--
 
-에셋 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 내의 사용자 활동을 평가할 수 있습니다. 보고서 및 라이브 통계 대시보드는 사용자가 배포에서 사용할 수 있는 에셋과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. [보고서의 정보를 사용](manage-reports.md)하여 기업 내 또는 고객에 의한 Assets의 채택률을 측정하기 위한 주요 성공 지표를 도출할 수 있습니다.
+**View live statistics for storage account**
 
-에셋 다운로드 보고서 및 라이브 통계 대시보드 모듈을 보고 다운로드 중인 에셋 및 다운로드 빈도를 확인할 수 있습니다.
+Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
+
+-->
+
+**업로드 보고서 보기**
+
+이제 자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 배포에 업로드된 자산에 대한 가시성을 제공합니다. 관리자는 이미 Assets Essentials 배포에서 다운로드한 자산에 대한 보고서를 생성할 수 있습니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
 
 **고객 피드백을 기반으로 한 개선 사항**
 
@@ -47,17 +53,35 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 -->
 
 
-* Assets Essentials는 Smart Collection 편집을 지원하지 않습니다.
-
 * 개인 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
 
 문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
 
 ## 이전 릴리스 {#past-release}
 
+### 2022.6.0 {#june-2022}
+
+6월 릴리스 [!DNL Assets Essentials] 는 2022년 7월 14일에 릴리스됩니다.
+
+이 릴리스는 다음을 제공합니다.
+
+**Smart Collection**
+
+검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. [Smart Collection을 생성](manage-collections.md#create-smart-collection)하는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 에셋이 있는 경우 해당 Smart Collection의 콘텐츠가 자동으로 업데이트됩니다.
+
+**알림**
+
+Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 에셋 또는 폴더에서 수행된 작업을 모니터링](manage-notifications.md)할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
+
+**보고**
+
+에셋 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 내의 사용자 활동을 평가할 수 있습니다. 보고서 및 라이브 통계 대시보드는 사용자가 배포에서 사용할 수 있는 에셋과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. [보고서의 정보를 사용](manage-reports.md)하여 기업 내 또는 고객에 의한 Assets의 채택률을 측정하기 위한 주요 성공 지표를 도출할 수 있습니다.
+
+에셋 다운로드 보고서 및 라이브 통계 대시보드 모듈을 보고 다운로드 중인 에셋 및 다운로드 빈도를 확인할 수 있습니다.
+
 ### 2022.5.0 {#may-2022}
 
-[!DNL Assets Essentials]의 최신 릴리스는 2022년 6월 16일에 출시되었습니다.
+의 5월 릴리스 [!DNL Assets Essentials] 는 2022년 6월 16일에 릴리스됩니다.
 
 이 릴리스는 다음을 제공합니다.
 
