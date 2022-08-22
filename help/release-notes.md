@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2b1b6d3503f8c96ac250d4b0ff7dd5b7c2b81d64
+source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1269'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
 
-## 이전 릴리스 {#past-release}
+## 이전 릴리스 {#past-releases}
 
 ### 2022.6.0 {#june-2022}
 
