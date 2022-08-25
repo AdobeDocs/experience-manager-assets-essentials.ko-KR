@@ -5,15 +5,15 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1269'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2022년 8월 22일에 릴리스되었습니다.
+Assets Essentials의 현재 릴리스는 2022년 8월 22일에 출시되었습니다.
 
 이 릴리스는 다음을 제공합니다.
 
