@@ -7,23 +7,23 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-현재 Assets Essentials 릴리스는 2022년 8월 22일에 릴리스됩니다.
+Assets Essentials의 현재 릴리스는 2022년 8월 22일에 릴리스되었습니다.
 
 이 릴리스는 다음을 제공합니다.
 
 **컬렉션에 대한 알림**
 
-이제 Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 컬렉션에서 수행되는 작업을 모니터링할 수 있습니다. 알림이 전송될 컬렉션을 선택하고 구독해야 합니다. 컬렉션에 대해 수행되는 삭제, 공유 링크, 이동, 이름 변경 및 업데이트 작업과 같이 알림이 전송되는 작업을 구성할 수도 있습니다.
+이제 Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 컬렉션에서 수행된 작업을 모니터링할 수 있습니다. 알림을 받을 컬렉션을 선택하고 구독해야 합니다. 컬렉션에서 수행되는 삭제, 링크 공유, 이동, 이름 바꾸기 및 업데이트 작업과 같은 알림이 전송되는 작업을 구성할 수도 있습니다.
 
 **스마트 컬렉션 편집**
 
-또한 Assets Essentials은 스마트 컬렉션을 만드는 동안 사용되는 검색 기준을 편집하는 기능을 제공합니다.  새 검색 기준을 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다.
+Assets Essentials는 이제 스마트 컬렉션을 만드는 동안 사용되는 검색 기준을 편집하는 기능도 제공합니다. 컬렉션 콘텐츠를 동적으로 업데이트하려면 새 검색 기준을 저장하십시오.
 
 <!--
 
@@ -35,7 +35,7 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 **업로드 보고서 보기**
 
-이제 자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 배포에 업로드된 자산에 대한 가시성을 제공합니다. 관리자는 이미 Assets Essentials 배포에서 다운로드한 자산에 대한 보고서를 생성할 수 있습니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
+에셋 보고는 이제 관리자가 Adobe Experience Manager Assets Essentials 배포에 업로드된 에셋을 볼 수 있도록 합니다. 관리자는 이미 Assets Essentials 배포에서 다운로드된 에셋에 대한 보고서를 생성할 수 있습니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
 
 **고객 피드백을 기반으로 한 개선 사항**
 
@@ -61,13 +61,13 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 ### 2022.6.0 {#june-2022}
 
-6월 릴리스 [!DNL Assets Essentials] 는 2022년 7월 14일에 릴리스됩니다.
+[!DNL Assets Essentials]의 6월 릴리스는 2022년 7월 14일에 출시되었습니다.
 
 이 릴리스는 다음을 제공합니다.
 
-**Smart Collection**
+**스마트 컬렉션**
 
-검색 결과를 Smart Collection으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. [Smart Collection을 생성](manage-collections.md#create-smart-collection)하는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 에셋이 있는 경우 해당 Smart Collection의 콘텐츠가 자동으로 업데이트됩니다.
+검색 결과를 스마트 컬렉션으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. [스마트 컬렉션을 생성](manage-collections.md#create-smart-collection)하는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 에셋이 있는 경우 해당 스마트 컬렉션의 콘텐츠가 자동으로 업데이트됩니다.
 
 **알림**
 
@@ -81,7 +81,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 ### 2022.5.0 {#may-2022}
 
-의 5월 릴리스 [!DNL Assets Essentials] 는 2022년 6월 16일에 릴리스됩니다.
+[!DNL Assets Essentials]의 5월 릴리스는 2022년 6월 16일에 출시되었습니다.
 
 이 릴리스는 다음을 제공합니다.
 
