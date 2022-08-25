@@ -3,15 +3,15 @@ title: 알림 관리
 description: Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 에셋 또는 폴더에서 수행된 작업을 모니터링합니다.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: 2a8899c333e08c50e4cf8b49399188f50a0d3a46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # 알림 관리 {#manage-notifications}
 
-Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 자산, 폴더 또는 컬렉션에서 수행되는 작업을 모니터링할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
+Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 에셋, 폴더 또는 컬렉션에서 수행된 작업을 모니터링할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
 
 ## 알림 범주 가입 {#subscribe-to-notification-categories}
 
@@ -37,11 +37,11 @@ Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 �
      </tr>
      <tr>
       <td>구독한 콘텐츠 삭제</td>
-      <td>사용자가 구독한 자산, 폴더 또는 컬렉션을 삭제하면 알림을 받습니다.</td>
+      <td>사용자가 구독한 에셋, 폴더 또는 컬렉션을 삭제하는 경우 알림을 받습니다.</td>
      </tr>
      <tr>
       <td>구독한 콘텐츠의 외부 공유</td>
-      <td>사용자가 가입한 자산, 폴더 또는 컬렉션에 대한 공개 링크를 생성하면 알림이 표시됩니다.</td>
+      <td>사용자가 구독한 에셋, 폴더 또는 컬렉션에 대한 공개 링크를 생성하는 경우 알림을 받습니다.</td>
      </tr>
      <tr>
       <td>구독한 콘텐츠 수정</td>
@@ -53,7 +53,7 @@ Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 �
      </tr>
      <tr>
       <td>구독한 폴더 및 컬렉션에 대한 업데이트</td>
-      <td>사용자가 가입 폴더 또는 컬렉션에서 자산을 추가하거나 제거할 때 알림이 표시됩니다.</td>
+      <td>사용자가 구독한 폴더 또는 컬렉션에서 에셋을 추가하거나 제거하는 경우 알림을 받습니다.</td>
      </tr>    
     </tbody>
    </table>
@@ -75,7 +75,7 @@ Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 �
 
 1. 알림을 받아야 하는 알림 범주를 선택합니다.
 
-## 폴더, 자산 또는 컬렉션을 보고 해제합니다 {#watch-unwatch-assets}
+## 폴더, 에셋 또는 컬렉션 보기 및 보기 취소 {#watch-unwatch-assets}
 
 [알림 범주를 구독](#subscribe-to-notification-categories)한 다음에는 알림을 받기 시작할 콘텐츠를 구독해야 합니다.
 
@@ -83,15 +83,15 @@ Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 �
 >
 >**[!UICONTROL 요청]** 및 **[!UICONTROL 나에게 할당됨]** 알림 범주의 경우 알림 범주를 구독한 다음 콘텐츠를 구독할 필요가 없습니다. 요청을 생성한 경우와 사용자에게 작업이 할당된 경우에는 자동으로 알림이 전송됩니다.
 
-컨텐츠에 가입하려면 구독해야 하는 폴더, 자산 또는 컬렉션을 선택하고 을(를) 클릭합니다 **[!UICONTROL 보기]**.
+콘텐츠를 구독하려면 구독해야 하는 폴더, 에셋 또는 컬렉션을 선택한 다음 **[!UICONTROL 보기]**&#x200B;를 클릭합니다.
 
 Assets Essentials에 성공 메시지가 표시됩니다. 성공 메시지에서 사용할 수 있는 **[!UICONTROL 알림 환경 설정으로 이동]**&#x200B;을 클릭하여 [알림 범주 구독](#subscribe-to-notification-categories)을 편집할 수 있습니다.
 
 ![Assets Essentials의 알림](assets/watch-assets.png)
 
-이제 Assets Essentials이 구독한 범주에 대한 알림을 전송합니다. 여러 자산, 폴더 또는 컬렉션을 선택하고 **[!UICONTROL 보기]** 시간을 절약합니다. 그러나 일부를 이미 구독한 여러 엔티티를 선택한 경우 **[!UICONTROL 보기]** 옵션이 표시되지 않습니다.
+이제 Assets Essentials이 구독한 범주에 대한 알림을 전송합니다. 여러 에셋, 폴더 또는 컬렉션을 선택하고 **[!UICONTROL 보기]**&#x200B;를 클릭하여 시간을 절약할 수 있습니다. 그러나 일부를 이미 구독한 여러 엔티티를 선택한 경우 **[!UICONTROL 보기]** 옵션이 표시되지 않습니다.
 
-마찬가지로, 가입을 해지하려면 구독한 자산, 폴더 또는 컬렉션을 선택하고 을 클릭합니다 **[!UICONTROL Unwatch]**.
+마찬가지로 구독을 취소하려면 구독한 에셋, 폴더 또는 컬렉션을 선택하고 **[!UICONTROL 보기 취소]**&#x200B;를 클릭합니다.
 
 ## 알림 보기 {#view-notifications}
 
