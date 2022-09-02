@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
-workflow-type: ht
-source-wordcount: '1269'
-ht-degree: 100%
+source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 96%
 
 ---
 
@@ -25,13 +25,9 @@ Assets Essentials의 현재 릴리스는 2022년 8월 22일에 출시되었습�
 
 Assets Essentials는 이제 스마트 컬렉션을 만드는 동안 사용되는 검색 기준을 편집하는 기능도 제공합니다. 컬렉션 콘텐츠를 동적으로 업데이트하려면 새 검색 기준을 저장하십시오.
 
-<!--
+**저장소 계정에 대한 라이브 통계 보기**
 
-**View live statistics for storage account**
-
-Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
-
--->
+또한 Assets Essentials을 사용하면 라이브 통계 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 스토리지 계정 데이터를 볼 수도 있습니다. 지난 30일 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
 
 **업로드 보고서 보기**
 

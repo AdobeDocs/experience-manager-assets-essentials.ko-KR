@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 
 * **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 에셋 수를 선 차트로 표시합니다.
 
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
+* **스토리지 사용**: 막대 차트를 사용하여 표시된 최근 30일 또는 12개월 동안 Assets Essentials 환경의 스토리지 사용량(GB).
 
 ## 다운로드 보고서 만들기 {#create-download-report}
 
