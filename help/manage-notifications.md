@@ -2,10 +2,10 @@
 title: 알림 관리
 description: Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 에셋 또는 폴더에서 수행된 작업을 모니터링합니다.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 2a8899c333e08c50e4cf8b49399188f50a0d3a46
-workflow-type: ht
-source-wordcount: '585'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,9 @@ Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 �
 
 >[!NOTE]
 >
->**[!UICONTROL 요청]** 및 **[!UICONTROL 나에게 할당됨]** 알림 범주의 경우 알림 범주를 구독한 다음 콘텐츠를 구독할 필요가 없습니다. 요청을 생성한 경우와 사용자에게 작업이 할당된 경우에는 자동으로 알림이 전송됩니다.
+>* **[!UICONTROL 요청]** 및 **[!UICONTROL 나에게 할당됨]** 알림 범주의 경우 알림 범주를 구독한 다음 콘텐츠를 구독할 필요가 없습니다. 요청을 생성한 경우와 사용자에게 작업이 할당된 경우에는 자동으로 알림이 전송됩니다.
+>* Assets Essentials은 다른 사용자가 구독한 컨텐츠에 대해 작업을 수행할 때만 알림을 보냅니다. 구독한 컨텐츠에서 수행하는 작업에 대한 알림을 받지 않습니다.
+
 
 콘텐츠를 구독하려면 구독해야 하는 폴더, 에셋 또는 컬렉션을 선택한 다음 **[!UICONTROL 보기]**&#x200B;를 클릭합니다.
 

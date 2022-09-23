@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## 보고서 액세스 {#access-reports}
 
-[Assets Essentials 관리자 제품 프로필](deploy-administer.md)에 할당된 모든 사용자는 라이브 통계 대시보드에 액세스하고 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
+에 할당된 모든 사용자 [Assets Essentials 관리자 제품 프로필](deploy-administer.md) 에서는 라이브 통계 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
 
 ## 라이브 통계 보기 {#view-live-statistics}
 
@@ -44,6 +44,9 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 1. **[!UICONTROL 폴더 경로 선택]** 필드를 사용하여 보고서를 실행할 에셋을 구성하는 폴더 경로를 선택합니다.
 
 1. 보고서의 날짜 간격을 선택합니다.
+   >[!NOTE]
+   >
+   > Assets Essentials은 모든 로컬 시간대를 UTC(Coordinated Universal Time)로 변환합니다.
 
 1. [!UICONTROL 열] 탭에서 보고서에 표시해야 하는 열 이름을 선택합니다.
 
@@ -73,7 +76,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
      </tr>
      <tr>
       <td>크기</td>
-      <td>에셋의 크기입니다.</td>
+      <td>자산의 크기(바이트)입니다.</td>
      </tr>
      <tr>
       <td>다운로드한 사람</td>
@@ -171,7 +174,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 
 ## 기존 보고서 보기 {#view-report-list}
 
-[보고서 생성](#create-report) 후 기존 보고서 목록을 보고 선택하여 CSV 형식으로 다운로드하거나 삭제할 수 있습니다.
+[보고서 생성](#create-download-report) 후 기존 보고서 목록을 보고 선택하여 CSV 형식으로 다운로드하거나 삭제할 수 있습니다.
 
 보고서 목록을 보려면 **[!UICONTROL 설정]** > **[!UICONTROL 보고서]**&#x200B;로 이동합니다.
 
@@ -190,7 +193,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 
 1. 보고서를 선택하고 **[!UICONTROL CSV 다운로드]**&#x200B;를 클릭합니다.
 
-선택한 보고서가 CSV 형식으로 다운로드됩니다. CSV 보고서에 표시되는 열은 [보고서를 생성](#create-report)할 때 선택한 열에 따라 다릅니다.
+선택한 보고서가 CSV 형식으로 다운로드됩니다. CSV 보고서에 표시되는 열은 [보고서를 생성](#create-download-report)할 때 선택한 열에 따라 다릅니다.
 
 ## 보고서 삭제 {#delete-report}
 
@@ -199,3 +202,5 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 보고서]**&#x200B;로 이동합니다.
 
 1. 보고서를 선택하고 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+
+1. 클릭 **[!UICONTROL 삭제]** 다시 확인합니다.
