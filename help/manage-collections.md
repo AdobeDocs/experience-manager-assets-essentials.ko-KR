@@ -3,15 +3,15 @@ title: 컬렉션 관리
 description: 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # 컬렉션 관리 {#manage-collections}
 
-컬렉션은 Adobe Experience Manager Assets Essentials 내의 자산, 폴더 또는 기타 컬렉션 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
+컬렉션은 Adobe Experience Manager Assets Essentials 내의 에셋, 폴더 또는 기타 컬렉션 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 
 폴더와 달리 컬렉션에는 서로 다른 위치의 에셋이 포함될 수 있습니다.
 
@@ -67,7 +67,7 @@ You can share collections with various users that are assigned different levels 
 
 컬렉션에 에셋을 추가하려면:
 
-1. 클릭 **[!UICONTROL 자산]** 왼쪽 레일에서 컬렉션에 추가해야 하는 자산을 선택합니다.
+1. 왼쪽 레일에서 **[!UICONTROL 에셋]**&#x200B;을 클릭한 다음 컬렉션을 추가해야 하는 에셋을 선택합니다.
 
 1. **[!UICONTROL 컬렉션에 추가]**&#x200B;를 클릭합니다.
 
@@ -89,7 +89,7 @@ You can share collections with various users that are assigned different levels 
 
 ## 스마트 컬렉션 관리 {#manage-smart-collection}
 
-검색 결과를 스마트 컬렉션으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. 스마트 컬렉션을 만드는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 자산이 있는 경우 스마트 컬렉션을 열 때 스마트 컬렉션의 콘텐츠가 자동으로 업데이트됩니다.
+검색 결과를 스마트 컬렉션으로 저장하여 컬렉션 콘텐츠를 동적으로 업데이트합니다. 스마트 컬렉션을 생성하는 동안 정의된 검색 기준에 맞는 Assets Essentials 저장소에 추가된 에셋이 있는 경우 스마트 컬렉션을 열면 해당 스마트 컬렉션의 콘텐츠가 자동으로 업데이트됩니다.
 
 ### 스마트 컬렉션 만들기 {#create-smart-collection}
 
@@ -149,7 +149,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 1. 왼쪽 레일에서 **[!UICONTROL 컬렉션]**&#x200B;을 클릭하고 컬렉션을 선택한 다음 **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 기본]** 탭을 사용하여 컬렉션 메타데이터를 봅니다.
-1. 필요에 따라 메타데이터 필드를 수정합니다. 을 수정할 수 있습니다 [!UICONTROL 제목] 및 [!UICONTROL 설명] 필드.
+1. 필요에 따라 메타데이터 필드를 수정합니다. [!UICONTROL 제목] 및 [!UICONTROL 설명] 필드를 수정할 수 있습니다.
 
 ![컬렉션 메타데이터](assets/collection-metadata.png)
 
