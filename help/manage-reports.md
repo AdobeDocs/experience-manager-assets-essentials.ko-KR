@@ -3,9 +3,9 @@ title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 ## 보고서 액세스 {#access-reports}
 
-에 할당된 모든 사용자 [Assets Essentials 관리자 제품 프로필](deploy-administer.md) 에서는 라이브 통계 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
+[Assets Essentials 관리자 제품 프로필](deploy-administer.md)에 할당된 모든 사용자는 라이브 통계 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
 
 ## 라이브 통계 보기 {#view-live-statistics}
 
@@ -46,7 +46,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 1. 보고서의 날짜 간격을 선택합니다.
    >[!NOTE]
    >
-   > Assets Essentials은 모든 로컬 시간대를 UTC(Coordinated Universal Time)로 변환합니다.
+   > Assets Essentials는 모든 현지 시간대를 UTC(협정 세계시)로 변환합니다.
 
 1. [!UICONTROL 열] 탭에서 보고서에 표시해야 하는 열 이름을 선택합니다.
 
@@ -76,7 +76,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
      </tr>
      <tr>
       <td>크기</td>
-      <td>자산의 크기(바이트)입니다.</td>
+      <td>에셋의 크기입니다(바이트).</td>
      </tr>
      <tr>
       <td>다운로드한 사람</td>
@@ -111,7 +111,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 
 ## 업로드 보고서 만들기 {#create-upload-report}
 
-업로드 보고서를 만들려면 다음을 수행하십시오.
+업로드 보고서를 만들려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 보고서]**&#x200B;로 이동한 다음 **[!UICONTROL 보고서 만들기]**&#x200B;를 클릭합니다.
 
@@ -203,4 +203,4 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 
 1. 보고서를 선택하고 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
-1. 클릭 **[!UICONTROL 삭제]** 다시 확인합니다.
+1. 삭제를 확인하려면 **[!UICONTROL 삭제]**&#x200B;를 다시 클릭합니다.
