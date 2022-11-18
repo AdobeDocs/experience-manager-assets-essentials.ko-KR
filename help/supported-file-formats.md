@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 다양한 사용 사례에 대해 지
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: e8791aab7c99e020921bdd65ed3d579bb11ffd6b
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 99%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 100%
 
 | 에셋 유형 | [찾아보기](/help/navigate-view.md) | 복사 | [업로드](/help/add-delete.md) | 만들기 | [삭제](/help/add-delete.md#delete-assets) | 세부 사항 | 이미지 확대/축소 | [최근에 본 항목](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| 래스터 이미지 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| RAW 파일 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| 폴더 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
-| MP4 비디오 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
-| PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD, AI 및 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
-| 기타 바이너리 파일 | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
+| 래스터 이미지 | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| RAW 파일 | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| 폴더 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
+| MP4 비디오 | ✓ | ✓ | ✓ | - | ✓ | ✓ ‡ | - | ✓ |
+| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| PSD, AI 및 INDD | ✓ | ✓ | ✓ | - | ✓ | ✓ ‡ | - | ✓ |
+| 기타 바이너리 파일 | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
@@ -57,13 +57,13 @@ ht-degree: 100%
 | 에셋 유형 | [다운로드](/help/manage-organize.md#download) | 드래그 앤 드롭 | [이미지 편집기](/help/edit-images.md) | [검색](/help/search.md) | [스마트 태그](/help/metadata.md#tags) | [이름 변경](/help/manage-organize.md) | [버전](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | 래스터 이미지 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RAW 파일 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 폴더 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
-| 비디오 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| CC Libraries | − | − | − | − | − | ✓ | ✓ |
-| PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSD, AI 및 INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| 기타 바이너리 파일 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| RAW 파일 | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 폴더 | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
+| 비디오 | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| CC Libraries | - | - | - | - | - | ✓ | ✓ |
+| PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| PSD, AI 및 INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| 기타 바이너리 파일 | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
 
 
 ## 에셋 검토 및 공동 작업 {#support-to-review-collaborate}
@@ -72,12 +72,20 @@ ht-degree: 100%
 |---------------|----------|----------|-------------------------|
 | 래스터 이미지 | ✓ | ✓ | ✓ |
 | RAW 파일 | ✓ | ✓ | ✓ |
-| 폴더 | − | − | − |
-| 비디오 | − | ✓ | ✓ |
-| CC Libraries | − | − | − |
-| PDF | − | ✓ | ✓ |
-| PSD, AI 및 INDD | − | ✓ | ✓ |
-| 기타 바이너리 파일 | − | ✓ | ✓ |
+| 폴더 | - | - | - |
+| 비디오 | - | ✓ | ✓ |
+| CC Libraries | - | - | - |
+| PDF | - | ✓ | ✓ |
+| PSD, AI 및 INDD | - | ✓ | ✓ |
+| 기타 바이너리 파일 | - | ✓ | ✓ |
+| DOC | - | ✓ | ✓ |
+| DOCX | - | ✓ | ✓ |
+| PPT | - | ✓ | ✓ |
+| PPTX | - | ✓ | ✓ |
+| XLS | - | ✓ | ✓ |
+| XLSX | - | ✓ | ✓ |
+| TXT | - | ✓ | ✓ |
+| RTF | - | ✓ | ✓ |
 
 ## 기타 에셋 관리 작업 {#support-to-manage-assets}
 
@@ -85,12 +93,12 @@ ht-degree: 100%
 |---------------|-------------------|------------|----------|----------|----------|
 | 래스터 이미지 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | RAW 파일 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 폴더 | ✓ | − | ✓ | ✓ | ✓ |
-| 비디오 | ✓ | − | ✓ | ✓ | ✓ |
-| CC Libraries | ✓ | − | − | − | − |
-| PDF | ✓ | − | ✓ | ✓ | ✓ |
-| PSD, AI 및 INDD | ✓ | − | ✓ | ✓ | ✓ |
-| 기타 바이너리 파일 | ✓ | − | ✓ | ✓ | ✓ |
+| 폴더 | ✓ | - | ✓ | ✓ | ✓ |
+| 비디오 | ✓ | - | ✓ | ✓ | ✓ |
+| CC Libraries | ✓ | - | - | - | - |
+| PDF | ✓ | - | ✓ | ✓ | ✓ |
+| PSD, AI 및 INDD | ✓ | - | ✓ | ✓ | ✓ |
+| 기타 바이너리 파일 | ✓ | - | ✓ | ✓ | ✓ |
 
 [!DNL Adobe Asset Link] 사용자는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 애플리케이션에서 [!DNL Assets Essentials] 저장소에 파일을 업로드하고 체크인(새 버전 업로드)할 수 있습니다.
 
@@ -115,6 +123,6 @@ ht-degree: 100%
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
