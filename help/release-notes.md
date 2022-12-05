@@ -5,21 +5,21 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2022년 11월 17일에 릴리스됩니다.
+Assets Essentials의 현재 릴리스는 2022년 11월 17일에 출시되었습니다.
 
-이 릴리스는 다음을 제공합니다.
+이 릴리스에는 다음과 같은 사항이 포함됩니다.
 
-**Document Cloud 뷰어를 사용하여 문서 미리 보기**
+**Document Cloud 뷰어를 사용하여 문서 미리보기**
 
-이제 Assets Essentials에서 지원되는 다른 형식 유형으로 문서를 업로드하고 포함된 Document Cloud 뷰어를 사용하여 미리 볼 수 있습니다. 지원되는 형식 유형에는 TXT, RTF, DOC, DOCX, PPT, PPTX, XLS 및 XLSX가 있습니다.
+이제 Assets Essentials를 사용하여 지원되는 다른 형식 유형의 문서를 업로드할 수 있으며 포함된 Document Cloud 뷰어를 사용하여 미리보기가 가능합니다. 지원되는 형식 유형은 TXT, RTF, DOC, DOCX, PPT, PPTX, XLS, XLSX입니다.
 
 <!--
 
@@ -38,9 +38,9 @@ You can easily synchronize the user groups available on the external identity ma
 -->
 
 
-**새 메타데이터 저장 옵션**
+**새로운 메타데이터 저장 옵션**
 
-이제 Assets Essentials 사용자 인터페이스에서 메타데이터 저장 옵션을 사용하여 메타데이터 거버넌스를 향상시킬 수 있습니다.
+더 나은 메타데이터 거버넌스를 위해 Assets Essentials 사용자 인터페이스에서 새로운 메타데이터 저장 옵션을 사용할 수 있습니다.
 
 **고객 피드백을 기반으로 한 개선 사항**
 
@@ -65,9 +65,9 @@ You can easily synchronize the user groups available on the external identity ma
 
 ### 2022.8.0 {#august-2022}
 
-8월 릴리스 [!DNL Assets Essentials] 는 2022년 8월 22일에 릴리스됩니다.
+[!DNL Assets Essentials]의 8월 릴리스는 2022년 8월 22일에 출시되었습니다.
 
-이 릴리스는 다음을 제공합니다.
+이 릴리스에는 다음과 같은 사항이 포함됩니다.
 
 **컬렉션에 대한 알림**
 
@@ -93,7 +93,7 @@ Assets Essentials는 이제 스마트 컬렉션을 만드는 동안 사용되는
 
 [!DNL Assets Essentials]의 6월 릴리스는 2022년 7월 14일에 출시되었습니다.
 
-이 릴리스는 다음을 제공합니다.
+이 릴리스에는 다음과 같은 사항이 포함됩니다.
 
 **스마트 컬렉션**
 
@@ -113,7 +113,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 [!DNL Assets Essentials]의 5월 릴리스는 2022년 6월 16일에 출시되었습니다.
 
-이 릴리스는 다음을 제공합니다.
+이 릴리스에는 다음과 같은 사항이 포함됩니다.
 
 **에셋 상태 개선 사항**
 
@@ -153,7 +153,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 ### 2022.4.0 {#april-2022}
 
-[!DNL Assets Essentials]의 최신 릴리스는 2022년 5월 12일에 출시되었습니다. 이 릴리스는 다음을 제공합니다.
+[!DNL Assets Essentials]의 최신 릴리스는 2022년 5월 12일에 출시되었습니다. 이 릴리스에는 다음과 같은 사항이 포함됩니다.
 
 * [!DNL Assets Essentials]는 이제 [컬렉션 생성](manage-collections.md)을 지원합니다. 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다. 폴더와 달리 컬렉션에는 서로 다른 위치의 에셋이 포함될 수 있습니다.
 
@@ -183,7 +183,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 * 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
 
-또한 패널 시작 시간 및 다운로드 속도에 대한 성능이 개선된 Creative Cloud용 [!DNL Adobe Asset Link] 확장 프로그램(Photoshop, Illustrator 및 InDesign)의 [신규 버전 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)가 릴리스되었습니다.
+또한 패널 시작 시간 및 다운로드 속도에 대한 성능이 개선된 Creative Cloud용 [!DNL Adobe Asset Link] 확장 기능(Photoshop, Illustrator 및 InDesign)의 [신규 버전 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)가 릴리스되었습니다.
 
 
 ### 2022.1.0 릴리스 {#january-2022}
@@ -210,7 +210,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 [!DNL Assets Essentials] 2021.7.0은 다음 업데이트와 함께 2021년 7월 29일에 출시됩니다.
 
-* [!DNL Settings] 아래 [!UICONTROL 메타데이터 양식] 옵션의 에셋 세부 정보 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 지정 메타데이터 양식을 만들고 관리할 수 있습니다. [메타데이터 양식](metadata.md#metadata-forms)을 참조하십시오.
+* [!DNL Settings] 아래 [!UICONTROL 메타데이터 양식] 옵션의 에셋 세부 정보 화면에서 사용자에게 메타데이터 속성을 표시하는 데 사용할 사용자 정의 메타데이터 양식을 만들고 관리할 수 있습니다. [메타데이터 양식](metadata.md#metadata-forms)을 참조하십시오.
 * 여러 하위 폴더가 있는 중첩 폴더를 업로드할 때의 성능 향상되는 등 다양한 버그 수정 및 제품 개선 사항이 있습니다.
 
 ### 2021.6.0 릴리스 {#june2021}
