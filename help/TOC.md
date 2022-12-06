@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 1d7055f95e051dd0dd8790a0e655344d99f8f24d
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+source-git-commit: 73a425d494b00650e917a98a35fd53e23cb2a4f1
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 91%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 100%
    + 액세스 폴더 관리{#folder-access}
       + [폴더 권한 관리](manage-permissions.md)
       + [권한 관리에 대한 모범 사례](permission-management-best-practices.md)
-   + 작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials에 대한 관리자 여정{#admin-journey}
-      + [관리자 여정 개요](assets-essentials-cc-pro-work-management-admin-journey.md)
-      + [Experience Manager Assets Essentials 관리](adminster-aem-assets-essentials.md)
-      + [Assets Essentials를 Creative Cloud 애플리케이션과 통합](integrate-assets-essentials-creative-cloud.md)
-      + [Adobe Workfront와 Assets Essentials 통합](integrate-assets-essentials-workfront.md)
+   + [작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials에 대한 관리자 여정](assets-essentials-cc-pro-work-management-admin-journey.md)
 + [ [!DNL Assets Essentials] 사용 시작하기](get-started.md)
 + [지원되는 파일 형식 및 사용 사례](supported-file-formats.md)
 + [에셋 보기](navigate-view.md)
@@ -43,5 +39,8 @@ ht-degree: 100%
 + [컬렉션 관리](manage-collections.md)
 + [알림 관리](manage-notifications.md)
 + [보고서 관리](manage-reports.md)
-+ [다른 솔루션과 통합](integration.md)
++ 다른 솔루션과 통합 {#integration-with-other-solutions}
+   + [개요](integration.md)
+   + [Enterprise용 Creative Cloud과 통합](integrate-with-creative-cloud.md)
+   + [Adobe Workfront과 통합](integrate-with-workfront.md)
 + [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=ko-KR)

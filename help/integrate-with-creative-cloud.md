@@ -1,8 +1,7 @@
 ---
 title: Assets Essentials를 Creative Cloud 애플리케이션과 통합
 description: Assets Essentials를 Creative Cloud 애플리케이션과 통합하여 Adobe Asset 링크 인앱 패널을 사용하여 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 애플리케이션 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다.
-exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
-source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
+source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -10,20 +9,6 @@ ht-degree: 0%
 ---
 
 # Assets Essentials를 Creative Cloud 애플리케이션과 통합 {#integrate-assets-essentials-creative-cloud-applications}
-
-![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-creative-cloud.png)
-
-## 지금까지의 스토리
-
-이 튜토리얼에서 [Experience Manager Assets Essentials를 구성](adminster-aem-assets-essentials.md)한 후에는 Creative Cloud 애플리케이션을 Assets Essentials와 통합하기 위한 경험을 빌드할 수 있습니다.
-
-## 목표
-
-* **대상**: Creative Cloud 관리자
-
-* **목표**: Assets Essentials를 Creative Cloud 애플리케이션과 통합하여 크리에이티브 사용자가 Adobe Asset 링크 인앱 패널을 사용하여 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 애플리케이션 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있도록 합니다.
-
-## 개요
 
 [Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 에셋에 대한 액세스 단계를 간소화하여 콘텐츠 속도를 높일 수 있습니다.
 
@@ -53,7 +38,7 @@ Creative Cloud용 Admin Console과 Experience Cloud용 Admin Console 간에 디�
 
 다른 Assets Essentials 제품 프로필(**[!DNL Assets Essentials]관리자** 및 **[!DNL Assets Essentials]소비자 사용자**)은 다양한 사용자 권한(애플리케이션 관리자 및 Experience Cloud 통합을 통해 Assets Essentials에 액세스하는 사용자)에 대해 사용됩니다.
 
-Assets Essentials 제품 프로필에 사용자를 할당하는 방법에 대한 자세한 내용은 [Assets Essentials 제품 프로필에 사용자 할당](adminster-aem-assets-essentials.md#add-users-to-product-profiles)을 참조하십시오.
+Assets Essentials 제품 프로필에 사용자를 할당하는 방법에 대한 자세한 내용은 [Assets Essentials 제품 프로필에 사용자 할당](deploy-administer.md#add-users-to-product-profiles)을 참조하십시오.
 
 ## Adobe Asset Link 설치 {#install-asset-link}
 
@@ -97,7 +82,3 @@ Adobe Asset Link를 통해 Assets Essentials 저장소에 저장된 에셋을 �
 * 버전 내역 및 파일 세부 정보 보기
 
 이러한 작업을 수행하는 방법에 대한 지침은 [Adobe Asset Link를 사용하여 에셋 관리](https://helpx.adobe.com/in/enterprise/using/manage-assets-using-adobe-asset-link.html)를 참조하십시오.
-
-## 다음 단계
-
-이제 Creative Cloud 애플리케이션과 Assets Essentials의 통합을 완료했으므로 [Adobe Workfront를 Experience Manager Assets Essentials와 통합](integrate-assets-essentials-workfront.md)해 보십시오.

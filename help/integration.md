@@ -4,9 +4,9 @@ description: “[!DNL Assets Essentials]는 다른 Adobe 솔루션과 통합되�
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
