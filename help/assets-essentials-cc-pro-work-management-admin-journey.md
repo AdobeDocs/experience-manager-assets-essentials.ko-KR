@@ -3,9 +3,9 @@ title: 작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essenti
 description: 이 튜토리얼에서는 Assets Essentials 애플리케이션을 Creative Cloud 데스크탑 애플리케이션 및 Adobe Workfront 애플리케이션과 통합할 수 있도록 하는 관리자 여정을 설명합니다. Creative Cloud 데스크탑 애플리케이션에는 Adobe Photoshop, Adobe Illustrator, Adobe InDesign 및 Adobe XD가 있습니다.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 * Adobe Workfront 및 Adobe Experience Manager Assets Essentials는 [Experience Cloud 솔루션에 대한 Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)에서 관리됩니다.
 
-Creative Cloud와 Assets Essentials 애플리케이션을 통합하려면 Creative Cloud용 Admin Console에서 사용 가능한 사용자를 Experience Cloud용 Admin Console에서 사용 가능하도록 해야 합니다. Experience Cloud Admin Console에서 사용자를 사용할 수 있도록 하려면 두 Admin Console 간에 [디렉터리 위임](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting)을 설정하는 디렉터리를 만듭니다.
+Creative Cloud와 Assets Essentials 애플리케이션을 통합하려면 Creative Cloud용 Admin Console에서 사용 가능한 사용자를 Experience Cloud용 Admin Console에서 사용 가능하도록 해야 합니다. Experience Cloud Admin Console에서 사용자를 사용할 수 있도록 하려면 두 Admin Console 간에 [디렉터리 위임](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html#directory-trusting)을 설정하는 디렉터리를 만듭니다.
 
 ![Creative Cloud 사용자](assets/creative-cloud-users.svg)
 
@@ -59,7 +59,7 @@ Documentation Journey는 Assets Essentials를 처음 접할 수 있는 독자가
 
 Adobe Experience Manager Assets Essentials는 Adobe Experience Manager Assets의 가벼운 버전의 새로운 에디션입니다. Assets Essentials는 간소화되고 일관된 사용자 인터페이스로 통합된 에셋 관리 및 공동 작업 기능을 제공합니다. 사용 편의성을 통해 보다 창의적인 작업을 수행할 수 있으며 마케팅 팀에서 디지털 에셋을 저장하고, 검색하고, 배포할 수 있습니다.
 
-Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프로비저닝합니다. 프로비저닝의 일부로서, Assets Essentials은 Adobe Admin Console에서 고객의 조직에 추가됩니다.
+Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프로비저닝합니다. 프로비저닝의 일부로 Assets Essentials는 Adobe Admin Console에서 고객의 조직에 추가됩니다.
 
 관리자는 Admin Console을 사용하여 Assets Essentials 제품에 대한 사용자 권한을 관리합니다.
 
