@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Assets Essentials를 사용하면 라이브 통계 대시보드를 사용하여 
 
 ![에셋 선택 시 도구 모음 옵션](assets/assets-essentials-live-statistics.png)
 
-자동으로 생성된 다음 차트를 보려면 **[!UICONTROL 설정]** > **[!UICONTROL 라이브 통계]**&#x200B;로 이동합니다.
+클릭 **[!UICONTROL 라이브 통계]** 왼쪽 탐색 창에서 다음 자동 생성된 차트를 볼 수 있습니다.
 
 * **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 에셋 수를 선 차트로 표시합니다.
 
