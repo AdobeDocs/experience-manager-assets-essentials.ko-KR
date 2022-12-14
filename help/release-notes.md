@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
-workflow-type: ht
-source-wordcount: '1401'
-ht-degree: 100%
+source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,16 @@ You can easily synchronize the user groups available on the external identity ma
 **고객 피드백을 기반으로 한 개선 사항**
 
 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+**Adobe Asset Link 버전 3.3**
+
+[Adobe 자산 링크](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link.html) 버전 3.3은 2022년 12월 13일에 출시되고 다음과 같은 기능이 있습니다.
+
+* 지원 대상 [팀을 위한 Creative Cloud](https://www.adobe.com/creativecloud/business/teams.html) 지원 외에 [엔터프라이즈 Creative Cloud](https://www.adobe.com/creativecloud/business/enterprise.html) 이전
+
+* 최신 Adobe InDesign, Photoshop 및 Illustrator 2023 애플리케이션을 지원합니다.
+
+* 프록시 서버가 있는 환경에서 Adobe Asset Link CEP 플러그인 사용을 지원합니다.
 
 ## 알려진 문제 {#known-issues}
 
