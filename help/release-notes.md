@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Assets Essentials의 현재 릴리스는 2022년 11월 17일에 출시되었습�
 
 **Document Cloud 뷰어를 사용하여 문서 미리보기**
 
-이제 Assets Essentials를 사용하여 지원되는 다른 형식 유형의 문서를 업로드할 수 있으며 포함된 Document Cloud 뷰어를 사용하여 미리보기가 가능합니다. 지원되는 형식 유형은 TXT, RTF, DOC, DOCX, PPT, PPTX, XLS, XLSX입니다.
+이제 Assets Essentials를 사용하여 지원되는 다른 포맷 유형의 문서를 업로드할 수 있으며 포함된 Document Cloud 뷰어를 사용하여 미리보기가 가능합니다. 지원되는 포맷 유형은 TXT, RTF, DOC, DOCX, PPT, PPTX, XLS, XLSX입니다.
 
 <!--
 
@@ -48,9 +48,9 @@ You can easily synchronize the user groups available on the external identity ma
 
 **Adobe Asset Link 버전 3.3**
 
-[Adobe 자산 링크](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link.html) 버전 3.3은 2022년 12월 13일에 출시되고 다음과 같은 기능이 있습니다.
+[Adobe Asset Link](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link.html) 버전 3.3은 2022년 12월 13일에 출시되었으며, 다음과 같은 기능이 포함되어 있습니다.
 
-* 지원 대상 [팀을 위한 Creative Cloud](https://www.adobe.com/creativecloud/business/teams.html) 지원 외에 [엔터프라이즈 Creative Cloud](https://www.adobe.com/creativecloud/business/enterprise.html) 이전
+* 이전의 [Creative Cloud for enterprise](https://www.adobe.com/kr/creativecloud/business/enterprise.html)에 대한 지원과 더불어 이제 [Creative Cloud for teams](https://www.adobe.com/kr/creativecloud/business/teams.html)도 지원합니다.
 
 * 최신 Adobe InDesign, Photoshop 및 Illustrator 2023 애플리케이션을 지원합니다.
 
@@ -67,7 +67,7 @@ You can easily synchronize the user groups available on the external identity ma
 -->
 
 
-* 개인 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
 
 문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
 
@@ -175,7 +175,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 #### Chrome의 시크릿 모드 {#incognito-mode}
 
-이 릴리스에서는 브라우저의 로컬 저장소 및 사용 가능한 서드파티 쿠키에 따라 Assets Essentials의 UI 전달 성능 및 특정 기능(에셋 댓글 달기 및 이미지 편집)을 최적화하고 있습니다. Chrome 웹 브라우저의 시크릿 모드는 기본적으로 서드파티 쿠키를 차단합니다. 사용자는 모든 기능에 계속 액세스할 수 있는 여러 가지 옵션을 사용할 수 있습니다.
+이 릴리스에서는 브라우저의 로컬 저장소 및 사용 가능한 서드파티 쿠키에 따라 Assets Essentials의 UI 게재 성능 및 특정 기능(에셋 댓글 달기 및 이미지 편집)을 최적화하고 있습니다. Chrome 웹 브라우저의 시크릿 모드는 기본적으로 서드파티 쿠키를 차단합니다. 사용자는 모든 기능에 계속 액세스할 수 있는 여러 가지 옵션을 사용할 수 있습니다.
 
 * 사용자가 브라우저 세션을 분리해야 하는 경우 시크릿 모드 대신 Chrome 프로필 사용
 
