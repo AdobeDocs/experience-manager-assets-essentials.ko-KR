@@ -3,10 +3,10 @@ title: 사용자 관리
 description: ' [!DNL Assets Essentials]에서의 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 9818d06d8da806190c61aadeecd50a7c65b31cbe
-workflow-type: ht
-source-wordcount: '1331'
-ht-degree: 100%
+source-git-commit: 6d36813bff1dd99f9185935605a10012c7865a50
+workflow-type: tm+mt
+source-wordcount: '1342'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ Admin Console을 사용하여 다음과 같은 사용자 권한 부여 작업을
 
 ### Assets Essentials 애플리케이션 관리자 생성 {#create-assets-essentials-administrator}
 
-Admin Console 관리자는 Assets Essentials 애플리케이션 관리자를 추가하여 폴더 구조 생성, 에셋 업로드, 권한 설정, 메타데이터 양식 설정 및 공개 컬렉션 생성과 같은 작업을 관리해야 합니다. Assets Essentials 애플리케이션 관리자 프로필에 사용자 또는 사용자 그룹을 할당하는 방법에 대한 자세한 내용은 [제품 프로필에 사용자 추가](#add-users-to-product-profiles)를 참조하십시오.
+Admin Console 관리자는 사용자 그룹이 아닌 사용자를 Assets Essentials 관리자 제품 프로필에 추가해야 합니다. 그런 다음 Assets Essentials 애플리케이션 관리자는 폴더 구조 만들기, 자산 업로드, 권한 설정, 메타데이터 양식 설정 및 공개 컬렉션 만들기와 같은 작업을 관리할 수 있습니다. Assets Essentials 응용 프로그램 관리자 프로필에 사용자를 할당하는 방법에 대한 내용은 [제품 프로필에 사용자 추가](#add-users-to-product-profiles).
 
 ### 사용자 그룹 추가 {#add-user-groups}
 
