@@ -3,10 +3,10 @@ title: 사용자 관리
 description: ' [!DNL Assets Essentials]에서의 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 6d36813bff1dd99f9185935605a10012c7865a50
+source-git-commit: c7b863aa81337293454199e72f705e53f05a5130
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 94%
+source-wordcount: '1344'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ Admin Console을 사용하여 다음과 같은 사용자 권한 부여 작업을
 
 ### Assets Essentials 애플리케이션 관리자 생성 {#create-assets-essentials-administrator}
 
-Admin Console 관리자는 사용자 그룹이 아닌 사용자를 Assets Essentials 관리자 제품 프로필에 추가해야 합니다. 그런 다음 Assets Essentials 애플리케이션 관리자는 폴더 구조 만들기, 자산 업로드, 권한 설정, 메타데이터 양식 설정 및 공개 컬렉션 만들기와 같은 작업을 관리할 수 있습니다. Assets Essentials 응용 프로그램 관리자 프로필에 사용자를 할당하는 방법에 대한 내용은 [제품 프로필에 사용자 추가](#add-users-to-product-profiles).
+Admin Console 관리자는 Assets Essentials 관리자 제품 프로필을 사용자 그룹이 아니라 사용자에게 추가해야 합니다. 그런 다음 Assets Essentials 애플리케이션 관리자는 폴더 구조 만들기, 자산 업로드, 권한 설정, 메타데이터 양식 설정 및 공개 컬렉션 만들기와 같은 작업을 관리할 수 있습니다. 사용자에게 Assets Essentials 응용 프로그램 관리자 프로파일을 할당하는 방법에 대한 내용은 [사용자 그룹에 제품 프로필 추가](#add-product-profiles-to-user-groups).
 
 ### 사용자 그룹 추가 {#add-user-groups}
 
@@ -51,11 +51,11 @@ Admin Console 관리자는 사용자 그룹이 아닌 사용자를 Assets Essent
 
 사용자 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html#add-users-to-groups)에서 `Add users to groups`를 추가하십시오.
 
-### 제품 프로필에 사용자 그룹 추가 {#add-users-to-product-profiles}
+### 사용자 그룹에 제품 프로필 추가 {#add-product-profiles-to-user-groups}
 
-Assets Essentials 애플리케이션에 액세스할 수 있도록 제품 프로필에 사용자 그룹을 추가합니다.
+사용자 그룹에 제품 프로필을 추가하여 Assets Essentials 애플리케이션에 액세스할 수 있습니다.
 
-제품 프로필에 사용자 그룹을 추가하는 방법:
+사용자 그룹에 제품 프로필을 추가하려면
 
 1. 조직의 [Admin Console](https://adminconsole.adobe.com)에 액세스하고 상단 막대에서 **[!UICONTROL 제품]**&#x200B;을 클릭하고 **[!UICONTROL AEM Assets Essentials]**&#x200B;를 클릭한 다음 [!DNL Assets Essentials]의 인스턴스를 클릭합니다. 인스턴스 이름은 아래 스크린샷과 다를 수 있습니다.
    >[!NOTE]
