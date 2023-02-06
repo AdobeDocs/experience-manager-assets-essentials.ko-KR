@@ -2,10 +2,10 @@
 title: 에셋으로의 링크 공유 방법
 description: 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 다른 사용자와 에셋을 공유할 수 있습니다.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 98%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 100%
 
 1. 이를 조정하려면 [캘린더] 아이콘을 클릭한 다음 **[!UICONTROL 만료일]** 필드를 사용하여 해당 링크에 대한 만료일을 정의하십시오. `yyyy-mm-dd` 형식으로 날짜를 직접 지정할 수도 있습니다. 링크에 대한 기본적으로 만료일은 공유일로부터 2주로 설정되어 있습니다.
 
-1. **[!UICONTROL 링크 생성]**&#x200B;을 클릭합니다.
-
-1. **[!UICONTROL 링크 복사]**&#x200B;를 클릭하여 링크를 복사합니다. **[!UICONTROL 링크 공유]** 필드에서 링크를 복사할 수도 있습니다.
+1. 에서 링크를 복사합니다. **[!UICONTROL 링크 공유]** 필드.
 
    ![자르기 및 펴기 옵션](assets/share-asset-link.png)
 
@@ -49,6 +47,6 @@ ht-degree: 100%
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의

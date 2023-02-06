@@ -4,16 +4,62 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: ht
-source-wordcount: '1471'
-ht-degree: 100%
+source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
+workflow-type: tm+mt
+source-wordcount: '1690'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2022년 11월 17일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2023년 1월 27일에 릴리스됩니다.
+
+이 릴리스에는 다음과 같은 사항이 포함됩니다.
+
+**구성 가능한 위젯이 있는 내 작업 공간**
+
+이제 Assets은 사용자 정의된 작업 공간을 제공하므로 자산 사용자 인터페이스의 주요 영역과 가장 관련이 있는 정보에 편리하게 액세스할 수 있는 원스톱 솔루션 역할을 합니다. 이러한 옵션에 더 빨리 액세스하면 프로젝트의 컨텐츠 속도와 효율성을 높일 수 있습니다.
+
+내 작업 공간에는 예정된 새로운 기능, 통찰력, 작업 및 컨텐츠에 대한 위젯이 포함되어 있습니다. 환경 설정에 따라 작업 공간에 이러한 위젯이 표시되는 방식을 구성할 수 있습니다.
+
+**전용 작업 관리 UI**
+
+이제 Assets Essentials을 사용하여 현재 사용자에게 할당되고, 사용자가 만들었으며, 사용자가 이미 완료한 중앙 위치에서 새 작업을 사용할 수 있습니다 **[!UICONTROL 작업]** 옵션은 왼쪽 탐색 창에서 사용할 수 있습니다. 승인 또는 거부할 작업을 선택하거나 승인, 거부, 편집 또는 삭제할 작업 세부 사항을 열어 적절한 작업을 수행할 수도 있습니다.
+
+![작업 공간의 작업](assets/tasks-workspace.png)
+
+**자산을 공유하기 위해 자동 생성된 링크**
+
+이제 Assets Essentials 사용자 인터페이스를 사용하여 자산을 공유하도록 선택하는 즉시 링크가 자동으로 생성됩니다. 만료 날짜를 변경하더라도 생성된 링크는 유효한 상태로 유지됩니다.
+
+![작업 공간의 작업](assets/share-asset.png)
+
+
+**고객 피드백을 기반으로 한 개선 사항**
+
+고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+## 알려진 문제 {#known-issues}
+
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+
+문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
+
+## 이전 릴리스 {#past-releases}
+
+### 2022.11.0 {#november-2022}
+
+11월 릴리스 [!DNL Assets Essentials] 는 2022년 11월 17일에 릴리스됩니다.
 
 이 릴리스에는 다음과 같은 사항이 포함됩니다.
 
@@ -55,23 +101,6 @@ You can easily synchronize the user groups available on the external identity ma
 * 최신 Adobe InDesign, Photoshop 및 Illustrator 2023 애플리케이션을 지원합니다.
 
 * 프록시 서버가 있는 환경에서 Adobe Asset Link CEP 플러그인 사용을 지원합니다.
-
-## 알려진 문제 {#known-issues}
-
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
-
-문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
-
-## 이전 릴리스 {#past-releases}
 
 ### 2022.8.0 {#august-2022}
 
