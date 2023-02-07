@@ -6,8 +6,8 @@ contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: b264c9cdff39f75dce31976add8621a33bc72e4b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1262'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 태그 {#tags}
 
-[!DNL Assets Essentials]는 [Adobe Sensei](https://www.adobe.com/sensei.html)에서 제공되는 인공 지능을 사용하여 업로드된 모든 에셋에 관련 태그를 자동으로 적용합니다. 스마트 태그라고 명명된 이들 태그는 관련 에셋을 빠르게 찾을 수 있도록 지원하여 프로젝트의 콘텐츠 속도를 높입니다. 스마트 태그는 이미지에 포함되지 않은 메타데이터의 예입니다.
+[!DNL Assets Essentials]는 [Adobe Sensei](https://www.adobe.com/kr/sensei.html)에서 제공되는 인공 지능을 사용하여 업로드된 모든 에셋에 관련 태그를 자동으로 적용합니다. 스마트 태그라고 명명된 이들 태그는 관련 에셋을 빠르게 찾을 수 있도록 지원하여 프로젝트의 콘텐츠 속도를 높입니다. 스마트 태그는 이미지에 포함되지 않은 메타데이터의 예입니다.
 
 스마트 태그는 실시간에 가까운 속도로 적용되며 이미지의 내용을 기반으로 생성됩니다. 에셋을 업로드할 때 사용자 인터페이스는 에셋 썸네일에 잠시 동안 [!UICONTROL 처리 중]을 표시합니다. 처리가 완료되면 스마트 태그와 [메타데이터를 볼 수 있습니다](#view-metadata).
 
@@ -102,7 +102,7 @@ MIME 하위 유형 > MIME 유형 > `default` 양식 > 기본 제공 양식
 1. 필요한 경우 각 탭에 더 많은 탭과 필수 구성 요소를 추가합니다.
 1. 양식이 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-단계 시퀀스를 보려면 이 비디오를 시청하십시오.
+이 비디오를 통해 일련의 단계를 살펴보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/341275)
 
