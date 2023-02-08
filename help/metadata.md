@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 에셋의 메타데이터 관리'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
+source-git-commit: 260eb904240652d174cc29bacfe92b03699305d0
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 95%
+source-wordcount: '1252'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 업로드된 모든 에셋에 [!DNL Assets Essentials]에서 자동으로 추가하는 태그를 [!UICONTROL 스마트 태그] 섹션에서 제거할 수도 있습니다.
 
-## 메타데이터 Forms {#metadata-forms}
+## 메타데이터 양식 설정 {#metadata-forms}
 
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
