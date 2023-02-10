@@ -3,9 +3,9 @@ title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 92%
 
 ## 보고서 액세스 {#access-reports}
 
-에 할당된 모든 사용자 [Assets Essentials 관리자 제품 프로필](deploy-administer.md) 은 Assets Essentials 대시보드에 액세스하거나 사용자 정의 보고서를 만들 수 있습니다.
+[Assets Essentials 관리자 제품 프로필](deploy-administer.md)에 할당된 모든 사용자는 [인사이트] 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
 
-## 통찰력 보기 {#view-live-statistics}
+## 인사이트 보기 {#view-live-statistics}
 
-Assets Essentials을 사용하면 인사이트 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
+Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
 
 ![에셋 선택 시 도구 모음 옵션](assets/assets-essentials-live-statistics.png)
 
-클릭 **[!UICONTROL Insights]** 왼쪽 탐색 창에서 다음 자동 생성된 차트를 볼 수 있습니다.
+자동 생성된 다음과 같은 차트를 보려면 왼쪽 탐색 창에 있는 **[!UICONTROL 인사이트]**&#x200B;를 클릭하십시오.
 
 * **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 에셋 수를 선 차트로 표시합니다.
 
