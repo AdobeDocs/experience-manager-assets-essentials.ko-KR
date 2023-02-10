@@ -3,9 +3,9 @@ title: 에셋으로의 링크 공유 방법
 description: 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 다른 사용자와 에셋을 공유할 수 있습니다.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
 source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 1. 이를 조정하려면 [캘린더] 아이콘을 클릭한 다음 **[!UICONTROL 만료일]** 필드를 사용하여 해당 링크에 대한 만료일을 정의하십시오. `yyyy-mm-dd` 형식으로 날짜를 직접 지정할 수도 있습니다. 링크에 대한 기본적으로 만료일은 공유일로부터 2주로 설정되어 있습니다.
 
-1. 에서 링크를 복사합니다. **[!UICONTROL 링크 공유]** 필드.
+1. **[!UICONTROL 링크 공유]** 필드에서 링크를 복사합니다.
 
    ![자르기 및 펴기 옵션](assets/share-asset-link.png)
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 ## 다음 단계 {#next-steps}
 
-* [Asset Essentials의 에셋에 대한 링크를 공유하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+* [Assets Essentials의 에셋에 대한 링크를 공유하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
