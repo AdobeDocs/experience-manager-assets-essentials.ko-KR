@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 + [솔루션 개요](introduction.md)
 + [릴리스 정보](release-notes.md)
-+ [내 작업 공간](my-workspace.md)
++ [내 작업 영역](my-workspace.md)
 + 관리자를 위한 Assets Essentials 시작하기 {#get-started-admins}
    + [관리 및 사용자 추가](deploy-administer.md)
    + 액세스 폴더 관리{#folder-access}
