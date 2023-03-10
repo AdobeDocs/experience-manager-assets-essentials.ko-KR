@@ -3,9 +3,9 @@ title: 사용자 관리
 description: ' [!DNL Assets Essentials]에서의 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: c7b863aa81337293454199e72f705e53f05a5130
-workflow-type: ht
-source-wordcount: '1344'
+source-git-commit: 07537aea39140f649d17353430a505c36e971aea
+workflow-type: tm+mt
+source-wordcount: '1329'
 ht-degree: 100%
 
 ---
@@ -154,7 +154,7 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 에셋 배포에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=ko-KR)
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
