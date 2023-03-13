@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 에셋 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 126d0c9921d109a4ac487203aa6bbcdcaf16b003
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: f63cbffbbc6acc37a1a08f28cbdc4cee7f66d883
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 94%
 
 ---
 
@@ -127,9 +127,9 @@ Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
 
 메타데이터 및 에셋 유형에 대한 특정 기준에 따라 검색 결과를 필터링할 수도 있습니다. 자주 사용하는 필터의 경우 검색 경험을 개선하기 위해 [!DNL Assets Essentials]을 사용하여 검색 매개변수를 저장할 수 있습니다. 그런 다음 저장된 검색을 선택하여 한 번의 클릭으로 필터를 검색하고 적용할 수 있습니다.
 
-저장된 검색을 생성하려면 일부 에셋을 검색하고 하나 이상의 필터를 적용한 다음 [!UICONTROL 필터] 패널에서 [!UICONTROL 검색 저장]을 클릭하십시오.
+저장된 검색을 생성하려면 일부 에셋을 검색하고 하나 이상의 필터를 적용한 다음 를 클릭합니다 **[!UICONTROL 다른 이름으로 저장]** > **[!UICONTROL 저장한 검색 결과]** 다음에서 [!UICONTROL 필터] 패널. 다음을 클릭할 수도 있습니다. **[!UICONTROL 다른 이름으로 저장]** 및 선택 **[!UICONTROL 스마트 컬렉션]** 를 클릭하여 결과를 스마트 컬렉션으로 저장합니다. 다음을 참조하십시오 [스마트 컬렉션 만들기](manage-collections.md#create-a-smart-collection) 을 참조하십시오.
 
-![필터 패널에서 저장된 검색](assets/saved-search.png)
+![스마트 컬렉션 만들기](assets/create-smart-collection.png)
 
 <!-- TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
 Report poor UX that users can only save a filtered search and not a simple search.
