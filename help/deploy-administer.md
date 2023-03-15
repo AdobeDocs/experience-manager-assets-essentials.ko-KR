@@ -3,10 +3,10 @@ title: 사용자 관리
 description: ' [!DNL Assets Essentials]에서의 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 07537aea39140f649d17353430a505c36e971aea
-workflow-type: ht
-source-wordcount: '1329'
-ht-degree: 100%
+source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
+workflow-type: tm+mt
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,8 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 사용자 그
 
    * **[!DNL Assets Essentials]사용자**&#x200B;는 전체 사용자 인터페이스에 액세스할 수 있습니다. 이들 사용자는 디지털 에셋을 업로드하고, 구성하고, 태그를 지정하고, 찾을 수 있습니다.
 
-   * **[!DNL Assets Essentials]소비자 사용자**: [!DNL Adobe Journey Optimizer] 이메일 템플릿 편집기에서 임베드된 에셋 선택 환경에 액세스할 수 있습니다. 자세한 내용은 [ [!DNL Journey Optimizer]에서 [!DNL Assets Essentials] 사용](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ko-KR)을 참조하십시오.
+   * **[!DNL Assets Essentials]소비자 사용자** Assets Essentials에서 찾기, 미리 보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 자산을 찾아 선택하고 Workfront 내에서 사용할 자산을 찾아 선택할 수도 있습니다.
+자세한 내용은 [다른 솔루션과 통합](integration.md)을 참조하십시오.
 
    ![Admin Console 관리자 프로필](assets/admin-console-admin-profile.png)
 
