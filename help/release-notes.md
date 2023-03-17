@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: f06e3a5db2c91e6778ea196fdc69293d1b2732e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Assets Essentials의 현재 릴리스는 2023년 1월 27일에 출시되었습니다.
 
-이 릴리스의 기능 목록은 다음과 같습니다.
+릴리스의 기능 목록에는 다음이 포함됩니다.
 
 **구성 가능한 위젯이 포함된 내 작업 영역**
 
@@ -114,7 +114,7 @@ You can easily synchronize the user groups available on the external identity ma
 
 **스마트 컬렉션 편집**
 
-Assets Essentials는 이제 스마트 컬렉션을 만드는 동안 사용되는 검색 기준을 편집하는 기능도 제공합니다. 컬렉션 콘텐츠를 동적으로 업데이트하려면 새 검색 기준을 저장하십시오.
+Assets Essentials는 이제 스마트 컬렉션을 만드는 동안 사용되는 검색 기준을 편집하는 기능도 제공합니다.  컬렉션 콘텐츠를 동적으로 업데이트하려면 새 검색 기준을 저장하십시오.
 
 **스토리지 계정에 대한 실시간 통계 보기**
 
