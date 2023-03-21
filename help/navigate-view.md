@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 사용자 인터페이스”
 description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색을 이해합니다.'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 * **에셋**: 액세스 권한이 있는 트리 보기의 모든 폴더 목록입니다.
 * **최근에 본 항목**: 최근에 미리 본 에셋 목록입니다. [!DNL Assets Essentials] 미리 보는 에셋만 표시됩니다. 저장소 파일 또는 폴더를 탐색할 때 스크롤한 에셋은 표시되지 않습니다.
-* **휴지통**:
+* **휴지통**: 루트에서 삭제된 자산 나열 **[!UICONTROL 자산]** 폴더를 입력합니다. 휴지통 폴더에서 자산을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -107,7 +107,7 @@ Other use cases after previewing.
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
-* [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록]을 사용하여 문서 피드백을 제공하고 오른쪽 사이드바에서 사용 가능한 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
