@@ -4,18 +4,22 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: f06e3a5db2c91e6778ea196fdc69293d1b2732e5
-workflow-type: ht
-source-wordcount: '1695'
-ht-degree: 100%
+source-git-commit: 472bf55c17d3915b657d3309e2e0a6e54bf49172
+workflow-type: tm+mt
+source-wordcount: '1733'
+ht-degree: 96%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 1월 27일에 출시되었습니다.
+현재 Assets Essentials 릴리스는 2023년 3월 30일에 릴리스됩니다.
 
-릴리스의 기능 목록에는 다음이 포함됩니다.
+최근에 추가된 기능 목록은 다음과 같습니다.
+
+**일괄 에셋 메타데이터 편집**
+
+벌크 메타데이터 업데이트를 사용하면 여러 자산에 대한 공통 메타데이터 업데이트를 동시에 수행할 수 있습니다. 레코드를 개별적으로 업데이트할 필요가 없으며 검색, 폴더 및 컬렉션을 통해 액세스되는 자산에 속성을 빠르게 적용할 수 있습니다.
 
 **구성 가능한 위젯이 포함된 내 작업 영역**
 
