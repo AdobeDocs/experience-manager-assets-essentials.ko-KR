@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 472bf55c17d3915b657d3309e2e0a6e54bf49172
+source-git-commit: aefa3e0c76a4b92b00ff069655297387cfe733b0
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 최근에 추가된 기능 목록은 다음과 같습니다.
 
-**일괄 에셋 메타데이터 편집**
+**자산 메타데이터에 대한 벌크 업데이트**
 
 벌크 메타데이터 업데이트를 사용하면 여러 자산에 대한 공통 메타데이터 업데이트를 동시에 수행할 수 있습니다. 레코드를 개별적으로 업데이트할 필요가 없으며 검색, 폴더 및 컬렉션을 통해 액세스되는 자산에 속성을 빠르게 적용할 수 있습니다.
 
