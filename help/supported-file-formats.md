@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 다양한 사용 사례에 대해 지
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: e8791aab7c99e020921bdd65ed3d579bb11ffd6b
-workflow-type: ht
+source-git-commit: 93c6c273e2ad82237b29f93bc42d090f219e6c79
+workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,8 @@ ht-degree: 100%
 | 비디오 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | CC Libraries | − | − | − | − | − | ✓ | ✓ |
 | PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSD, AI 및 INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| AI 및 INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | 기타 바이너리 파일 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
 
