@@ -2,14 +2,14 @@
 title: 알림 관리
 description: Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 에셋 또는 폴더에서 수행된 작업을 모니터링합니다.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: c48ec7f5bfa1e449f461e73c5f3b725d52d9b1d1
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 99%
 
 ---
 
-# 알림 관리 {#manage-notifications}
+# 자산, 폴더 및 컬렉션 보기 {#watch-assets-folders}
 
 Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 에셋, 폴더 또는 컬렉션에서 수행된 작업을 모니터링할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
 
