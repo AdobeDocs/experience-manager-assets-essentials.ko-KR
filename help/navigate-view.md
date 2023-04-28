@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 사용자 인터페이스”
 description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색을 이해합니다.'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 63%
 
 ---
 
@@ -22,19 +22,17 @@ ht-degree: 100%
 
 [!DNL Assets Essentials]에 로그인하면 다음 인터페이스가 표시됩니다.
 
-<!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
+![[!DNL Assets Essentials] 사용자 인터페이스](assets/essentials-interface.png)
 
-![[!DNL Assets Essentials] 사용자 인터페이스](assets/essentials-interface1.png)
-
-*그림: 로그인 후 첫 번째로 표시되는 화면 및 핵심 기능의 위치*
-    *A: 왼쪽 사이드바를 통해 저장소를 탐색하고 몇 가지 기타 옵션에 액세스*
-    *B: 왼쪽 사이드바를 펼치거나 접고 에셋 보기 영역 늘리기*
+    *A: 저장소를 찾아보고 기타 몇 가지 옵션에 액세스할 수 있는 왼쪽 사이드바*
+    *B: 왼쪽 사이드바를 표시하거나 축소하여 자산 보기 영역을 늘립니다*
     *C: 검색 결과 필터링*
-    *D: 검색 상자*
-    *E: 에셋 정렬 옵션*
-    *F: 제품 피드백 제공*
-    *G: 사용자 환경 설정 편집 또는 로그아웃*
-    *H: 다양한 보기 간 전환*
+    *D: 선택한 폴더의 모든 컨텐츠를 선택합니다*
+    *E: 자산 정렬 옵션*
+    *F: 검색 상자*
+    *G: 을 사용하여 파일 업로드 또는 드래그 앤 드롭 `Add Assets` 버튼*
+    *H: 새 폴더 만들기*
+    *I: 다른 보기 간 전환*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -42,9 +40,15 @@ ht-degree: 100%
 
 메인 사용자 인터페이스 또는 왼쪽 사이드바에서 폴더를 검색할 수 있습니다. 검색할 때 인터페이스를 사용하여 에셋 썸네일을 보고 저장소를 시각적으로 탐색하거나 에셋 세부 사항을 보고 필요한 에셋을 빠르게 찾을 수 있습니다. 왼쪽 사이드바에서 사용할 수 있는 옵션은 다음과 같습니다.
 
-* **에셋**: 액세스 권한이 있는 트리 보기의 모든 폴더 목록입니다.
+* [내 작업 공간](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): 이제 자산에는 자산 사용자 인터페이스의 주요 영역과 가장 관련이 있는 정보에 편리하게 액세스할 수 있는 위젯을 제공하는 사용자 지정 가능한 작업 공간이 포함되어 있습니다. 이 페이지는 작업 항목에 대한 개요 및 주요 워크플로에 대한 빠른 액세스를 제공하는 종합적인 솔루션 역할을 합니다. 이러한 옵션에 보다 편리하게 액세스하면 효율성과 콘텐츠 속도가 향상됩니다.
+* [작업](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): 아래에서 자신에게 할당된 작업을 볼 수 있습니다 **내 작업** 탭. 반면에 사용자가 만든 작업은 아래에서 볼 수 있습니다 **할당된 작업** 탭. 또한 완료된 작업은 **완료된 작업** 탭.
+* [에셋](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en): 액세스 권한이 있는 트리 보기의 모든 폴더 목록입니다.
 * **최근에 본 항목**: 최근에 미리 본 에셋 목록입니다. [!DNL Assets Essentials] 미리 보는 에셋만 표시됩니다. 저장소 파일 또는 폴더를 탐색할 때 스크롤한 에셋은 표시되지 않습니다.
-* **휴지통**: 루트 **[!UICONTROL Assets]** 폴더에서 삭제된 에셋을 나열합니다. 휴지통 폴더에서 에셋을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다.
+* [컬렉션](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko): 컬렉션은 Adobe Experience Manager Assets Essentials 내의 자산, 폴더 또는 기타 컬렉션 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다. 폴더와 달리 컬렉션에는 서로 다른 위치의 에셋이 포함될 수 있습니다. 사용자와 여러 컬렉션을 공유할 수 있습니다. 각 컬렉션에는 에셋에 대한 참조가 포함되어 있습니다. 에셋의 참조 무결성은 컬렉션에 간에 유지됩니다.
+
+* [Insights](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): in [!DNL Assets Essentials], 대시보드에서 실시간 통찰력을 볼 수 있습니다. Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
+* **휴지통**: 루트에서 삭제된 자산 나열 **[!UICONTROL 자산]** 폴더를 입력합니다. 휴지통 폴더에서 에셋을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다.
+* **설정**: 를 사용하여 다양한 Assets Essentials 옵션을 구성할 수 있습니다 **설정**, 메타데이터 양식, 보고서 및 분류 체계 관리 등
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -76,20 +80,25 @@ ht-degree: 100%
 
 에셋을 미리 보려면 에셋을 선택하고 상단의 도구 모음에서 [!UICONTROL 세부 정보] (![details icon](assets/do-not-localize/edit-in-icon.png))를 클릭합니다. 에셋을 볼 수 있을 뿐만 아니라 세부 메타데이터를 보고 다른 작업을 수행할 수도 있습니다.
 
-![에셋 미리보기](assets/preview-asset.png)
+![에셋 미리보기](assets/preview-asset-2.png)
 
-*A: 현재 폴더 또는 저장소의 현재 검색 결과로 돌아가기*
+*A: 저장소의 현재 폴더 또는 현재 검색 결과로 돌아갑니다*
 *B: 미리 보고 있는 파일의 이름 및 형식*
-*C: 기본 메타데이터*
+*C: 작업 할당*
+*D: 자산 다운로드*
+*E: 자산 미리 보기 및 메타데이터 정보 보기*
 *D: 고급 메타데이터*
 *E: 키워드 및 스마트 태그*
-*F: 에셋 미리보기 및 메타데이터 정보 확인*
-*G: 댓글 및 주석 달기*
+*F: 주석 및 주석 달기*
+*G: 선택한 자산과 관련된 작업 보기*
 *H: 버전 보기 및 관리*
-*I: 이미지 렌디션 보기*
+*I: 이미지의 표현물 보기*
 *J: 이미지 편집*
-*K: 자세히 미리보기 확대/축소, 전체 화면 및 기타 옵션*
-*L: 폴더로 돌아가지 않고 현재 폴더의 이전 또는 다음 에셋으로 진행*
+*K: 기본 메타데이터*
+*L: 고급 메타데이터*
+*M: 키워드 및 스마트 태그*
+*N: 자세히 미리 봅니다. 확대/축소, 전체 화면 및 기타 옵션*
+*O: 폴더로 돌아가지 않고 현재 폴더의 이전 또는 다음 자산으로 진행합니다*
 
 비디오를 미리 볼 수도 있습니다.
 
