@@ -2,7 +2,7 @@
 title: AEM Assets Essentials의 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 999d5106469d002deed3eccd689a802396dd42d4
+source-git-commit: 5ebfa8080b59bee3b7cf4c25056a778c821003f1
 workflow-type: tm+mt
 source-wordcount: '1691'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 # 폴더 권한 관리 {#manage-permissions}
 
 >[!CONTEXTUALHELP]
->id="assets_permissions_folders"
+>id="assets_workspace"
 >title="권한 관리"
 >abstract="[!DNL Assets Essentials]를 통해 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 관리자는 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다."
 
