@@ -1,8 +1,9 @@
 ---
 title: Assets Essentials를 Creative Cloud 애플리케이션과 통합
 description: Assets Essentials를 Creative Cloud 애플리케이션과 통합하여 Adobe Asset 링크 인앱 패널을 사용하여 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 애플리케이션 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다.
-source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
-workflow-type: ht
+exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
+source-git-commit: 6194a778133842d40c4ef2bc257eec8a34b0a481
+workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 100%
 

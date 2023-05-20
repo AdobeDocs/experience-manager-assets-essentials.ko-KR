@@ -1,7 +1,8 @@
 ---
 title: Adobe Workfront와 Assets Essentials 통합
 description: Assets Essentials를 Adobe Workfront 애플리케이션과 통합하면 Workfront 애플리케이션 내에서 Assets Essentials 저장소에 액세스할 수 있습니다.
-source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
+exl-id: 9605fa3a-d454-48b5-9f84-b384eb1ad493
+source-git-commit: 6194a778133842d40c4ef2bc257eec8a34b0a481
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
