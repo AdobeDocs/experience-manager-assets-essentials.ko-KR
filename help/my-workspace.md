@@ -2,10 +2,10 @@
 title: Assets용 내 작업 영역
 description: 내 작업 영역은 Assets 사용자 인터페이스의 주요 영역과 사용자와 가장 관련성이 높은 정보에 편리하게 액세스할 수 있도록 사용자 정의 가능한 시각적 모듈을 제공하는 페이지입니다.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 7234af017de7e5d5ebf31e8855a322d846c3a389
+source-git-commit: e6c6a7ee20fca5e87f521708fb7ddec453131e40
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 89%
 
 ---
 
@@ -53,6 +53,8 @@ Highlights upcoming features for Assets.
 **콘텐츠**
 
 최근에 본 에셋 목록을 포함하여 다양한 에셋 보기를 표시합니다. 목록 보기, 격자 보기, 갤러리 보기 또는 워터폴 보기의 위젯에 에셋을 표시하고 에셋을 이름, 크기 및 수정일별로 정렬할 수 있습니다. 에셋을 선택하여 에셋 세부 정보를 보거나 최근 본 에셋 목록에서 제거할 수도 있습니다.
+
+다음 **[!UICONTROL 상위 다운로드]** 탭에는 Assets Essentials 환경에서 가장 많이 다운로드한 자산 중 상위 10개가 표시됩니다. 목록 보기 또는 그리드 보기에서 에셋을 표시하도록 선택할 수 있습니다. 두 보기 모두 각 에셋에 대한 형식 유형 및 다운로드 수를 표시합니다. 에셋을 선택하고 을(를) 클릭합니다 **[!UICONTROL 세부 사항]** 속성을 확인합니다.
 
 ![작업 영역의 콘텐츠 위젯](assets/workspace-content.png)
 
