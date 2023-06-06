@@ -3,14 +3,14 @@ title: ' [!DNL Assets Essentials] 사용 시작하기'
 description: ' [!DNL Assets Essentials]의 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 알려진 문제'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+source-git-commit: a95f0cba350d0c766fefb90609aba5a3f50e9d0f
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# [!DNL Experience Manager Assets Essentials] 사용 시작하기 {#assets-essentials-get-started}
+# [!DNL Adobe Experience Manager Assets Essentials] 사용 시작하기 {#assets-essentials-get-started}
 
 <!-- TBD: Make links for these steps. -->
 
