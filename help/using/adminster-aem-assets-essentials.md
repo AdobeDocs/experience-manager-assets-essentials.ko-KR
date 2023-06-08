@@ -3,7 +3,7 @@ title: Experience Manager Assets Essentials 관리
 description: Admin Console을 사용하여 Assets Essentials 애플리케이션에 대한 액세스를 구성한 다음 Assets Essentials 애플리케이션에 로그인하고 수행할 수 있는 작업을 관리합니다.
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1399'
 ht-degree: 100%
 
