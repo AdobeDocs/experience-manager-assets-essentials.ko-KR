@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 9b05b9cec106b426038d53d195516a1c616a07a1
+source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 87%
+source-wordcount: '2044'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Assets Essentials의 최신 릴리스는 2023년 6월 22일에 출시되었습니다.
 
-기능 목록은 다음과 같습니다.
+릴리스에 포함된 기능 목록은 다음과 같습니다.
 
 
 **보다 빠른 검색 경험을 위한 자산의 계층적 태그 지정**
