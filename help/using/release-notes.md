@@ -4,7 +4,7 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: d6737d903b8010e2a3b7434584a7aae0d7bc68bd
+source-git-commit: 9b05b9cec106b426038d53d195516a1c616a07a1
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 87%
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 최신 릴리스는 2023년 6월 8일에 출시되었습니다.
+Assets Essentials의 최신 릴리스는 2023년 6월 22일에 출시되었습니다.
 
 기능 목록은 다음과 같습니다.
 
