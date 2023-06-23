@@ -4,16 +4,77 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: d6737d903b8010e2a3b7434584a7aae0d7bc68bd
+workflow-type: tm+mt
+source-wordcount: '2040'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 5월 24일에 공개되었습니다.
+Assets Essentials의 최신 릴리스는 2023년 6월 8일에 출시되었습니다.
+
+기능 목록은 다음과 같습니다.
+
+
+**보다 빠른 검색 경험을 위한 자산의 계층적 태그 지정**
+
+통제된 어휘의 단순 목록은 시간이 지남에 따라 관리할 수 없게 됩니다. 이제 Assets Essentials이 계층 구조 태그 지정 구조를 지원하므로 관련 메타데이터 적용, 에셋 분류, 검색 지원, 태그 재사용, 검색 기능 개선 등이 용이해집니다.
+
+![태그 지정 관리](assets/tags-hierarchy.png)
+
+**빠른 액세스를 위해 파일, 폴더 및 컬렉션 고정**
+
+이제 파일, 폴더 및 컬렉션을 고정하여 나중에 필요할 때 이러한 항목에 더 빨리 액세스할 수 있습니다. 고정 항목이 **빠른 액세스** 내 작업 영역의 섹션에 있는 마지막 항목이 될 필요가 없습니다. 저장소 내에 저장된 위치로 이동하지 않고 내 작업 영역을 사용하여 액세스할 수 있습니다.
+
+![작업 영역의 작업](assets/quick-access.png)
+
+**휴지통 폴더에서 자산 필터링**
+
+이제 Assets Essentials을 사용하여 휴지통 폴더에서 사용할 수 있는 자산을 필터링할 수 있습니다. 표준 또는 사용자 지정 필터를 적용하여 휴지통 폴더 내의 적절한 자산을 검색하여 복원하거나 영구적으로 삭제할 수 있습니다.
+
+**3D 자산에 대한 축소판 미리 보기**
+
+이제 Assets Essentials은 gLB, USDz, FBX, 3DS, OBJ 및 SBSAR을 포함한 일반적인 3D 파일 형식에 대한 썸네일 미리보기를 생성합니다. 이러한 파일이 Assets Essentials에 업로드되면 기본적으로 시스템에 의해 썸네일이 자동으로 생성됩니다.
+
+![작업 영역의 작업](assets/3d-preview.png)
+
+**인기 검색어 보기**
+
+이제 Assets Essentials은 를 사용하여 Assets Essentials 배포 내에서 가장 많이 검색된 용어 보기를 지원합니다. **Insights** 내 작업 영역의 섹션에 있는 마지막 항목이 될 필요가 없습니다. 또한 자세한 인사이트 로 이동하여 지난 30일 또는 12개월 동안의 상위 검색을 볼 수 있습니다.
+
+![작업 영역의 작업](assets/insights-top-searches.png)
+
+**메타데이터 양식 개선 사항**
+
+이제 Assets Essentials을 사용하여 메타데이터 양식에 다중 값 텍스트 및 드롭다운 목록 속성 구성 요소를 추가할 수 있습니다.
+
+
+**고객 피드백을 기반으로 한 개선 사항**
+
+고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+## 알려진 문제 {#known-issues}
+
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+
+* 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+
+문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
+
+## 이전 릴리스 {#past-releases}
+
+### 2023년의 다중 릴리스 {#multiple-releases-2023}
 
 최근에 추가된 기능 목록은 다음과 같습니다.
 
@@ -47,25 +108,6 @@ Assets Essentials의 현재 릴리스는 2023년 5월 24일에 공개되었습�
 **고객 피드백을 기반으로 한 개선 사항**
 
 고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
-
-## 알려진 문제 {#known-issues}
-
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
-
-* 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
-
-문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
-
-## 이전 릴리스 {#past-releases}
 
 ### 2022.11.0 {#november-2022}
 
@@ -253,7 +295,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 [!DNL Assets Essentials] 2021.8.0은 다음 업데이트와 함께 2021년 8월 30일에 출시됩니다.
 
-* [!DNL Adobe Workfront]와의 통합을 통해 [!DNL Workfront] 사용자가 작업 관리의 맥락에서 디지털 자산을 관리할 수 있습니다. 자세한 내용은 [다른 Adobe 솔루션과 통합](/help/using/integration.md)을 참조하십시오.
+* [!DNL Adobe Workfront]와의 통합을 통해 [!DNL Workfront] 사용자가 작업 관리의 맥락에서 디지털 자산을 관리할 수 있습니다.
 
 ### 2021.7.0 릴리스 {#july2021}
 
@@ -269,4 +311,4 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 * 중첩된 폴더를 포함하여 자산을 업로드하고 추가합니다. 자산 및 버전을 미리 봅니다.
 * 전체 텍스트 검색, 정밀한 검색 필터 및 저장된 검색을 통해 빠른 자산 검색을 수행할 수 있습니다.
 * 메타데이터 업데이트, 삭제, 다운로드 및 관리와 같은 기본 자산 관리 작업을 지원합니다.
-* [!DNL Assets Essentials]는 [!DNL Adobe Journey Optimizer] 사용자가 메시지를 작성할 때 자산을 관리하는 데 사용할 수 있습니다. 자세한 내용은 [다른 Adobe 솔루션과 통합](/help/using/integration.md)을 참조하십시오.
+* [!DNL Assets Essentials]는 [!DNL Adobe Journey Optimizer] 사용자가 메시지를 작성할 때 자산을 관리하는 데 사용할 수 있습니다. 
