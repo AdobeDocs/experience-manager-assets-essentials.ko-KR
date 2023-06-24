@@ -1,14 +1,17 @@
 ---
 title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
-source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
+source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '305'
+ht-degree: 7%
 
 ---
 
+
 # 자산 보기 소개 {#assets-view}
+
+![Assets Essentials 배포](assets/banner-image.jpg)
 
 실시간 콘텐츠 생성 및 전달이 필수적인 오늘날 디지털 중심의 빠른 환경에서는 다운스트림 마케팅 속도를 위해 설계된 DAM(디지털 에셋 관리) 경험이 무엇보다 중요합니다. Adobe은 마케팅 및 크리에이티브 전문가에게 권한을 부여하는 전문 지식을 활용하여 획기적인 새로운 Assets 보기 사용자 경험을 도입합니다. 이 워크플로우 우선 접근 방식은 기업이 동적 디지털 자산을 처리하는 방식을 혁신하여 마케터가 자산을 검색, 공동 작업, 개인화 및 전달하는 효율성을 극대화할 수 있도록 합니다. 이러한 간소화된 워크플로는 콘텐츠 속도를 가속화하고 마케팅 활동을 새로운 수준으로 향상시킵니다.
 
