@@ -1,10 +1,10 @@
 ---
 title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
-source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
+source-git-commit: 839c85efa1ba91db5644c7463ff269b6b06f69a1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 7%
+source-wordcount: '412'
+ht-degree: 6%
 
 ---
 
@@ -46,5 +46,10 @@ ht-degree: 7%
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
+## 효율성 향상을 위한 검색 우선 접근 방식
+
+최첨단 기능을 갖춘 검색의 힘으로 조직의 디지털 에셋 라이브러리의 잠재력을 최대한 활용하십시오. 수작업으로 수많은 파일과 폴더를 뒤지는 번거로움에 작별을 고할 수 있습니다. 모든 사용자는 멋진 마케팅 캠페인, 매력적인 프레젠테이션 및 매력적인 콘텐츠를 만드는 데 필요한 완벽한 이미지, 비디오 또는 문서를 즉시 찾을 수 있습니다. 당사의 검색 첫 번째 엔진을 사용하면 정확한 키워드를 알지 못하면서 자산 유형, 메타데이터, 스마트 태그 및 컨텐츠 자체까지 간편하게 탐색할 수 있습니다. Search-First를 통해 DAM의 미래를 수용하고 디지털 에셋 라이브러리의 모든 가능성을 최대한 활용하십시오.
+
+![Assets Essentials 배포](assets/search-first.gif)
 
 
