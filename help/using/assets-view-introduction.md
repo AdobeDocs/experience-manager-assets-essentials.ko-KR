@@ -1,7 +1,7 @@
 ---
 title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
-source-git-commit: 9d14827d10d2bae34b19a318aac1cc0820e81f35
+source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 다양한 조직 역할의 다양한 요구 사항을 이해하는 디지털 에셋 관리 솔루션에 대해 인사해 보십시오. 매끄러운 새 Assets 보기는 사용 편의성과 속도를 우선시하며 시각적 매력과 깔끔한 작업 공간에 대한 마케터의 선호도를 충족시킵니다. 마케터는 사용자 정의 가능한 사용자별 My Workspace 대시보드를 사용하여 탁월한 효율성으로 에셋을 빠르게 찾고, 미리 보고, 편집하고, 관리하고, 제공할 수 있습니다. 특정 자산을 찾는 데 오랜 시간이 소요된 것과 작별을 고하고 필요한 모든 것을 손쉽게 사용할 수 있는 간소화된 경험을 환영하십시오.
 
-![Assets Essentials 배포](assets/workspace.gif)
+![Assets Essentials 배포](assets/experiment.gif)
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
