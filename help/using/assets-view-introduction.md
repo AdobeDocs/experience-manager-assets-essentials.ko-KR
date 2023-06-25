@@ -3,7 +3,7 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: 836f4524bde739614cca0595e7aace5f7674a954
+source-git-commit: 1ff1ced0910f1b2ca18e9130b07a399da1ccf27f
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 8%
@@ -65,6 +65,8 @@ ht-degree: 8%
 ## 공동 작업 시간 단축 {#accelerate-collaboration}
 
 새로운 경험은 내장된 Adobe Photoshop 기능, 버전 제어 및 주석 도구를 사용한 실시간 편집을 포함하여 강력한 협업 기능 세트를 제공합니다. 이를 통해 디자인, 크리에이티브, 브랜딩 및 마케팅 팀 간의 원활한 협업이 가능하므로 병목 현상을 극복하고 마케팅 운영 프로세스를 신속하게 진행할 수 있습니다. 이제 마케팅 담당자는 프로젝트 제공 시간을 단축하고 전반적인 생산성을 높일 수 있는 강력한 툴을 보유하게 되었습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
 
 
