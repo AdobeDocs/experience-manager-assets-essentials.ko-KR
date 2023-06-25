@@ -3,10 +3,10 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: b26a7698152998cc6353924eb7d2698315c9da16
+source-git-commit: 2378e09a21dfa3c87964058bca38a3d6d2ead98f
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 6%
+source-wordcount: '505'
+ht-degree: 9%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 6%
 # 자산 보기 소개 {#assets-view}
 
 ![Assets Essentials 배포](assets/banner-image.jpg)
+
+![Assets Essentials 배포](assets/banner-image1.png)
 
 실시간 콘텐츠 생성 및 전달이 필수적인 오늘날 디지털 중심의 빠른 환경에서는 다운스트림 마케팅 속도를 위해 설계된 DAM(디지털 에셋 관리) 경험이 무엇보다 중요합니다. Adobe은 마케팅 및 크리에이티브 전문가에게 권한을 부여하는 전문 지식을 활용하여 획기적인 새로운 Assets 보기 사용자 경험을 도입합니다. 이 워크플로우 우선 접근 방식은 기업이 동적 디지털 자산을 처리하는 방식을 혁신하여 마케터가 자산을 검색, 공동 작업, 개인화 및 전달하는 효율성을 극대화할 수 있도록 합니다. 이러한 간소화된 워크플로는 콘텐츠 속도를 가속화하고 마케팅 활동을 새로운 수준으로 향상시킵니다.
 
@@ -53,5 +55,13 @@ ht-degree: 6%
 최첨단 기능을 갖춘 검색의 힘으로 조직의 디지털 에셋 라이브러리의 잠재력을 최대한 활용하십시오. 수작업으로 수많은 파일과 폴더를 뒤지는 번거로움에 작별을 고할 수 있습니다. 모든 사용자는 멋진 마케팅 캠페인, 매력적인 프레젠테이션 및 매력적인 콘텐츠를 만드는 데 필요한 완벽한 이미지, 비디오 또는 문서를 즉시 찾을 수 있습니다. 당사의 검색 첫 번째 엔진을 사용하면 정확한 키워드를 알지 못하면서 자산 유형, 메타데이터, 스마트 태그 및 컨텐츠 자체까지 간편하게 탐색할 수 있습니다. Search-First를 통해 DAM의 미래를 수용하고 디지털 에셋 라이브러리의 모든 가능성을 최대한 활용하십시오.
 
 ![Assets Essentials 배포](assets/search-first.gif)
+
+## 데이터 기반 결정을 위한 통찰력 {#insights-data}
+
+컨텐츠 속도에 발맞추기 위해서는 실행 가능한 통찰력이 필수적입니다. 새로운 자산 보기 경험은 내 작업 영역 내에서 고급 인사이트를 제공하며 자산 성능, 대상 사용 및 참여에 대한 중요한 데이터를 제공합니다. 마케터는 데이터 중심의 의사 결정을 내리고, 콘텐츠 전략을 최적화하고, 다운스트림 게재를 세분화하여 최적의 결과를 얻을 수 있습니다. 의미 있는 통찰력을 통해 기업이 경쟁에서 앞서나갈 수 있고 탁월한 결과를 이끌어낼 수 있습니다.
+
+![Assets Essentials 배포](assets/insights-overview.gif)
+
+[![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
 
