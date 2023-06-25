@@ -3,17 +3,15 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: 2378e09a21dfa3c87964058bca38a3d6d2ead98f
+source-git-commit: 1a7bb00371ae51159b8712156d852b5e107a3be6
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '502'
 ht-degree: 9%
 
 ---
 
 
 # 자산 보기 소개 {#assets-view}
-
-![Assets Essentials 배포](assets/banner-image.jpg)
 
 ![Assets Essentials 배포](assets/banner-image1.png)
 
