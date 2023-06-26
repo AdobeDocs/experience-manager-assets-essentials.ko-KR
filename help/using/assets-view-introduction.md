@@ -3,10 +3,10 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
+source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 15%
+source-wordcount: '1022'
+ht-degree: 12%
 
 ---
 
@@ -93,6 +93,16 @@ ht-degree: 15%
 ![일시 삭제](assets/soft-delete.gif)
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
+
+이러한 기능 외에도 에셋 보기를 사용하여 관리 보기에서 사용할 수 없는 다음 기능을 수행할 수 있습니다.
+
+* 로컬 파일 시스템에서 에셋 저장소로 다른 이름의 새 에셋 버전을 업로드합니다. 업로드한 에셋은 원본 에셋과 동일한 이름의 새 버전으로 사용할 수 있습니다.
+
+* 저장소 내에서 사용할 수 있는 에셋 및 폴더의 이름을 변경합니다.
+
+## 결론 {#conclusion}
+
+디지털 중심의 시대가 도래했으며, 진화하는 비즈니스 환경을 지원하기 위해 마케팅 도구를 혁신해야 할 때입니다. 새로운 Adobe Experience Manager Assets 자산 보기는 워크플로우를 간소화하고 공동 작업을 촉진하며 자산 전달을 가속화하도록 맞춤화되었습니다. 콘텐츠 속도를 수용하여 마케터는 디지털 에셋의 잠재력을 최대한 활용하고 이전과는 전혀 다른 창의력을 발휘할 수 있습니다. Adobe의 새로운 에셋 보기 경험을 활용하고 마케팅 캠페인에서 탁월한 결과를 도출해 보십시오. 이제 DAM의 미래를 수용하고 비즈니스를 발전시켜야 할 때입니다.
 
 
 
