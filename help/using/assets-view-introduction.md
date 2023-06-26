@@ -3,10 +3,10 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
+source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 12%
+source-wordcount: '773'
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 12%
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Adobe Photoshop Express 통합으로 공동 작업 가속화 {#accelerate-collaboration}
+## 공동 작업 가속화를 위한 Adobe Photoshop Express 통합 {#accelerate-collaboration}
 
 새로운 경험은 내장된 Adobe Photoshop 기능, 버전 제어 및 주석 도구를 사용한 실시간 편집을 포함하여 강력한 협업 기능 세트를 제공합니다. 이를 통해 디자인, 크리에이티브, 브랜딩 및 마케팅 팀 간의 원활한 협업이 가능하므로 병목 현상을 극복하고 마케팅 운영 프로세스를 신속하게 진행할 수 있습니다. 이제 마케팅 담당자는 프로젝트 제공 시간을 단축하고 전반적인 생산성을 높일 수 있는 강력한 툴을 보유하게 되었습니다.
 
@@ -70,13 +70,21 @@ ht-degree: 12%
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## 폴더 업로드를 사용한 빠른 계층 구조 설정 {#folder-uploads}
+## 폴더를 업로드하여 조직의 계층 구조를 설정합니다. {#folder-uploads}
 
 로컬 파일 시스템에 있는 폴더를 업로드하여 자산 보기를 사용하여 조직의 폴더 구조를 빠르게 설정합니다. 논리적 계층 구조를 유지하기 위해 루트 폴더 아래에 폴더를 만든 다음 자산을 해당 폴더에 수동으로 업로드할 필요가 없습니다. 루트 폴더 아래의 모든 폴더 및 에셋은 자동으로 Experience Manager Assets에 업로드됩니다.
 
-![Assets Essentials 배포](assets/folder-uploads.gif)
+![폴더 업로드](assets/folder-uploads.gif)
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
+
+## 알림을 수신할 콘텐츠 구독
+
+에셋 보기는 저장소에서 사용할 수 있는 에셋, 폴더 또는 컬렉션에서 수행된 작업을 모니터링하는 기능을 제공합니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 구독한 콘텐츠 삭제, 구독한 콘텐츠에 대한 수정 등과 같은 이벤트 유형을 구성할 수도 있습니다. 그런 다음 해당 이벤트 유형에 대해서만 알림이 전송됩니다.
+
+![알림 수신](assets/notifications.gif)
+
+[![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
 
 
