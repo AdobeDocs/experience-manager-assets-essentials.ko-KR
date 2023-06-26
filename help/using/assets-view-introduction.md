@@ -3,10 +3,10 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
+source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 9%
+source-wordcount: '677'
+ht-degree: 12%
 
 ---
 
@@ -73,6 +73,10 @@ ht-degree: 9%
 ## 폴더 업로드를 사용한 빠른 계층 구조 설정 {#folder-uploads}
 
 로컬 파일 시스템에 있는 폴더를 업로드하여 자산 보기를 사용하여 조직의 폴더 구조를 빠르게 설정합니다. 논리적 계층 구조를 유지하기 위해 루트 폴더 아래에 폴더를 만든 다음 자산을 해당 폴더에 수동으로 업로드할 필요가 없습니다. 루트 폴더 아래의 모든 폴더 및 에셋은 자동으로 Experience Manager Assets에 업로드됩니다.
+
+![Assets Essentials 배포](assets/folder-uploads.gif)
+
+[![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
 
 
