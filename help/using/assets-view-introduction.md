@@ -3,10 +3,10 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
+source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 14%
+source-wordcount: '861'
+ht-degree: 15%
 
 ---
 
@@ -78,13 +78,21 @@ ht-degree: 14%
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## 알림을 수신할 콘텐츠 구독
+## 효율적인 에셋 관리를 위해 저장소 콘텐츠 구독
 
 에셋 보기는 저장소에서 사용할 수 있는 에셋, 폴더 또는 컬렉션에서 수행된 작업을 모니터링하는 기능을 제공합니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 구독한 콘텐츠 삭제, 구독한 콘텐츠에 대한 수정 등과 같은 이벤트 유형을 구성할 수도 있습니다. 그런 다음 해당 이벤트 유형에 대해서만 알림이 전송됩니다.
 
 ![알림 수신](assets/notifications.gif)
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
+
+## 관리자에게 더 나은 제어 기능을 제공하기 위해 자산을 일시 삭제합니다. {#soft-delete-assets}
+
+자산 보기에서 사용할 수 있는 휴지통 폴더에는 루트 자산 폴더에서 삭제된 자산이 나열됩니다. 휴지통 폴더에서 자산을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다. 키워드를 지정하거나 표준 또는 사용자 지정 필터를 적용하여 휴지통 폴더 내의 적절한 자산을 검색할 수도 있습니다.
+
+![일시 삭제](assets/soft-delete.gif)
+
+[![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
 
 
 
