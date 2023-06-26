@@ -3,9 +3,9 @@ title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
 hidefromtoc: true
 hide: true
-source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
+source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 12%
 
 ---
@@ -65,6 +65,8 @@ ht-degree: 12%
 ## 공동 작업 가속화를 위한 Adobe Photoshop Express 통합 {#accelerate-collaboration}
 
 새로운 경험은 내장된 Adobe Photoshop 기능, 버전 제어 및 주석 도구를 사용한 실시간 편집을 포함하여 강력한 협업 기능 세트를 제공합니다. 이를 통해 디자인, 크리에이티브, 브랜딩 및 마케팅 팀 간의 원활한 협업이 가능하므로 병목 현상을 극복하고 마케팅 운영 프로세스를 신속하게 진행할 수 있습니다. 이제 마케팅 담당자는 프로젝트 제공 시간을 단축하고 전반적인 생산성을 높일 수 있는 강력한 툴을 보유하게 되었습니다.
+
+이 비디오를 통해 Adobe Photoshop Express과의 Assets 보기 통합의 힘에 대해 알아보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
