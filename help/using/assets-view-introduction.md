@@ -1,12 +1,13 @@
 ---
 title: 자산 보기 소개
 description: 에셋 보기의 새로운 기능
+mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
+source-git-commit: 138e8eaa8e4c0ff83c46e2b6a62e92740c87f366
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 12%
+source-wordcount: '1103'
+ht-degree: 11%
 
 ---
 
@@ -39,30 +40,35 @@ ht-degree: 12%
    * 클릭 **[!UICONTROL Experience Manager Assets]** 을 클릭하여 자산 보기에 액세스합니다.
    * 클릭 **[!UICONTROL Experience Manager Assets]** 을 클릭하여 자산 보기에 액세스합니다.
 
+## 자산 보기를 사용해야 하는 이유
 
-## 간소화된 경험을 제공하는 내 작업 영역 대시보드
+자산 보기는 관리자 보기에서 사용할 수 없는 다음과 같은 주요 이점을 제공합니다.
+
+* [간소화된 경험을 제공하는 내 작업 영역 대시보드](#my-workspace-for-streamlined-experience)
+* [효율성 향상을 위한 검색 우선 접근 방식](#search-first)
+* [데이터 기반 결정을 위한 통찰력](#insights-data)
+* [공동 작업 가속화를 위한 Adobe Photoshop Express 통합](#accelerate-collaboration)
+* [폴더를 업로드하여 조직의 계층 구조를 설정합니다.](#folder-uploads)
+* [효율적인 에셋 관리를 위해 저장소 콘텐츠 구독](#subscribe-content)
+* [관리자에게 더 나은 제어 기능을 제공하기 위해 자산을 일시 삭제합니다.](#soft-delete-assets)
+
+### 간소화된 경험을 제공하는 내 작업 영역 대시보드 {#my-workspace-for-streamlined-experience}
 
 다양한 조직 역할의 다양한 요구 사항을 이해하는 디지털 에셋 관리 솔루션에 대해 인사해 보십시오. 매끄러운 새 Assets 보기는 사용 편의성과 속도를 우선시하며 시각적 매력과 깔끔한 작업 공간에 대한 마케터의 선호도를 충족시킵니다. 마케터는 사용자 정의 가능한 사용자별 My Workspace 대시보드를 사용하여 탁월한 효율성으로 에셋을 빠르게 찾고, 미리 보고, 편집하고, 관리하고, 제공할 수 있습니다. 특정 자산을 찾는 데 오랜 시간이 소요된 것과 작별을 고하고 필요한 모든 것을 손쉽게 사용할 수 있는 간소화된 경험을 환영하십시오.
 
-![Assets Essentials 배포](assets/my-workspace-demo.gif)
+![내 작업 영역 개요](assets/my-workspace-demo.gif)
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
-## 효율성 향상을 위한 검색 우선 접근 방식
-
-최첨단 기능을 갖춘 검색의 힘으로 조직의 디지털 에셋 라이브러리의 잠재력을 최대한 활용하십시오. 수작업으로 수많은 파일과 폴더를 뒤지는 번거로움에 작별을 고할 수 있습니다. 모든 사용자는 멋진 마케팅 캠페인, 매력적인 프레젠테이션 및 매력적인 콘텐츠를 만드는 데 필요한 완벽한 이미지, 비디오 또는 문서를 즉시 찾을 수 있습니다. 당사의 검색 첫 번째 엔진을 사용하면 정확한 키워드를 알지 못하면서 자산 유형, 메타데이터, 스마트 태그 및 컨텐츠 자체까지 간편하게 탐색할 수 있습니다. Search-First를 통해 DAM의 미래를 수용하고 디지털 에셋 라이브러리의 모든 가능성을 최대한 활용하십시오.
-
-![Assets Essentials 배포](assets/search-first.gif)
-
-## 데이터 기반 결정을 위한 통찰력 {#insights-data}
+### 데이터 기반 결정을 위한 통찰력 {#insights-data}
 
 컨텐츠 속도에 발맞추기 위해서는 실행 가능한 통찰력이 필수적입니다. 새로운 자산 보기 경험은 내 작업 영역 내에서 고급 인사이트를 제공하며 자산 성능, 대상 사용 및 참여에 대한 중요한 데이터를 제공합니다. 마케터는 데이터 중심의 의사 결정을 내리고, 콘텐츠 전략을 최적화하고, 다운스트림 게재를 세분화하여 최적의 결과를 얻을 수 있습니다. 의미 있는 통찰력을 통해 기업이 경쟁에서 앞서나갈 수 있고 탁월한 결과를 이끌어낼 수 있습니다.
 
-![Assets Essentials 배포](assets/insights-overview.gif)
+![Insights 개요](assets/insights-overview.gif)
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## 공동 작업 가속화를 위한 Adobe Photoshop Express 통합 {#accelerate-collaboration}
+### 공동 작업 가속화를 위한 Adobe Photoshop Express 통합 {#accelerate-collaboration}
 
 새로운 경험은 내장된 Adobe Photoshop 기능, 버전 제어 및 주석 도구를 사용한 실시간 편집을 포함하여 강력한 협업 기능 세트를 제공합니다. 이를 통해 디자인, 크리에이티브, 브랜딩 및 마케팅 팀 간의 원활한 협업이 가능하므로 병목 현상을 극복하고 마케팅 운영 프로세스를 신속하게 진행할 수 있습니다. 이제 마케팅 담당자는 프로젝트 제공 시간을 단축하고 전반적인 생산성을 높일 수 있는 강력한 툴을 보유하게 되었습니다.
 
@@ -72,7 +78,7 @@ ht-degree: 12%
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## 폴더를 업로드하여 조직의 계층 구조를 설정합니다. {#folder-uploads}
+### 폴더를 업로드하여 조직의 계층 구조를 설정합니다. {#folder-uploads}
 
 로컬 파일 시스템에 있는 폴더를 업로드하여 자산 보기를 사용하여 조직의 폴더 구조를 빠르게 설정합니다. 논리적 계층 구조를 유지하기 위해 루트 폴더 아래에 폴더를 만든 다음 자산을 해당 폴더에 수동으로 업로드할 필요가 없습니다. 루트 폴더 아래의 모든 폴더 및 에셋은 자동으로 Experience Manager Assets에 업로드됩니다.
 
@@ -80,7 +86,13 @@ ht-degree: 12%
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## 효율적인 에셋 관리를 위해 저장소 콘텐츠 구독
+### 효율성 향상을 위한 검색 우선 접근 방식 {#search-first}
+
+최첨단 기능을 갖춘 검색의 힘으로 조직의 디지털 에셋 라이브러리의 잠재력을 최대한 활용하십시오. 수작업으로 수많은 파일과 폴더를 뒤지는 번거로움에 작별을 고할 수 있습니다. 모든 사용자는 멋진 마케팅 캠페인, 매력적인 프레젠테이션 및 매력적인 콘텐츠를 만드는 데 필요한 완벽한 이미지, 비디오 또는 문서를 즉시 찾을 수 있습니다. 당사의 검색 첫 번째 엔진을 사용하면 정확한 키워드를 알지 못하면서 자산 유형, 메타데이터, 스마트 태그 및 컨텐츠 자체까지 간편하게 탐색할 수 있습니다. Search-First를 통해 DAM의 미래를 수용하고 디지털 에셋 라이브러리의 모든 가능성을 최대한 활용하십시오.
+
+![먼저 검색](assets/search-first.gif)
+
+### 효율적인 에셋 관리를 위해 저장소 콘텐츠 구독 {#subscribe-content}
 
 에셋 보기는 저장소에서 사용할 수 있는 에셋, 폴더 또는 컬렉션에서 수행된 작업을 모니터링하는 기능을 제공합니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 구독한 콘텐츠 삭제, 구독한 콘텐츠에 대한 수정 등과 같은 이벤트 유형을 구성할 수도 있습니다. 그런 다음 해당 이벤트 유형에 대해서만 알림이 전송됩니다.
 
@@ -88,7 +100,7 @@ ht-degree: 12%
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
-## 관리자에게 더 나은 제어 기능을 제공하기 위해 자산을 일시 삭제합니다. {#soft-delete-assets}
+### 관리자에게 더 나은 제어 기능을 제공하기 위해 자산을 일시 삭제합니다. {#soft-delete-assets}
 
 자산 보기에서 사용할 수 있는 휴지통 폴더에는 루트 자산 폴더에서 삭제된 자산이 나열됩니다. 휴지통 폴더에서 자산을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다. 키워드를 지정하거나 표준 또는 사용자 지정 필터를 적용하여 휴지통 폴더 내의 적절한 자산을 검색할 수도 있습니다.
 
