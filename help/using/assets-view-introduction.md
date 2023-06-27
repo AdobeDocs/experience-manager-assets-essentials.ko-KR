@@ -4,9 +4,9 @@ description: 에셋 보기의 새로운 기능
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 138e8eaa8e4c0ff83c46e2b6a62e92740c87f366
+source-git-commit: 52ec2263e237e6c3b47dc967eb5cc3e6acbe814f
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1020'
 ht-degree: 11%
 
 ---
@@ -22,23 +22,29 @@ ht-degree: 11%
 
 다음과 같은 방법으로 자산 보기에 액세스할 수 있습니다.
 
-* **관리자 보기에서 전환**
+![내 작업 영역 개요](assets/assets-view.png)
 
-   * 에 로그인 [!DNL Experience Manager] cloud Manager 사용.
-   * 다음으로 이동 **[!UICONTROL 에셋]** > **[!UICONTROL 파일]**.
-   * 오른쪽 위 모서리에 있는 프로필 아이콘을 클릭합니다.
-   * 클릭 **[!UICONTROL 보기 전환]** 다음에서 **[!UICONTROL 프로필 설정]** 섹션.
-관리자 보기로 다시 전환하려면 이 단계를 반복합니다.
+<!--
 
-* **제품 전환기**
-   * 에 로그인 [!DNL Experience Manager] 및 클릭
-   * 선택 **[!UICONTROL Experience Manager Assets]** 을 클릭하여 자산 보기에 액세스합니다.
-   * 선택 **[!UICONTROL Experience Manager]** 을 클릭하여 관리자 보기에 액세스합니다.
+* **Toggle in Admin view**
 
-* **빠른 링크**
-   * experience.adobe.com에 로그인합니다.
-   * 클릭 **[!UICONTROL Experience Manager Assets]** 을 클릭하여 자산 보기에 액세스합니다.
-   * 클릭 **[!UICONTROL Experience Manager Assets]** 을 클릭하여 자산 보기에 액세스합니다.
+    * Log into [!DNL Experience Manager] using Cloud Manager.
+    * Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**.
+    * Click the profile icon on the top right corner.
+    * Click **[!UICONTROL Switch View]** from the **[!UICONTROL Profile Settings]** section.
+    Repeat these steps to switch back to the Admin view.
+
+* **Product Switcher**
+    * Log into [!DNL Experience Manager] and click ![Product selector](assets/waffle-icon.svg).
+    * Select **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Select **[!UICONTROL Experience Manager]** to access the Admin view.
+
+* **Quick Links** 
+    * Log into experience.adobe.com.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+
+    -->
 
 ## 자산 보기를 사용해야 하는 이유
 
