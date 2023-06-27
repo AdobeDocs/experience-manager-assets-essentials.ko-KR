@@ -4,9 +4,9 @@ description: 에셋 보기의 새로운 기능
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 52ec2263e237e6c3b47dc967eb5cc3e6acbe814f
+source-git-commit: 094ee651d7ac90675df88b52a5e76dd3e6e84094
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1070'
 ht-degree: 11%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 11%
 ## 에셋 보기에 액세스하는 방법 {#access-assets-view}
 
 다음과 같은 방법으로 자산 보기에 액세스할 수 있습니다.
-
 ![내 작업 영역 개요](assets/assets-view.png)
 
 <!--
@@ -81,6 +80,8 @@ ht-degree: 11%
 이 비디오를 통해 Adobe Photoshop Express과의 Assets 보기 통합의 힘에 대해 알아보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
+
+예정된 릴리스에는 다음도 포함됩니다 [Adobe Express을 통한 Adobe Firefly 통합](https://firefly.adobe.com/?gclid=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE&amp;sdid=JM4FW6VL&amp;mv=search&amp;mv2=paidsearch&amp;ef_id=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE:G:s&amp;s_kwcid=AL!3085!3!652077237594!e!!g!!adobe%20firefly!19870733758!148140507838).
 
 [![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
