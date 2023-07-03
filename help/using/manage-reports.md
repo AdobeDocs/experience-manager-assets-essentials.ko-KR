@@ -3,9 +3,9 @@ title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="보고서"
->abstract="에셋 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. 관리자 제품 프로필에 할당된 모든 사용자는 Insights 대시보드에 액세스하거나 사용자 정의 보고서를 만들 수 있습니다."
+>abstract="자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. 관리자 제품 프로필에 할당된 모든 사용자는 Insights 대시보드에 액세스하거나 사용자 정의 보고서를 만들 수 있습니다."
 
-에셋 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
+자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
 
 ## 보고서 액세스 {#access-reports}
 
@@ -26,15 +26,15 @@ ht-degree: 93%
 
 Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
 
-![에셋 선택 시 도구 모음 옵션](assets/assets-essentials-live-statistics.png)
+![자산 선택 시 도구 모음 옵션](assets/assets-essentials-live-statistics.png)
 
 자동 생성된 다음과 같은 차트를 보려면 왼쪽 탐색 창에 있는 **[!UICONTROL 인사이트]**&#x200B;를 클릭하십시오.
 
-* **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 에셋 수를 선 차트로 표시합니다.
+* **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 자산 수를 선 차트로 표시합니다.
 
-* **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 에셋 수를 선 차트로 표시합니다.
+* **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 자산 수를 선 차트로 표시합니다.
 
-* **상위 검색**: 지난 30일 또는 12개월 동안 Assets Essentials 환경 내에서 검색된 검색어를 표 형식으로 표시하여 해당 검색어가 검색된 횟수를 함께 표시합니다.
+* **인기 검색어**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 해당 용어가 검색된 횟수와 함께 가장 많이 검색된 용어를 표 형식으로 표시합니다.
 
 <!--
 
@@ -52,7 +52,7 @@ Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 As
 
 1. 보고서에 대한 제목 및 설명(선택 사항)을 지정합니다.
 
-1. **[!UICONTROL 폴더 경로 선택]** 필드를 사용하여 보고서를 실행할 에셋을 구성하는 폴더 경로를 선택합니다.
+1. **[!UICONTROL 폴더 경로 선택]** 필드를 사용하여 보고서를 실행할 자산을 구성하는 폴더 경로를 선택합니다.
 
 1. 보고서의 날짜 간격을 선택합니다.
    >[!NOTE]
@@ -75,47 +75,47 @@ Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 As
      </tr>
      <tr>
       <td>제목</td>
-      <td>에셋의 제목입니다.</td>
+      <td>자산의 제목입니다.</td>
      </tr>
      <tr>
       <td>경로</td>
-      <td>Assets Essentials에서 에셋을 사용할 수 있는 폴더 경로입니다.</td>
+      <td>Assets Essentials에서 자산을 사용할 수 있는 폴더 경로입니다.</td>
      </tr>
      <tr>
       <td>MIME 유형</td>
-      <td>에셋에 대한 MIME 유형입니다.</td>
+      <td>자산에 대한 MIME 유형입니다.</td>
      </tr>
      <tr>
       <td>크기</td>
-      <td>에셋의 크기입니다(바이트).</td>
+      <td>자산의 크기입니다(바이트).</td>
      </tr>
      <tr>
       <td>다운로드한 사람</td>
-      <td>에셋을 다운로드한 사용자의 이메일 ID입니다.</td>
+      <td>자산을 다운로드한 사용자의 이메일 ID입니다.</td>
      </tr>
      <tr>
       <td>다운로드 날짜</td>
-      <td>에셋 다운로드 작업이 수행되는 날짜입니다.</td>
+      <td>자산 다운로드 작업이 수행되는 날짜입니다.</td>
      </tr>
      <tr>
       <td>작성자</td>
-      <td>에셋의 작성자입니다.</td>
+      <td>자산의 작성자입니다.</td>
      </tr>
      <tr>
       <td>만든 날짜</td>
-      <td>에셋이 Assets Essentials에 업로드되는 날짜입니다.</td>
+      <td>자산이 Assets Essentials에 업로드되는 날짜입니다.</td>
      </tr>
      <tr>
       <td>수정한 날짜</td>
-      <td>에셋을 마지막으로 수정한 날짜입니다.</td>
+      <td>자산을 마지막으로 수정한 날짜입니다.</td>
      </tr>
      <tr>
       <td>만료됨</td>
-      <td>에셋의 만료 상태입니다.</td>
+      <td>자산의 만료 상태입니다.</td>
      </tr>
      <tr>
       <td>사용자 이름으로 다운로드됨</td>
-      <td>에셋을 다운로드한 사용자의 이름입니다.</td>
+      <td>자산을 다운로드한 사용자의 이름입니다.</td>
      </tr>           
     </tbody>
    </table>
@@ -130,7 +130,7 @@ Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 As
 
 1. 보고서에 대한 제목 및 설명(선택 사항)을 지정합니다.
 
-1. **[!UICONTROL 폴더 경로 선택]** 필드를 사용하여 보고서를 실행할 에셋을 구성하는 폴더 경로를 선택합니다.
+1. **[!UICONTROL 폴더 경로 선택]** 필드를 사용하여 보고서를 실행할 자산을 구성하는 폴더 경로를 선택합니다.
 
 1. 보고서의 날짜 간격을 선택합니다.
 
@@ -150,35 +150,35 @@ Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 As
      </tr>
      <tr>
       <td>제목</td>
-      <td>에셋의 제목입니다.</td>
+      <td>자산의 제목입니다.</td>
      </tr>
      <tr>
       <td>경로</td>
-      <td>Assets Essentials에서 에셋을 사용할 수 있는 폴더 경로입니다.</td>
+      <td>Assets Essentials에서 자산을 사용할 수 있는 폴더 경로입니다.</td>
      </tr>
      <tr>
       <td>MIME 유형</td>
-      <td>에셋에 대한 MIME 유형입니다.</td>
+      <td>자산에 대한 MIME 유형입니다.</td>
      </tr>
      <tr>
       <td>크기</td>
-      <td>에셋의 크기입니다.</td>
+      <td>자산의 크기입니다.</td>
      </tr>
      <tr>
       <td>작성자</td>
-      <td>에셋의 작성자입니다.</td>
+      <td>자산의 작성자입니다.</td>
      </tr>
      <tr>
       <td>만든 날짜</td>
-      <td>에셋이 Assets Essentials에 업로드되는 날짜입니다.</td>
+      <td>자산이 Assets Essentials에 업로드되는 날짜입니다.</td>
      </tr>
      <tr>
       <td>수정한 날짜</td>
-      <td>에셋을 마지막으로 수정한 날짜입니다.</td>
+      <td>자산을 마지막으로 수정한 날짜입니다.</td>
      </tr>
      <tr>
       <td>만료됨</td>
-      <td>에셋의 만료 상태입니다.</td>
+      <td>자산의 만료 상태입니다.</td>
      </tr>              
     </tbody>
    </table>
