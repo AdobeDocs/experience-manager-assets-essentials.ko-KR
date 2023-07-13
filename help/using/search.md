@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 에셋 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
+source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 87%
 
 ---
 
@@ -141,6 +141,34 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## 검색 결과를 사용한 작업 {#work-with-search-results}
+
+검색 결과에 표시되는 에셋을 선택하고 다음 작업을 수행할 수 있습니다.
+
+* **세부 사항**: 에셋 속성을 보고 편집합니다.
+
+* **컬렉션에 추가**: 선택한 에셋을 컬렉션에 추가합니다.
+
+* **다운로드**: 에셋을 다운로드합니다.
+
+* **삭제**: 에셋을 삭제합니다.
+
+* **복사**: 에셋을 다른 폴더 위치에 복사합니다.
+
+* **이동**: 에셋을 다른 폴더 위치로 이동합니다.
+
+* **이름 바꾸기**: 에셋의 이름을 변경합니다.
+
+* **작업 할당**: 에셋에 대한 작업을 사용자에게 할당합니다.
+
+* **링크 공유**: [링크 공유](share-links-for-assets.md) 다른 사용자가 에셋에 액세스하고 다운로드할 수 있도록 에셋에 대해 설명합니다.
+
+* **시청**: [작업 모니터링](manage-notifications.md) 자산에 대해 수행됩니다.
+
+* **파일 위치 표시**: 자산 폴더 위치로 이동합니다.
+
+* **빠른 액세스에 고정**: [에셋 고정](my-workspace.md) 나중에 필요할 때 더 빠르게 액세스할 수 있습니다. 고정된 모든 항목은 내 작업 영역의 **빠른 액세스** 섹션에 표시됩니다.
 
 ## 다음 단계 {#next-steps}
 
