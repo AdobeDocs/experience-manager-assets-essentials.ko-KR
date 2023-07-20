@@ -3,7 +3,7 @@ title: Assets용 내 작업 영역
 description: 내 작업 영역은 Assets 사용자 인터페이스의 주요 영역과 사용자와 가장 관련성이 높은 정보에 편리하게 액세스할 수 있도록 사용자 정의 가능한 시각적 모듈을 제공하는 페이지입니다.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 100%
 
