@@ -4,19 +4,68 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
-workflow-type: ht
-source-wordcount: '2044'
-ht-degree: 100%
+source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 96%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 6월 22일에 공개되었습니다.
+Assets Essentials의 최신 릴리스는 2023년 7월 27일에 출시되었습니다.
 
 릴리스의 기능 목록에 포함된 사항은 다음과 같습니다.
 
+<!--
+
+**Assign metadata form to a folder**
+
+You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
+
+![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
+
+**이미지 스마트 태그를 위한 인공 지능 프레임워크 개선**
+
+Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상된 인공 지능 프레임워크를 사용합니다. 이 콘텐츠 인텔리전스는 수집 시 모든 이미지 에셋에 사용할 수 있는 스마트 태그의 관련성과 정확성을 향상시킵니다.
+
+**자산 목록 보기에 대한 열 표시 구성**
+
+이제 Assets Essentials은 상태, 형식, Dimension, 크기 등과 같이 에셋 목록 보기에 표시되는 열을 선택하는 기능을 제공합니다.
+
+![열 구성](/help/using/assets/configure-columns.png)
+
+**관련성을 기준으로 검색 결과 정렬**
+
+이제 Assets Essentials은 기본적으로 관련성을 기준으로 검색 결과를 정렬합니다. 검색된 자산을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+
+**고객 피드백을 기반으로 한 개선 사항**
+
+고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+
+## 알려진 문제 {#known-issues}
+
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+
+* 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+
+문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
+
+## 이전 릴리스 {#past-releases}
+
+### 6월 릴리스 {#june2023-release}
 
 **빠른 검색 경험을 위한 자산의 계층적 태그 지정**
 
@@ -49,30 +98,6 @@ Assets Essentials는 이제 내 작업 영역의 **인사이트** 섹션을 사�
 **메타데이터 양식 개선 사항**
 
 Assets Essentials에서는 이제 다중 값 텍스트 및 드롭다운 목록 속성 구성 요소를 메타데이터 양식에 추가할 수 있습니다.
-
-
-**고객 피드백을 기반으로 한 개선 사항**
-
-고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
-
-## 알려진 문제 {#known-issues}
-
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
-
-* 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
-
-문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
-
-## 이전 릴리스 {#past-releases}
 
 ### 2023년의 여러 릴리스 {#multiple-releases-2023}
 

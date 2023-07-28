@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 사용자 인터페이스”
 description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색을 이해합니다.'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b2ec3dde3d231cdb772833dfa7c9de01b7c3dd38
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 93%
 
 ---
 
@@ -111,6 +111,16 @@ ht-degree: 100%
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
 -->
+
+## 자산 목록 보기에 대한 열 표시 구성 {#configure-columns-list-view}
+
+상태, 형식, Dimension, 크기 등과 같이 에셋 목록 보기에 표시되는 열을 선택할 수 있습니다.
+
+1. 선택 **[!UICONTROL 에셋]** 왼쪽 탐색 창에서 에셋 목록 보기로 전환하고 ![설정 아이콘](assets/settings-icon.svg).
+
+1. 목록 보기에 표시할 열을 선택하고 **[!UICONTROL 확인]**.
+
+   ![열 구성](/help/using/assets/configure-columns.png)
 
 ## 다음 단계 {#next-steps}
 

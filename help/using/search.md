@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
-workflow-type: ht
-source-wordcount: '1033'
-ht-degree: 100%
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 * 맞춤형 필터: Assets Essentials 사용자 인터페이스에 [맞춤형 필터를 추가](#custom-filters)합니다. 표준 필터 외에 맞춤형 필터를 적용하여 검색 결과를 구체화합니다.
 
-검색된 자산을 `Name`, `Relevancy`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+검색된 자산을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다. 검색된 에셋은 다음을 기준으로 정렬됩니다. `Relevance`기본적으로 입니다.
 
 ## 맞춤형 필터 관리 {#custom-filters}
 
