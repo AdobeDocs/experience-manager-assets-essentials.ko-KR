@@ -4,7 +4,7 @@ description: ' [!DNL Assets Essentials]에서 자산의 메타데이터 관리'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 5b9e3297c37bca0e5badc2073f8c6467e012ccde
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: ht
 source-wordcount: '1558'
 ht-degree: 100%
@@ -114,7 +114,7 @@ MIME 하위 유형 > MIME 유형 > `default` 양식 > 기본 제공 양식
 
 기존 양식을 재사용하여 새 양식을 만들려면 메타데이터 양식을 선택하고 도구 모음에서 **[!UICONTROL 복사]**&#x200B;를 클릭하고 이름을 입력한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다. 메타데이터 양식을 편집하여 변경할 수 있습니다. 양식을 변경하면 변경 후 업로드된 자산에 적용됩니다. 기존 자산은 변경되지 않습니다.
 
-## 속성 구성 요소 {#property-components}
+### 속성 구성 요소 {#property-components}
 
 다음 속성 구성 요소를 사용하여 메타데이터 양식을 사용자 정의할 수 있습니다. 구성 요소 유형을 양식의 원하는 위치에 끌어다 놓고 구성 요소 설정을 수정하면 됩니다.
 다음은 각 속성 유형 및 저장 방법에 대한 개요입니다.
@@ -134,6 +134,24 @@ MIME 하위 유형 > MIME 유형 > `default` 양식 > 기본 제공 양식
 | 태그 | 분류 체계 관리에 저장된 값에서 태그를 추가합니다(xcm:tags에 매핑됨). |
 | 키워드 | 자유 형식 키워드를 추가합니다(dc:subject에 매핑됨). |
 | 스마트 태그 | 메타데이터 태그를 자동으로 추가하여 검색 기능을 보강합니다. |
+
+<!--
+
+### Assign metadata form to a folder {#assign-metadata-form-folder}
+
+You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+
+To assign a metadata form to a folder:
+
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+
+2. Click **[!UICONTROL Assign to Folder]**.
+
+3. Select the folder and click **[!UICONTROL Assign]**.
+
+   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
 
 ## 다음 단계 {#next-steps}
 
