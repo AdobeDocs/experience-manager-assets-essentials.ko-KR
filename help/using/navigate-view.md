@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1000'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,14 +40,14 @@ ht-degree: 93%
 
 메인 사용자 인터페이스 또는 왼쪽 사이드바에서 폴더를 검색할 수 있습니다. 검색할 때 인터페이스를 사용하여 자산 썸네일을 보고 저장소를 시각적으로 탐색하거나 자산 세부 사항을 보고 필요한 자산을 빠르게 찾을 수 있습니다. 왼쪽 사이드바에서 사용할 수 있는 옵션은 다음과 같습니다.
 
-* [내 작업 영역](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): 이제 Assets에는 Assets 사용자 인터페이스의 주요 영역과 사용자와 가장 관련성이 높은 정보에 편리하게 액세스할 수 있는 위젯을 제공하는 사용자 정의 가능한 작업 영역이 포함됩니다. 이 페이지는 작업 항목에 대한 개요 및 주요 워크플로에 대한 빠른 액세스를 제공하는 종합적인 솔루션 역할을 합니다. 이러한 옵션에 보다 편리하게 액세스하면 효율성과 콘텐츠 속도가 향상됩니다.
-* [작업](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): **내 작업** 탭 아래에서 본인에게 할당된 작업을 볼 수 있습니다. 반면 본인이 만든 작업은 **할당된 작업** 탭 아래에서 볼 수 있습니다. 또한 완료한 작업은 **완료된 작업** 탭 아래에 있습니다.
-* [자산](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en): 액세스 권한이 있는 트리 보기의 모든 폴더 목록입니다.
+* [내 작업 영역](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ko): 이제 Assets에는 Assets 사용자 인터페이스의 주요 영역과 사용자와 가장 관련성이 높은 정보에 편리하게 액세스할 수 있는 위젯을 제공하는 사용자 정의 가능한 작업 영역이 포함됩니다. 이 페이지는 작업 항목에 대한 개요 및 주요 워크플로에 대한 바로 가기를 제공하는 종합적인 솔루션 역할을 합니다. 이러한 옵션에 보다 편리하게 액세스하면 효율성과 콘텐츠 속도가 향상됩니다.
+* [작업](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ko): **내 작업** 탭 아래에서 본인에게 할당된 작업을 볼 수 있습니다. 반면 본인이 만든 작업은 **할당된 작업** 탭 아래에서 볼 수 있습니다. 또한 완료한 작업은 **완료된 작업** 탭 아래에 있습니다.
+* [자산](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ko): 액세스 권한이 있는 트리 보기의 모든 폴더 목록입니다.
 * **최근에 본 항목**: 최근에 미리 본 자산 목록입니다. [!DNL Assets Essentials]는 미리보기하는 자산만 표시합니다. 저장소 파일 또는 폴더를 탐색할 때 스크롤한 자산은 표시되지 않습니다.
 * [컬렉션](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko): 컬렉션은 Adobe Experience Manager Assets Essentials 내의 자산, 폴더 또는 기타 컬렉션 세트입니다. 컬렉션을 사용하여 사용자 간에 자산을 공유합니다. 폴더와 달리 컬렉션에는 서로 다른 위치의 자산이 포함될 수 있습니다. 사용자와 여러 컬렉션을 공유할 수 있습니다. 각 컬렉션에는 자산에 대한 참조가 포함되어 있습니다. 자산의 참조 무결성은 컬렉션에 간에 유지됩니다.
 
-* [인사이트](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): [!DNL Assets Essentials]의 대시보드에서 실시간 인사이트를 볼 수 있습니다. Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
-* **휴지통**: 루트 **[!UICONTROL Assets]** 폴더에서 삭제된 자산을 나열합니다. 휴지통 폴더에서 자산을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다. 키워드를 지정하거나 표준 또는 사용자 지정 필터를 적용하여 휴지통 폴더 내에서 적절한 자산을 검색할 수도 있습니다. 표준 및 사용자 지정 필터 사용에 대한 자세한 내용은 [Assets Essentials에서 자산 검색](search.md)을 참조하십시오.
+* [인사이트](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=ko#view-live-statistics): [!DNL Assets Essentials]의 대시보드에서 실시간 인사이트를 볼 수 있습니다. Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
+* **휴지통**: 루트 **[!UICONTROL Assets]** 폴더에서 삭제된 자산을 나열합니다. 휴지통 폴더에서 자산을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다. 키워드를 지정하거나 표준 또는 사용자 정의 필터를 적용하여 휴지통 폴더 내에서 적절한 자산을 검색할 수도 있습니다. 표준 및 사용자 정의 필터 사용에 대한 자세한 내용은 [Assets Essentials에서 자산 검색](search.md)을 참조하십시오.
 * **설정**: **설정**&#x200B;을 사용하여 메타데이터 양식, 보고서, 분류 체계 관리 등 Assets Essentials의 다양한 옵션을 설정할 수 있습니다.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
@@ -114,11 +114,11 @@ Other use cases after previewing.
 
 ## 자산 목록 보기에 대한 열 표시 구성 {#configure-columns-list-view}
 
-상태, 형식, Dimension, 크기 등과 같이 에셋 목록 보기에 표시되는 열을 선택할 수 있습니다.
+상태, 형식, 차원, 크기 등과 같이 자산 목록 보기에 표시되는 열을 선택할 수 있습니다.
 
-1. 선택 **[!UICONTROL 에셋]** 왼쪽 탐색 창에서 에셋 목록 보기로 전환하고 ![설정 아이콘](assets/settings-icon.svg).
+1. 왼쪽 탐색 창에서 **[!UICONTROL 자산]**&#x200B;을 선택하고 자산 목록 보기로 전환한 다음 ![설정 아이콘](assets/settings-icon.svg)을 클릭합니다.
 
-1. 목록 보기에 표시할 열을 선택하고 **[!UICONTROL 확인]**.
+1. 목록 보기에 표시해야 하는 열을 선택하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
    ![열 구성](/help/using/assets/configure-columns.png)
 
