@@ -5,15 +5,15 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 최신 릴리스는 2023년 7월 27일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2023년 7월 27일에 출시되었습니다.
 
 릴리스의 기능 목록에 포함된 사항은 다음과 같습니다.
 
@@ -27,19 +27,19 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**이미지 스마트 태그를 위한 인공 지능 프레임워크 개선**
+**이미지 스마트 태그에 대해 개선된 인공 지능 프레임워크**
 
-Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상된 인공 지능 프레임워크를 사용합니다. 이 콘텐츠 인텔리전스는 수집 시 모든 이미지 에셋에 사용할 수 있는 스마트 태그의 관련성과 정확성을 향상시킵니다.
+Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상된 인공 지능 프레임워크를 사용합니다. 이 콘텐츠 인텔리전스는 수집 시 모든 이미지 자산에 사용할 수 있는 스마트 태그의 관련성과 정확성을 향상시킵니다.
 
 **자산 목록 보기에 대한 열 표시 구성**
 
-이제 Assets Essentials은 상태, 형식, Dimension, 크기 등과 같이 에셋 목록 보기에 표시되는 열을 선택하는 기능을 제공합니다.
+이제 Assets Essentials가 상태, 형식, 차원, 크기 등과 같이 자산 목록 보기에 표시되는 열을 선택할 수 있는 기능을 제공합니다.
 
 ![열 구성](/help/using/assets/configure-columns.png)
 
 **관련성을 기준으로 검색 결과 정렬**
 
-이제 Assets Essentials은 기본적으로 관련성을 기준으로 검색 결과를 정렬합니다. 검색된 자산을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+이제 Assets Essentials는 기본적으로 관련성을 기준으로 검색 결과를 정렬합니다. 검색된 자산을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
 **고객 피드백을 기반으로 한 개선 사항**
 
@@ -73,9 +73,9 @@ Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상�
 
 ![태그 지정 관리](assets/tags-hierarchy.png)
 
-**빠른 액세스를 위해 파일, 폴더 및 컬렉션 고정**
+**바로 가기를 위해 파일, 폴더 및 컬렉션 고정**
 
-이제 나중에 필요할 때 파일, 폴더 및 컬렉션에 더 빠르게 액세스할 수 있도록 이러한 항목을 고정할 수 있습니다. 고정된 항목은 내 작업 영역의 **빠른 액세스** 섹션에 표시됩니다. 저장소 내에서 저장된 위치로 이동하는 대신 내 작업 영역을 사용하여 액세스할 수 있습니다.
+이제 나중에 필요할 때 파일, 폴더 및 컬렉션에 더 빠르게 액세스할 수 있도록 이러한 항목을 고정할 수 있습니다. 고정된 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다. 저장소 내에서 저장된 위치로 이동하는 대신 내 작업 영역을 사용하여 액세스할 수 있습니다.
 
 ![작업 영역의 작업](assets/quick-access.png)
 
