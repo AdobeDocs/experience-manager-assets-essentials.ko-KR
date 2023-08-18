@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산의 메타데이터 관리'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 6a9bc34907f9eb8c7d18a8fbb139e27244538256
+source-git-commit: 50b9ba30eac2d99fe72a8cfacf4b0361b8955a87
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 99%
+source-wordcount: '1558'
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,6 @@ ht-degree: 99%
 업로드된 모든 자산에 [!DNL Assets Essentials]에서 자동으로 추가하는 태그를 [!UICONTROL 스마트 태그] 섹션에서 제거할 수도 있습니다.
 
 ## 분류 체계 관리 {#taxonomy-management}
-
->[!CONTEXTUALHELP]
->id="assets_express_integration"
->title="Adobe Express 통합"
->abstract="[!DNL Experience Manager Assets]는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가적인 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 자산의 [세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 자산의 거버넌스 및 검색 기능을 개선합니다."
 
 카테고리 및 하위 카테고리와 같은 관계를 지원하기 위해 태그를 계층에 중첩할 수도 있습니다. 계층적 태그를 삽입해야 하는 경우 관리자가 [!UICONTROL  설정]의 [!UICONTROL  분류 체계 관리] 섹션에서 이러한 태그를 쉽게 관리할 수 있습니다. 모든 사용자가 콘텐츠를 설명할 때 사용하기 위해 액세스할 수 있는 관리형 네임스페이스 및 태그 세트를 생성할 수 있습니다. 관리자만 [!UICONTROL 분류 체계 관리자]에서 태그 계층을 설정할 수 있으므로 값이 일관되게 제어되고 사용됩니다.
 
