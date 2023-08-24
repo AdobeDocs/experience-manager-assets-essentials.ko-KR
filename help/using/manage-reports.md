@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 7bda2024fd9e9d2ad05ccffccf76a51b16a113fa
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 94%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="보고서"
->abstract="자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. 관리자 제품 프로필에 할당된 모든 사용자는 Insights 대시보드에 액세스하거나 사용자 정의 보고서를 만들 수 있습니다."
+>abstract="자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. 모든 사용자는 Insights 대시보드에 액세스할 수 있으며 관리자 제품 프로필에 할당된 사용자는 사용자 정의 보고서를 만들 수 있습니다."
 
-자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다.
+자산 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. 모든 사용자는 Insights 대시보드에 액세스할 수 있으며 관리자 제품 프로필에 할당된 사용자는 사용자 정의 보고서를 만들 수 있습니다.
 
 ## 보고서 액세스 {#access-reports}
 
@@ -50,11 +50,12 @@ Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 As
 
 1. [!UICONTROL 구성] 탭에서 보고서 유형을 **[!UICONTROL 다운로드]**&#x200B;로 지정합니다.
 
-1. 보고서에 대한 제목 및 설명(선택 사항)을 지정합니다.
+1. 보고서에 대한 제목 및 설명(옵션)을 지정합니다.
 
 1. **[!UICONTROL 폴더 경로 선택]** 필드를 사용하여 보고서를 실행할 자산을 구성하는 폴더 경로를 선택합니다.
 
 1. 보고서의 날짜 간격을 선택합니다.
+
    >[!NOTE]
    >
    > Assets Essentials는 모든 현지 시간대를 UTC(협정 세계시)로 변환합니다.
@@ -128,7 +129,7 @@ Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 As
 
 1. [!UICONTROL 구성] 탭에서 보고서 유형을 **[!UICONTROL 업로드]**&#x200B;로 지정합니다.
 
-1. 보고서에 대한 제목 및 설명(선택 사항)을 지정합니다.
+1. 보고서에 대한 제목 및 설명(옵션)을 지정합니다.
 
 1. **[!UICONTROL 폴더 경로 선택]** 필드를 사용하여 보고서를 실행할 자산을 구성하는 폴더 경로를 선택합니다.
 
