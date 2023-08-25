@@ -2,9 +2,9 @@
 title: 알림 관리
 description: Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 자산 또는 폴더에서 수행된 작업을 모니터링합니다.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
-workflow-type: ht
-source-wordcount: '665'
+source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
+workflow-type: tm+mt
+source-wordcount: '617'
 ht-degree: 100%
 
 ---
@@ -95,11 +95,6 @@ Assets Essentials에 성공 메시지가 표시됩니다. 성공 메시지에서
 마찬가지로 구독을 취소하려면 구독한 자산, 폴더 또는 컬렉션을 선택하고 **[!UICONTROL 보기 취소]**&#x200B;를 클릭합니다.
 
 ## 알림 보기 {#view-notifications}
-
->[!CONTEXTUALHELP]
->id="assets_express_integration"
->title="Adobe Express 통합"
->abstract="[!DNL Experience Manager Assets]는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가적인 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 자산의 [세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 자산의 거버넌스 및 검색 기능을 개선합니다."
 
 Assets Essentials 사용자 인터페이스의 메뉴 모음 오른쪽 끝에 알림이 표시됩니다.
 
