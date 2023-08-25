@@ -4,16 +4,16 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
+workflow-type: tm+mt
+source-wordcount: '2298'
+ht-degree: 93%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 7월 27일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2023년 8월 24일에 출시되었습니다.
 
 릴리스의 기능 목록에 포함된 사항은 다음과 같습니다.
 
@@ -27,19 +27,23 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**이미지 스마트 태그에 대해 개선된 인공 지능 프레임워크**
+**데이터 소스에서 에셋 일괄 가져오기**
 
-Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상된 인공 지능 프레임워크를 사용합니다. 이 콘텐츠 인텔리전스는 수집 시 모든 이미지 자산에 사용할 수 있는 스마트 태그의 관련성과 정확성을 향상시킵니다.
+이제 관리자는 데이터 소스에서 AEM Assets으로 많은 수의 자산을 가져올 수 있습니다. 관리자는 더 이상 AEM Assets에 개별 에셋 또는 폴더를 업로드할 필요가 없습니다. 일괄 가져오기에 지원되는 데이터 소스에는 Azure, AWS, Google Cloud 및 Dropbox이 포함됩니다.
 
-**자산 목록 보기에 대한 열 표시 구성**
+![데이터 소스에서 에셋 일괄 가져오기](/help/using/assets/bulk-import.png)
 
-이제 Assets Essentials가 상태, 형식, 차원, 크기 등과 같이 자산 목록 보기에 표시되는 열을 선택할 수 있는 기능을 제공합니다.
+**Adobe Express 기반 이미지 편집 도구**
 
-![열 구성](/help/using/assets/configure-columns.png)
+Adobe Express을 기반으로 하는 쉽고 직관적인 이미지 편집 도구는 AEM Assets 내에서 바로 사용할 수 있으므로 콘텐츠 재사용을 높이고 콘텐츠 속도를 가속화할 수 있습니다.
 
-**관련성을 기준으로 검색 결과 정렬**
+![Adobe Express을 사용하여 이미지 편집](/help/using/assets/edit-adobe-express.png)
 
-이제 Assets Essentials는 기본적으로 관련성을 기준으로 검색 결과를 정렬합니다. 검색된 자산을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+**내 작업 영역 빠른 액세스에 대한 항목을 고정할 때의 유연성**
+
+선택한 항목에 따라 내 작업 영역의 빠른 액세스 섹션에 표시되도록 사용자, 전체 조직 또는 그룹 목록에 대한 항목을 선택하고 고정할 수 있습니다.
+
+![그룹에 대한 항목 고정](assets/pin-items-for-groups.png)
 
 **고객 피드백을 기반으로 한 개선 사항**
 
@@ -65,7 +69,23 @@ Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상�
 
 ## 이전 릴리스 {#past-releases}
 
-### 6월 릴리스 {#june2023-release}
+### 2023년 7월 릴리스 {#july2023-release}
+
+**이미지 스마트 태그에 대해 개선된 인공 지능 프레임워크**
+
+Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상된 인공 지능 프레임워크를 사용합니다. 이 콘텐츠 인텔리전스는 수집 시 모든 이미지 자산에 사용할 수 있는 스마트 태그의 관련성과 정확성을 향상시킵니다.
+
+**자산 목록 보기에 대한 열 표시 구성**
+
+이제 Assets Essentials가 상태, 형식, 차원, 크기 등과 같이 자산 목록 보기에 표시되는 열을 선택할 수 있는 기능을 제공합니다.
+
+![열 구성](/help/using/assets/configure-columns.png)
+
+**관련성을 기준으로 검색 결과 정렬**
+
+이제 Assets Essentials는 기본적으로 관련성을 기준으로 검색 결과를 정렬합니다. 검색된 자산을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+
+### 2023년 6월 릴리스 {#june2023-release}
 
 **빠른 검색 경험을 위한 자산의 계층적 태그 지정**
 
