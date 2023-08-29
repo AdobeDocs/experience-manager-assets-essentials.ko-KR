@@ -3,7 +3,7 @@ title: 알림 관리
 description: Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 자산 또는 폴더에서 수행된 작업을 모니터링합니다.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
 ht-degree: 100%
 
