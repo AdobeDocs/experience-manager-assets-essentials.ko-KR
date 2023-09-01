@@ -3,10 +3,10 @@ title: 이미지 편집
 description: ' [!DNL Adobe Photoshop Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
+source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 52%
+source-wordcount: '908'
+ht-degree: 53%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express 통합"
->abstract="Adobe Express을 기반으로 하는 쉽고 직관적인 이미지 편집 도구는 AEM Assets 내에서 바로 사용할 수 있으므로 콘텐츠 재사용을 높이고 콘텐츠 속도를 가속화할 수 있습니다."
+>abstract="AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 재사용률과 콘텐츠 속도를 높일 수 있습니다."
 
 ### 이미지 크기 조정 {#resize-image-using-express}
 
 이미지 크기를 특정 크기로 조정하는 것이 일반적인 사용 사례입니다. [!DNL Assets Essentials]를 사용하면 특정 사진 크기에 대해 미리 계산된 새로운 해상도를 제공하여 일반적인 사진 크기에 맞게 빠르게 이미지 크기를 조정할 수 있습니다. 을 사용하여 이미지 크기를 조정하려면 [!DNL Assets Essentials]을(를) 클릭하고 아래 단계를 수행합니다.
 
 1. 이미지를 선택하고 **편집**.
-2. 클릭 **[!DNL Resize Image]** 왼쪽 창에서 사용할 수 있는 빠른 작업
+2. 클릭 **[!UICONTROL 이미지 크기 조정]** 왼쪽 창에서 사용할 수 있는 빠른 작업
 3. 에서 적절한 소셜 미디어 플랫폼을 선택합니다. **[!UICONTROL 크기 조정 대상]** 드롭다운 목록을 표시하고 표시되는 옵션에서 이미지 크기를 선택합니다.
 4. 필요한 경우 **[!UICONTROL 이미지 크기 조절]** 필드.
-5. 클릭 **[!DNL Apply]** 변경 사항을 적용합니다.
+5. 클릭 **[!UICONTROL 적용]** 변경 사항을 적용합니다.
    ![Adobe Express을 사용하여 이미지 편집](/help/using/assets/adobe-express-resize-image.png)
 
    편집한 이미지를 다운로드할 수 있습니다. 편집된 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다.
@@ -48,8 +48,8 @@ ht-degree: 52%
 아래 설명된 대로 몇 가지 간단한 단계를 수행하여 이미지에서 배경을 제거할 수 있습니다.
 
 1. 이미지를 선택하고 **편집**.
-2. 클릭 **[!DNL Remove Background]** 왼쪽 창에서 사용할 수 있는 빠른 작업 Experience Manager Assets은 배경 없이 이미지를 표시합니다.
-3. 클릭 **[!DNL Apply]** 변경 사항을 적용합니다.
+2. 클릭 **[!UICONTROL 배경 제거]** 왼쪽 창에서 사용할 수 있는 빠른 작업 Experience Manager Assets은 배경 없이 이미지를 표시합니다.
+3. 클릭 **[!UICONTROL 적용]** 변경 사항을 적용합니다.
    ![Adobe Express으로 이미지 저장](/help/using/assets/adobe-express-remove-background.png)
 
    편집한 이미지를 다운로드할 수 있습니다. 편집된 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다.
@@ -59,9 +59,9 @@ ht-degree: 52%
 임베디드 기능을 사용하여 이미지를 완벽한 크기로 손쉽게 변환할 수 있습니다. [!DNL Adobe Express] 빠른 작업.
 
 1. 이미지를 선택하고 **편집**.
-2. 클릭 **[!DNL Crop Image]** 왼쪽 창에서 사용할 수 있는 빠른 작업
+2. 클릭 **[!UICONTROL 이미지 자르기]** 왼쪽 창에서 사용할 수 있는 빠른 작업
 3. 이미지의 모서리에 있는 핸들을 드래그하여 원하는 자르기를 만듭니다.
-4. **[!DNL Apply]**를 클릭합니다.
+4. 클릭 **[!UICONTROL 적용]**.
    ![Adobe Express으로 이미지 저장](/help/using/assets/adobe-express-crop-image.png)
 자른 이미지를 다운로드할 수 있습니다. 편집된 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다.
 
@@ -70,7 +70,7 @@ ht-degree: 52%
 Adobe Express을 사용하여 JPEG 이미지를 PNG 형식으로 빠르게 변환할 수 있습니다. 다음 단계를 실행합니다.
 
 1. 이미지를 선택하고 **편집**.
-2. 클릭 **[!DNL JPEG to PNG]** 왼쪽 창에서 사용할 수 있는 빠른 작업
+2. 클릭 **[!UICONTROL PNG에 JPEG]** 왼쪽 창에서 사용할 수 있는 빠른 작업
    ![Adobe Express을 사용하여 PNG로 변환](/help/using/assets/adobe-express-convert-image.png)
 3. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
