@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: e6720e7f3f19e81b50feece7e7adaddca0b861d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,5 +47,5 @@ ht-degree: 97%
    + [개요](integration.md)
    + [Creative Cloud for enterprise와 통합](integrate-with-creative-cloud.md)
    + [Adobe Workfront와 통합](integrate-with-workfront.md)
-+ [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=ko-KR)
++ [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
 + [자산 보기](assets-view-introduction.md)
