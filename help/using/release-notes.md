@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2298'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,23 +27,23 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**데이터 소스에서 에셋 일괄 가져오기**
+**데이터 소스에서 자산 일괄 가져오기**
 
-이제 관리자는 데이터 소스에서 AEM Assets으로 많은 수의 자산을 가져올 수 있습니다. 관리자는 더 이상 AEM Assets에 개별 에셋 또는 폴더를 업로드할 필요가 없습니다. 일괄 가져오기에 지원되는 데이터 소스에는 Azure, AWS, Google Cloud 및 Dropbox이 포함됩니다.
+이제 관리자는 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있습니다. 관리자는 더 이상 개별 자산 또는 폴더를 AEM Assets에 업로드할 필요가 없습니다. 일괄 가져오기에 지원되는 데이터 소스에는 Azure, AWS, Google Cloud 및 Dropbox가 포함됩니다.
 
-![데이터 소스에서 에셋 일괄 가져오기](/help/using/assets/bulk-import.png)
+![데이터 소스에서 자산 일괄 가져오기](/help/using/assets/bulk-import.png)
 
-**Adobe Express 기반 이미지 편집 도구**
+**Adobe Express에서 제공하는 이미지 편집 도구**
 
-Adobe Express을 기반으로 하는 쉽고 직관적인 이미지 편집 도구는 AEM Assets 내에서 바로 사용할 수 있으므로 콘텐츠 재사용을 높이고 콘텐츠 속도를 가속화할 수 있습니다.
+AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 재사용률과 콘텐츠 속도를 높일 수 있습니다.
 
-![Adobe Express을 사용하여 이미지 편집](/help/using/assets/edit-adobe-express.png)
+![Adobe Express를 사용하여 이미지 편집](/help/using/assets/edit-adobe-express.png)
 
-**내 작업 영역 빠른 액세스에 대한 항목을 고정할 때의 유연성**
+**내 작업 영역 바로 가기 항목을 고정하면서 유연성 유지**
 
-선택한 항목에 따라 내 작업 영역의 빠른 액세스 섹션에 표시되도록 사용자, 전체 조직 또는 그룹 목록에 대한 항목을 선택하고 고정할 수 있습니다.
+선택 사항을 기반으로 내 작업 영역의 바로 가기 섹션에 표시되도록 사용자, 조직 전체 또는 그룹 목록에 맞는 항목을 선택하고 고정할 수 있는 기능.
 
-![그룹에 대한 항목 고정](assets/pin-items-for-groups.png)
+![그룹에 맞는 항목 고정](assets/pin-items-for-groups.png)
 
 **고객 피드백을 기반으로 한 개선 사항**
 
