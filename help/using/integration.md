@@ -3,10 +3,10 @@ title: 다른 Adobe 솔루션과 통합
 description: “[!DNL Assets Essentials]는 다른 Adobe 솔루션과 통합되며 기본 애플리케이션 내에서 임베드된 경험을 제공합니다.”
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 5bcd55313d1fb8bcf3dedbb24742eca5e2663aa8
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 82%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 100%
 * **[!DNL Adobe Workfront]**: [[!DNL Adobe Workfront]](https://www.workfront.com/)는 업무의 전체 라이프사이클을 한 곳에서 관리할 수 있도록 도와주는 작업 관리 애플리케이션입니다. [!DNL Adobe Workfront]와 [!DNL Assets Essentials] 간의 기본 통합을 통해 조직은 작업과 에셋 관리를 본질적으로 연결하여 콘텐츠 속도와 마켓 출시 속도를 개선할 수 있습니다. 작업 관리의 맥락에서 사용자는 동일한 솔루션에서 필요한 문서와 이미지에 액세스할 수 있습니다. [!DNL Assets Essentials]는 신규 [!DNL Workfront] 고객이 별도로 구매할 수 있는 추가 기능으로 제공됩니다. [ [!DNL Workfront] 및 [!DNL Essentials] 통합 구성 및 사용](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)을 참조하십시오.
 
   [Adobe Workfront 및 Assets Essentials 통합 구성에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
+
+## Edge Delivery Services을 위한 문서 기반 작성과 통합 {#integrate-doc-authoring-edge-and-assets}
+
+Edge Delivery를 통해 작성자가 컨텐츠를 빠르게 업데이트하고 게시할 수 있으며 새로운 사이트를 빠르게 시작할 수 있는 빠르고 매력적인 웹 사이트를 만들 수 있습니다.
+
+Edge Delivery Services을 위한 문서 기반 작성과 AEM Assets을 통합하여 웹 사이트 작성자가 Microsoft Word 또는 Google 문서에서 문서를 작성하는 동안 AEM Assets 저장소에서 사용할 수 있는 이미지를 사용할 수 있도록 합니다. 자세한 내용은 [문서 기반 작성과 AEM Assets 통합](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html#integrate-assets-edge).
 
 ## 다음 단계 {#next-steps}
 
