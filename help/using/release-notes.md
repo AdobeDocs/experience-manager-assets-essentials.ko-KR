@@ -4,28 +4,24 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+workflow-type: tm+mt
+source-wordcount: '2342'
+ht-degree: 97%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 8월 24일에 출시되었습니다.
+Assets Essentials의 최신 릴리스는 2023년 9월 21일에 출시되었습니다.
 
-릴리스의 기능 목록에 포함된 사항은 다음과 같습니다.
+최근에 추가된 기능 목록은 다음과 같습니다.
 
-<!--
+**폴더에 메타데이터 양식 할당**
 
-**Assign metadata form to a folder**
+이제 Assets Essentials 배포 내의 특정 폴더에 메타데이터 양식을 할당할 수 있습니다. 하위 폴더의 에셋을 포함하여 폴더의 모든 에셋은 할당된 메타데이터 양식에 정의된 속성을 표시합니다.
 
-You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
-
-![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
--->
+![폴더에 메타데이터 양식 할당](/help/using/assets/assign-to-folder.png)
 
 **데이터 소스에서 자산 일괄 가져오기**
 

@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산의 메타데이터 관리'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1897989934b12b0f88b56461c76833273ca04447
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+workflow-type: tm+mt
+source-wordcount: '1686'
+ht-degree: 92%
 
 ---
 
@@ -135,25 +135,21 @@ MIME 하위 유형 > MIME 유형 > `default` 양식 > 기본 제공 양식
 | 키워드 | 자유 형식 키워드를 추가합니다(dc:subject에 매핑됨). |
 | 스마트 태그 | 메타데이터 태그를 자동으로 추가하여 검색 기능을 보강합니다. |
 
-<!--
+### 폴더에 메타데이터 양식 할당 {#assign-metadata-form-folder}
 
-### Assign metadata form to a folder {#assign-metadata-form-folder}
+Assets Essentials 배포 내의 폴더에 메타데이터 양식을 할당할 수도 있습니다. MIME 유형에 따라 폴더에 할당된 메타데이터 양식은 메타데이터 양식을 폴더에 수동으로 적용할 때 덮어쓰여집니다. 하위 폴더의 에셋을 포함하여 폴더의 모든 에셋은 메타데이터 양식에 정의된 속성을 표시합니다.
 
-You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+폴더에 메타데이터 양식을 할당하려면 다음을 수행합니다.
 
-To assign a metadata form to a folder:
+1. 다음으로 이동 **[!UICONTROL 설정]** > **[!UICONTROL 메타데이터 Forms]** 메타데이터 양식을 선택합니다.
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+2. 클릭 **[!UICONTROL 폴더에 할당]**.
 
-2. Click **[!UICONTROL Assign to Folder]**.
+3. 폴더를 선택하고 **[!UICONTROL 할당]**.
 
-3. Select the folder and click **[!UICONTROL Assign]**.
+   ![폴더에 메타데이터 양식 할당](/help/using/assets/assign-to-folder.png)
 
-   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
-   You can also navigate to the folder details page and select a metadata form from the folder properties available in the right pane to assign the metadata form to the folder.
-
--->
+   또한 폴더 세부 정보 페이지로 이동하여 오른쪽 창에 있는 폴더 속성에서 메타데이터 양식을 선택하여 폴더에 메타데이터 양식을 할당할 수도 있습니다.
 
 ## 다음 단계 {#next-steps}
 
