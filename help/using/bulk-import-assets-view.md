@@ -1,25 +1,25 @@
 ---
-title: 자산 보기를 사용하여 자산 일괄 가져오기
-description: 새 자산 UI(자산 보기)를 사용하여 자산을 일괄적으로 가져오는 방법에 대해 알아봅니다. 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다.
-source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
+title: Assets Essentials을 사용하여 에셋 일괄 가져오기
+description: 새로운 에셋 UI(Assets Essentials)를 사용하여 에셋을 일괄 가져오는 방법을 알아봅니다. 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다.
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 100%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
-# 자산 보기를 사용하여 자산 일괄 가져오기  {#bulk-import-assets-view}
+# Assets Essentials을 사용하여 에셋 일괄 가져오기  {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="자산 일괄 가져오기"
->abstract="이제 관리자는 자산 보기를 사용하여 데이터 소스에서 Experience Manager Assets로 대량의 자산을 가져올 수 있습니다. 관리자는 더 이상 개별 자산 또는 폴더를 Experience Manager Assets에 업로드할 필요가 없습니다. 일괄 가져오기에 대해 지원되는 클라우드 스토리지 공급자로는 Azure, AWS, Google Cloud 및 Dropbox가 포함됩니다."
+>abstract="이제 관리자는 Assets Essentials을 사용하여 데이터 소스에서 Experience Manager Assets으로 많은 수의 에셋을 가져올 수 있습니다. 관리자는 더 이상 개별 자산 또는 폴더를 Experience Manager Assets에 업로드할 필요가 없습니다. 일괄 가져오기에 대해 지원되는 클라우드 스토리지 공급자로는 Azure, AWS, Google Cloud 및 Dropbox가 포함됩니다."
 
-AEM Assets 보기의 일괄 가져오기는 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다. 관리자는 더 이상 개별 자산 또는 폴더를 AEM Assets에 업로드할 필요가 없습니다.
+AEM Assets Essentials의 일괄 가져오기는 관리자가 데이터 소스에서 AEM Assets으로 많은 수의 에셋을 가져올 수 있는 기능을 제공합니다. 관리자는 더 이상 개별 자산 또는 폴더를 AEM Assets에 업로드할 필요가 없습니다.
 
 >[!NOTE]
 >
->자산 보기 일괄 가져오기 도구는 관리 보기 일괄 가져오기 도구와 동일한 백엔드를 사용합니다. 그러나 이 도구는 가져올 수 있는 더 많은 데이터 소스와 더욱 간소화된 사용자 경험을 제공합니다.
+>Assets Essentials 벌크 가져오기는 Assets as a Cloud Service 벌크 가져오기의 백엔드와 동일한 백엔드를 사용합니다. 하지만 Assets Essentials은 가져올 데이터 소스가 더 많고 사용자 경험이 더 간소화됩니다.
 
 다음 데이터 소스에서 자산을 가져올 수 있습니다.
 
@@ -74,7 +74,7 @@ AEM Assets 보기의 일괄 가져오기는 관리자에게 데이터 소스에�
 
 일괄 가져오기 도중 [!DNL Experience Manager]는 자산과 폴더를 다시 가져오는 것을 방지하기 위해 기존 폴더를 찾고, 가져오기가 수행되는 상위 폴더에 적용된 정리 규칙도 확인합니다. 정리 규칙이 상위 폴더에 적용되면 가져오기 소스에도 동일한 규칙이 적용됩니다. 새로운 가져오기의 경우 자산 및 폴더의 파일 이름을 관리하기 위해 다음과 같은 정리 규칙이 적용됩니다.
 
-허용되지 않는 이름, 자산 이름 처리, 일괄 가져오기 도중 폴더 이름 처리에 대한 자세한 내용은 [관리 보기에서 일괄 가져오기 도중 파일 이름 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport)를 참조하십시오.
+허용되지 않는 이름, 자산 이름 처리 및 일괄 가져오기 중 폴더 이름 처리에 대한 자세한 내용은 [일괄 가져오기 중 파일 이름 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## 기존 일괄 가져오기 구성 보기 {#view-import-configuration}
 
