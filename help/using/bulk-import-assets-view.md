@@ -1,8 +1,9 @@
 ---
 title: Assets Essentials를 사용하여 자산 일괄 가져오기
 description: 새 자산 UI(Assets Essentials)를 사용하여 자산을 일괄적으로 가져오는 방법에 대해 알아봅니다. 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다.
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
-workflow-type: ht
+exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
+source-git-commit: 77accbc70d973a9b4afddde1c8bcd60c37ff636d
+workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 100%
 
@@ -138,4 +139,3 @@ AEM Assets Essentials의 일괄 가져오기는 관리자에게 데이터 소스
 ## 일괄 가져오기를 수행하고 자산으로 이동 {#view-assets-after-bulk-import}
 
 일괄 가져오기 작업 실행 후 자산을 가져오는 자산 대상 위치를 보려면 구성 이름에 해당하는 ...을 클릭한 다음 **[!UICONTROL 자산 보기]**&#x200B;를 클릭합니다.
-
