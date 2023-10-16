@@ -3,7 +3,7 @@ title: Assets Essentials를 사용하여 자산 일괄 가져오기
 description: 새 자산 UI(Assets Essentials)를 사용하여 자산을 일괄적으로 가져오는 방법에 대해 알아봅니다. 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 73721e8ee5c130ccad2ef2bdccba2e8412e031f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1245'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ AEM Assets Essentials의 일괄 가져오기는 관리자에게 데이터 소스
 
 일괄 가져오기 도중 [!DNL Experience Manager]는 자산과 폴더를 다시 가져오는 것을 방지하기 위해 기존 폴더를 찾고, 가져오기가 수행되는 상위 폴더에 적용된 정리 규칙도 확인합니다. 정리 규칙이 상위 폴더에 적용되면 가져오기 소스에도 동일한 규칙이 적용됩니다. 새로운 가져오기의 경우 자산 및 폴더의 파일 이름을 관리하기 위해 다음과 같은 정리 규칙이 적용됩니다.
 
-허용되지 않는 이름, 자산 이름 처리, 일괄 가져오기 도중 폴더 이름 처리에 대한 자세한 내용은 [일괄 가져오기 도중 파일 이름 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport)를 참조하십시오.
+허용되지 않는 이름, 자산 이름 처리, 일괄 가져오기 도중 폴더 이름 처리에 대한 자세한 내용은 [일괄 가져오기 도중 파일 이름 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ko#filename-handling-bulkimport)를 참조하십시오.
 
 ## 기존 일괄 가져오기 구성 보기 {#view-import-configuration}
 
