@@ -3,7 +3,7 @@ title: Assets Essentials에서 태그를 관리하는 방법
 description: Assets Essentials에서 태그를 관리하는 방법에 대해 알아봅니다. 태그는 보다 효율적으로 찾아보고 검색할 수 있는 자산을 분류하는 데 유용합니다.
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 100%
 
