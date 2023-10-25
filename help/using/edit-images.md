@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Photoshop Express] 기반 옵션을 사용하여 이�
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
