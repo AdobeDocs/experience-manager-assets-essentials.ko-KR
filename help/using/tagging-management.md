@@ -1,7 +1,8 @@
 ---
 title: Assets Essentials에서 태그를 관리하는 방법
 description: Assets Essentials에서 태그를 관리하는 방법에 대해 알아봅니다. 태그는 보다 효율적으로 찾아보고 검색할 수 있는 자산을 분류하는 데 유용합니다.
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
+source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
 workflow-type: ht
 source-wordcount: '1292'
 ht-degree: 100%
@@ -150,21 +151,3 @@ ht-degree: 100%
 
 1. 하나 이상의 태그를 선택합니다. 하위 태그는 상위 태그 또는 네임스페이스와 함께 자동으로 선택됩니다.
 Assets Essentials에서 수정된 태그는 Assets as a Cloud Service에도 적용됩니다.
-
-<!--
-*   Overview
-*   Benefits
-*   Prerequisites and Permissions
-*   Configuration
-*   Managing Tags
-    *   Creating a Namespace
-    *   Adding Tags to a Namespace
-    *   Adding Tags to Standard Tags
-    *   Moving Tags
-    *   Editing Tags
-    *   Deleting Tags
-*   Applying Tags
-    *   Adding Tags to the Metadata form
-    *   Adding Tags to Assets
-*   Limitations
--->
