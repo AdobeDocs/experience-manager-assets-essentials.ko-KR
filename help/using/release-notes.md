@@ -4,18 +4,54 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
-workflow-type: ht
-source-wordcount: '2342'
-ht-degree: 100%
+source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
+workflow-type: tm+mt
+source-wordcount: '2435'
+ht-degree: 95%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 9월 21일에 출시되었습니다.
+Assets Essentials의 최신 릴리스는 2023년 10월 26일에 출시되었습니다.
 
-최근에 추가된 기능 목록은 다음과 같습니다.
+새로운 기능은 다음과 같습니다.
+
+**OneDrive 데이터 원본에서 자산 일괄 가져오기**
+
+관리자는 이제 다음 작업을 수행할 수 있습니다 [OneDrive에서 AEM Assets으로 많은 자산 가져오기](/help/using/bulk-import-assets-view.md). 대량 가져오기에 대해 지원되는 데이터 소스에 대해 업데이트된 목록에는 Azure, AWS, Google Cloud, Dropbox 및 OneDrive가 포함됩니다.
+
+![폴더에 메타데이터 양식 할당](/help/using/assets/bulk-import-source-details.png)
+
+**라이브러리에 대한 교차 조직 권한 부여 지원**
+
+이제 Experience Manager Assets을 사용하여 다른 IMS 조직의 Creative Cloud 라이브러리에 대한 액세스를 구성할 수 있습니다. Creative Cloud과 Experience Manager 간에 최신 제품 간 워크플로우에 더 쉽게 액세스할 수 있도록 하고 크리에이티브에 대한 시간과 노력을 줄일 수 있습니다.
+
+**고객 피드백을 기반으로 한 개선 사항**
+
+고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
+
+
+## 알려진 문제 {#known-issues}
+
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+
+* 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+
+문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
+
+## 이전 릴리스 {#past-releases}
+
+### 2023년 9월 릴리스 {#september2023-release}
 
 **폴더에 메타데이터 양식 할당**
 
@@ -41,29 +77,6 @@ AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 
 
 ![그룹에 맞는 항목 고정](assets/pin-items-for-groups.png)
 
-**고객 피드백을 기반으로 한 개선 사항**
-
-고객 피드백에 따라 개선 사항이 적용되었으며 버그가 수정되었습니다.
-
-
-## 알려진 문제 {#known-issues}
-
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
-
-* 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
-
-문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
-
-## 이전 릴리스 {#past-releases}
 
 ### 2023년 7월 릴리스 {#july2023-release}
 
