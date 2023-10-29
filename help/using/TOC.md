@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: d0f36804edd80b4f4caea2392542fb8fe21136d0
+source-git-commit: 9260de0c52b21d17a1c2f64c2c3da6d2a42046f0
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 94%
+source-wordcount: '141'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,8 @@ ht-degree: 94%
 + [태그 관리](tagging-management.md)
 + 다른 솔루션과 통합 {#integration-with-other-solutions}
    + [개요](integration.md)
-   + [Creative Cloud for enterprise와 통합](integrate-with-creative-cloud.md)
+   + [Adobe 자산 링크와 통합](integrate-with-creative-cloud.md)
    + [Adobe Workfront와 통합](integrate-with-workfront.md)
-+ [Creative Cloud 통합을 위한 교차 조직 권한](cross-org-entitlements-creative-cloud.md)
++ Creative Cloud과 통합 {#integration-with-creative-cloud}
+   + [AEM Assets을 Creative Cloud에 연결](connect-assets-with-creative-cloud.md)
 + [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
