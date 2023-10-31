@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2435'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 최신 릴리스는 2023년 10월 26일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2023년 10월 26일에 출시되었습니다.
 
 새로운 기능은 다음과 같습니다.
 
-**OneDrive 데이터 원본에서 자산 일괄 가져오기**
+**OneDrive 데이터 소스에서 자산 일괄 가져오기**
 
-관리자는 이제 다음 작업을 수행할 수 있습니다 [OneDrive에서 AEM Assets으로 많은 자산 가져오기](/help/using/bulk-import-assets-view.md). 대량 가져오기에 대해 지원되는 데이터 소스에 대해 업데이트된 목록에는 Azure, AWS, Google Cloud, Dropbox 및 OneDrive가 포함됩니다.
+이제 관리자는 [OneDrive에서 AEM Assets로 수많은 자산을 가져올](/help/using/bulk-import-assets-view.md) 수 있습니다. 일괄 가져오기가 지원되는 데이터 소스의 업데이트된 목록에는 Azure, AWS, Google Cloud, Dropbox 및 OneDrive가 포함됩니다.
 
 ![폴더에 메타데이터 양식 할당](/help/using/assets/bulk-import-source-details.png)
 
-**라이브러리에 대한 교차 조직 권한 부여 지원**
+**라이브러리에 대한 조직 간 권한 지원**
 
-이제 Experience Manager Assets을 사용하여 다른 IMS 조직의 Creative Cloud 라이브러리에 대한 액세스를 구성할 수 있습니다. Creative Cloud과 Experience Manager 간에 최신 제품 간 워크플로우에 더 쉽게 액세스할 수 있도록 하고 크리에이티브에 대한 시간과 노력을 줄일 수 있습니다.
+이제 Experience Manager Assets를 사용하면 다른 IMS 조직의 Creative Cloud Libraries에 대한 액세스를 구성할 수 있습니다. Creative Cloud와 Experience Manager 간의 최신 제품 간 워크플로에 더 쉽게 액세스할 수 있으며 크리에이티브에 소요되는 시간과 노력이 줄어듭니다.
 
 **고객 피드백을 기반으로 한 개선 사항**
 
