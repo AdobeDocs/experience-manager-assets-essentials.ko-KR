@@ -5,7 +5,7 @@ exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
 workflow-type: tm+mt
 source-wordcount: '1809'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="자산 일괄 가져오기"
->abstract="관리자는 Assets Essentials을 사용하여 데이터 소스에서 Experience Manager Assets으로 많은 수의 에셋을 가져올 수 있습니다. 관리자는 더 이상 개별 자산 또는 폴더를 Experience Manager Assets에 업로드할 필요가 없습니다. 일괄 가져오기에 대해 지원되는 클라우드 스토리지 공급자로는 Azure, AWS, Google Cloud 및 Dropbox가 포함됩니다."
->additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="비디오 보기"
+>abstract="관리자는 Assets Essentials를 사용하여 데이터 소스에서 Experience Manager Assets로 대량의 자산을 가져올 수 있습니다. 관리자는 더 이상 개별 자산 또는 폴더를 Experience Manager Assets에 업로드할 필요가 없습니다. 일괄 가져오기에 대해 지원되는 클라우드 스토리지 공급자로는 Azure, AWS, Google Cloud 및 Dropbox가 포함됩니다."
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="비디오 시청"
 
 AEM Assets Essentials의 일괄 가져오기는 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다. 관리자는 더 이상 개별 자산 또는 폴더를 AEM Assets에 업로드할 필요가 없습니다.
 
