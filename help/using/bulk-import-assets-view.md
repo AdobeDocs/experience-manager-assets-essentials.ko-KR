@@ -61,7 +61,7 @@ Dropbox 계정에서 AEM Assets로 자산을 가져오기 전에 Dropbox 개발�
 
 1. 애플리케이션 이름을 지정하고 **[!UICONTROL 앱 만들기]**&#x200B;를 클릭합니다.
 
-1. 애플리케이션의 **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 리디렉션 URI]** 섹션에 다음을 추가합니다.
+1. 애플리케이션의 **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 리디렉션 URI]** 섹션에 다음 항목을 추가합니다.
 
    * https://exc-unifiedcontent.experience.adobe.net
 
@@ -100,7 +100,7 @@ OneDrive 계정에서 AEM Assets로 자산을 가져오기 전에 OneDrive 개�
 
 1. 리디렉션 URI를 추가하려면 다음 단계를 실행합니다.
    1. 애플리케이션 개요 페이지에서 **[!UICONTROL 리디렉션 URI 추가]** > **[!UICONTROL 플랫폼 추가]** > **[!UICONTROL 웹]**&#x200B;을 클릭합니다.
-   1. **[!UICONTROL Redirect URI]** 섹션에 다음을 추가합니다.
+   1. **[!UICONTROL Redirect URI]** 섹션에 다음 항목을 추가합니다.
 
       * https://exc-unifiedcontent.experience.adobe.net
 
