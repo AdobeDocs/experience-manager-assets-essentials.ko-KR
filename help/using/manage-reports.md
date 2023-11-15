@@ -5,7 +5,7 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 95%
 
 ## 보고서 액세스 {#access-reports}
 
-[Assets Essentials 관리자 제품 프로필](deploy-administer.md)에 할당된 모든 사용자는 [인사이트] 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
+[Assets Essentials 관리자 제품 프로필](deploy-administer.md)에 할당된 모든 사용자는 인사이트 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
 
 ## 인사이트 보기 {#view-live-statistics}
 
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="보고서"
->abstract="Insights 대시보드를 사용하면 지난 30일 동안 또는 지난 12개월 동안 Experience Manager Assets 환경에 대한 실시간 이벤트 지표를 볼 수 있습니다. 이벤트 목록에는 다운로드 수, 업로드 수, 상위 검색 등이 포함됩니다."
+>abstract="인사이트 대시보드를 사용하면 지난 30일 또는 지난 12개월 동안 Experience Manager Assets 환경에 대한 실시간 이벤트 지표를 조회할 수 있습니다. 이벤트 목록에는 다운로드 수, 업로드 수, 인기 검색 등이 포함됩니다."
 
-Assets Essentials를 사용하면 [인사이트] 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
+Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
 
 ![자산 선택 시 도구 모음 옵션](assets/assets-essentials-live-statistics.png)
 
