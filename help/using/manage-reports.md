@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
+source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 ## 보고서 액세스 {#access-reports}
 
 [Assets Essentials 관리자 제품 프로필](deploy-administer.md)에 할당된 모든 사용자는 인사이트 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
+
+보고서에 액세스하려면 다음으로 이동합니다. **[!UICONTROL 보고서]** 아래에 **[!UICONTROL 설정]**.
+
+![보고서](assets/reports.png)
+<!--
+In the **[!UICONTROL Reports]** screen, various components are shown in the tabular format which includes the following:
+
+* **Title**: Title of the report
+* **Type**: Determines whether the report is uploaded or downloaded to the repository
+* **Description**: Provide details of the report that was given during uploading/downloading the report
+* **Status**: Determines whether the report is completed, under progress, or deleted.
+* **Author**: Provides email of the author who has uploaded/downloaded the report.
+* **Created**: Gives information of the date when the report was generated.
+-->
 
 ## 인사이트 보기 {#view-live-statistics}
 
@@ -34,13 +48,18 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 * **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 자산 수를 선 차트로 표시합니다.
 
+* **크기별 자산 수**: 0MB에서 100GB의 다양한 크기 범위를 기반으로 자산 수를 나눕니다.
+
+* **스토리지 사용량**: 유용성에 따라 막대 차트를 사용하여 표시되는 Assets Essentials 환경의 저장소 사용량(바이트)입니다.
+
+  ![스토리지](assets/storage.png)
+
+
+* **게재**: 그래프는 게재 날짜의 에셋 수를 보여줍니다.
+
+* **자산 유형별 자산 수**: 사용 가능한 에셋의 다양한 MIME 유형 수를 나타냅니다. 예: application/zip, image/png, video/mp4, application/postscripte.
+
 * **인기 검색어**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 해당 용어가 검색된 횟수와 함께 가장 많이 검색된 용어를 표 형식으로 표시합니다.
-
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
 
 ## 다운로드 보고서 만들기 {#create-download-report}
 
