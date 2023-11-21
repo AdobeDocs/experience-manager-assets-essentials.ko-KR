@@ -2,9 +2,9 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
+source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '910'
 ht-degree: 90%
 
 ---
@@ -40,7 +40,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
 
-![자산 선택 시 도구 모음 옵션](assets/assets-essentials-live-statistics.png)
+<!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
 자동 생성된 다음과 같은 차트를 보려면 왼쪽 탐색 창에 있는 **[!UICONTROL 인사이트]**&#x200B;를 클릭하십시오.
 
@@ -52,7 +52,7 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 * **스토리지 사용량**: 유용성에 따라 막대 차트를 사용하여 표시되는 Assets Essentials 환경의 저장소 사용량(바이트)입니다.
 
-  ![스토리지](assets/storage.png)
+  <!--![Storage](assets/storage.png)-->
 
 
 * **게재**: 그래프는 게재 날짜의 에셋 수를 보여줍니다.
@@ -60,6 +60,9 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 * **자산 유형별 자산 수**: 사용 가능한 에셋의 다양한 MIME 유형 수를 나타냅니다. 예: application/zip, image/png, video/mp4, application/postscripte.
 
 * **인기 검색어**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 해당 용어가 검색된 횟수와 함께 가장 많이 검색된 용어를 표 형식으로 표시합니다.
+
+  ![Insights](assets/insights1.png)
+  ![Insights](assets/insights2.png)
 
 ## 다운로드 보고서 만들기 {#create-download-report}
 
