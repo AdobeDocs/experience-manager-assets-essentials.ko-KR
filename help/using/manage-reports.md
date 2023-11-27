@@ -5,7 +5,7 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 [Assets Essentials 관리자 제품 프로필](deploy-administer.md)에 할당된 모든 사용자는 인사이트 대시보드에 액세스하거나 Assets Essentials에서 사용자 정의 보고서를 만들 수 있습니다.
 
-보고서에 액세스하려면 다음으로 이동합니다. **[!UICONTROL 보고서]** 아래에 **[!UICONTROL 설정]**.
+보고서에 액세스하려면 **[!UICONTROL 설정]** 아래의 **[!UICONTROL 보고서]**&#x200B;로 이동합니다.
 
 ![보고서](assets/reports.png)
 <!--
@@ -50,7 +50,7 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **스토리지 사용량**: 유용성에 따라 막대 차트를 사용하여 표시되는 Assets Essentials 환경의 저장소 사용량(바이트)입니다.
+* **스토리지 사용량**: 유용성에 따라 막대 차트를 사용하여 표현되는 Assets Essentials 환경의 스토리지 사용량(바이트 단위)입니다.
 
   <!--![Storage](assets/storage.png)-->
 
