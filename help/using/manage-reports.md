@@ -2,9 +2,9 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
+source-git-commit: cf5cba28d20d1633566881a7f651da6bcaa48c7b
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -52,16 +52,15 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 * **스토리지 사용량**: 유용성에 따라 막대 차트를 사용하여 표현되는 Assets Essentials 환경의 스토리지 사용량(바이트 단위)입니다.
 
-  <!--![Storage](assets/storage.png)-->
-
-
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **인기 검색어**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 해당 용어가 검색된 횟수와 함께 가장 많이 검색된 용어를 표 형식으로 표시합니다.
 
-  <!--
+![Insights](assets/insights.png)
+
+<!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
