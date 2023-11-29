@@ -2,7 +2,7 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: cf5cba28d20d1633566881a7f651da6bcaa48c7b
+source-git-commit: 7ceeeda677e845cc7cb31964edaa687c806f3afe
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 100%
@@ -44,6 +44,8 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 자동 생성된 다음과 같은 차트를 보려면 왼쪽 탐색 창에 있는 **[!UICONTROL 인사이트]**&#x200B;를 클릭하십시오.
 
+![Insights](assets/insights.png)
+
 * **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 자산 수를 선 차트로 표시합니다.
 
 * **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 자산 수를 선 차트로 표시합니다.
@@ -58,9 +60,7 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 * **인기 검색어**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 해당 용어가 검색된 횟수와 함께 가장 많이 검색된 용어를 표 형식으로 표시합니다.
 
-![Insights](assets/insights.png)
-
-<!--
+  <!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
