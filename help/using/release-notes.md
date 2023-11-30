@@ -4,28 +4,48 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
-workflow-type: ht
-source-wordcount: '2435'
-ht-degree: 100%
+source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
+workflow-type: tm+mt
+source-wordcount: '2548'
+ht-degree: 95%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 10월 26일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2023년 11월 30일에 출시되었습니다.
 
 새로운 기능은 다음과 같습니다.
 
-**OneDrive 데이터 소스에서 자산 일괄 가져오기**
+**AEM Assets에 임베드된 Adobe Express 편집기**
 
-이제 관리자는 [OneDrive에서 AEM Assets로 수많은 자산을 가져올](/help/using/bulk-import-assets-view.md) 수 있습니다. 일괄 가져오기가 지원되는 데이터 소스의 업데이트된 목록에는 Azure, AWS, Google Cloud, Dropbox 및 OneDrive가 포함됩니다.
+Express에 액세스할 수 있는 사용자는 이제 AEM Assets 내에서 직접 사용할 수 있는 Adobe Express 및 Adobe Firefly의 통합 이미지 편집 및 생성 도구를 사용하여 콘텐츠를 재사용하고 콘텐츠 속도를 높일 수 있습니다.
 
-![폴더에 메타데이터 양식 할당](/help/using/assets/bulk-import-source-details.png)
+![폴더에 메타데이터 양식 할당](/help/using/assets/adobe-express-aem-assets.png)
 
-**라이브러리에 대한 조직 간 권한 지원**
+<!--
 
-이제 Experience Manager Assets를 사용하면 다른 IMS 조직의 Creative Cloud Libraries에 대한 액세스를 구성할 수 있습니다. Creative Cloud와 Experience Manager 간의 최신 제품 간 워크플로에 더 쉽게 액세스할 수 있으며 크리에이티브에 소요되는 시간과 노력이 줄어듭니다.
+**Smart tags blocklist** 
+
+Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
+
+  ![storage usage insights](/help/using/assets/block-tags.png)
+
+-->
+
+**Insights의 저장소 사용 보고서**:
+
+이제 관리자는 Insights의 일부로 사용할 수 있는 스토리지 사용량 보고서를 볼 수 있습니다.
+
+![스토리지 사용 인사이트](/help/using/assets/storage-usage-insights.png)
+
+**첫 번째 홈 페이지 구성 검색**
+
+이제 Assets Essentials을 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지로 먼저 검색을 선택하는 경우 조직의 검색 창 정렬, 배경 이미지 및 로고를 구성할 수 있습니다.
+
+![첫 번째 구성 검색](/help/using/assets/search-first-configuration.png)
+
+
 
 **고객 피드백을 기반으로 한 개선 사항**
 
@@ -50,6 +70,18 @@ Assets Essentials의 현재 릴리스는 2023년 10월 26일에 출시되었습�
 문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
 
 ## 이전 릴리스 {#past-releases}
+
+### 2023년 10월 릴리스 {#october2023-release}
+
+**OneDrive 데이터 소스에서 자산 일괄 가져오기**
+
+이제 관리자는 [OneDrive에서 AEM Assets로 수많은 자산을 가져올](/help/using/bulk-import-assets-view.md) 수 있습니다. 일괄 가져오기가 지원되는 데이터 소스의 업데이트된 목록에는 Azure, AWS, Google Cloud, Dropbox 및 OneDrive가 포함됩니다.
+
+![폴더에 메타데이터 양식 할당](/help/using/assets/bulk-import-source-details.png)
+
+**라이브러리에 대한 조직 간 권한 지원**
+
+이제 Experience Manager Assets를 사용하면 다른 IMS 조직의 Creative Cloud Libraries에 대한 액세스를 구성할 수 있습니다. Creative Cloud와 Experience Manager 간의 최신 제품 간 워크플로에 더 쉽게 액세스할 수 있으며 크리에이티브에 소요되는 시간과 노력이 줄어듭니다.
 
 ### 2023년 9월 릴리스 {#september2023-release}
 
