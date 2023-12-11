@@ -5,8 +5,8 @@ role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 74%
+source-wordcount: '1147'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express 통합"
->abstract="Adobe Express을 기반으로 하는 쉽고 직관적인 이미지 편집 도구는 AEM Assets 내에서 바로 사용할 수 있으므로 콘텐츠 재사용을 높이고 콘텐츠 속도를 가속화할 수 있습니다."
+>abstract="AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 재사용률과 콘텐츠 속도를 높일 수 있습니다."
 
 ### 이미지 크기 조정 {#resize-image-using-express}
 
@@ -78,7 +78,7 @@ Adobe Express를 사용하여 JPEG 이미지를 PNG 형식으로 빠르게 변�
 
 * 지원되는 이미지 해상도: 차원당 최소 - 50픽셀, 최대 - 6000픽셀
 
-* 지원되는 최대 파일 크기: 17MB
+* 지원되는 최대 파일 크기: 17 MB
 
 ## Adobe Express이 포함된 편집기를 사용하여 이미지 편집 {#edit-using-embedded-editor}
 
