@@ -5,21 +5,21 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
-workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2562'
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 11월 30일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2023년 11월 30일 금요일에 출시되었습니다.
 
 새로운 기능은 다음과 같습니다.
 
-**AEM Assets에 임베드된 Adobe Express 편집기**
+**AEM Assets의 임베드된 Adobe Express 편집기**
 
-Express에 액세스할 수 있는 사용자는 이제 AEM Assets 내에서 직접 사용할 수 있는 Adobe Express 및 Adobe Firefly의 통합 이미지 편집 및 생성 도구를 사용하여 콘텐츠를 재사용하고 콘텐츠 속도를 높일 수 있습니다.
+이제 Express 액세스 권한이 있는 사용자는 AEM Assets 내에서 직접 사용 가능한 Adobe Express 및 Adobe Firefly의 통합 이미지 편집 및 제작 도구를 사용하여 콘텐츠 재사용을 개선하고 콘텐츠 속도를 높일 수 있습니다.
 
 ![폴더에 메타데이터 양식 할당](/help/using/assets/adobe-express-aem-assets.png)
 
@@ -33,17 +33,17 @@ Assets Essentials now enables you to define a list of blocked tags. These tags a
 
 -->
 
-**Insights의 저장소 사용 보고서**:
+**Insights의 스토리지 사용량 보고서**:
 
-이제 관리자는 Insights의 일부로 사용할 수 있는 스토리지 사용량 보고서를 볼 수 있습니다.
+이제 관리자는 Insights의 일부로 제공되는 스토리지 사용량 보고서를 볼 수 있습니다.
 
-![스토리지 사용 인사이트](/help/using/assets/storage-usage-insights.png)
+![Insights 스토리지 사용량](/help/using/assets/storage-usage-insights.png)
 
-**첫 번째 홈 페이지 구성 검색**
+**검색 우선 홈 페이지 구성**
 
-이제 Assets Essentials을 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지로 먼저 검색을 선택하는 경우 조직의 검색 창 정렬, 배경 이미지 및 로고를 구성할 수 있습니다.
+이제 Assets Essentials를 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지를 검색 우선으로 선택하면 검색 창 정렬, 배경 이미지, 조직 로고 등을 구성할 수 있습니다.
 
-![첫 번째 구성 검색](/help/using/assets/search-first-configuration.png)
+![검색 우선 구성](/help/using/assets/search-first-configuration.png)
 
 
 
@@ -352,7 +352,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 [!DNL Assets Essentials]는 다음 업데이트와 함께 2022년 3월 9일에 출시됩니다.
 
-* 이제 [!DNL Assets Essentials]에서는 [링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 자산을 공유](share-links-for-assets.md)할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 자산을 미리 보고 다운로드할 수 있습니다.
+* 이제 [!DNL Assets Essentials]에서는 [링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 자산을 공유](share-links-for-assets.md)할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 자산을 미리보고 다운로드할 수 있습니다.
 
 * 이제 [!DNL Assets Essentials]는 기존 기본 및 소비자 사용자 제품 프로필과 더불어 Admin Console의 [관리자 제품 프로필](deploy-administer.md#add-users-to-essentials)로 구성됩니다. 이제 관리자는 관리자 제품 프로필에 다른 사용자를 할당할 수 있습니다.
 
