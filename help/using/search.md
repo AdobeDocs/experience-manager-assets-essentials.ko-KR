@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
-workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 77%
+workflow-type: ht
+source-wordcount: '1277'
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="assets_search"
 >title="자산 검색"
->abstract="검색창에서 키워드를 지정하거나 상태, 파일 유형, MIME 유형, 크기, 생성, 수정 및 만료 일자를 기준으로 필터링하여 자산을 검색하십시오. 표준 필터 외에도 사용자 정의 필터를 적용할 수 있습니다. 필터링된 결과를 “저장된 검색” 또는 “스마트 컬렉션”으로 저장할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko-KR#manage-smart-collection" text="스마트 컬렉션 만들기"
+>abstract="검색 창에서 키워드를 지정하거나 상태, 파일 유형, MIME 유형, 크기, 생성, 수정 및 만료 일자를 기준으로 필터링하여 자산을 검색하십시오. 표준 필터 외에도 사용자 정의 필터를 적용할 수 있습니다. 필터링된 결과를 “저장된 검색” 또는 “스마트 컬렉션”으로 저장할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko#manage-smart-collection" text="스마트 컬렉션 만들기"
 
 [!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 자산을 빠르게 찾고 콘텐츠 속도를 높일 수 있습니다. [!DNL Assets Essentials]는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 77%
 
 **필요한 권한:**  `Can Edit`, `Owner` 또는 관리자.
 
-Assets Essentials을 사용하면 사용자 인터페이스에 맞춤형 필터를 추가할 수도 있습니다. 그런 다음 [표준 필터](#refine-search-results) 외에 이러한 맞춤형 필터를 적용하여 검색 결과를 구체화할 수 있습니다.
+Assets Essentials를 사용하면 사용자 인터페이스에 사용자 정의 필터를 추가할 수도 있습니다. 그런 다음 [표준 필터](#refine-search-results) 외에 이러한 맞춤형 필터를 적용하여 검색 결과를 구체화할 수 있습니다.
 
 Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
 
@@ -123,7 +123,7 @@ Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
 
 ## 저장된 검색 {#saved-search}
 
-검색 기능은 [!DNL Assets Essentials]에서 사용하기 매우 간단합니다. 검색 상자 내에서 키워드를 입력하고 Return 키를 눌러 결과를 볼 수 있을 뿐만 아니라 한 번의 클릭으로 최근에 검색한 키워드를 빠르게 다시 검색할 수 있습니다.
+검색 기능은 [!DNL Assets Essentials]에서 사용하기 매우 간단합니다. 검색 상자 내에서 키워드를 입력하고 Return 키를 눌러 결과를 볼 수 있을 뿐만 아니라, 한 번의 클릭으로 최근 검색한 키워드를 빠르게 다시 검색할 수 있습니다.
 
 메타데이터 및 자산 유형에 대한 특정 기준에 따라 검색 결과를 필터링할 수도 있습니다. 자주 사용하는 필터의 경우 검색 경험을 개선하기 위해 [!DNL Assets Essentials]을 사용하여 검색 매개변수를 저장할 수 있습니다. 그런 다음 저장된 검색을 선택하여 한 번의 클릭으로 필터를 검색하고 적용할 수 있습니다.
 
@@ -170,42 +170,42 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **바로 가기에 고정**: 나중에 필요할 때 더 빠르게 액세스할 수 있도록 [자산을 고정](my-workspace.md)합니다. 고정된 모든 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다.
 
-## 첫 번째 홈 페이지 검색 구성 {#configuring-search-first-homepage}
+## 검색 우선 홈 페이지 구성 {#configuring-search-first-homepage}
 
-Assets Essentials을 사용하면 조직의 기본 랜딩 페이지를 선택할 수 있습니다. 첫 번째 검색을 홈 페이지로 사용할 때 배경 및 로고 이미지를 브랜드와 일치하도록 구성하여 페이지의 브랜딩을 조정할 수 있는 옵션도 있습니다.
+Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할 수 있습니다. 검색 우선을 홈 페이지로 사용하는 경우, 브랜딩에 맞게 배경 및 로고 이미지를 구성하여 페이지 브랜딩을 맞춤화할 수 있는 옵션도 있습니다.
 
-첫 번째 홈 페이지 검색을 구성하려면 아래 단계를 실행합니다.
+검색 우선 홈 페이지를 구성하려면 아래 단계를 실행하십시오.
 
-1. 다음으로 이동 **[!UICONTROL 설정]** > **[!UICONTROL 일반 설정]**.
-1. 선택 **[!UICONTROL 먼저 검색]**. 검색 첫 번째 관련 구성이 더 열립니다. 다음을 설정할 수 있습니다. [정렬](#setting-alignment-search-bar) 또는 [배경 및 로고 이미지 설정](#setting-background-image-and-logo) 홈 페이지
+1. **[!UICONTROL 설정]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL 검색 우선]**&#x200B;을 선택합니다. 검색 우선 관련된 구성이 열립니다. 홈 페이지의 [정렬](#setting-alignment-search-bar) 또는 [배경 및 로고 이미지 설정](#setting-background-image-and-logo)을 설정할 수 있습니다.
 
 ### 검색 창 정렬 설정 {#setting-alignment-search-bar}
 
-[!DNL Assets Essentials] 검색 막대의 정렬을 변경할 수 있습니다. 검색 막대를 중앙이나 맨 위에 표시할 수 있습니다. 적절한 정렬을 선택하고 **[!UICONTROL 저장]**.
+[!DNL Assets Essentials] 검색 창 정렬을 변경할 수 있습니다. 검색 창을 중앙이나 상단에 표시할 수 있습니다. 적절한 정렬을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-![첫 번째 홈 페이지 정렬 검색](assets/search-first-alignment.png)
+![검색 우선 홈 페이지 정렬](assets/search-first-alignment.png)
 
-### 홈 페이지의 배경 및 로고 이미지 설정 중 {#setting-background-image-and-logo}
+### 홈 페이지 배경 및 로고 이미지 설정 {#setting-background-image-and-logo}
 
-첫 번째 검색 홈페이지에 브랜드 로고 및 배경 이미지를 추가할 수 있습니다. 다음 단계를 실행합니다.
+검색 우선 홈 페이지에 브랜드 로고와 배경 이미지를 추가할 수 있습니다. 다음 단계를 실행합니다.
 
-1. 다음으로 이동 **[!UICONTROL 배경 및 로고 이미지]** 아래 섹션 **[!UICONTROL 홈페이지]**.
-1. 클릭 **[!UICONTROL 바꾸기]** 기존 에셋 저장소에서 이미지를 찾아봅니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [미리 보기](#preview-configured-homepage) 수정 사항을 검토하기 위한 변경 사항입니다.
+1. **[!UICONTROL 홈 페이지]** 아래의 **[!UICONTROL 배경 및 로고 이미지]** 섹션으로 이동합니다.
+1. 기존의 자산 저장소에서 이미지를 찾아보려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 수정 사항을 검토하려면 변경 사항을 [미리 봅니다](#preview-configured-homepage).
 
-### 구성된 홈 페이지 미리 보기 {#preview-configured-homepage}
+### 구성된 홈 페이지 미리보기 {#preview-configured-homepage}
 
-미리 보기하여 첫 번째 홈 페이지 검색의 레이아웃과 서식을 확인할 수 있습니다. 사용 **[!UICONTROL 미리 보기]**, 요구 사항에 따라 레이아웃을 수정하거나 수정할 수 있습니다. 구성된 홈 페이지를 미리 보려면 아래 단계를 수행하십시오.
+검색 우선 홈 페이지의 레이아웃과 서식을 미리보기로 확인할 수 있습니다. **[!UICONTROL 미리보기]**&#x200B;를 사용하면 레이아웃을 수정하거나 요구 사항에 따라 수정할 수 있습니다. 구성된 홈 페이지를 미리 보려면 아래 단계를 수행하십시오.
 
-1. 클릭 **[!UICONTROL 일반 설정]** 및 선택 **[!UICONTROL 먼저 검색]**.
-1. 다음으로 이동 **[!UICONTROL 첫 번째 홈 페이지 검색 사용자 지정]** 및 클릭 **[!UICONTROL 미리 보기]**. 전환 **[!UICONTROL 어두운 테마]** 단추를 클릭하여 어두운 테마 또는 밝은 테마로 홈 페이지를 미리 봅니다.
-1. 클릭 **[!UICONTROL 닫기]** 미리보기 화면을 닫습니다.
+1. **[!UICONTROL 일반 설정]**&#x200B;을 클릭하고 **[!UICONTROL 검색 우선]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 검색 우선 홈 페이지 사용자 정의]**&#x200B;로 이동하고 **[!UICONTROL 미리보기]**&#x200B;를 클릭합니다. 홈 페이지를 어둡거나 밝은 테마로 미리 보려면 **[!UICONTROL 어두운 테마]** 버튼을 전환합니다.
+1. 미리보기 화면을 닫으려면 **[!UICONTROL 닫기]**&#x200B;를 클릭합니다.
 
-   ![첫 번째 홈 페이지 미리 보기 검색](assets/search-first-preview.gif)
+   ![검색 우선 홈 페이지 미리보기](assets/search-first-preview.gif)
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 자산 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=ko-KR)
+* [Assets Essentials의 자산 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
