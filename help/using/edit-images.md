@@ -6,7 +6,7 @@ exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -80,35 +80,35 @@ Adobe Express를 사용하여 JPEG 이미지를 PNG 형식으로 빠르게 변�
 
 * 지원되는 최대 파일 크기: 17 MB
 
-## Adobe Express이 포함된 편집기를 사용하여 이미지 편집 {#edit-using-embedded-editor}
+## Adobe Express 임베드된 편집기를 사용하여 이미지 편집 {#edit-using-embedded-editor}
 
-Express에 액세스할 수 있는 사용자는 이제 Assets Essentials 내에서 Adobe Express 및 Adobe Firefly의 통합 이미지 편집 및 제작 도구를 직접 사용할 수 있으므로 콘텐츠 재사용을 향상시키고 콘텐츠 속도를 가속화할 수 있습니다. 또한 사전 정의된 요소를 사용하여 에셋을 멋진 모양으로 만들거나 몇 번의 클릭만으로 이미지를 편집하는 빠른 작업을 수행할 수 있습니다.
+이제 Express 액세스 권한이 있는 사용자는 Assets 내에서 직접 사용 가능한 Adobe Express 및 Adobe Firefly의 통합 이미지 편집 및 제작 도구를 사용하여 콘텐츠 재사용을 개선하고 콘텐츠 속도를 높일 수 있습니다. 또한 사전 정의된 요소를 사용하여 자산을 멋지게 보이게 하거나 몇 번의 클릭만으로 빠른 작업을 수행하여 이미지를 편집할 수 있습니다.
 
-다음을 사용하여 이미지 편집하기 [!DNL Adobe Express] 포함된 편집기에서 아래 단계를 수행합니다.
+[!DNL Adobe Express] 임베드된 편집기를 사용하여 이미지를 편집하려면 다음 단계를 따르십시오.
 
-1. 에서 이미지 선택 [!DNL Experience Manager] 에셋 리포지토리.
-1. 클릭 **[!UICONTROL Adobe Express에서 열기]**.
+1. [!DNL Experience Manager] Assets 저장소에서 이미지를 선택합니다.
+1. **[!UICONTROL Adobe Express에서 열기]**&#x200B;를 클릭합니다.
 
-   ![Adobe Express이 포함된 편집기](assets/embedded-editor.png)
+   ![Adobe Express 임베드된 편집기](assets/embedded-editor.png)
 
-   의 기능을 활용할 수 있습니다. [!DNL Adobe Express] 모든 이미지 편집 관련 작업을 수행하려면 다음을 수행합니다. [이미지 크기 조정](https://helpx.adobe.com/in/express/using/resize-image.html), [배경색 제거 또는 변경](https://helpx.adobe.com/in/express/using/remove-background.html), [이미지 자르기](https://helpx.adobe.com/in/express/using/crop-image.html)및 기타.
+   [!DNL Adobe Express] 기능을 활용하여 [이미지 크기 조정](https://helpx.adobe.com/kr/express/using/resize-image.html), [배경 색상 제거 또는 변경](https://helpx.adobe.com/kr/express/using/remove-background.html), [이미지 자르기](https://helpx.adobe.com/kr/express/using/crop-image.html) 등 이미지 편집과 관련된 모든 작업을 수행할 수 있습니다.
 
-1. 이미지 편집이 완료되면 에셋을 새 에셋으로 다운로드하거나 에셋을 새 버전으로 저장할 수 있습니다.
+1. 이미지 편집이 완료되면 자산을 새 자산으로 다운로드하거나 자산을 새 버전으로 저장할 수 있습니다.
 
-## Adobe Express을 사용하여 새 에셋 만들기 {#create-new-embedded-editor}
+## Adobe Express를 사용하여 새 자산 만들기 {#create-new-embedded-editor}
 
-[!DNL Assets Essentials] 을 사용하여 새 템플릿을 처음부터 만들 수 있습니다. [!DNL Adobe Express] 포함된 편집기. 을 사용하여 새 에셋을 만들려면 [!DNL Adobe Express]을(를) 클릭하고 아래 단계를 수행하십시오.
+[!DNL Assets Essentials]를 사용하여 [!DNL Adobe Express] 임베드된 편집기로 처음부터 새 템플릿을 만들 수 있습니다. [!DNL Adobe Express]를 사용하여 새 자산을 만들려면 아래 단계를 실행하십시오.
 
-1. 다음으로 이동 **[!UICONTROL 내 작업 영역]** 및 클릭 **[!UICONTROL 만들기]** 위에 표시되는 Adobe Express 배너 내 [!UICONTROL 빠른 액세스] 섹션. [!DNL Adobe Express] 빈 캔버스 [!DNL Assets Essentials] 사용자 인터페이스.
-1. 다음을 사용하여 콘텐츠 만들기 [템플릿](https://helpx.adobe.com/in/express/using/work-with-templates.html). 그렇지 않으면 다음으로 이동합니다. **[!UICONTROL 내 항목]** 기존 컨텐츠를 수정합니다.
-1. 편집을 완료했으면 **[!UICONTROL 새 자산으로 저장]**.
-1. 생성된 에셋의 대상 경로를 지정하고 **[!UICONTROL 저장]**.
+1. **[!UICONTROL 내 작업 영역]**&#x200B;으로 이동하여 [!UICONTROL 바로 가기] 섹션 위에 표시되는 Adobe Express 배너 내의 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. [!DNL Adobe Express] 빈 캔버스는 [!DNL Assets Essentials] 사용자 인터페이스 내에 표시됩니다.
+1. [템플릿](https://helpx.adobe.com/kr/express/using/work-with-templates.html)을 사용하여 콘텐츠를 만듭니다. 그렇지 않은 경우 **[!UICONTROL 내 항목]**&#x200B;으로 이동하여 기존의 콘텐츠를 수정합니다.
+1. 편집이 완료되면 **[!UICONTROL 새 자산으로 저장]**&#x200B;을 클릭합니다.
+1. 생성된 자산의 대상 경로를 지정하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
->* 의 이미지만 수정할 수 있습니다. `JPEG` 및 `PNG` 형식 유형.
->* 에셋 크기는 14MB 미만이어야 합니다.
->* 이미지를 저장할 수 있습니다. `PDF`, `JPEG`, 또는 `PNG` 형식.
+>* `JPEG` 및 `PNG` 포맷 유형의 이미지만 수정할 수 있습니다.
+>* 자산 크기는 14MB보다 작아야 합니다.
+>* `PDF`, `JPEG` 또는 `PNG` 포맷에 이미지를 저장할 수 있습니다.
 
 ## [!DNL Adobe Photoshop Express]를 사용하여 이미지 편집 {#edit-using-photoshop-express}
 
@@ -145,7 +145,7 @@ For more information about how Spot Healing works in Photoshop, see [retouching 
 
 ### 이미지 크기 조정 {#resize-image-using-photoshop-express}
 
-일반적인 사진 크기를 cm(센티미터) 또는 in(인치) 단위로 보고 치수를 알 수 있습니다. 기본적으로 크기 조정 방법은 가로 세로 비율을 유지합니다. 가로 세로 비율을 수동으로 오버라이드하려면 ![](assets/do-not-localize/lock-closed-icon.png)를 클릭하십시오.
+일반적인 사진 크기를 cm(센티미터) 또는 in(인치) 단위로 보고 치수를 알 수 있습니다. 기본적으로 크기 조정 방법은 종횡비를 유지합니다. 종횡비를 수동으로 오버라이드하려면 ![](assets/do-not-localize/lock-closed-icon.png)를 클릭하십시오.
 
 치수를 입력하고 **[!UICONTROL 이미지 크기 조정]**&#x200B;을 클릭하여 이미지 크기를 조정합니다. 변경 사항을 버전으로 저장하기 전에 [!UICONTROL 실행 취소]를 클릭하여 저장하기 전에 수행한 모든 변경 사항을 실행 취소하거나 [!UICONTROL 되돌리기]를 클릭하여 편집 프로세스의 특정 단계를 변경할 수 있습니다.
 
