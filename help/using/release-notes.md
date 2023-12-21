@@ -4,18 +4,28 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
-workflow-type: ht
-source-wordcount: '2562'
-ht-degree: 100%
+source-git-commit: 10d82a8a90e718272c9bb1c5b14db30785bb1ded
+workflow-type: tm+mt
+source-wordcount: '2617'
+ht-degree: 97%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2023년 11월 30일 금요일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2023년 12월 19일 수요일에 출시되었습니다.
 
-새로운 기능은 다음과 같습니다.
+최근에 추가된 기능 중 일부는 다음과 같습니다.
+
+**Adobe Firefly으로 GenAI 이미지 만들기**
+
+Adobe Firefly 텍스트-이미지 간 기능의 통합으로 검색 쿼리를 기반으로 새 이미지를 만듭니다(Adobe Firefly 라이선스 필요).
+
+![에셋 Firefly 통합](/help/using/assets/assets-firefly-integration.png)
+
+**유사한 이미지 찾기**
+
+이제 Experience Manager Assets 저장소에서 이미지를 선택하고 유사한 이미지를 보고 컨텐츠를 쉽게 찾을 수 있습니다.
 
 **AEM Assets의 임베드된 Adobe Express 편집기**
 
