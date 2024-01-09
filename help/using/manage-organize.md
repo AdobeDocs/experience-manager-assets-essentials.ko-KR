@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]에서 에셋을 이동하고, 삭제하�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: e13e204482e480b3a66b48263e965787bd980842
 workflow-type: ht
-source-wordcount: '1036'
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---
@@ -151,4 +151,6 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 
 
-
+<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
+* ![Add to Collection]() Add the selected asset to a collection.
+* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->
