@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
-workflow-type: ht
-source-wordcount: '1277'
-ht-degree: 100%
+source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
+workflow-type: tm+mt
+source-wordcount: '1401'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 100%
    * 키워드를 사용하여 검색하고 필요한 경우 폴더를 변경합니다. Return 키를 누릅니다.
 
    * 직접 검색하여 최근에 본 자산으로 작업을 시작하십시오. 검색 상자를 클릭하고 제안에서 최근에 본 자산을 선택합니다.
+
+## Adobe Firefly을 사용하여 에셋 검색
+
+의 통합 [!UICONTROL Adobe Firefly] 및 [!UICONTROL Adobe Experience Manager Assets]를 사용하면 assets 폴더에서 사용할 수 없는 에셋을 효율적으로 검색할 수 있습니다. <br> 예를 들어 키워드를 사용하여 에셋을 검색할 수 있습니다 `Bugatti Type 57`. 검색 시 `Bugatti Type 57`, 결과를 찾을 수 없습니다.
+
+검색 창에서 에셋 이름을 입력하고 를 클릭합니다. **[!UICONTROL 생성]**. 샘플 에셋이 화면에 표시됩니다. 쉽게 액세스할 수 있도록 이러한 에셋을 선호하는 폴더에 업로드할 수 있습니다.
+
+![Firefly 통합](assets/bugatti-type-57.jpg)
 
 ## 검색 결과 필터링 {#refine-search-results}
 
@@ -146,11 +154,21 @@ When userA is searching and userB add an asset that matches search results, will
 
 검색 결과에 표시되는 자산을 선택하고 다음 작업을 수행할 수 있습니다.
 
+* **유사한 이미지 찾기**: 메타데이터 및 스마트 태그를 기반으로 에셋 UI에서 유사한 이미지 에셋을 찾습니다.
+
 * **세부 정보**: 자산 속성을 보고 편집합니다.
+
+* **다운로드**: 자산을 다운로드합니다.
 
 * **컬렉션에 추가**: 선택한 자산을 컬렉션에 추가합니다.
 
-* **다운로드**: 자산을 다운로드합니다.
+* **바로 가기에 고정**: 나중에 필요할 때 더 빠르게 액세스할 수 있도록 [자산을 고정](my-workspace.md)합니다. 고정된 모든 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다.
+
+* **Adobe Express에서 열기**: Adobe Experience Manager Assets 화면에서 통합 Adobe Express의 이미지를 편집합니다.
+
+* **편집**: Adobe Express을 사용하여 이미지를 편집합니다.
+
+* **링크 공유**: 자산에 대한 [링크 공유](share-links-for-assets.md)를 통해 다른 사용자가 액세스하고 다운로드할 수 있도록 합니다.
 
 * **삭제**: 자산을 삭제합니다.
 
@@ -160,15 +178,11 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **이름 바꾸기**: 자산의 이름을 바꿉니다.
 
+* **라이브러리에 복사**: 라이브러리에 자산을 추가합니다.
+
 * **작업 할당**: 사용자에게 자산에 대한 작업을 할당합니다.
 
-* **링크 공유**: 자산에 대한 [링크 공유](share-links-for-assets.md)를 통해 다른 사용자가 액세스하고 다운로드할 수 있도록 합니다.
-
 * **보기**: 자산에서 수행된 [작업을 모니터링](manage-notifications.md)합니다.
-
-* **파일 위치 표시**: 자산 폴더 위치로 이동합니다.
-
-* **바로 가기에 고정**: 나중에 필요할 때 더 빠르게 액세스할 수 있도록 [자산을 고정](my-workspace.md)합니다. 고정된 모든 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다.
 
 ## 검색 우선 홈 페이지 구성 {#configuring-search-first-homepage}
 
