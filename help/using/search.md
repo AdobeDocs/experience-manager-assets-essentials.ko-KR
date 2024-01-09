@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
+source-git-commit: 41cbb7a26d632ef24f6997ab6fe741e5d060e70a
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 88%
+source-wordcount: '1451'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 88%
 
 ## Adobe Firefly을 사용하여 에셋 검색
 
-에셋 폴더에서 사용할 수 없는 에셋을 찾고 있는 경우 [!UICONTROL Adobe Firefly] 내의 자산 검색 기능 [!UICONTROL Adobe Experience Manager Assets]. 이 기능을 사용하면 지정된 폴더에 저장되지 않은 에셋을 효율적으로 검색할 수 있습니다.  <br> 예를 들어 키워드를 사용하여 에셋을 검색할 수 있습니다 `Bugatti Type 57`. 검색 시 `Bugatti Type 57`, 결과를 찾을 수 없습니다. <br>
+에셋 폴더에서 사용할 수 없는 에셋을 찾고 있는 경우 [!UICONTROL Adobe Firefly] 내의 자산 검색 기능 [!UICONTROL Adobe Experience Manager Assets]. 지정된 폴더에 저장되지 않은 에셋을 효율적으로 검색할 수 있습니다. 이 기능은 현재 Express 권한이 있는 사용자만 액세스할 수 있습니다.  <br> 예를 들어 키워드를 사용하여 에셋을 검색할 수 있습니다 `Bugatti Type 57`. 검색 시 `Bugatti Type 57`, 결과를 찾을 수 없습니다. <br>
 검색 창에서 에셋 이름을 입력하고 를 클릭합니다. **[!UICONTROL 생성]**.
 
 ![Firefly 통합](firefly-integration.jpg)
