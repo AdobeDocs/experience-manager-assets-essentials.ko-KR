@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 90%
+source-wordcount: '1442'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,16 @@ ht-degree: 90%
 
 ## Adobe Firefly을 사용하여 에셋 검색
 
-의 통합 [!UICONTROL Adobe Firefly] 및 [!UICONTROL Adobe Experience Manager Assets]를 사용하면 assets 폴더에서 사용할 수 없는 에셋을 효율적으로 검색할 수 있습니다. <br> 예를 들어 키워드를 사용하여 에셋을 검색할 수 있습니다 `Bugatti Type 57`. 검색 시 `Bugatti Type 57`, 결과를 찾을 수 없습니다.
+에셋 폴더에서 사용할 수 없는 에셋을 찾고 있는 경우 [!UICONTROL Adobe Firefly] 내의 자산 검색 기능 [!UICONTROL Adobe Experience Manager Assets]. 이 기능을 사용하면 지정된 폴더에 저장되지 않은 에셋을 효율적으로 검색할 수 있습니다.  <br> 예를 들어 키워드를 사용하여 에셋을 검색할 수 있습니다 `Bugatti Type 57`. 검색 시 `Bugatti Type 57`, 결과를 찾을 수 없습니다. <br>
+검색 창에서 에셋 이름을 입력하고 를 클릭합니다. **[!UICONTROL 생성]**.
 
-검색 창에서 에셋 이름을 입력하고 를 클릭합니다. **[!UICONTROL 생성]**. 샘플 에셋이 화면에 표시됩니다. 쉽게 액세스할 수 있도록 이러한 에셋을 선호하는 폴더에 업로드할 수 있습니다.
+![Firefly 통합](firefly-integration.jpg)
+*그림: 자산 폴더에서 Bugatti Type 57에 대한 결과가 없습니다.*
+
+샘플 에셋이 화면에 표시됩니다. 쉽게 액세스할 수 있도록 이러한 에셋을 선호하는 폴더에 업로드할 수 있습니다.
 
 ![Firefly 통합](assets/bugatti-type-57.jpg)
+*그림: 에셋 검색 Adobe Firefly 기능을 사용하여 검색된 에셋을 참조합니다.*
 
 ## 검색 결과 필터링 {#refine-search-results}
 

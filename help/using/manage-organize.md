@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 에셋을 이동하고, 삭제하�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e13e204482e480b3a66b48263e965787bd980842
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1152'
+ht-degree: 90%
 
 ---
 
@@ -17,19 +17,43 @@ ht-degree: 100%
 
 [!DNL Assets Essentials]를 클릭하여 다음 에셋 관리 작업을 수행합니다. 에셋을 선택하면 다음 옵션이 상단의 도구 모음에 표시됩니다.
 
-![에셋 선택 시 도구 모음 옵션](assets/toolbar-image-selected.png)
+![에셋 선택 시 도구 모음 옵션](assets/asset-options.png)
 
 *그림: 선택한 이미지에 대해 도구 모음에서 사용할 수 있는 옵션*
 
+검색 결과에 표시되는 자산을 선택하고 다음 작업을 수행할 수 있습니다.
+
 * ![선택 해제 아이콘](assets/do-not-localize/close-icon.png) 선택 해제합니다.
+
+* ![유사 항목 찾기 아이콘](assets/do-not-localize/find-similar.svg) 메타데이터 및 스마트 태그를 기반으로 자산 UI에서 유사한 이미지 자산을 찾습니다.
+
 * ![세부 정보 아이콘](assets/do-not-localize/edit-in-icon.png) 에셋을 미리 보고 자세한 메타데이터를 보려면 클릭하십시오. 미리보기 시 버전을 확인하고 이미지를 편집할 수 있습니다.
+
 * ![다운로드 아이콘](assets/do-not-localize/download-icon.png) 선택한 에셋을 로컬 파일 시스템에 다운로드합니다.
+
+* ![컬렉션 추가 아이콘](assets/do-not-localize/add-collection.svg) 선택한 자산을 컬렉션에 추가합니다.
+
+* ![에셋 고정 아이콘](assets/do-not-localize/pin-quick-access.svg) 나중에 필요할 때 더 빠르게 액세스할 수 있도록 자산을 고정합니다. 고정된 모든 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다.
+
+* ![express에서 편집 아이콘](assets/do-not-localize/edit-e.svg) Adobe Experience Manager Assets 내의 통합 Adobe Express에서 이미지를 편집합니다.
+
+* ![에셋 편집 아이콘](assets/do-not-localize/edit-e.svg) Adobe Express을 사용하여 이미지를 편집합니다.
+
+* ![에셋 공유 링크 아이콘](assets/do-not-localize/share-link.svg) 다른 사용자가 에셋에 액세스하고 다운로드할 수 있도록 에셋에 대해 설명합니다.
+
 * ![삭제 아이콘](assets/do-not-localize/delete-icon.png) 선택한 에셋 또는 폴더를 삭제합니다.
-* ![확인 아이콘](assets/do-not-localize/checkout-icon.png) 선택한 에셋을 확인합니다.
+
 * ![복사 아이콘](assets/do-not-localize/copy-icon.png) 선택한 파일 또는 폴더를 복사합니다.
+
 * ![이동 아이콘](assets/do-not-localize/move-icon.png) 선택한 에셋 또는 폴더를 저장소 계층의 다른 위치로 이동합니다.
+
 * ![이름 바꾸기 아이콘](assets/do-not-localize/rename-icon.png) 선택한 에셋 또는 폴더의 이름을 변경합니다. 고유한 이름을 사용하지 않으면 경고 메시지가 표시되며 이름 바꾸기에 실패합니다. 새 이름으로 다시 시도할 수 있습니다.
+
+* ![라이브러리 복사 아이콘](assets/do-not-localize/copy-icon.png) 라이브러리에 자산을 추가합니다.
+
 * ![작업 할당 아이콘](assets/do-not-localize/review-delegate-icon.png) 다른 사용자에게 작업을 할당하여 에셋에 대해 공동 작업을 수행합니다.
+
+* ![작업 할당 아이콘](assets/do-not-localize/watch-asset.svg) 에셋에서 수행된 작업을 모니터링합니다.
 
 에셋 썸네일에서 동일한 옵션을 볼 수 있습니다.
 
@@ -148,9 +172,3 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
-
-
-
-<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
-* ![Add to Collection]() Add the selected asset to a collection.
-* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->
