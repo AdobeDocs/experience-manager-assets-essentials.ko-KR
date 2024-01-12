@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 41cbb7a26d632ef24f6997ab6fe741e5d060e70a
+source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 87%
+source-wordcount: '1524'
+ht-degree: 85%
 
 ---
 
@@ -29,19 +29,6 @@ ht-degree: 87%
    * 키워드를 사용하여 검색하고 필요한 경우 폴더를 변경합니다. Return 키를 누릅니다.
 
    * 직접 검색하여 최근에 본 자산으로 작업을 시작하십시오. 검색 상자를 클릭하고 제안에서 최근에 본 자산을 선택합니다.
-
-## Adobe Firefly을 사용하여 에셋 검색
-
-에셋 폴더에서 사용할 수 없는 에셋을 찾고 있는 경우 [!UICONTROL Adobe Firefly] 내의 자산 검색 기능 [!UICONTROL Adobe Experience Manager Assets]. 지정된 폴더에 저장되지 않은 에셋을 효율적으로 검색할 수 있습니다. 이 기능은 현재 Express 권한이 있는 사용자만 액세스할 수 있습니다.  <br> 예를 들어 키워드를 사용하여 에셋을 검색할 수 있습니다 `Bugatti Type 57`. 검색 시 `Bugatti Type 57`, 결과를 찾을 수 없습니다. <br>
-검색 창에서 에셋 이름을 입력하고 를 클릭합니다. **[!UICONTROL 생성]**.
-
-![Firefly 통합](firefly-integration.jpg)
-*그림: 자산 폴더에서 Bugatti Type 57에 대한 결과가 없습니다.*
-
-샘플 에셋이 화면에 표시됩니다. 쉽게 액세스할 수 있도록 이러한 에셋을 선호하는 폴더에 업로드할 수 있습니다.
-
-![Firefly 통합](assets/bugatti-type-57.jpg)
-*그림: 에셋 검색 Adobe Firefly 기능을 사용하여 검색된 에셋을 참조합니다.*
 
 ## 검색 결과 필터링 {#refine-search-results}
 
@@ -133,6 +120,37 @@ Assets Essentials는 다음과 같은 맞춤형 필터를 제공합니다.
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 사용자 인터페이스에서 필터를 제거합니다.
 
+## 을 사용하여 에셋 검색 [!DNL Adobe Firefly] {#search-firefly}
+
+를 활용하여 모든 에셋 폴더에서 사용할 수 없는 에셋을 검색할 수 있습니다 [!DNL Adobe Firefly] 내의 자산 검색 기능 [!DNL Experience Manager Assets]. 이렇게 하면 에셋 폴더에 저장되지 않은 에셋을 실시간으로 효율적으로 생성할 수 있습니다.
+
+### 시작하기 전에
+
+활성 상태가 있어야 합니다. [!DNL Adobe Express] 구독.
+
+### 에셋 생성
+
+을 사용하여 새 에셋을 생성하려면 [!DNL Adobe Firefly]:
+
+1. 다음 위치로 이동 [!DNL AEM Assets] 작업 영역.
+1. 페이지 상단의 검색 막대에 자산 이름을 입력합니다.<br>
+예를 들어 키워드를 사용하여 에셋을 검색할 수 있습니다 `Bugatti Type 57`. 에셋을 검색할 때 에셋이 에셋 폴더에 없기 때문에 결과를 찾을 수 없습니다.
+1. 페이지 중간에 있는 검색 막대에 자산 이름을 입력하고 를 클릭합니다 **[!UICONTROL 생성]**.
+   ![Firefly 통합](firefly-integration.jpg)
+   *그림: 자산 폴더에서 Bugatti Type 57에 대한 결과가 없습니다.*<br>
+새 자산이 정상적으로 생성되었습니다.
+   ![Firefly 통합](assets/bugatti-type-57.jpg)
+   *그림: 를 사용하여 검색된 참조 에셋 [!DNL Adobe Firefly] 에셋 검색 기능.* <br>
+쉽게 액세스할 수 있도록 이러한 에셋을 선호하는 폴더에 업로드할 수 있습니다.
+
+### 에셋 업로드
+
+생성된 에셋을 에셋 저장소에 업로드하려면 다음 작업을 수행하십시오.
+
+1. 클릭 **[!UICONTROL 업로드]**.
+1. 에셋을 업로드할 에셋 폴더를 선택하고 을(를) 클릭합니다 **[!UICONTROL 폴더 선택]**.
+   ![자산 업로드](assets/upload-asset-firefly.jpg)
+   *그림: 에셋을 업로드할 폴더를 선택합니다.*
 
 ## 저장된 검색 {#saved-search}
 
@@ -159,7 +177,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 검색 결과에 표시되는 자산을 선택하고 다음 작업을 수행할 수 있습니다.
 
-* **유사한 이미지 찾기**: 메타데이터 및 스마트 태그를 기반으로 에셋 UI에서 유사한 이미지 에셋을 찾습니다.
+* **유사 이미지 찾기**: 메타데이터 및 스마트 태그를 기반으로 Assets UI에서 유사한 이미지 자산을 찾습니다.
 
 * **세부 정보**: 자산 속성을 보고 편집합니다.
 
@@ -169,9 +187,9 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **바로 가기에 고정**: 나중에 필요할 때 더 빠르게 액세스할 수 있도록 [자산을 고정](my-workspace.md)합니다. 고정된 모든 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다.
 
-* **Adobe Express에서 열기**: Adobe Experience Manager Assets 화면에서 통합 Adobe Express의 이미지를 편집합니다.
+* **Adobe Express에서 열기**: Experience Manager Assets 화면에서 통합 Adobe Express의 이미지를 편집합니다.
 
-* **편집**: Adobe Express을 사용하여 이미지를 편집합니다.
+* **편집**: Adobe Express를 사용하여 이미지를 편집합니다.
 
 * **링크 공유**: 자산에 대한 [링크 공유](share-links-for-assets.md)를 통해 다른 사용자가 액세스하고 다운로드할 수 있도록 합니다.
 
