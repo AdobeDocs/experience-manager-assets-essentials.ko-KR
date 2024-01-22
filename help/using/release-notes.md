@@ -5,23 +5,23 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2666'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2024년 1월 11일 금요일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2024년 1월 11일에 출시되었습니다.
 
 최근에 추가된 일부 기능은 다음과 같습니다.
 
-**차단 목록에 추가하다 스마트 태그**
+**스마트 태그 차단 목록**
 
-이제 Assets Essentials을 사용하여 저장소에 업로드할 때 에셋에 스마트 태그로 추가해서는 안 되는 단어를 구성하는 차단 목록에 추가하다를 정의할 수 있습니다. 이 기능을 사용하면 브랜드 준수를 유지하고 스마트 태그를 중재하는 노력을 줄일 수 있습니다.
+이제 Assets Essentials를 사용하면 자산을 저장소에 업로드할 때 자산에 스마트 태그로 추가하면 안 되는 단어로 구성된 차단 목록을 정의할 수 있습니다. 이 기능은 브랜드 규정 준수를 유지하는 데 도움이 되며 스마트 태그를 조정해야 하는 번거로움을 제거해 줍니다.
 
-![Insights 스토리지 사용량](/help/using/assets/block-tags.png)
+![스토리지 사용량 한 눈에 보기](/help/using/assets/block-tags.png)
 
 **Adobe Firefly를 통해 생성형 AI 이미지 제작**
 
