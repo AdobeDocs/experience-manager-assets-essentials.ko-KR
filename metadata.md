@@ -6,10 +6,11 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.ko-KR
 mini-toc-levels: 1
 index: true
-source-git-commit: bd544f8afe112d5a95d5a3266f8d74bff4ef04c8
+recommendations: noDisplay
+source-git-commit: a33f67452fdb1c42e534c5f423549c933fd5d59a
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 93%
 
 ---
 
@@ -27,5 +28,5 @@ In TOC.md file
 
 | 메타데이터 | 기능 |
 |--- |--- |
-| user-guide-title | 문서 헤더에서 링크로 사용됩니다. |
+| user-guide-title | 문서 헤더에 링크로 사용됩니다. |
 | user-guide-url | [학습 및 지원] 허브 페이지를 엽니다. |
