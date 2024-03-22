@@ -3,8 +3,8 @@ title: “[!DNL Assets Essentials] 사용자 인터페이스”
 description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색을 이해합니다.'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 3b70810a264dac062032b07dc3d8ce169b56b4cd
-workflow-type: ht
+source-git-commit: 8620efd0430d230338ef8005847de498a5a95a7e
+workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ ht-degree: 100%
 * [컬렉션](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko): 컬렉션은 Adobe Experience Manager Assets Essentials 내의 자산, 폴더 또는 기타 컬렉션 세트입니다. 컬렉션을 사용하여 사용자 간에 자산을 공유합니다. 폴더와 달리 컬렉션에는 서로 다른 위치의 자산이 포함될 수 있습니다. 사용자와 여러 컬렉션을 공유할 수 있습니다. 각 컬렉션에는 자산에 대한 참조가 포함되어 있습니다. 자산의 참조 무결성은 컬렉션에 간에 유지됩니다.
 
 * [인사이트](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=ko#view-live-statistics): [!DNL Assets Essentials]의 대시보드에서 실시간 인사이트를 볼 수 있습니다. Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
+
 
 * **휴지통**: 루트 **[!UICONTROL Assets]** 폴더에서 삭제된 자산을 나열합니다. 휴지통 폴더에서 자산을 선택하여 원래 위치로 복원하거나 영구적으로 삭제할 수 있습니다. 키워드를 지정하거나 자산 상태, 파일 유형, MIME 유형, 이미지 크기, 자산 생성, 수정 및 만료 일자와 같은 필터를 적용할 수 있을 뿐만 아니라 현재 사용자가 폐기한 자산을 기준으로 필터링할 수도 있습니다. 또한 사용자 정의 필터를 적용하여 휴지통 폴더 내에서 적절한 자산을 검색할 수도 있습니다. 표준 및 사용자 정의 필터 사용에 대한 자세한 내용은 [Assets Essentials에서 자산 검색](search.md) 방법을 참조하십시오.
 
