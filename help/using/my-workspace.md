@@ -4,7 +4,7 @@ description: 내 작업 영역은 Assets 사용자 인터페이스의 주요 영
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 21db2f77de3245f6fa40964b64ec8ac2c45d13e9
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
