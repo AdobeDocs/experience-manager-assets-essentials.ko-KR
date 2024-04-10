@@ -2,9 +2,9 @@
 title: AEM Assets Essentials의 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
-source-wordcount: '1691'
+source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+workflow-type: ht
+source-wordcount: '1657'
 ht-degree: 100%
 
 ---
@@ -211,8 +211,6 @@ Admin Console에 다음과 같은 사용자 그룹을 생성합니다.
 ## 다음 단계 {#next-steps}
 
 * [Assets Essentials의 권한 관리에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
-
-* Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
