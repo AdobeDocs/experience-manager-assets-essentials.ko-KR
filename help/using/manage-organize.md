@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산을 이동하고, 삭제하�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +48,9 @@ ht-degree: 100%
 * ![이동 아이콘](assets/do-not-localize/move-icon.png) 선택한 자산 또는 폴더를 저장소 계층의 다른 위치로 이동합니다.
 
 * ![이름 바꾸기 아이콘](assets/do-not-localize/rename-icon.png) 선택한 자산 또는 폴더의 이름을 변경합니다. 고유한 이름을 사용하지 않으면 경고 메시지가 표시되며 이름 바꾸기에 실패합니다. 새 이름으로 다시 시도할 수 있습니다.
+또한 에셋 또는 폴더의 제목을 클릭하여 이름을 변경할 수 있습니다. 에서 새 텍스트 언급 **에셋 이름 바꾸기** 텍스트 상자 및 클릭 **저장**. 이 기능은 격자, 갤러리, 폭포 및 목록 보기에서 사용할 수 있습니다.
+
+* ![waterfall 보기 아이콘](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall 보기].
 
 * ![라이브러리 복사 아이콘](assets/do-not-localize/copy-icon.png) 라이브러리에 자산을 추가합니다.
 
