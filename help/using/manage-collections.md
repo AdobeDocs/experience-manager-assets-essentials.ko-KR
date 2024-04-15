@@ -2,10 +2,10 @@
 title: 컬렉션 관리
 description: 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 27ac4035863924dfda1abf2593da9278a57b02a2
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 87%
 
 ---
 
@@ -48,6 +48,8 @@ You can share collections with various users that are assigned different levels 
 
 * [컬렉션 삭제](#delete-collection)
 
+* [개인 컬렉션에 대한 권한 관리](#manage-permissions-to-a-private-collection)
+
 ## 컬렉션 생성 {#create-collection}
 
 컬렉션을 생성하려면:
@@ -60,7 +62,7 @@ You can share collections with various users that are assigned different levels 
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 컬렉션을 생성합니다.
 
-![컬렉션 만들기](assets/create-collection.png)
+   ![컬렉션 만들기](assets/create-collection.png)
 
 <!--
    
@@ -154,11 +156,11 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. **[!UICONTROL 기본]** 탭을 사용하여 컬렉션 메타데이터를 봅니다.
 1. 필요에 따라 메타데이터 필드를 수정합니다. [!UICONTROL 제목] 및 [!UICONTROL 설명] 필드를 수정할 수 있습니다.
 
-![컬렉션 메타데이터](assets/collection-metadata.png)
+   ![컬렉션 메타데이터](assets/collection-metadata.png)
 
 ## 컬렉션 링크 공유 {#share-collection-links}
 
-[!DNL Assets Essentials]에서 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 컬렉션 내의 컬렉션 및 에셋을 공유할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 자산을 미리 보고 다운로드할 수 있습니다.
+[!DNL Assets Essentials]에서 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 컬렉션 내의 컬렉션 및 에셋을 공유할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 자산을 미리보고 다운로드할 수 있습니다.
 
 ![에셋에 대한 링크 공유](assets/share-link-collections.png)
 
@@ -185,6 +187,18 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 삭제해야 하는 컬렉션을 선택합니다.
 
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+
+## 개인 컬렉션에 대한 권한 관리{#manage-permissions-private-collection}
+
+관리자가 관리하도록 허용할 수 있습니다. [액세스 수준](/help/using/manage-permissions.md#manage-permissions-on-folders) 저장소에서 사용할 수 있는 개인 컬렉션입니다. 다음과 같은 권한을 할당할 수 있습니다. `Can View` 및 `Can Edit` (사용자 그룹 또는 사용자) 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다. 개인 컬렉션을 만드는 사용자는 이러한 컬렉션의 소유자입니다. 다음을 사용할 수 있습니다 [!UICONTROL 권한 관리] 다른 사용자에게 액세스 권한을 부여하는 작업입니다. 또한 관리자는 의 개인 컬렉션에 대한 권한을 보고 관리할 수 있습니다. [!DNL Experience Manager] 리포지토리.
+
+>[!NOTE]
+>
+>Adobe는 사용자에게 권한을 할당하는 것을 권장하지 않습니다.
+
+사용자 그룹에 사용 가능한 권한을 할당하는 방법에 대한 자세한 내용은 [사용자 그룹에 권한 추가](/help/using/manage-permissions.md#add-permissions).
+
+전체 워크플로에 대한 자세한 내용은 [권한 관리](/help/using/manage-permissions.md).
 
 ## 다음 단계 {#next-steps}
 
