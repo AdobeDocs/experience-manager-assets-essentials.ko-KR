@@ -2,10 +2,10 @@
 title: 컬렉션 관리
 description: 컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 27ac4035863924dfda1abf2593da9278a57b02a2
+source-git-commit: d0884f7c5a50d89cb8ce4166dc038814bd7fd07d
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 87%
+source-wordcount: '907'
+ht-degree: 86%
 
 ---
 
@@ -191,11 +191,11 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 ## 개인 컬렉션에 대한 권한 관리{#manage-permissions-private-collection}
 
 관리자가 관리하도록 허용할 수 있습니다. [액세스 수준](/help/using/manage-permissions.md#manage-permissions-on-folders) 저장소에서 사용할 수 있는 개인 컬렉션입니다. 다음과 같은 권한을 할당할 수 있습니다. `Can View` 및 `Can Edit` (사용자 그룹 또는 사용자) 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다. 개인 컬렉션을 만드는 사용자는 이러한 컬렉션의 소유자입니다. 다음을 사용할 수 있습니다 [!UICONTROL 권한 관리] 다른 사용자에게 액세스 권한을 부여하는 작업입니다. 또한 관리자는 의 개인 컬렉션에 대한 권한을 보고 관리할 수 있습니다. [!DNL Experience Manager] 리포지토리.
-
+<!--
 >[!NOTE]
 >
->Adobe는 사용자에게 권한을 할당하는 것을 권장하지 않습니다.
-
+>Adobe does not recommend to assign permissions to users.
+-->
 사용자 그룹에 사용 가능한 권한을 할당하는 방법에 대한 자세한 내용은 [사용자 그룹에 권한 추가](/help/using/manage-permissions.md#add-permissions).
 
 전체 워크플로에 대한 자세한 내용은 [권한 관리](/help/using/manage-permissions.md).
