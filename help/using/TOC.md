@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 9260de0c52b21d17a1c2f64c2c3da6d2a42046f0
-workflow-type: ht
-source-wordcount: '141'
-ht-degree: 100%
+source-git-commit: 9c37194a04057600fe602b4de373c21e69389a16
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
 + [자산 검색 및 탐색](search.md)
 + [자산 관리 작업](manage-organize.md)
 + [이미지 편집](edit-images.md)
++ [비디오 편집](edit-videos.md)
 + [자산 메타데이터 관리](metadata.md)
 + [자산 공유](share-links-for-assets.md)
 + [컬렉션 관리](manage-collections.md)
