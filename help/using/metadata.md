@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산의 메타데이터 관리'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
+source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 100%
+source-wordcount: '1773'
+ht-degree: 92%
 
 ---
 
@@ -142,13 +142,29 @@ Assets Essentials 배포 내의 폴더에 메타데이터 양식을 할당할 �
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 메타데이터 양식]**&#x200B;으로 이동하여 메타데이터 양식을 선택합니다.
 
-2. **[!UICONTROL 폴더에 할당]**&#x200B;을 선택합니다.
+2. 클릭 **[!UICONTROL 폴더에 할당]**.
 
-3. 폴더를 선택하고 **[!UICONTROL 할당]**&#x200B;을 클릭합니다.
+3. 폴더를 선택하고 **[!UICONTROL 할당]**. 폴더 이름을 클릭하여 폴더를 선택할 수 있습니다.
 
    ![폴더에 메타데이터 양식 할당](/help/using/assets/assign-to-folder.png)
 
    또한 폴더 세부 정보 페이지로 이동한 다음 오른쪽 창에 있는 폴더 속성에서 메타데이터 양식을 선택하여 메타데이터 양식을 폴더에 할당할 수도 있습니다.
+
+   ![메타데이터 양식 폴더 속성](/help/using/assets/folder-properties-metadata-forms.png)
+
+### 폴더에서 메타데이터 양식 제거 {#remove-metadata-form-folder}
+
+메타데이터 양식을 하나 이상의 폴더에 할당한 후 Experience Manager Assets을 사용하면 선택한 폴더에서 메타데이터 양식을 제거할 수도 있습니다.
+
+폴더에서 메타데이터 양식을 제거하려면 다음을 수행합니다.
+
+1. **[!UICONTROL 설정]** > **[!UICONTROL 메타데이터 양식]**&#x200B;으로 이동하여 메타데이터 양식을 선택합니다.
+
+1. 클릭 **[!UICONTROL 폴더에서 제거]**. 메타데이터 양식 표시를 위해 할당된 폴더 목록입니다.
+
+1. 폴더를 선택하고 **[!UICONTROL 제거]**. 목록에서 여러 폴더를 선택할 수도 있습니다.
+
+폴더 세부 정보 페이지로 이동하여 을 선택할 수도 있습니다. **[!UICONTROL 시스템 매핑 메타데이터 양식]** 다음에서 **[!UICONTROL 메타데이터 Forms]** 폴더에서 할당된 메타데이터 양식을 제거하는 필드입니다.
 
 ## 다음 단계 {#next-steps}
 

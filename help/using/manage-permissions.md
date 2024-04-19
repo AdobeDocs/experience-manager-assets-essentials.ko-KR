@@ -2,7 +2,7 @@
 title: AEM Assets Essentials의 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
@@ -118,7 +118,7 @@ Assets Essentials는 상위 폴더 안의 하위 폴더에 설정된 권한을 �
 
 1. **[!UICONTROL 권한 관리]** 대화 상자에서 **[!UICONTROL 그룹 및 사용자]** 필드에 그룹 또는 사용자의 이름을 지정합니다.
 
-1. **[!UICONTROL 액세스]** 드롭다운 목록에서 [액세스 수준](#manage-permissions-folders)을 선택합니다.
+1. **[!UICONTROL 액세스]** 드롭다운 목록에서 [액세스 수준](#manage-permissions-on-folders)을 선택합니다.
 
 1. **[!UICONTROL 추가]**&#x200B;를 선택하여 사용자 또는 사용자 그룹에 대한 권한을 즉시 변경합니다.
 
@@ -144,7 +144,7 @@ Assets Essentials는 상위 폴더 안의 하위 폴더에 설정된 권한을 �
 
 1. 해당 폴더를 선택 후 **[!UICONTROL 권한 관리]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL 권한 관리]** 대화 상자에서 **[!UICONTROL 액세스]** 드롭다운 목록에 있는 [액세스 수준](#manage-permissions-folders)을 편집합니다.
+1. **[!UICONTROL 권한 관리]** 대화 상자에서 **[!UICONTROL 액세스]** 드롭다운 목록에 있는 [액세스 수준](#manage-permissions-on-folders)을 편집합니다.
 
 1. 필요한 경우 기존 권한 규칙에 [더 많은 사용자 그룹 또는 사용자를 추가](#add-permissions)하십시오.
 
