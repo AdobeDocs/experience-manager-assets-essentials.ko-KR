@@ -2,7 +2,7 @@
 title: 비디오 편집
 description: 다음을 사용하여 비디오 편집 [!DNL Adobe Express] 옵션을 제공하고 업데이트된 비디오를 버전으로 저장합니다.
 role: User
-source-git-commit: 4d279f2744abe563abc39639b6541bd67aad3c4d
+source-git-commit: 5bcec500ff6bf67426f532a98eec5d351cc1ad03
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 16%
