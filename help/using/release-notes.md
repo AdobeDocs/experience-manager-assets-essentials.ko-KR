@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 8ad7c9e02e94656200b715047bb25ed79bdbf06d
+source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
 workflow-type: tm+mt
-source-wordcount: '2865'
+source-wordcount: '2847'
 ht-degree: 93%
 
 ---
@@ -39,7 +39,7 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 **빠른 비디오 작업**
 
-이제 Experience Manager Assets에는 컨텐츠 재사용을 높이고 컨텐츠 속도를 가속화하기 위해 Adobe Express에서 제공하는 쉽고 직관적인 비디오 편집 도구가 포함되어 있습니다. AEM Assets에서 비디오를 가볍게 편집하는 데에는 비디오 편집 도구와 개념에 대한 광범위한 지식이 필요하지 않습니다. 편집 옵션에는 트리밍, 자르기, 비디오 크기 조정 및 MP4를 GIF 파일로 변환하는 옵션이 있습니다.
+이제 Experience Manager Assets에는 컨텐츠 재사용을 높이고 컨텐츠 속도를 가속화하기 위해 Adobe Express에서 제공하는 쉽고 직관적인 비디오 편집 도구가 포함되어 있습니다. 편집 옵션에는 트리밍, 자르기, 비디오 크기 조정 및 MP4를 GIF 파일로 변환하는 옵션이 있습니다.
 
 ![Adobe Express으로 비디오 자르기](/help/using/assets/adobe-express-crop-video.png)
 
