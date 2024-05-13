@@ -2,10 +2,10 @@
 title: 에셋으로의 링크 공유 방법
 description: 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 다른 사용자와 에셋을 공유할 수 있습니다.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 76%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 
 1. 이를 조정하려면 [캘린더] 아이콘을 클릭한 다음 **[!UICONTROL 만료일]** 필드를 사용하여 해당 링크에 대한 만료일을 정의하십시오. `yyyy-mm-dd` 형식으로 날짜를 직접 지정할 수도 있습니다. 링크에 대한 기본적으로 만료일은 공유일로부터 2주로 설정되어 있습니다.
 
+>[!NOTE]
+> 날짜 형식은 선택한 로케일에 따라 변경됩니다.
+> 예를 들어 `de-DE` 사용 `dd-mm-yyyy`, `ja-JA` 사용 `yyyy-mm-dd`, 반면에, `en-EN` 사용 `mm-dd-yyyy`.
+>
+
 1. **[!UICONTROL 링크 공유]** 필드에서 링크를 복사합니다.
 
    ![자르기 및 펴기 옵션](assets/share-asset-link.png)
@@ -29,7 +34,7 @@ ht-degree: 100%
 
 ## 공유 에셋에 액세스 {#access-shared-assets}
 
-에셋에 대한 공개 링크를 공유하면 수신자는 해당 링크를 클릭하여 [!DNL Assets Essentials]에 로그인할 필요 없이 웹 브라우저에서 공유 에셋을 미리 보거나 다운로드할 수 있습니다.
+에셋에 대한 공개 링크를 공유하면 수신자는 해당 링크를 클릭하여에 로그인할 필요 없이 웹 브라우저에서 공유 에셋을 미리 보거나 다운로드할 수 있습니다 [!DNL Assets Essentials].
 
 링크를 클릭하고, 에셋으로 이동할 폴더를 클릭한 다음 에셋을 클릭하여 미리 봅니다. [목록 보기] 또는 [카드 보기]에서 공유 에셋을 보도록 선택할 수 있습니다.
 
@@ -43,10 +48,10 @@ ht-degree: 100%
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 에셋에 대한 링크를 공유하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+* [Assets Essentials의 에셋에 대한 링크를 공유하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html).
 
-* Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
+* 다음을 사용하여 제품 피드백 제공 [!UICONTROL 피드백] 옵션은 Assets Essentials 사용자 인터페이스에서 사용할 수 있습니다.
 
-* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
+* 다음을 사용하여 설명서 피드백 제공 [!UICONTROL 이 페이지 편집] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL 문제 기록] ![GitHub 문제 만들기](assets/do-not-localize/github-issue.png) 오른쪽 사이드바에서 사용 가능합니다.
 
-* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
+* 연락처 [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support).

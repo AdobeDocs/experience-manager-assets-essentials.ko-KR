@@ -4,22 +4,22 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
+source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
 workflow-type: tm+mt
-source-wordcount: '2847'
-ht-degree: 93%
+source-wordcount: '2903'
+ht-degree: 94%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2024년 4월 18일 금요일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2024년 4월 18일에 출시되었습니다.
 
 최근에 추가된 일부 기능은 다음과 같습니다.
 
 **상황별 검색**
 
-이제 텍스트 프롬프트를 정의하여 저장소에서 사용할 수 있는 에셋을 검색할 수도 있습니다. Experience Manager Assets은 이러한 텍스트 프롬프트를 검색 필터로 자동으로 변환하고 검색 결과를 표시합니다. 필터 창을 사용하여 자동 필터를 보고 수정하여 검색 결과의 범위를 좁힐 수 있습니다.
+이제 텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 자산을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창을 사용하여 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
 
 ![스토리지 사용량 한 눈에 보기](/help/using/assets/contextual-search-text-prompt1.png)
 
@@ -33,23 +33,26 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 -->
 
-**에셋 및 폴더에 대한 내부 이름 바꾸기**
+**자산 및 폴더의 바로 이름 바꾸기**
 
-이제 Experience Manager Assets은 한 번의 클릭으로 에셋 또는 폴더의 이름을 변경할 수 있는 기능을 제공하여 간소화된 사용자 경험을 제공합니다.
+이제 Experience Manager Assets는 한 번의 클릭으로 자산 또는 폴더의 이름을 바꾸는 기능을 제공하여 단순화된 사용자 경험을 제공합니다.
 
-**빠른 비디오 작업**
+**Express 비디오 빠른 작업**
 
-이제 Experience Manager Assets에는 컨텐츠 재사용을 높이고 컨텐츠 속도를 가속화하기 위해 Adobe Express에서 제공하는 쉽고 직관적인 비디오 편집 도구가 포함되어 있습니다. 편집 옵션에는 트리밍, 자르기, 비디오 크기 조정 및 MP4를 GIF 파일로 변환하는 옵션이 있습니다.
+이제 Experience Manager Assets에는 콘텐츠 재사용률과 콘텐츠 속도를 높이는 Adobe Express에서 제공하는 직관적인 비디오 편집 도구가 포함됩니다. 편집 옵션에는 비디오 트리밍, 자르기, 크기 조정 및 MP4를 GIF 파일로 변환 등이 포함됩니다.
 
-![Adobe Express으로 비디오 자르기](/help/using/assets/adobe-express-crop-video.png)
+![Adobe Express로 비디오 자르기](/help/using/assets/adobe-express-crop-video.png)
+
+>[!NOTE]
+> 액세스 권한 [!DNL Adobe Express] 은(는) 필수 항목이며, AEM Assets 내에 환경이 하나 이상 있습니다. 환경은 내의 모든 저장소일 수 있습니다. [!DNL Assets as a Cloud Service] 또는 [!DNL Assets Essentials].
 
 **여러 폴더에 메타데이터 양식 할당 또는 제거**
 
-이제 여러 폴더에 메타데이터 양식을 할당하거나 제거할 수 있습니다.
+이제 메타데이터 양식을 여러 폴더에 할당하거나 여러 폴더에서 제거할 수 있습니다.
 
-**개인 컬렉션에 대한 권한 관리**
+**비공개 컬렉션의 권한 관리**
 
-관리자가 저장소에서 사용 가능한 개인 컬렉션에 대한 액세스 수준을 관리하도록 허용할 수 있습니다. 사용자 그룹 또는 사용자에게 `Can View` 및 `Can Edit`와 같은 권한을 할당할 수 있습니다. 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
+관리자 또는 관리자가 아닌 사용자(다른 사용자)가 저장소에서 사용할 수 있는 개인 컬렉션에 대한 액세스 수준을 관리하도록 허용할 수 있습니다. 사용자 그룹 또는 사용자에게 `Can View` 및 `Can Edit`와 같은 권한을 할당할 수 있습니다. 또한 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
 
 
 **고객 피드백을 기반으로 한 개선 사항**
@@ -59,7 +62,7 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 ## 알려진 문제 {#known-issues}
 
-[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
+의 알려진 문제 목록 [!DNL Assets Essentials] 오퍼링은 지속적으로 수정 및 업데이트됩니다.
 
 <!--
 
@@ -68,7 +71,7 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 -->
 
 
-* 비공개 컬렉션은 생성자 및 관리자 권한이 있는 사용자가 사용할 수 있습니다. 관리자는 다른 사용자에게 컬렉션에 액세스할 수 있는 권한을 위임할 수 없습니다.
+<!--* Private collections are available to creator and the users with administrator privileges. As an administrator, you cannot delegate the permissions to access the collection to other users.-->
 
 문제나 개선 요청이 있는 경우 팀에 [피드백을 제공](#provide-feedback)해 주십시오.
 
@@ -106,7 +109,7 @@ Adobe Firefly의 텍스트를 이미지로 변환 기능을 통한 검색 쿼리
 
 **검색 우선 홈 페이지 구성**
 
-이제 Assets Essentials를 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지를 검색 우선으로 선택하면 검색 창 정렬, 배경 이미지, 조직 로고 등을 구성할 수 있습니다.
+이제 Assets Essentials를 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지로 먼저 검색을 선택하는 경우 조직의 검색 창 정렬, 배경 이미지 및 로고를 구성할 수 있습니다. 선택 중 [!UICONTROL 일반 설정] 는 기본 랜딩 페이지를 재정의합니다. 예를 들어 기본 랜딩은 [!UICONTROL 내 작업 영역] 관리자 및 [!UICONTROL 먼저 검색] 관리자가 아닌 경우 일반 설정에서 옵션을 선택하면 모든 사용자에게 적용됩니다
 
 ![검색 우선 구성](/help/using/assets/search-first-configuration.png)
 
@@ -120,7 +123,7 @@ Adobe Firefly의 텍스트를 이미지로 변환 기능을 통한 검색 쿼리
 
 **라이브러리에 대한 조직 간 권한 지원**
 
-이제 Experience Manager Assets를 사용하면 다른 IMS 조직의 Creative Cloud Libraries에 대한 액세스를 구성할 수 있습니다. Creative Cloud와 Experience Manager 간의 최신 제품 간 워크플로에 더 쉽게 액세스할 수 있으며 크리에이티브에 소요되는 시간과 노력이 줄어듭니다.
+이제 Experience Manager Assets를 사용하면 다른 IMS 조직의 Creative Cloud Libraries에 대한 액세스를 구성할 수 있습니다. Creative Cloud와 Experience Manager 간의 최신 제품 간 워크플로에 보다 쉽게 액세스할 수 있으며 창작 활동에 소요되는 시간과 노력이 줄어듭니다.
 
 ### 2023년 9월 릴리스 {#september2023-release}
 
@@ -209,7 +212,7 @@ Assets Essentials에서는 이제 다중 값 텍스트 및 드롭다운 목록 �
 
 **자산 메타데이터에 대한 일괄 업데이트**
 
-일괄 메타데이터 업데이트를 통해 사용자는 여러 자산에서 공통 메타데이터 업데이트를 동시에 수행할 수 있습니다. 사용자는 더 이상 레코드를 개별적으로 업데이트할 필요가 없으며 검색을 통해 액세스한 자산 또는 폴더에 속성을 빠르게 적용할 수 있습니다.
+일괄 메타데이터 업데이트를 통해 사용자는 여러 자산에서 공통 메타데이터 업데이트를 동시에 수행할 수 있습니다. 레코드를 개별적으로 업데이트할 필요가 없으며 검색을 통해 액세스한 에셋 또는 폴더에 속성을 빠르게 적용할 수 있습니다. 또한 벌크 메타데이터 업데이트는 기존 값을 덮어씁니다. 이는 기존 키워드가 벌크 메타데이터 업데이트에 의해 덮어쓰여짐을 의미합니다.
 
 **구성 가능한 위젯이 포함된 내 작업 영역**
 
@@ -373,7 +376,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 * [!DNL Assets Essentials]는 이제 [컬렉션 생성](manage-collections.md)을 지원합니다. 컬렉션은 Experience Manager Assets Essentials 내의 자산 세트입니다. 컬렉션을 사용하여 사용자 간에 자산을 공유합니다. 폴더와 달리 컬렉션에는 서로 다른 위치의 자산이 포함될 수 있습니다.
 
-* 이제 Assets Essentials를 사용하여 사용자 인터페이스에 [맞춤형 필터를 추가](search.md#custom-filters)할 수도 있습니다. 그런 다음 표준 필터 외에 이러한 맞춤형 필터를 적용하여 검색 결과를 구체화할 수 있습니다.
+* 이제 Assets Essentials를 사용하여 사용자 인터페이스에 [사용자 정의 필터를 추가](search.md#custom-filters)할 수도 있습니다. 그런 다음 표준 필터 외에 이러한 사용자 정의 필터를 적용하여 검색 결과를 구체화할 수 있습니다.
 
 * 이제 Assets Essentials를 사용하여 저장소에서 사용 가능한 자산의 [상태를 설정](manage-organize.md#set-asset-status)할 수 있습니다. 자산 상태를 설정하여 디지털 자산의 다운스트림 소비를 보다 효과적으로 관리합니다.
 
