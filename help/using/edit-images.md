@@ -3,7 +3,7 @@ title: 이미지 편집
 description: ' [!DNL Adobe Photoshop Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 1f306241ef3040557661cdd79b8864916e3a4240
+source-git-commit: 745dd77210caece8ef2497e4340e55d85347546f
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -170,9 +170,9 @@ TBD: Insert a video of the available social media options.
 
 ### 다음 단계 {#next-steps}
 
-* Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
+* Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백을 제공합니다.
 
-* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백을 제공합니다.
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
