@@ -2,10 +2,11 @@
 title: 비디오 편집
 description: 다음을 사용하여 비디오 편집 [!DNL Adobe Express] 옵션을 제공하고 업데이트된 비디오를 버전으로 저장합니다.
 role: User
-source-git-commit: 5bcec500ff6bf67426f532a98eec5d351cc1ad03
+exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
+source-git-commit: 2b27cf67be1cc0466a41b29f04a96adddedd1977
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 16%
 
 ## 사전 요구 사항 {#prerequisites}
 
-액세스 권한 [!DNL Adobe Express] 및 하나 이상의 환경이 AEM Assets 내에 있습니다. 환경은 내의 모든 저장소일 수 있습니다. [!DNL Assets as a Cloud Service] 또는 [!DNL Assets Essentials].
+액세스 권한 [!DNL Adobe Express] 및 하나 이상의 환경이 AEM Assets 내에 있습니다. 환경은 [!DNL Assets as a Cloud Service] 또는 [!DNL Assets Essentials] 내의 저장소 중 하나일 수 있습니다.
 
 ## Adobe Express을 사용하여 비디오 편집 {#edit-video-using-express}
 
@@ -34,7 +35,7 @@ ht-degree: 16%
 3. 비디오 모서리에 있는 핸들을 드래그하여 원하는 자르기를 만들거나 기존 화면 크기 중에서 원하는 크기를 선택합니다.
 4. 비디오를 음소거 또는 음소거 해제하도록 선택할 수 있습니다.
 5. **[!UICONTROL 적용]**을 클릭합니다.
-   ![Adobe Express으로 비디오 자르기](/help/using/assets/adobe-express-crop-video.png)
+   ![Adobe Express로 비디오 자르기](/help/using/assets/adobe-express-crop-video.png)
 
    자른 비디오를 다운로드할 수 있습니다. 편집된 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다. ![Adobe Express으로 비디오 저장](/help/using/assets/adobe-express-save-video.png)
 
@@ -84,7 +85,7 @@ Adobe Express을 사용하여 MP4 비디오를 GIF 형식으로 빠르게 변환
 
 * MP4 형식의 비디오만 편집할 수 있습니다.
 
-* 지원되는 최대 소스 파일 크기는 200MB입니다.
+* 지원되는 최대 소스 파일 크기는 1GB입니다.
 
 * 지원되는 비디오는 46픽셀보다 크고 모든 면에서 3840픽셀보다 작습니다
 
