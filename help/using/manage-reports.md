@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 92%
 
 ---
 
@@ -44,26 +44,32 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 자동 생성된 다음과 같은 차트를 보려면 왼쪽 탐색 창에 있는 **[!UICONTROL 인사이트]**&#x200B;를 클릭하십시오.
 
-![Insights](assets/insights.png)
-
 * **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 자산 수를 선 차트로 표시합니다.
+  ![다운로드](/help/using/assets/insights-downloads2341.svg)
 
 * **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 자산 수를 선 차트로 표시합니다.
+  ![업로드](/help/using/assets/insights-uplods2.svg)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **스토리지 사용량**: 막대 차트를 사용하여 표현되는 Assets Essentials 환경의 스토리지 사용량(바이트 단위)입니다.
-
-<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
+  ![스토리지 사용량](/help/using/assets/insights-storage-usage1.svg)
+  <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **인기 검색어**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 해당 용어가 검색된 횟수와 함께 가장 많이 검색된 용어를 표 형식으로 표시합니다.
+  ![스토리지 사용량](/help/using/assets/insights-top-search.svg)
 
   <!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
+
+* **크기별 자산 수:** Assets Essentials 환경 내의 총 에셋 수를 세그먼트화하며, 파일 유형에 따른 에셋의 수와 백분율을 강조 표시합니다. 도넛 차트로 표시됩니다.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+* **자산 유형별 자산 수:** Assets Essentials 환경 내의 총 에셋 수를 다른 크기 범위로 세그먼트화하고, 각 크기 범위의 에셋 수와 백분율을 강조 표시하여 도넛 차트로 표시합니다.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## 다운로드 보고서 만들기 {#create-download-report}
 
