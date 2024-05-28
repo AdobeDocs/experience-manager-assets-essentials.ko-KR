@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 �
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: f65e4eb7e0877e8b8d7ba4d5dd88c64b4423f152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,9 +76,9 @@ Adobe Express를 사용하여 JPEG 이미지를 PNG 형식으로 빠르게 변�
 
 ### 제한 사항 {#limitations-adobe-express}
 
-* 지원되는 이미지 해상도: 차원당 최소 - 50픽셀, 최대 - 6000픽셀.
+* 지원되는 이미지 해상도: 차원당 최소 50픽셀, 최대 6000픽셀.
 
-* 지원되는 최대 파일 크기는 17MB입니다.
+* 지원되는 최대 파일 크기: 17MB.
 
 ## Adobe Express 임베드된 편집기를 사용하여 이미지 편집 {#edit-using-embedded-editor}
 
@@ -178,4 +178,4 @@ TBD: Insert a video of the available social media options.
 
 >[!MORELIKETHIS]
 >
->* [자산의 버전 내역 보기](/help/using/navigate-view.md)
+>* [자산의 버전 기록 보기](/help/using/navigate-view.md)
