@@ -2,7 +2,7 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 3f2c2cdb948a3a33c25e10588aa2bc8fa2a5a845
+source-git-commit: 9cfb01590ae8ce620cc0eed042dcddfbb8b91742
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 92%
@@ -66,10 +66,10 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
    ![Insights](assets/insights2.png)
    -->
 
-* **크기별 자산 수:** 에셋 보기 환경의 총 에셋 수를 다른 크기 범위로 세그먼트화하고, 각 크기 범위의 에셋 수와 백분율을 강조 표시하여 도넛 차트로 표시합니다.
+* **크기별 자산 수:** Assets essentials 환경의 총 에셋 수를 다양한 크기 범위로 세그먼트화하여 각 크기 범위에서 에셋의 수와 비율을 강조 표시하고 도넛 차트로 표시합니다.
   ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
 
-* **자산 유형별 자산 수:** 에셋 보기 환경에서 총 에셋 수를 세그먼트화하며, 파일 유형에 따른 에셋의 수와 비율을 강조 표시합니다(도넛 차트).
+* **자산 유형별 자산 수:** Assets essentials 환경의 총 에셋 수를 세그먼트화하고, 파일 유형에 따른 에셋의 수 및 비율을 강조 표시합니다. 도넛 차트로 표시됩니다.
   ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## 다운로드 보고서 만들기 {#create-download-report}
