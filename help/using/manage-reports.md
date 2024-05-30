@@ -3,9 +3,9 @@ title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 8f91cd833712363e09b81a5f59b08e2f41237d90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
