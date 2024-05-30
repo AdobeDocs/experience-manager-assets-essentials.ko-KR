@@ -3,7 +3,7 @@ title: 비디오 편집
 description: 다음을 사용하여 비디오 편집 [!DNL Adobe Express] 옵션을 제공하고 업데이트된 비디오를 버전으로 저장합니다.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 456ffec077617909f98b66bed711921c0b7b3925
+source-git-commit: a9a6c36f655fcc33f3e8ef1b584fa7b4dce869c3
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -85,7 +85,7 @@ Adobe Express을 사용하여 MP4 비디오를 GIF 형식으로 빠르게 변환
 
 * MP4 형식의 비디오만 편집할 수 있습니다.
 
-* 지원되는 최대 소스 파일 크기는 200MB입니다.
+* 지원되는 최대 소스 파일 크기는 1GB입니다.
 
 * 지원되는 비디오는 46픽셀보다 크고 모든 면에서 3840픽셀보다 작습니다.
 
@@ -97,9 +97,9 @@ Adobe Express을 사용하여 MP4 비디오를 GIF 형식으로 빠르게 변환
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백을 제공합니다.
 
-* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
+* 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백을 제공합니다.
 
-* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)에 문의하십시오.
 
 >[!MORELIKETHIS]
 >
