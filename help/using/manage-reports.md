@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 5b5fe779f1dd50470016706a5ba3f6f59ab46793
+source-git-commit: 71a0381f5f7c32d3da1923778b3cd7b678391cae
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 1. [!UICONTROL 열] 탭에서 보고서에 표시해야 하는 열 이름을 선택합니다.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 만들기]**
 
    ![보고서 다운로드](assets/download-reports-config.png)
 
