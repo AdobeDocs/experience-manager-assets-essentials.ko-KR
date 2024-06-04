@@ -3,9 +3,9 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
+source-git-commit: 34e710243a77647c50c2057c54f68dbe23d3997a
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1890'
 ht-degree: 100%
 
 ---
@@ -311,15 +311,13 @@ Experience Manager Assets에서 상황별 검색에 액세스하는 방법:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
-<!--
-### Disable Contextual Search {#disable-contextual-search}
+### 상황별 검색 비활성화 {#disable-contextual-search}
 
-Administrators also have the option to disable Contextual Search for users in your organization. To do so, execute the following steps:
+관리자는 조직 내 사용자에 대해 상황별 검색을 비활성화할 수도 있습니다. 이렇게 하려면 다음 단계를 실행합니다.
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동합니다.
 
-1. In the [!UICONTROL Contextual Search] section, turn off the **[!UICONTROL Enable Contextual Search for your organization]** toggle to disable the Contextual Search feature for all users in your organization.  
--->
+1. [!UICONTROL 상황별 검색] 섹션에서 **[!UICONTROL 조직에 대한 상황별 검색 활성화]** 토글을 꺼서 조직의 모든 사용자에 대한 상황별 검색 기능을 비활성화합니다.
 
 ### 상황별 검색 피드백 {#contextual-search-feedback}
 
