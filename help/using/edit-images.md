@@ -3,16 +3,16 @@ title: 이미지 편집
 description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 35f92dfe66fa2cae6a512b6b59bfe2bacc87511c
+source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 29%
 
 ---
 
-# [!DNL Assets Essentials]에서 이미지 편집 {#edit-images-in-asset-essentials}
+# [!DNL Assets Essentials]에서 이미지 편집 {#edit-images-in-assets-essentials}
 
-Asset Essentials UI를 사용하면 크기 조정, 배경 제거, 자르기 및 JPEG과 PNG 형식 간 변환을 포함한 기본 이미지 편집을 사용할 수 있습니다. 또한 Adobe Express과의 통합을 통해 고급 편집이 가능합니다. 이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원래 에셋으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
+Assets Essentials UI를 통해 크기 조정, 배경 제거, 자르기 및 JPEG 및 PNG 형식 간 변환 등 기본 이미지 편집을 사용할 수 있습니다. 또한 Adobe Express과의 통합을 통해 고급 편집이 가능합니다. 이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원래 에셋으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ Asset Essentials UI를 사용하면 크기 조정, 배경 제거, 자르기 및 
 
 ## 이미지 편집 {#edit-images}
 
-링크를 사용하여 Asset Essentials UI에 연결 - [Asset Essentials UI](https://experience.adobe.com/#/assets) 올바른 저장소를 선택합니다. 액세스 권한을 받으려면 조직 관리자에게 문의하십시오.
-추가 참조 정보는 - [Adobe Experience Manager Assets Essentials 사용 시작하기](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [사용자 인터페이스 이해](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Asset essentials 사용 사례](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) 및 [알려진 문제](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+링크를 사용하여 Assets Essentials UI에 연결 - [ASSETS ESSENTIALS UI](https://experience.adobe.com/#/assets) 올바른 저장소를 선택합니다. 액세스 권한을 받으려면 조직 관리자에게 문의하십시오.
+추가 참조 정보는 - [Adobe Experience Manager Assets Essentials 사용 시작하기](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [사용자 인터페이스 이해](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Assets essentials 활용 사례](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) 및 [알려진 문제](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
 <!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -86,11 +86,11 @@ Express 권한이 있는 사용자는 Assets Essentials UI 내에서 임베드�
 ![express in essentials UI](/help/using/assets/express-in-essentials-ui.jpg)
 Adobe Express이 포함된 편집기를 사용하여 이미지를 편집하려면 아래 단계를 따르십시오.
 
-1. 링크를 사용하여 AEM Asset Essentials UI에 연결 - [AEM Asset Essentials UI](https://experience.adobe.com/#/assets) 올바른 저장소를 선택합니다.
+1. 링크를 사용하여 AEM Assets Essentials UI에 연결 - [AEM Assets Essentials UI](https://experience.adobe.com/#/assets) 올바른 저장소를 선택합니다.
 1. 클릭 **Assets**&#x200B;을 클릭하고 폴더를 입력한 다음 이미지를 선택합니다.
 1. 클릭 **Adobe Express에서 열기**. 이미지가 빠른 캔버스에서 열립니다.
 1. 이미지를 필요한 대로 편집합니다.
-1. 프로젝트에 페이지를 더 추가해야 하는 경우 **추가**&#x200B;에서 Assets을 선택하고 폴더를 입력한 다음 캔버스 페이지로 가져올 이미지를 선택한 다음 이미지에 필요한 편집을 수행합니다.
+1. 프로젝트에 페이지를 더 추가해야 하는 경우 **추가**&#x200B;에서 에셋을 선택하고, 폴더를 입력하고, 캔버스 페이지로 가져올 이미지를 선택한 다음 이미지에 필요한 편집을 수행합니다.
 1. 이미지를 저장하려면 를 클릭합니다. **저장**. 저장 대화 상자가 표시됩니다.
 
    >[!NOTE]
