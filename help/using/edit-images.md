@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # [!DNL Assets Essentials]에서 이미지 편집 {#edit-images-in-assets-essentials}
 
-Assets Essentials UI를 통해 크기 조정, 배경 제거, 자르기 및 JPEG 및 PNG 형식 간 변환 등 기본 이미지 편집을 사용할 수 있습니다. 또한 Adobe Express와의 통합을 통해 고급 편집을 사용할 수도 있습니다. 이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원본 자산으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](/https://experienceleague.adobe.com/kr/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
+Assets Essentials UI를 통해 크기 조정, 배경 제거, 자르기 및 JPEG 및 PNG 형식 간 변환 등 기본 이미지 편집을 사용할 수 있습니다. 또한 Adobe Express와의 통합을 통해 고급 편집을 사용할 수도 있습니다. 이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원본 자산으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
