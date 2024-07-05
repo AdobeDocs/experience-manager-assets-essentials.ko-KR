@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 �
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 100%
 
