@@ -3,10 +3,10 @@ title: 이미지 편집
 description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 99%
 
 ---
 
@@ -24,13 +24,13 @@ Assets Essentials UI를 사용하면 크기 조정, 배경 제거, 자르기, JP
 
 [Assets Essentials UI](https://experience.adobe.com/#/assets) 링크를 사용하고 올바른 저장소를 선택하여 Assets Essentials UI를 시작하십시오. 액세스 권한을 받으려면 귀사의 관리자에게 문의하십시오.
 추가적인 참조 정보는 [Adobe Experience Manager Assets Essentials 사용 시작하기](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started), [사용자 인터페이스 이해](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view) [Assets Essentials 사용 사례](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started#use-cases) 및 [알려진 문제](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/release-notes)를 참조하십시오.
-<!--
+
+### Adobe Express을 사용하여 이미지 편집 {#edit-images-using-adobe-express}
+
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Adobe Express Integration"
->abstract="Easy and intuitive image-editing tools powered by Adobe Express available directly within AEM Assets to increase content reuse and accelerate content velocity."-->
-
-### Adobe Express를 사용하여 Essentials UI에서 이미지 편집 {#edit-image-on-essentials-ui-using-adobe-express}
+>title="Adobe Express 통합"
+>abstract="AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 재사용률과 콘텐츠 속도를 높일 수 있습니다."
 
 Essentials UI에 접속한 후 **자산**&#x200B;을 클릭하고 이미지를 선택한 다음 상단 레일에서 **편집**&#x200B;을 클릭합니다. 새 화면에 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환 등 사용 가능한 편집 옵션이 표시됩니다.
 
