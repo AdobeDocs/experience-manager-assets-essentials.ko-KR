@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
 workflow-type: tm+mt
 source-wordcount: '2903'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,15 +44,15 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 ![Adobe Express로 비디오 자르기](/help/using/assets/adobe-express-crop-video.png)
 
 >[!NOTE]
-> 액세스 권한 [!DNL Adobe Express] 은(는) 필수 항목이며, AEM Assets 내에 환경이 하나 이상 있습니다. 환경은 내의 모든 저장소일 수 있습니다. [!DNL Assets as a Cloud Service] 또는 [!DNL Assets Essentials].
+> [!DNL Adobe Express]에 액세스할 수 있는 권한이 필요하며 AEM Assets 내 하나 이상의 환경이 있어야 합니다. 환경은 [!DNL Assets as a Cloud Service] 또는 [!DNL Assets Essentials] 내의 저장소 중 하나일 수 있습니다.
 
 **여러 폴더에 메타데이터 양식 할당 또는 제거**
 
-이제 메타데이터 양식을 여러 폴더에 할당하거나 여러 폴더에서 제거할 수 있습니다.
+이제 여러 폴더에 메타데이터 양식을 할당하거나 제거할 수 있습니다.
 
 **비공개 컬렉션의 권한 관리**
 
-관리자 또는 관리자가 아닌 사용자(다른 사용자)가 저장소에서 사용할 수 있는 개인 컬렉션에 대한 액세스 수준을 관리하도록 허용할 수 있습니다. 사용자 그룹 또는 사용자에게 `Can View` 및 `Can Edit`와 같은 권한을 할당할 수 있습니다. 또한 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
+관리자 또는 비관리자(다른 사용자)가 저장소에서 사용할 수 있는 비공개 컬렉션 액세스 수준을 관리할 수 있습니다. 사용자 그룹 또는 사용자에게 `Can View` 및 `Can Edit`와 같은 권한을 할당할 수 있습니다. 또한 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
 
 
 **고객 피드백을 기반으로 한 개선 사항**
@@ -62,7 +62,7 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 ## 알려진 문제 {#known-issues}
 
-의 알려진 문제 목록 [!DNL Assets Essentials] 오퍼링은 지속적으로 수정 및 업데이트됩니다.
+[!DNL Assets Essentials] 서비스의 알려진 문제 목록은 지속적으로 수정 및 업데이트됩니다.
 
 <!--
 
@@ -109,7 +109,7 @@ Adobe Firefly의 텍스트를 이미지로 변환 기능을 통한 검색 쿼리
 
 **검색 우선 홈 페이지 구성**
 
-이제 Assets Essentials를 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지로 먼저 검색을 선택하는 경우 조직의 검색 창 정렬, 배경 이미지 및 로고를 구성할 수 있습니다. 선택 중 [!UICONTROL 일반 설정] 는 기본 랜딩 페이지를 재정의합니다. 예를 들어 기본 랜딩은 [!UICONTROL 내 작업 영역] 관리자 및 [!UICONTROL 먼저 검색] 관리자가 아닌 경우 일반 설정에서 옵션을 선택하면 모든 사용자에게 적용됩니다
+이제 Assets Essentials를 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지를 검색 우선으로 선택하면 검색 창 정렬, 배경 이미지, 조직 로고 등을 구성할 수 있습니다. [!UICONTROL 일반 설정]을 선택하면 기본 랜딩 페이지가 무시됩니다. 예를 들어, 기본 랜딩은 관리자의 경우 [!UICONTROL 내 작업 영역]이고 관리자가 아닌 경우 [!UICONTROL 검색 우선]이며, 일반 설정의 옵션 중 하나를 선택하면 모든 사용자에게 적용됩니다.
 
 ![검색 우선 구성](/help/using/assets/search-first-configuration.png)
 
@@ -212,7 +212,7 @@ Assets Essentials에서는 이제 다중 값 텍스트 및 드롭다운 목록 �
 
 **자산 메타데이터에 대한 일괄 업데이트**
 
-일괄 메타데이터 업데이트를 통해 사용자는 여러 자산에서 공통 메타데이터 업데이트를 동시에 수행할 수 있습니다. 레코드를 개별적으로 업데이트할 필요가 없으며 검색을 통해 액세스한 에셋 또는 폴더에 속성을 빠르게 적용할 수 있습니다. 또한 벌크 메타데이터 업데이트는 기존 값을 덮어씁니다. 이는 기존 키워드가 벌크 메타데이터 업데이트에 의해 덮어쓰여짐을 의미합니다.
+일괄 메타데이터 업데이트를 통해 사용자는 여러 자산에서 공통 메타데이터 업데이트를 동시에 수행할 수 있습니다. 사용자는 더 이상 레코드를 개별적으로 업데이트할 필요가 없으며 검색을 통해 액세스한 자산 또는 폴더에 속성을 빠르게 적용할 수 있습니다. 또한 대량 메타데이터 업데이트는 기존 값을 덮어씁니다. 즉, 대량 메타데이터 업데이트가 기존 키워드를 덮어쓰게 됩니다.
 
 **구성 가능한 위젯이 포함된 내 작업 영역**
 

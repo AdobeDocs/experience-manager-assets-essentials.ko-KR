@@ -3,7 +3,7 @@ title: Creative Cloud 통합을 위한 AEM Assets의 조직 간 권한
 description: Creative Cloud 통합을 위해 AEM Assets에서 조직 간 권한을 구성하는 방법에 대해 알아봅니다. 다른 IMS 조직에 프로비저닝된 Creative Cloud 권한에 연결하면 Express 및 Creative Cloud Libraries를 포함한 AEM Assets의 최신 Creative Cloud 통합을 손쉽게 사용할 수 있습니다.
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
 source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 

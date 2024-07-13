@@ -3,8 +3,8 @@ title: 폴더 권한을 효율적으로 관리하는 방법
 description: 효율적인 권한 관리에 대한 모범 사례
 exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '445'
+workflow-type: tm+mt
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
