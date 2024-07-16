@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 �
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Assets Essentials UI를 사용하면 크기 조정, 배경 제거, 자르기, JP
 [Assets Essentials UI](https://experience.adobe.com/#/assets) 링크를 사용하고 올바른 저장소를 선택하여 Assets Essentials UI를 시작하십시오. 액세스 권한을 받으려면 귀사의 관리자에게 문의하십시오.
 추가적인 참조 정보는 [Adobe Experience Manager Assets Essentials 사용 시작하기](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started), [사용자 인터페이스 이해](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view) [Assets Essentials 사용 사례](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started#use-cases) 및 [알려진 문제](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/release-notes)를 참조하십시오.
 
-### Adobe Express을 사용하여 이미지 편집 {#edit-images-using-adobe-express}
+### Adobe Express를 사용하여 이미지 편집 {#edit-images-using-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -77,7 +77,7 @@ Adobe Express를 사용하여 JPEG 및 PNG 이미지 포맷 간 빠르게 변환
 
 #### 제한 사항 {#limitations-adobe-express}
 
-* 지원되는 이미지 해상도: 차원당 최소 50픽셀, 최대 6000픽셀.
+* 지원되는 이미지 해상도: 차원당 최소 50픽셀, 최대 6,000픽셀.
 * 지원되는 최대 파일 크기: 17MB.
 
 ### 임베드된 Adobe Express 편집기에서 이미지 편집 {#edit-images-in-adobe-express-embedded-editor}
