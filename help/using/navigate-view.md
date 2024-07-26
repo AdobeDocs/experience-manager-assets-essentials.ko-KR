@@ -3,10 +3,10 @@ title: “[!DNL Assets Essentials] 사용자 인터페이스”
 description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색을 이해합니다.'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
+source-git-commit: 8debab75bb335d4a81279c9c0e84229c3b3ca2cd
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 90%
 
 왼쪽 사이드바를 펼치거나 접고 사용 가능한 자산 보기 영역을 늘릴 수 있습니다.
 
-[!DNL Assets Essentials]에서 자산, 폴더 및 검색 결과를 네 가지 레이아웃 유형으로 볼 수 있습니다.
+[!DNL Assets Essentials]에서 에셋, 폴더 및 검색 결과를 네 가지 레이아웃 유형으로 볼 수 있습니다.
 
 * ![list view icon](assets/do-not-localize/list-view.png) [!UICONTROL 목록 보기]
 * ![grid view icon](assets/do-not-localize/grid-view.png) [!UICONTROL 격자 보기]
