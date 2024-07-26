@@ -4,18 +4,28 @@ description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
+source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
 workflow-type: tm+mt
-source-wordcount: '2903'
-ht-degree: 100%
+source-wordcount: '2976'
+ht-degree: 97%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2024년 4월 18일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2024년 7월 25일 금요일에 출시되었습니다.
 
 최근에 추가된 일부 기능은 다음과 같습니다.
+
+**Content credentials 통합**
+
+Experience Manager Assets은 이제 지원되는 이미지 형식에 대한 content credentials을 지원합니다. 이를 통해 GenAI를 사용하여 자산을 수정했는지 여부 등 자산의 계보와 생성 방법에 대한 정보를 제공합니다.
+
+![Content credentials](/help/using/assets/content-credentials.png)
+
+**폴더 내용을 시각적으로 미리 봅니다**
+
+이제 Experience Manager Assets은 컨텐츠를 찾아보거나 검색할 때 폴더 썸네일에 폴더 컨텐츠의 시각적 미리보기를 표시하여 AEM Assets 저장소 내에서 사용할 수 있는 자산의 검색 기능을 향상시킵니다.
 
 **상황별 검색**
 
