@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2976'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]의 릴리스 정보 {#release-notes}
 
-Assets Essentials의 현재 릴리스는 2024년 7월 25일 금요일에 출시되었습니다.
+Assets Essentials의 현재 릴리스는 2024년 7월 25일에 출시되었습니다.
 
 최근에 추가된 일부 기능은 다음과 같습니다.
 
-**Content credentials 통합**
+**콘텐츠 자격 증명 통합**
 
-Experience Manager Assets은 이제 지원되는 이미지 형식에 대한 content credentials을 지원합니다. 이를 통해 GenAI를 사용하여 자산을 수정했는지 여부 등 자산의 계보와 생성 방법에 대한 정보를 제공합니다.
+이제 Experience Manager Assets는 지원되는 이미지 형식에 대해 콘텐츠 자격 증명을 지원합니다. 이를 통해 생성형 AI를 사용하여 수정되었는지 여부 등 자산의 계보와 생성 방법에 대한 정보를 제공합니다.
 
-![Content credentials](/help/using/assets/content-credentials.png)
+![콘텐츠 자격 증명](/help/using/assets/content-credentials.png)
 
-**폴더 내용을 시각적으로 미리 봅니다**
+**폴더 콘텐츠의 시각적 미리보기**
 
-이제 Experience Manager Assets은 컨텐츠를 찾아보거나 검색할 때 폴더 썸네일에 폴더 컨텐츠의 시각적 미리보기를 표시하여 AEM Assets 저장소 내에서 사용할 수 있는 자산의 검색 기능을 향상시킵니다.
+이제 Experience Manager Assets는 콘텐츠를 탐색하거나 검색할 때 폴더 썸네일에 폴더 내용의 시각적 미리보기를 표시하므로 AEM Assets 저장소 내에서 사용할 수 있는 자산의 검색 가능성이 향상됩니다.
 
 **상황별 검색**
 
@@ -119,7 +119,7 @@ Adobe Firefly의 텍스트를 이미지로 변환 기능을 통한 검색 쿼리
 
 **검색 우선 홈 페이지 구성**
 
-이제 Assets Essentials를 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지를 검색 우선으로 선택하면 검색 창 정렬, 배경 이미지, 조직 로고 등을 구성할 수 있습니다. [!UICONTROL 일반 설정]을 선택하면 기본 랜딩 페이지가 무시됩니다. 예를 들어, 기본 랜딩은 관리자의 경우 [!UICONTROL 내 작업 영역]이고 관리자가 아닌 경우 [!UICONTROL 검색 우선]이며, 일반 설정의 옵션 중 하나를 선택하면 모든 사용자에게 적용됩니다.
+이제 Assets Essentials를 사용하여 조직의 홈 페이지 환경을 구성할 수 있습니다. 홈 페이지를 검색 우선으로 선택하면 검색 창 정렬, 배경 이미지, 조직 로고 등을 구성할 수 있습니다. [!UICONTROL 일반 설정]을 선택하면 기본 랜딩 페이지가 무시됩니다. 예를 들어 기본 랜딩은 관리자의 경우 [!UICONTROL 내 작업 영역]이고 관리자가 아닌 경우 [!UICONTROL 검색 우선]이며, 일반 설정의 옵션 중 하나를 선택하면 모든 사용자에게 적용됩니다.
 
 ![검색 우선 구성](/help/using/assets/search-first-configuration.png)
 

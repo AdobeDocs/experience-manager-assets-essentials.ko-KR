@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 5abb9a2ca6136c08479f9a48855522f4fd982e95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 88%
 
 ## 자산과 폴더 검색 및 보기 {#browse-repository}
 
-메인 사용자 인터페이스 또는 왼쪽 사이드바에서 폴더를 검색할 수 있습니다. 이제 Experience Manager Assets은 컨텐츠를 찾아보거나 검색할 때 폴더 썸네일에 폴더 컨텐츠의 시각적 미리보기를 표시하여 AEM Assets 저장소 내에서 사용할 수 있는 자산의 검색 기능을 향상시킵니다. 이 폴더 썸네일을 사용하면 AEM Assets 저장소의 폴더 내에서 특정 에셋을 검색하는 데 소요되는 시간이 절약됩니다.
-폴더에서 에셋을 검색할 때 인터페이스를 사용하여 에셋 썸네일을 보고 저장소를 시각적으로 탐색하거나 에셋 세부 사항을 보고 원하는 에셋을 빠르게 찾을 수 있습니다. 왼쪽 사이드바에서 사용할 수 있는 옵션은 다음과 같습니다.
+메인 사용자 인터페이스 또는 왼쪽 사이드바에서 폴더를 검색할 수 있습니다. 이제 Experience Manager Assets는 콘텐츠를 탐색하거나 검색할 때 폴더 썸네일에 폴더 내용의 시각적 미리보기를 표시하므로 AEM Assets 저장소 내에서 사용할 수 있는 자산의 검색 가능성이 향상됩니다. 이 폴더 썸네일은 AEM Assets 저장소의 폴더 내에서 특정 자산을 검색하는 데 소요되는 시간을 절약해 줍니다.
+폴더에서 자산을 검색할 때 인터페이스를 사용하여 자산 썸네일을 보고 저장소를 시각적으로 탐색하거나 자산 세부 사항을 보고 필요한 자산을 빠르게 찾을 수 있습니다. 왼쪽 사이드바에서 사용할 수 있는 옵션은 다음과 같습니다.
 
-* [내 작업 영역](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ko): 이제 Assets에는 Assets 사용자 인터페이스의 주요 영역과 사용자와 가장 관련성이 높은 정보에 편리하게 액세스할 수 있는 위젯을 제공하는 사용자 정의 가능한 작업 영역이 포함됩니다. 이 페이지는 작업 항목에 대한 개요 및 주요 워크플로에 대한 바로 가기를 제공하는 종합적인 솔루션 역할을 합니다. 이러한 옵션에 보다 편리하게 액세스하면 효율성과 콘텐츠 속도가 향상됩니다.
+* [내 작업 영역](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ko): 이제 Assets에는 Assets 사용자 인터페이스의 주요 영역과 사용자와 가장 관련성이 높은 정보에 편리하게 액세스할 수 있는 위젯을 제공하는 사용자 정의 가능한 작업 영역이 포함됩니다. 이 페이지는 작업 항목에 대한 개요 및 주요 워크플로에 대한 빠른 액세스를 제공하는 종합적인 솔루션 역할을 합니다. 이러한 옵션에 보다 편리하게 액세스하면 효율성과 콘텐츠 속도가 향상됩니다.
 * [작업](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ko): **내 작업** 탭 아래에서 본인에게 할당된 작업을 볼 수 있습니다. 반면 본인이 만든 작업은 **할당된 작업** 탭 아래에서 볼 수 있습니다. 또한 완료한 작업은 **완료된 작업** 탭 아래에 있습니다.
 * [자산](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ko): 액세스 권한이 있는 트리 보기의 모든 폴더 목록입니다.
 * **최근에 본 항목**: 최근에 미리 본 자산 목록입니다. [!DNL Assets Essentials]는 미리보기하는 자산만 표시합니다. 저장소 파일 또는 폴더를 탐색할 때 스크롤한 자산은 표시되지 않습니다.
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 왼쪽 사이드바를 펼치거나 접고 사용 가능한 자산 보기 영역을 늘릴 수 있습니다.
 
-[!DNL Assets Essentials]에서 에셋, 폴더 및 검색 결과를 네 가지 레이아웃 유형으로 볼 수 있습니다.
+[!DNL Assets Essentials]에서 자산, 폴더 및 검색 결과를 다음 네 가지 레이아웃 유형으로 조회할 수 있습니다.
 
 * ![list view icon](assets/do-not-localize/list-view.png) [!UICONTROL 목록 보기]
 * ![grid view icon](assets/do-not-localize/grid-view.png) [!UICONTROL 격자 보기]
@@ -64,7 +64,7 @@ ht-degree: 88%
 
 자산을 찾으려면 자산을 `Name`, `Relevancy`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
-폴더에서 탐색하려면 폴더의 썸네일을 두 번 클릭하거나 왼쪽 사이드바에서 폴더를 선택합니다. 폴더의 세부 정보를 보려면 해당 폴더를 선택하고 상단의 도구 모음에서 세부 정보를 클릭하십시오. 계층 구조를 위아래로 탐색하려면 왼쪽 사이드바를 사용하거나 상단의 이동 경로를 사용하십시오.
+폴더로 이동하려면 해당 폴더의 썸네일을 더블 클릭하거나 왼쪽 사이드바에서 폴더를 선택합니다. 폴더의 세부 정보를 보려면 해당 폴더를 선택하고 상단의 도구 모음에서 세부 정보를 클릭하십시오. 계층 구조를 위아래로 탐색하려면 왼쪽 사이드바를 사용하거나 상단의 이동 경로를 사용하십시오.
 
 ![폴더 검색](assets/browsing-folders.png)
 
