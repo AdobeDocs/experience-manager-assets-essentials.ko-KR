@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산을 이동하고, 삭제하�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 100%
+source-wordcount: '1222'
+ht-degree: 96%
 
 ---
 
@@ -132,6 +132,7 @@ Assets Essentials를 사용하면 저장소에서 사용 가능한 자산의 상
 1. 자산을 선택하고 도구 모음에서 **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 기본]** 탭의 **[!UICONTROL 상태]** 드롭다운 목록에서 자산 상태를 선택합니다. 가능한 값에는 승인됨, 거부됨 및 상태 없음(기본값)이 포함됩니다.
+OpenAPI 기능이 있는 Dynamic Media이 환경에 프로비저닝되어 있는 경우, Experience Manager Assets은 자산을 `Approved`(으)로 표시하는 즉시 공개 URL을 생성합니다.
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
