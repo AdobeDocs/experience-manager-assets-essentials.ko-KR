@@ -3,10 +3,10 @@ title: 이미지 편집
 description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 65e9f9414fe71d9e9add9b794856d77f87aed086
+source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Assets Essentials UI를 통해 UI에 통합된 Adobe Express 기반의 기본 �
 >title="Adobe Express 통합"
 >abstract="AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 재사용률과 콘텐츠 속도를 높일 수 있습니다."
 
-Essentials UI에 접속한 후 **자산**&#x200B;을 클릭하고 이미지를 선택한 다음 상단 레일에서 **편집**&#x200B;을 클릭합니다. 새 화면에는 크기 조정, 배경 제거, 자르기 및 JPEG 및 PNG 형식 간 변환 등 Adobe Express에서 제공하는 사용 가능한 편집 옵션이 표시됩니다.
+Essentials UI로 이동한 후 상단 레일에서 **Assets**&#x200B;를 클릭하고 이미지를 선택한 다음 **편집**&#x200B;을 클릭합니다. 새 화면에는 크기 조정, 배경 제거, 자르기 및 JPEG 및 PNG 형식 간 변환 등 Adobe Express에서 제공하는 사용 가능한 편집 옵션이 표시됩니다.
 
 #### 이미지 크기 조정 {#resize-image-using-express}
 
