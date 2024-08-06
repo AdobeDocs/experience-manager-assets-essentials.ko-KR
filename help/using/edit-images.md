@@ -3,7 +3,7 @@ title: 이미지 편집
 description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
+source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 63%
@@ -85,6 +85,7 @@ Adobe Express를 사용하여 JPEG 및 PNG 이미지 포맷 간 빠르게 변환
 ### 임베드된 Adobe Express 편집기에서 이미지 편집 {#edit-images-in-adobe-express-embedded-editor}
 
 Express 권한이 있는 사용자는 Assets Essentials UI 내에서 임베드된 Express 편집기를 사용하여 콘텐츠를 편집하고 Adobe Firefly의 GenAI로 새 콘텐츠를 쉽게 만들 수 있습니다. 이 기능은 콘텐츠 재사용을 개선하고 콘텐츠 속도를 가속화합니다. 또한 사전 정의된 요소를 사용하여 자산을 멋지게 보이게 하거나 몇 번의 클릭만으로 빠른 작업을 수행하여 이미지를 편집할 수 있습니다.
+
 ![essentials UI의 Express](/help/using/assets/express-in-essentials-ui.jpg)
 Adobe Express이 포함된 편집기 내에서 이미지를 편집하려면 아래 단계를 따르십시오.
 
