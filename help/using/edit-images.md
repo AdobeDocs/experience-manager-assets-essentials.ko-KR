@@ -3,16 +3,18 @@ title: 이미지 편집
 description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
+source-git-commit: 65e9f9414fe71d9e9add9b794856d77f87aed086
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1182'
+ht-degree: 65%
 
 ---
 
 # [!DNL Assets Essentials]에서 이미지 편집 {#edit-images-in-assets-essentials}
 
-Assets Essentials UI를 사용하면 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환 등 기본적인 이미지 편집 기능을 사용할 수 있습니다. 또한 Adobe Express와의 통합을 통해 고급 편집을 사용할 수도 있습니다. 이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원본 자산으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
+Assets Essentials UI를 통해 UI에 통합된 Adobe Express 기반의 기본 이미지 편집 기능을 사용할 수 있습니다. 이러한 편집에는 크기 조정, 배경 제거, 자르기 및 JPEG 및 PNG 형식 간 변환이 포함됩니다. 또한 Essentials UI 내에 임베드된 Adobe Express 인터페이스를 통해 고급 편집을 수행할 수 있습니다.
+
+이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원본 자산으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
@@ -22,23 +24,23 @@ Assets Essentials UI를 사용하면 크기 조정, 배경 제거, 자르기, JP
 
 ## 이미지 편집 {#edit-images}
 
-[Assets Essentials UI](https://experience.adobe.com/#/assets) 링크를 사용하고 올바른 저장소를 선택하여 Assets Essentials UI를 시작하십시오. 액세스 권한을 받으려면 귀사의 관리자에게 문의하십시오.
-추가적인 참조 정보는 [Adobe Experience Manager Assets Essentials 사용 시작하기](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started), [사용자 인터페이스 이해](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view) [Assets Essentials 사용 사례](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started#use-cases) 및 [알려진 문제](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/release-notes)를 참조하십시오.
+[Assets Essentials UI](https://experience.adobe.com/#/assets) 링크를 사용하고 올바른 리포지토리를 선택하여 Assets Essentials UI로 이동합니다. 액세스 권한을 받으려면 귀사의 관리자에게 문의하십시오.
+추가 참조 정보는 [Adobe Experience Manager Assets Essentials 사용 시작](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started), [사용자 인터페이스 이해](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view), [Assets Essentials 사용 사례](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/get-started#use-cases) 및 [알려진 문제](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/release-notes)를 참조하십시오.
 
-### Adobe Express를 사용하여 이미지 편집 {#edit-images-using-adobe-express}
+### Adobe Express를 사용하여 Essentials UI에서 이미지 편집{#edit-images-using-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express 통합"
 >abstract="AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 재사용률과 콘텐츠 속도를 높일 수 있습니다."
 
-Essentials UI에 접속한 후 **자산**&#x200B;을 클릭하고 이미지를 선택한 다음 상단 레일에서 **편집**&#x200B;을 클릭합니다. 새 화면에 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환 등 사용 가능한 편집 옵션이 표시됩니다.
+Essentials UI에 접속한 후 **자산**&#x200B;을 클릭하고 이미지를 선택한 다음 상단 레일에서 **편집**&#x200B;을 클릭합니다. 새 화면에는 크기 조정, 배경 제거, 자르기 및 JPEG 및 PNG 형식 간 변환 등 Adobe Express에서 제공하는 사용 가능한 편집 옵션이 표시됩니다.
 
 #### 이미지 크기 조정 {#resize-image-using-express}
 
-이미지 크기를 특정 크기로 조정하는 것이 일반적인 사용 사례입니다. Assets Essentials를 사용하면 특정 사진 크기에 대해 미리 계산된 새로운 해상도를 제공하여 일반적인 사진 크기에 맞게 빠르게 이미지 크기를 조정할 수 있습니다. Assets Essentials를 사용하여 이미지 크기를 조정하려면 아래 단계를 수행합니다.
+이미지 크기를 특정 크기로 조정하는 것이 일반적인 사용 사례입니다. Assets Essentials를 사용하면 특정 사진 크기에 대해 미리 계산된 새로운 해상도를 제공하여 일반적인 사진 크기에 맞게 빠르게 이미지 크기를 조정할 수 있습니다. Assets Essentials 인터페이스 내에서 이미지 크기를 조정하려면 아래 단계를 따르십시오.
 
-1. 왼쪽 창에서 **이미지 크기 조정**&#x200B;을 클릭합니다.
+1. 왼쪽 창에서 **이미지 크기 조정**&#x200B;을 클릭합니다. 대화 상자에는 Adobe Express에서 제공하는 크기 조정 이미지 기능이 표시됩니다.
 2. [크기 조정] 드롭다운 목록에서 적절한 소셜 미디어 플랫폼을 선택하고 표시되는 옵션에서 이미지 크기 조정을 선택합니다.
 3. 필요한 경우 **이미지 크기 조정** 필드를 사용하여 이미지 크기를 조정합니다.
 4. **적용**을 클릭하여 변경 내용을 적용합니다.
@@ -67,7 +69,7 @@ Essentials UI에 접속한 후 **자산**&#x200B;을 클릭하고 이미지를 �
    ![Adobe Express로 이미지 저장](/help/using/assets/adobe-express-crop-image.png)
 잘린 이미지를 다운로드할 수 있습니다. 편집한 자산을 동일한 자산의 새 버전으로 저장하거나 새 자산으로 저장할 수 있습니다.
 
-#### 이미지 파일 포맷 간 변환 {#convert-image-types-using-express}
+#### JPEG를 PNG로 변환하기 {#Convert-JPEG-to-PNG}
 
 Adobe Express를 사용하여 JPEG 및 PNG 이미지 포맷 간 빠르게 변환할 수 있습니다. 다음 단계를 실행합니다.
 
@@ -82,34 +84,29 @@ Adobe Express를 사용하여 JPEG 및 PNG 이미지 포맷 간 빠르게 변환
 
 ### 임베드된 Adobe Express 편집기에서 이미지 편집 {#edit-images-in-adobe-express-embedded-editor}
 
-Express 권한이 있는 사용자는 Assets Essentials UI 내에서 임베드된 Express 편집기를 사용하여 Adobe Firefly의 생성형 AI로 간편하게 콘텐츠를 편집하고 새 콘텐츠를 만들 수 있습니다. 이를 통해 콘텐츠 재사용이 향상되고 콘텐츠 속도가 빨라집니다. 또한 사전 정의된 요소를 사용하여 자산을 멋지게 보이게 하거나 몇 번의 클릭만으로 빠른 작업을 수행하여 이미지를 편집할 수 있습니다.
-![Essentials의 Express UI](/help/using/assets/express-in-essentials-ui.jpg)
-임베드된 Adobe Express 편집기를 사용하여 이미지를 편집하려면 다음 단계를 따릅니다.
+Express 권한이 있는 사용자는 Assets Essentials UI 내에서 임베드된 Express 편집기를 사용하여 콘텐츠를 편집하고 Adobe Firefly의 GenAI로 새 콘텐츠를 쉽게 만들 수 있습니다. 이 기능은 콘텐츠 재사용을 개선하고 콘텐츠 속도를 가속화합니다. 또한 사전 정의된 요소를 사용하여 자산을 멋지게 보이게 하거나 몇 번의 클릭만으로 빠른 작업을 수행하여 이미지를 편집할 수 있습니다.
+![essentials UI의 Express](/help/using/assets/express-in-essentials-ui.jpg)
+Adobe Express이 포함된 편집기 내에서 이미지를 편집하려면 아래 단계를 따르십시오.
 
-1. [AEM Assets Essentials UI](https://experience.adobe.com/#/assets) 링크를 사용하고 올바른 저장소를 선택하여 AEM Assets Essentials UI를 시작합니다.
+1. [AEM Assets Essentials UI](https://experience.adobe.com/#/assets) 링크를 사용하여 AEM Assets Essentials UI로 이동한 다음 올바른 저장소를 선택합니다.
 1. **자산**&#x200B;을 클릭하고 폴더를 입력한 다음 이미지를 선택합니다.
 1. **Adobe Express에서 열기**&#x200B;를 클릭합니다. Express 캔버스에서 이미지가 열립니다.
 1. 이미지에 필요한 편집을 수행합니다.
 1. 프로젝트에 페이지를 더 추가해야 하는 경우 **추가**&#x200B;를 클릭하고, 자산을 선택한 다음 폴더를 입력하고, 캔버스 페이지로 가져올 이미지를 선택한 다음 이미지에 필요한 편집을 수행합니다.
-1. 이미지를 저장하려면 **저장**&#x200B;을 클릭합니다. 저장 대화 상자가 표시됩니다.
+1. 하나 이상의 자산을 저장하려면 **저장**&#x200B;을 클릭하세요. 저장 대화 상자에 저장 옵션이 표시됩니다. 저장 옵션 중에서 선택하려면 요구 사항에 맞는 아래 지침 중 하나를 따르십시오.
+   1. 단일 페이지를 저장하려면 **다른 버전으로 저장**&#x200B;을 클릭하여 이미지를 새 버전으로 내보내고(원래 형식을 그대로 유지) 동일한 폴더에 저장합니다.
 
-   >[!NOTE]
-   >
-   > **1. 단일 페이지의 경우**
-   >
-   > **버전으로 저장:** 이 기능은 단일 자산 저장만 지원합니다. 이미지를 원본 포맷을 유지한 채로 새 버전으로 내보내고 동일한 폴더에 저장하려면 이 옵션을 선택합니다.
-   > **새 자산으로 저장:** 자산을 원본과 다른 포맷으로 내보내고 폴더에 새 자산으로 저장하려면 이 옵션을 선택합니다.
-   >  
-   > **2. 여러 페이지의 경우**
-   >
-   > **버전으로 저장:** 이 기능은 단일 자산 저장만 지원합니다. 여러 페이지에서 단일 페이지를 저장하려면 이 옵션을 선택하여 자산을 원래 포맷으로 원래 위치에 저장합니다.\
-   > **새 자산으로 저장:** 이 옵션을 사용하면 여러 자산 또는 단일 자산을 임의의 폴더로 내보낸 후 원본 파일 포맷이나 다른 파일 포맷의 새 자산으로 저장할 수 있습니다.
+   1. 한 페이지를 저장하려면 **새 자산으로 저장**&#x200B;을 클릭하여 자산을 다른 형식으로 내보내고 모든 폴더에 새 자산으로 저장합니다.
+
+   1. 여러 페이지에서 한 페이지를 저장하려면 **다른 버전으로 저장**&#x200B;을 클릭하여 자산을 원래 형식과 위치에 저장합니다.
+
+   1. 여러 페이지 또는 여러 페이지 중 한 페이지를 저장하려면 **새 자산으로 저장**&#x200B;을 클릭하세요. 이 작업을 수행하면 단일 또는 여러 에셋을 폴더에 내보내고 원래 또는 다른 형식의 새 에셋이나 에셋으로 저장합니다.
 
 1. [저장] 대화 상자에서 다음 작업을 수행합니다.
    1. **다른 이름으로 저장** 필드에 파일 이름을 입력합니다.
    1. 대상 폴더를 선택합니다.
    1. 선택 사항: 프로젝트 또는 캠페인 이름, 키워드, 채널, 시간대 및 지역과 같은 세부 정보를 입력합니다.
-1. 자산을 저장하려면 **버전으로 저장** 또는 **새 자산으로 저장**&#x200B;을 클릭합니다.
+1. 하나 이상의 자산을 저장하려면 **다른 버전으로 저장** 또는 **새 자산으로 저장**&#x200B;을 클릭하십시오.
 
 #### Express Editor에서의 이미지 편집 제한 사항 {#limitations-of-editing-images-in-the-express-editor}
 
@@ -120,11 +117,11 @@ Express 권한이 있는 사용자는 Assets Essentials UI 내에서 임베드�
 
 ### Adobe Express를 사용하여 새 자산 만들기 {#create-new-assets-using-embedded-editor}
 
-Assets Essentials를 사용하여 임베드된 Adobe Express 편집기로 처음부터 새 템플릿을 만들 수 있습니다. Adobe Express를 사용하여 새 자산을 만들려면 아래 단계를 실행하십시오.
+Assets Essentials을 사용하면 Adobe Express 포함 편집기를 사용하여 새 템플릿을 처음부터 만들 수 있습니다. Adobe Express를 사용하여 새 자산을 만들려면 아래 단계를 실행하십시오.
 
 1. **내 작업 영역**&#x200B;으로 이동하여 Adobe Express 상단에 표시되는 Adobe Express 배너 내의 **만들기**&#x200B;를 클릭합니다. Adobe Express 빈 캔버스가 Assets Essentials 사용자 인터페이스 내에 표시됩니다.
 1. [템플릿](https://helpx.adobe.com/kr/express/using/work-with-templates.html)을 사용하여 콘텐츠를 만듭니다. 그렇지 않은 경우 [내 항목]으로 이동하여 기존의 콘텐츠를 수정합니다.
-1. 편집이 완료되면 **저장**&#x200B;을 클릭합니다.
+1. 편집을 완료하면 **저장**&#x200B;을 클릭합니다.
 1. 생성된 자산의 대상 경로를 지정하고 **새 자산으로 저장**&#x200B;을 클릭합니다.
 
 #### 제한 사항 {#limitations}
