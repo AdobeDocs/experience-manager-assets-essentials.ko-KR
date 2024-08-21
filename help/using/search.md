@@ -4,7 +4,7 @@ description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1890'
 ht-degree: 100%
 
