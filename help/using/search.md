@@ -3,7 +3,7 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: a471074ec0eee8487222cc344046715ed5d90d0b
+source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 100%
@@ -254,7 +254,7 @@ Experience Manager Assets에서 상황별 검색에 액세스하는 방법:
 
 1. 검색 텍스트 상자에서 텍스트 프롬프트를 정의하고 **[!UICONTROL 상황별 검색]**&#x200B;을 클릭합니다.
 
-   ![상황별 검색 텍스트 프롬프트](/help/using/assets/contextual-search-text-prompt.png)
+   ![상황별 검색 텍스트 프롬프트](/help/using/assets/wknd-contextual-search.png)
 
    [!DNL Experience Manager Assets]는 검색 결과를 표시합니다.
 
