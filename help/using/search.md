@@ -3,7 +3,7 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 332a4842f6ae017b802fbd0edd75e74d6f2e8c97
+source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 80%
@@ -146,7 +146,7 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 
    * **다른 이름으로 저장** 필드에 파일 이름을 입력합니다.
    * 대상 폴더를 선택합니다.
-   * 프로젝트 또는 캠페인 이름, 키워드, 채널, 시간대 및 지역 등 세부 정보를 제공합니다.
+   * 프로젝트 또는 캠페인 이름, 키워드, 채널, 시간대 및 지역 등 세부 정보를 입력합니다.
 
    ![Firefly 통합](assets/save-generated-asset.png)
 
