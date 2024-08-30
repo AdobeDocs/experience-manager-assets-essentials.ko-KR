@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 >id="assets_search"
 >title="자산 검색"
 >abstract="검색창에서 키워드를 지정하거나 상태, 파일 유형, MIME 유형, 크기, 생성, 수정 및 만료 일자를 기준으로 필터링하여 자산을 검색하십시오. 표준 필터 외에도 사용자 정의 필터를 적용할 수 있습니다. 필터링된 결과를 “저장된 검색” 또는 “스마트 컬렉션”으로 저장할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko-KR#manage-smart-collection" text="스마트 컬렉션 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko#manage-smart-collection" text="스마트 컬렉션 만들기"
 
 [!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 자산을 빠르게 찾고 콘텐츠 속도를 높일 수 있습니다. [!DNL Assets Essentials]는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
 
@@ -146,7 +146,7 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 
    * **다른 이름으로 저장** 필드에 파일 이름을 입력합니다.
    * 대상 폴더를 선택합니다.
-   * 프로젝트 또는 캠페인 이름, 키워드, 채널, 시간대 및 지역 등 세부 정보를 입력합니다.
+   * 프로젝트 또는 캠페인 이름, 키워드, 채널, 시간대 및 지역과 같은 세부 정보를 입력합니다.
 
    ![Firefly 통합](assets/save-generated-asset.png)
 
