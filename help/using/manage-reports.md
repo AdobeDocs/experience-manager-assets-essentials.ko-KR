@@ -2,10 +2,10 @@
 title: Assets Essentials에서 보고서 관리
 description: Assets Essentials의 보고서 섹션에 있는 데이터에 액세스하여 제품 및 기능 사용을 평가하고 주요 성공 지표에 대한 통찰력을 도출합니다.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 49b650b3efe5740eb1ce39b7dcf6f84e34e0e81a
-workflow-type: ht
-source-wordcount: '1226'
-ht-degree: 100%
+source-git-commit: cb3cd047d3fbfa8e6b2e5a398c11301f93692b2e
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 79%
 
 ---
 
@@ -42,7 +42,7 @@ AEM Assets Essentials 환경은 보고서 대시보드를 통해 포괄적인 �
 
    **구성 탭:**
 
-   1. **보고서 유형:** 업로드와 다운로드 유형 중에서 선택합니다.
+   1. **보고서 유형:** [!UICONTROL 업로드], [!UICONTROL 다운로드] 또는 [Dynamic Media 배달 보고서](#dynamic-media-delivery-reports) 유형 중에서 선택하십시오.
    1. **제목:** 보고서에 제목을 추가합니다.
    1. **설명:** 원하는 경우 보고서에 설명을 추가합니다.
    1. **폴더 경로 선택:** 특정 폴더 내에서 업로드 및 다운로드된 자산에 대한 보고서를 생성할 폴더 경로를 선택합니다. 예를 들어 폴더에 업로드된 자산에 대한 보고서가 필요하다면 해당 폴더의 경로를 지정합니다.
@@ -70,7 +70,7 @@ AEM Assets Essentials 환경은 보고서 대시보드를 통해 포괄적인 �
      <tr>
       <td>경로</td>
       <td>Assets Essentials에서 자산을 사용할 수 있는 폴더 경로입니다.</td>
-      <td>업로드 및 다운로드</td>
+      <td>업로드, 다운로드 및 Dynamic Media 전달</td>
      </tr>
      <tr>
       <td>MIME 유형</td>
@@ -116,13 +116,71 @@ AEM Assets Essentials 환경은 보고서 대시보드를 통해 포괄적인 �
       <td>사용자 이름으로 다운로드됨</td>
       <td>자산을 다운로드한 사용자의 이름입니다.</td>
       <td>다운로드</td>
-     </tr>           
+     </tr>
+     <tr>
+      <td>레퍼러</td>
+      <td>에셋이 전달되거나 포함된 URL</td>
+      <td>Dynamic Media 게재</td>
+     </tr>  
+     <tr>
+      <td>히트 수</td>
+      <td>에셋이 게재된 횟수(게재 카운트)</td>
+      <td>Dynamic Media 게재</td>
+     </tr>             
     </tbody>
    </table>
 
+## Dynamic Media 게재 보고서 {#dynamic-media-delivery-reports}
+
+자산 수준 게재 카운트, 레퍼러 정보, AEM Assets의 자산 경로 및 고유 자산 ID와 함께 Dynamic Media를 통해 게재된 자산에 대한 게재 인사이트를 확인할 수 있습니다. Dynamic Media for AEM Assets 저장소 또는 AEM Assets의 특정 폴더 계층 구조를 통해 전달되는 모든 자산에 대해 보고서를 생성할 수 있습니다. 또한 Dynamic Media 게재 보고서 통찰력은 게재된 자산의 ROI를 측정하고, 채널 성과를 측정하고, 자산에 대한 정보에 입각한 자산 관리 작업을 수행하는 데 도움이 됩니다.
+
+>[!NOTE]
+> 
+>Dynamic Media 계정에서 Dynamic Media 배달 보고서에 일찍 액세스하려면 [Adobe 고객 지원 사례를 만들어 제출](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)하세요.
+
+### 전제 조건 {#prereqs-dynamic-media-delivery-reports}
+
+이 보고서를 만들고 사용하려면 Dynamic Media 라이선스가 있어야 합니다.
+
+>[!IMPORTANT]
+> 
+>* Dynamic Media를 통해 게재된 자산에 대한 보고서가 제공됩니다.
+>* 보고서는 처음 100만 개 행에 대해 생성됩니다. 이 한도 내의 모든 파일을 캡처하려면 더 작은 폴더에 대한 레퍼러 열을 포함하는 방안을 고려해 보십시오.
+>* 지난 3개월간의 보고서만 생성할 수 있습니다.
+
+### Dynamic Media 게재 보고서 만들기{#create-dynamic-media-delivery-report}
+
+1. [보고서 만들기](#create-report)에 언급된 단계를 사용하여 Dynamic Media 게재 보고서를 만듭니다.
+
+1. **[!UICONTROL 보고서 유형]** 드롭다운 목록에서 **[!UICONTROL Dynamic Media 배달]**&#x200B;을 선택합니다.
+
+   ![Dynamic Media 배달 보고서 드롭다운](/help/using/assets/dynamic-media-delivery-report-option.png)
+
+
+1. **[!UICONTROL 열]** 탭에서 **[!UICONTROL 레퍼러]** 열을 선택하여 보고서에 포함할 수 있습니다.
+
+   ![레퍼러](/help/using/assets/referrer.png)
+
+   다운로드한 보고서의 모든 열은 읽기 전용입니다. 단, 보고서에서 포함하거나 제외하도록 수정할 수 있는 **레퍼러** 열은 예외입니다. <!--Choosing a referrer displays the number of visitors received from each referred report that directs traffic to the site. It offers insights into the sources of traffic and the origin of the visitors. Such insights help measure ROI of delivered assets, measure channel performance, and help take informed asset management tasks for assets.-->
+
+### Dynamic Media 게재 보고서에서 수행된 작업 {#actions-performed-dynamic-media-delivery-reports}
+
+보고서를 작성한 후 다음 작업을 수행할 수 있습니다.
+
+* **[!UICONTROL 삭제]**: 선택한 보고서를 삭제할 수 있습니다.
+* **[!UICONTROL CSV 다운로드]**: 선택한 보고서를 CSV 형식으로 다운로드할 수 있습니다. 다운로드한 보고서는 이름, 경로, DynamicMediaID, 레퍼러, 히트 열로 구성됩니다.
+   * **레퍼러** 열에는 에셋이 전달되거나 포함된 URL이 나열됩니다.
+
+   * **히트** 열에는 에셋이 배달된 횟수(게재 수)가 나열됩니다.
+
+Dynamic Media 배달 보고서를 삭제하거나 CSV로 다운로드하려면 [기존 보고서 보기 및 다운로드](#View-and-download-existing-report)를 참조하세요.
+
+![Dynamic Media 게재 보고서에 CSV를 다운로드했습니다](/help/using/assets/csv-dynamic-media-delivery-report.png)
+
+
 ## 기존 보고서 조회 및 다운로드 {#View-and-download-existing-report}
 
-기존 보고서는 **실행된 보고서** 탭에 표시됩니다. **보고서**&#x200B;를 클릭하고 **실행된 보고서**&#x200B;를 선택하여 다운로드할 준비가 되었음을 나타내는 **완료됨** 상태의 생성된 모든 보고서를 조회합니다. CSV 형식으로 보고서를 다운로드하거나 보고서를 삭제하려면 해당 보고서 행을 선택하십시오. 그런 다음 **CSV 다운로드** 또는 **삭제**를 선택합니다.
+기존 보고서는 **실행된 보고서** 탭에 표시됩니다. **보고서**&#x200B;를 클릭하고 **실행된 보고서**&#x200B;를 선택하여 다운로드할 준비가 되었음을 나타내는 **완료됨** 상태의 생성된 모든 보고서를 조회합니다. CSV 형식으로 보고서를 다운로드하거나 보고서를 삭제하려면 보고서 행을 선택하고 **CSV 다운로드** 또는 **삭제**를 선택합니다.
 ![기존 보고서 조회 및 다운로드](/help/using/assets/view-download-existing-report.png)
 
 ## 보고서 예약 {#schedule-report}
@@ -189,7 +247,7 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **스토리지 사용량**: 막대 차트를 사용하여 표현되는 Assets Essentials 환경의 스토리지 사용량(바이트 단위)입니다.
+* **스토리지 사용량**: 막대 그래프를 사용하여 표현되는 Assets Essentials 환경의 스토리지 사용량(바이트 단위)입니다.
   ![스토리지 사용량](/help/using/assets/insights-storage-usage1.svg)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
