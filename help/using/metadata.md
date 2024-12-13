@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산의 메타데이터 관리'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+source-git-commit: 09040ef6dc777aa631b00bb37108f86b83bdf583
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1884'
+ht-degree: 94%
 
 ---
 
@@ -130,9 +130,11 @@ MIME 하위 유형 > MIME 유형 > `default` 양식 > 기본 제공 양식
 | 드롭다운 | 드롭다운 목록을 추가합니다. |
 | 상태 | 저장소 상태 속성 추가(repo:state에 매핑됨) |
 | 자산 상태 | 기본 자산 상태 속성 추가(dam:assetStatus에 매핑됨) |
+| 다음에 대해 승인됨 | |
 | 태그 | 분류 체계 관리에 저장된 값에서 태그를 추가합니다(xcm:tags에 매핑됨). |
 | 키워드 | 자유 형식 키워드를 추가합니다(dc:subject에 매핑됨). |
 | 스마트 태그 | 메타데이터 태그를 자동으로 추가하여 검색 기능을 보강합니다. |
+| 링크 | 을(를) 추가하여 외부 URL을 활성화합니다. |
 
 ### 폴더에 메타데이터 양식 할당 {#assign-metadata-form-folder}
 
@@ -165,6 +167,19 @@ Assets Essentials 배포 내의 폴더에 메타데이터 양식을 할당할 �
 1. 폴더를 선택하고 **[!UICONTROL 제거]**&#x200B;를 클릭합니다. 목록에서 여러 폴더를 선택할 수도 있습니다.
 
 폴더 세부 정보 페이지로 이동한 후 **[!UICONTROL 메타데이터 양식]** 필드에서 **[!UICONTROL 시스템 매핑된 메타데이터 양식]**&#x200B;을 선택하여 폴더에서 할당된 메타데이터 양식을 제거할 수도 있습니다.
+
+### 메타데이터 양식에서 링크 구성 요소 작업 {#link-component-metadata-form}
+
+링크 구성 요소는 스토리지 링크, 저작권 정보, 연락처 양식 등을 포함하는 외부 URL을 활성화하는 데 사용됩니다. 메타데이터 양식에서 링크 구성 요소를 사용하려면 [메타데이터 양식을 구성](#metadata-forms)해야 합니다.
+
+메타데이터 양식에서 링크 구성 요소를 사용하려면 아래 단계를 따르십시오.
+
+1. 자산 세부 정보 페이지로 이동하여 **[!UICONTROL 링크 URL]**&#x200B;로 이동합니다.
+1. 선택한 에셋에 대해 리디렉션하는 데 사용할 URL을 추가합니다.
+1. **[!UICONTROL 링크 추가]**&#x200B;를 클릭합니다. 다음 작업 중 하나를 수행합니다.
+   * URL을 복사하려면 ![복사 아이콘](assets/do-not-localize/copy.svg)을 클릭하세요.
+   * URL을 편집하려면 ![편집 아이콘](assets/do-not-localize/edit.svg)을 클릭하세요.
+1. 변경 내용을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
 ## 다음 단계 {#next-steps}
 
