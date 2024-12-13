@@ -2,7 +2,8 @@
 title: ' [!DNL Assets Essentials]에서 에셋 이름 바꾸기 및 벌크 이름 바꾸기'
 description: 새로운 Assets UI(Assets Essentials)를 사용하여 에셋의 이름을 일괄 변경하는 방법을 알아봅니다. 여러 에셋의 이름을 한 번에 바꿀 수 있는 기능을 제공합니다.
 role: User
-source-git-commit: 9232f1ccb1d71057c909330d7e4861d048310b7b
+exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
+source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 17%
@@ -67,3 +68,4 @@ AI가 생성한 프롬프트를 사용하여 한 번에 대량의 에셋의 이�
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
 * [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
+
