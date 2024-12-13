@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: bb7a86c737f862411e2f06997d8b4d720d55a3c5
-workflow-type: ht
-source-wordcount: '140'
-ht-degree: 100%
+source-git-commit: c84b647f1575013bf17ab143c64d27f04909f9ee
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 97%
 
 ---
 
@@ -39,12 +39,13 @@ ht-degree: 100%
 + [이미지 편집](edit-images.md)
 + [비디오 편집](edit-videos.md)
 + [자산 메타데이터 관리](metadata.md)
++ [벌크 메타데이터 편집](/help/using/bulk-metadata-edit.md)
 + [자산 공유](share-links-for-assets.md)
 + [컬렉션 관리](manage-collections.md)
 + [자산, 폴더 및 컬렉션 보기](manage-notifications.md)
 + [보고서 관리](manage-reports.md)
 + [태그 관리](tagging-management.md)
-+ [콘텐츠 자격 증명](/help/using/content-credentials.md)
++ [Content Credentials](/help/using/content-credentials.md)
 + 다른 솔루션과 통합 {#integration-with-other-solutions}
    + [개요](integration.md)
    + [Adobe Asset Link와 통합](integrate-with-creative-cloud.md)
