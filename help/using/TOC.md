@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: e6a83309f974736d30ee40de5b6bf857f8e7fde1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 + [이미지 편집](edit-images.md)
 + [비디오 편집](edit-videos.md)
 + [자산 메타데이터 관리](metadata.md)
-+ [벌크 이름 바꾸기](bulk-rename.md)
++ [일괄 이름 바꾸기](bulk-rename.md)
 + [일괄 메타데이터 편집](/help/using/bulk-metadata-edit.md)
 + [자산 공유](share-links-for-assets.md)
 + [컬렉션 관리](manage-collections.md)
