@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: c6298614d6085deca8618112d1d1533b4b980f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 + [내 작업 영역](my-workspace.md)
 + 관리자를 위한 Assets Essentials 시작하기 {#get-started-admins}
    + [관리 및 사용자 추가](deploy-administer.md)
-   + 액세스 폴더 관리{#folder-access}
+   + 폴더 액세스 관리{#folder-access}
       + [폴더 권한 관리](manage-permissions.md)
       + [권한 관리에 대한 모범 사례](permission-management-best-practices.md)
    + [작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials에 대한 관리자 여정](assets-essentials-cc-pro-work-management-admin-journey.md)
@@ -45,7 +45,7 @@ ht-degree: 99%
 + [컬렉션 관리](manage-collections.md)
 + [자산, 폴더 및 컬렉션 보기](manage-notifications.md)
 + [보고서 관리](manage-reports.md)
-+ [재처리 중](reprocessing.md)
++ [재처리](reprocessing.md)
 + [태그 관리](tagging-management.md)
 + [Content Credentials](/help/using/content-credentials.md)
 + 다른 솔루션과 통합 {#integration-with-other-solutions}
