@@ -2,10 +2,10 @@
 title: 작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials 설정
 description: 이 튜토리얼에서는 Assets Essentials 애플리케이션을 Creative Cloud 데스크탑 애플리케이션 및 Adobe Workfront 애플리케이션과 통합할 수 있도록 하는 관리자 여정을 설명합니다. Creative Cloud 데스크탑 애플리케이션에는 Adobe Photoshop, Adobe Illustrator, Adobe InDesign 및 Adobe XD가 있습니다.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프�
 
 * 메타데이터 양식 설정
 
-[![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+[![안내서 보기](assets/see-the-guide-sm.png)](deploy-administer.md)
 
 지금까지 Assets Essentials 애플리케이션을 구성하고 관리했으므로 이제 [Creative Cloud 애플리케이션을 Experience Manager Assets Essentials 애플리케이션과 통합](integrate-with-creative-cloud.md)해 보십시오.
 
@@ -99,7 +99,7 @@ Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프�
 
 * Adobe Asset Link 사용
 
-[![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+[![안내서 보기](assets/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
 
 이제 Creative Cloud 애플리케이션과 Assets Essentials의 통합을 완료했으므로 [Adobe Workfront를 Experience Manager Assets Essentials와 통합](integrate-with-workfront.md)해 보십시오.
 
@@ -119,4 +119,4 @@ Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프�
 
 * Experience Manager Assets Essentials 통합 구성
 
-[![안내서 참조](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
+[![안내서 보기](assets/see-the-guide-sm.png)](integrate-with-workfront.md)
