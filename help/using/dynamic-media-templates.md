@@ -4,9 +4,9 @@ description: WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: a06bdadcd2194e1ffce23c672e605cfb95f14bcf
+source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 **왼쪽 창의 메뉴 옵션:** 아래에 언급된 일반적인 편집기 작업에 이 옵션을 사용합니다.
 
 * ![DM 템플릿](/help/using/assets/layer-selector.svg): 레이어를 선택합니다.
-* ![사용자 지정을 지원하는 템플릿](/help/using/assets/bring-forward.svg): 선택한 레이어를 앞으로 가져오려면 클릭하거나 **Ctrl** + **]**(Windows) 또는 **Cmd** + **]**(Mac)을 누릅니다.
-* ![쉽게 사용자 지정할 수 있는 템플릿을 만드는 방법](/help/using/assets/send-backward.svg): 선택한 레이어를 뒤로 보내려면 클릭하거나 **Ctrl** + **[**(Windows) 또는 **Cmd** + **[**(Mac)을 누르십시오.
 * ![즉시 사용자 지정할 수 있는 서식 파일을 만드세요](/help/using/assets/undo.svg): 마지막 작업을 실행 취소하려면 클릭하거나 **Ctrl** + **Z**(Windows) 또는 **Cmd** + **Z**(Mac)을 누르십시오.
 * ![배너를 빠르게 만들 템플릿](/help/using/assets/redo.svg): 마지막 작업을 다시 실행하려면 클릭하거나 **Ctrl** + **Y**(Windows) 또는 **Cmd** + **Y**(Mac)을 누르십시오.
 * ![빠르게 전단을 만드는 템플릿](/help/using/assets/zoomin.svg): 캔버스를 확대하려면 클릭하거나 **Ctrl** + **+**(Windows) 또는 Cmd + **+**(Mac)을 누릅니다.
