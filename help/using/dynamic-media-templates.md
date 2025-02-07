@@ -4,16 +4,16 @@ description: WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
+source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
 
 # Dynamic Media 템플릿{#dynamic-media-templates}
 
-| [모범 사례 검색](/help/assets/search-best-practices.md) | [메타데이터 모범 사례](/help/assets/metadata-best-practices.md) | [Content Hub](/help/assets/product-overview.md) | [AEM Assets 개발자 설명서](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [모범 사례 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [메타데이터 모범 사례](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 개발자 설명서](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지와 텍스트 레이어를 포함하면 배너와 전단을 빠르게 만들어 다운스트림 애플리케이션에서 사용할 수 있습니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
@@ -44,10 +44,10 @@ Dynamic Media 템플릿의 주요 이점 중 일부는 다음과 같습니다.
 Dynamic Media 템플릿을 만들려면 다음을 수행해야 합니다.
 
 1. Dynamic Media 액세스.
-1. [AEM Assets 인스턴스에서 사용할 수 있는 이미지를 Dynamic Media과 동기화하여 템플릿을 만드는 데 사용](/help/assets/dynamic-media/config-dm.md).
+1. [AEM Assets 인스턴스에서 사용할 수 있는 이미지를 Dynamic Media과 동기화하여 템플릿을 만드는 데 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. touch UI에서 다음을 확인했습니다.
-   * **[!UICONTROL Dynamic Media 구성 편집 페이지]**&#x200B;에서 **[!UICONTROL 기본적으로 비활성화됨]**(으)로 설정된 **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;이(가) 모든 AEM 폴더에 적용되지 않습니다(**[!UICONTROL 모든 콘텐츠 동기화]**&#x200B;이(가) 선택되지 않음). 자세한 내용은 [Dynamic Media Cloud Service 구성](/help/assets/dynamic-media/config-dm.md)을 참조하십시오.
-   * **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;를 만든 후 템플릿을 저장할 대상 폴더 또는 하위 폴더에 대해 **[!UICONTROL 하위 폴더에 대해 활성화]**&#x200B;로 설정합니다. 자세한 내용은 [Dynamic Media Cloud Service 구성](/help/assets/dynamic-media/config-dm.md)을 참조하십시오.
+   * **[!UICONTROL Dynamic Media 구성 편집 페이지]**&#x200B;에서 **[!UICONTROL 기본적으로 비활성화됨]**(으)로 설정된 **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;이(가) 모든 AEM 폴더에 적용되지 않습니다(**[!UICONTROL 모든 콘텐츠 동기화]**&#x200B;이(가) 선택되지 않음). 자세한 내용은 [Dynamic Media Cloud Service 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)을 참조하십시오.
+   * **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;를 만든 후 템플릿을 저장할 대상 폴더 또는 하위 폴더에 대해 **[!UICONTROL 하위 폴더에 대해 활성화]**&#x200B;로 설정합니다. 자세한 내용은 [Dynamic Media Cloud Service 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)을 참조하십시오.
 
 ## Dynamic Media WYSIWYG 템플릿 만들기{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 Dynamic Media Assets 아래에 템플릿을 저장하거나 폴더로 이동한 다음 **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 해당 폴더에 템플릿을 저장합니다. **[!UICONTROL 새 템플릿]** 대화 상자가 표시됩니다.
    ![실시간으로 사용자 지정할 수 있는 동적 템플릿을 만드는 방법](/help/using/assets/new-template.png)
-**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더를 만들려면](/help/assets/add-delete-assets-view.md) **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에 복제됩니다.
+**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더를 만들려면](/help/using/add-delete.md) **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에 복제됩니다.
 1. 템플릿 이름을 지정하고 캔버스 너비 및 높이를 정의한 다음 **[!UICONTROL 만들기]**를 클릭합니다. 템플릿을 만드는 데 사용할 메뉴 옵션이 양쪽에 있는 빈 캔버스가 표시됩니다. 메뉴 옵션 위로 마우스를 가져가면 해당 도구 설명을 볼 수 있습니다.
    ![실시간 사용자 지정 가능한 템플릿](/help/using/assets/blank-canvas-page.png)
 
@@ -89,7 +89,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 * ![즉시 사용자 지정할 수 있는 서식 파일을 만드세요](/help/using/assets/undo.svg): 마지막 작업을 실행 취소하려면 클릭하거나 **Ctrl** + **Z**(Windows) 또는 **Cmd** + **Z**(Mac)을 누르십시오.
 * ![배너를 빠르게 만들 템플릿](/help/using/assets/redo.svg): 마지막 작업을 다시 실행하려면 클릭하거나 **Ctrl** + **Y**(Windows) 또는 **Cmd** + **Y**(Mac)을 누르십시오.
 * ![빠르게 전단을 만드는 템플릿](/help/using/assets/zoomin.svg): 캔버스를 확대하려면 클릭하거나 **Ctrl** + **+**(Windows) 또는 Cmd + **+**(Mac)을 누릅니다.
-* 배너를 빠르게 만드는 ![템플릿](/help/using/assets/zoomout.svg): 캔버스를 축소하려면 클릭하거나 **Ctrl** + **-**(Windows) 또는 **Cmd** + **-**(Mac)을 누르십시오.
+* 배너를 빠르게 만드는 ![템플릿](/help/using/assets/ZoomOut-1.svg): 캔버스를 축소하려면 클릭하거나 **Ctrl** + **-**(Windows) 또는 **Cmd** + **-**(Mac)을 누르십시오.
 * 편집 중인 텍스트나 속성이 없으면 **백스페이스** 또는 **삭제**&#x200B;를 눌러 선택한 레이어를 삭제합니다.
 
 ![템플릿을 클릭하여 전단을 빠르게 만듭니다](/help/using/assets/show-layers-list.svg) **>**&#x200B;개의 옵션(![](/help/using/assets/three-dots.svg))을 캔버스 레이어에서 클릭하면 템플릿을 만드는 동안 언제든지 캔버스 차원을 편집할 수 있습니다.
@@ -121,7 +121,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 >[!NOTE]
 >
-> 기본 Adobe Sans F2 글꼴 패밀리 이외의 글꼴을 사용하려면 글꼴 파일을 업로드하고 AEM Assets 및 Dynamic Media에 게시해야 합니다. 인스턴스에 이전 글꼴이 있는 경우 템플릿 편집기에서 보려면 [다시 처리](/help/assets/reprocessing-assets-view.md)하십시오.
+> 기본 Adobe Sans F2 글꼴 패밀리 이외의 글꼴을 사용하려면 글꼴 파일을 업로드하고 AEM Assets 및 Dynamic Media에 게시해야 합니다. 인스턴스에 이전 글꼴이 있는 경우 템플릿 편집기에서 보려면 [다시 처리](/help/using/reprocessing.md)하십시오.
 
 ### 레이어 편집 또는 삭제 {#edit-or-delete-a-layer}
 
@@ -281,5 +281,5 @@ URL에서 직접 매개 변수를 편집하는 것은 지루할 수 있습니다
 
 ## 추가 참조
 
-1. [Dynamic Media 및 해당 기능 살펴보기](/help/assets/dynamic-media/dynamic-media.md)
-1. OpenAPI 기능을 사용하여 [Dynamic Media 탐색](/help/assets/dynamic-media-open-apis-overview.md)
+1. [Dynamic Media 및 해당 기능 살펴보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. OpenAPI 기능을 사용하여 [Dynamic Media 탐색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
