@@ -4,9 +4,9 @@ description: WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
+source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2810'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 1%
 
 | [모범 사례 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [메타데이터 모범 사례](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 개발자 설명서](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
+
+>[!CONTEXTUALHELP]
+>id="assets_dm_templates"
+>title="Dynamic Media 템플릿 관리"
+>abstract="사용하기 쉬운 WYSIWYG 인터페이스를 사용하여 즉석으로 이미지 및 텍스트 배너를 만들고 개인화하고, 모든 퍼스트 파티 또는 타사 애플리케이션에 Dynamic Media URL을 포함하여 매우 흥미로운 경험을 제공합니다. 한번 시도해 보세요!"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="비디오 시청"
 
 WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지와 텍스트 레이어를 포함하면 배너와 전단을 빠르게 만들어 다운스트림 애플리케이션에서 사용할 수 있습니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
 
