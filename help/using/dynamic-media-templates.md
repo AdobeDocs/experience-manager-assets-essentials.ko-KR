@@ -1,13 +1,13 @@
 ---
 title: Dynamic Media 템플릿을 관리하는 방법
-description: WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지와 텍스트 레이어를 포함하여 배너와 전단을 빠르게 만들고 다운스트림 애플리케이션에서 사용하는 방법에 대해 알아봅니다.
+description: WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지 및 텍스트 레이어를 포함하여 배너 및 전단을 빠르게 만들고 다운스트림 애플리케이션에서 사용하는 방법에 대해 알아봅니다.
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
 source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
 source-wordcount: '2810'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="assets_dm_templates"
 >title="Dynamic Media 템플릿 관리"
->abstract="사용하기 쉬운 WYSIWYG 인터페이스를 사용하여 즉석으로 이미지 및 텍스트 배너를 만들고 개인화하고, 모든 퍼스트 파티 또는 타사 애플리케이션에 Dynamic Media URL을 포함하여 매우 흥미로운 경험을 제공합니다. 한번 시도해 보세요!"
+>abstract="사용하기 쉬운 WYSIWYG 인터페이스로 이미지와 텍스트 배너를 빠르게 만들어 개인화하고, 모든 퍼스트파티 또는 서드파티 애플리케이션에 Dynamic Media URL을 임베드하여 참여도 높은 경험을 유도할 수 있습니다. 시도해 보십시오!"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="비디오 시청"
 
-WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지와 텍스트 레이어를 포함하면 배너와 전단을 빠르게 만들어 다운스트림 애플리케이션에서 사용할 수 있습니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
+WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지 및 텍스트 레이어를 포함하여 배너 및 전단을 빠르게 만들고 다운스트림 애플리케이션에서 사용합니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
 
 몇 가지 주요 기능은 다음과 같습니다.
 
@@ -43,17 +43,17 @@ Dynamic Media 템플릿의 주요 이점 중 일부는 다음과 같습니다.
 
 >[!NOTE]
 >
->향상된 보안 SKU를 구독하는 고객은 해당 Cloud Service 프로그램에서 Dynamic Media 템플릿을 포함한 Dynamic Media 기능을 사용할 수 없습니다.
+>향상된 보안 SKU를 구독하는 고객은 해당 클라우드 서비스 프로그램에서 Dynamic Media 템플릿 등의 Dynamic Media 기능을 사용할 수 없습니다.
 
 ## 시작하기에 앞서{#prerequisites-for-dynamic-media-wysiwyg-template}
 
-Dynamic Media 템플릿을 만들려면 다음을 수행해야 합니다.
+Dynamic Media 템플릿을 만들려면 다음 항목이 있어야 합니다.
 
-1. Dynamic Media 액세스.
-1. [AEM Assets 인스턴스에서 사용할 수 있는 이미지를 Dynamic Media과 동기화하여 템플릿을 만드는 데 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+1. Dynamic Media에 액세스
+1. [AEM Assets 인스턴스에서 사용할 수 있는 이미지를 Dynamic Media와 동기화하여 템플릿을 만드는 데 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. touch UI에서 다음을 확인했습니다.
-   * **[!UICONTROL Dynamic Media 구성 편집 페이지]**&#x200B;에서 **[!UICONTROL 기본적으로 비활성화됨]**(으)로 설정된 **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;이(가) 모든 AEM 폴더에 적용되지 않습니다(**[!UICONTROL 모든 콘텐츠 동기화]**&#x200B;이(가) 선택되지 않음). 자세한 내용은 [Dynamic Media Cloud Service 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)을 참조하십시오.
-   * **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;를 만든 후 템플릿을 저장할 대상 폴더 또는 하위 폴더에 대해 **[!UICONTROL 하위 폴더에 대해 활성화]**&#x200B;로 설정합니다. 자세한 내용은 [Dynamic Media Cloud Service 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)을 참조하십시오.
+   * **[!UICONTROL Dynamic Media 구성 편집 페이지]**&#x200B;에서 **[!UICONTROL 기본적으로 비활성화됨]**(으)로 설정된 **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;이(가) 모든 AEM 폴더에 적용되지 않습니다(**[!UICONTROL 모든 콘텐츠 동기화]**&#x200B;이(가) 선택 취소됨). 자세한 내용은 [Dynamic Media Cloud Service 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)을 참조하십시오.
+   * **[!UICONTROL Dynamic Media 동기화 모드]**&#x200B;를 만든 후 템플릿을 저장할 대상 폴더 또는 하위 폴더에 대해 **[!UICONTROL 하위 폴더에 대해 사용]**&#x200B;하도록 설정합니다. 자세한 내용은 [Dynamic Media Cloud Service 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)을 참조하십시오.
 
 ## Dynamic Media WYSIWYG 템플릿 만들기{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,13 +69,13 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 다음 단계를 실행하여 빈 캔버스를 만듭니다.
 
-1. Assets Essentials으로 이동한 다음 왼쪽 패널에서 사용할 수 있는 **[!UICONTROL Dynamic Media Assets]**&#x200B;을(를) 클릭합니다.
+1. Assets Essentials로 이동하고 왼쪽 패널에서 사용할 수 있는 **[!UICONTROL Dynamic Media Assets]**&#x200B;을(를) 클릭합니다.
 
    ![Dynamic Media 템플릿](/help/using/assets/DM-Assets1.png)
 
 1. **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 Dynamic Media Assets 아래에 템플릿을 저장하거나 폴더로 이동한 다음 **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 해당 폴더에 템플릿을 저장합니다. **[!UICONTROL 새 템플릿]** 대화 상자가 표시됩니다.
    ![실시간으로 사용자 지정할 수 있는 동적 템플릿을 만드는 방법](/help/using/assets/new-template.png)
-**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더를 만들려면](/help/using/add-delete.md) **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에 복제됩니다.
+**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더를 만들기](/help/using/add-delete.md)하려면 **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에서 복제됩니다.
 1. 템플릿 이름을 지정하고 캔버스 너비 및 높이를 정의한 다음 **[!UICONTROL 만들기]**를 클릭합니다. 템플릿을 만드는 데 사용할 메뉴 옵션이 양쪽에 있는 빈 캔버스가 표시됩니다. 메뉴 옵션 위로 마우스를 가져가면 해당 도구 설명을 볼 수 있습니다.
    ![실시간 사용자 지정 가능한 템플릿](/help/using/assets/blank-canvas-page.png)
 
@@ -217,13 +217,13 @@ URL에서 매개 변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
 1. 캔버스에서 다른 레이어를 선택하여 해당 레이어의 [매개 변수] 패널로 이동하고 매개 변수가 지정되지 않은 경우 해당 **[!UICONTROL 숨기기]** 매개 변수를 전환합니다.
 1. **[!UICONTROL 매개 변수 숨기기]** 이름을 복사한 이름으로 바꿉니다.
 1. 레이어를 그룹화하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
-1. 변경 내용을 보려면 [**[!UICONTROL 미리 보기 및 Publish]**](#preview-and-publish-template-and-copy-template-deliver-url) 섹션에서 3단계와 4단계를 실행하십시오.
+1. 변경 내용을 보려면 [**[!UICONTROL 미리 보기 및 게시]**](#preview-and-publish-template-and-copy-template-deliver-url) 섹션에서 3단계 및 4단계를 실행하십시오.
 
 ## 템플릿을 미리 보고 게시하여 게재 URL 복사{#preview-and-publish-template-and-copy-template-deliver-url}
 
 다음 단계를 실행하여 템플릿을 미리 보고 게시하고 게재 URL을 복사합니다.
 
-1. 캔버스 페이지에서 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다. **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** 템플릿 찾기 및 선택 **>** 클릭 **[!UICONTROL 템플릿 편집]** **>** 클릭 **[!UICONTROL 미리 보기]**&#x200B;할 수도 있습니다. 미리 보기 페이지에 템플릿, 해당 매개 변수(매개 변수가 있는 레이어 및 속성), 게시 상태 및 **[!UICONTROL Publish]** 옵션이 표시됩니다.
+1. 캔버스 페이지에서 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다. **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** 템플릿 찾기 및 선택 **>** 클릭 **[!UICONTROL 템플릿 편집]** **>** 클릭 **[!UICONTROL 미리 보기]**&#x200B;로 이동할 수도 있습니다. 미리 보기 페이지에는 템플릿, 해당 매개 변수(매개 변수가 있는 레이어 및 속성), 게시 상태 및 **[!UICONTROL 게시]** 옵션이 표시됩니다.
 1. **[!UICONTROL 템플릿 매개 변수]** 패널에서 매개 변수를 선택하여 해당 값을 편집하고 미리 보기에서 해당 템플릿 레이어의 콘텐츠, 크기, 위치 또는 텍스트 서식을 즉시 업데이트합니다. 예:
    1. 텍스트 레이어를 선택하고 텍스트 또는
    1. 이미지 레이어를 선택하고 ![바로 콘텐츠 만들기](/help/using/assets/add-image.svg)를 클릭한 다음 자산 선택기에서 이미지를 선택하고 **[!UICONTROL 새로 고침]**&#x200B;을 클릭합니다.
@@ -235,7 +235,7 @@ URL에서 매개 변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
    ![즉시 콘텐츠 만들기](/help/using/assets/dm-templates-publish-status.png)
 **[!UICONTROL 모든 매개 변수 포함]**을 전환하여 표시된 모든 매개 변수 값을 편집하고 템플릿 미리 보기에서 업데이트를 볼 수도 있습니다.
    <br>
-1. 미리 보기 페이지에 템플릿을 게시하려면 **[!UICONTROL Publish]**&#x200B;을(를) 클릭하고 게시를 확인합니다. Publish 완료 메시지가 표시되고 게시 상태가 게시됨으로 업데이트됩니다.
+1. 미리 보기 페이지에 템플릿을 게시하려면 **[!UICONTROL 게시]**&#x200B;를 클릭하고 게시를 확인합니다. 게시 완료 메시지가 표시되고 게시 상태가 게시됨으로 업데이트됩니다.
 
 >[!NOTE]
 >
@@ -248,7 +248,7 @@ URL에서 매개 변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
 미리보기에 표시된 게시된 템플릿의 URL을 복사하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL URL 복사]**&#x200B;를 클릭합니다. **[!UICONTROL URL 복사]** 대화 상자가 표시됩니다. 표시된 URL을 선택하고 복사합니다. URL의 첫 번째 매개 변수가 물음표 **(?) 뒤에 시작하는지 확인하십시오.** 및 키-값 쌍이 **$**(으)로 시작되고 **&amp;**(으)로 끝납니다. 키와 값이 등호 **(=)**(으)로 구분됩니다. 왼쪽에는 키가 있고 오른쪽에는 값이 있습니다.
-1. 이 URL을 브라우저 탭에 붙여넣고 라이브 템플릿을 확인합니다. **미리 보기 및 Publish** 섹션의 [단계 2](#preview-and-publish-template-and-copy-template-deliver-url)에 표시된 대로 URL에서 필수 매개 변수 값(키 값)을 직접 업데이트하여 실시간으로 템플릿을 사용자 지정하십시오.
+1. 이 URL을 브라우저 탭에 붙여넣고 라이브 템플릿을 확인합니다. **미리 보기 및 게시** 섹션의 [2단계](#preview-and-publish-template-and-copy-template-deliver-url) 및 단계에 표시된 대로 URL에서 필요한 매개 변수의 값(키 값)을 직접 업데이트하여 실시간으로 템플릿을 사용자 지정하십시오.
 1. 제품 또는 서비스의 빠른 머천다이징에 이 URL을 사용하십시오. 이 URL을 고객과 공유하거나 웹 사이트 또는 다운스트림 타사 애플리케이션에 통합하여 배너를 표시하고 진행 중인 오퍼를 반영하도록 실시간 업데이트할 수 있습니다.
 
 이 비디오에서 단계별로 Dynamic Media 템플릿을 만드는 방법을 알아봅니다.
@@ -281,11 +281,11 @@ URL에서 직접 매개 변수를 편집하는 것은 지루할 수 있습니다
 * 동적 업데이트를 위해 매개 변수가 있는 이미지 레이어가 있는 템플릿을 만든 후 향후 업데이트하려는 이미지가 매개 변수가 있는 이미지와 동일한 차원을 공유하는지 확인하십시오. 이렇게 하면 이미지가 넘치거나 빈 공간을 남기지 않고 레이어 내에 완벽하게 맞춰집니다. 현재 템플릿에서는 레이어에 이미지를 맞추기 위한 자동 치수 조정을 지원하지 않습니다.
 * 텍스트 레이어에는 하위 문자열 지원이 없습니다. 사용자는 텍스트 레이어의 하위 문자열에 다른 글꼴 속성을 적용할 수 없습니다.
 * 현재 Dynamic Media 템플릿에서는 여러 Dynamic Media 회사에 대한 지원을 사용할 수 없습니다.
-* 복사 또는 이동의 경우 대상 선택기에 모든 폴더(Dynamic Media이 아닌 동기화 폴더 포함)가 표시됩니다. 또한 현재 Dynamic Media 템플릿 자산은 표시되지 않습니다(두 가지 모두 대상 선택기의 제한 사항입니다).
-* Assets 섹션의 폴더(예: Publish 또는 삭제)에 대한 모든 업데이트 작업은 해당 폴더 내에서 사용할 수 있는 Dynamic Media 템플릿에 영향을 줍니다.
-* Dynamic Media 템플릿에는 휴지통이 작동하지 않습니다. 에셋을 휴지통으로 이동한 다음 복원하는 경우 에셋은 AEM에서 복원되지만 Dynamic Media에서는 복원되지 않습니다. Dynamic Media 템플릿에서도 마찬가지입니다.
+* 복사 또는 이동의 경우 대상 선택기에 모든 폴더(비 Dynamic Media 동기화 폴더 포함)가 표시됩니다. 또한 현재 Dynamic Media 템플릿 자산은 표시되지 않습니다(두 가지 모두 대상 선택기의 제한 사항).
+* Assets 섹션의 폴더에 대한 모든 업데이트 작업(예: 게시 또는 삭제)은 해당 폴더 내에서 사용할 수 있는 Dynamic Media 템플릿에 영향을 줍니다.
+* Dynamic Media 템플릿에 대해 휴지통이 작동하지 않습니다. 에셋을 휴지통으로 이동한 다음 복원하는 경우 에셋은 AEM에서 복원되지만 Dynamic Media에서는 복원되지 않습니다. Dynamic Media 템플릿에 대해서도 마찬가지입니다.
 
 ## 추가 참조
 
-1. [Dynamic Media 및 해당 기능 살펴보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
-1. OpenAPI 기능을 사용하여 [Dynamic Media 탐색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
+1. [Dynamic Media 및 해당 기능 탐색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. OpenAPI 기능을 사용하여 [Dynamic Media 살펴보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
