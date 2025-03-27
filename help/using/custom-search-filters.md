@@ -3,10 +3,10 @@ title: 사용자 정의 검색 필터
 description: 검색 필터 양식 사용자 지정에 대해 알아보기
 role: User, Leader, Developer
 exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
-source-git-commit: 9574d173debd720a2e2dfffc407a32325c5f544f
+source-git-commit: ec5e19c9ef3f1930b3cf5b57e7be28dca980cf25
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 14%
+source-wordcount: '1404'
+ht-degree: 15%
 
 ---
 
@@ -31,6 +31,48 @@ ht-degree: 14%
         </td>
           <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="새 항목">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime 및 Ultimate 사용</b></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>모범 사례 검색</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>메타데이터 모범 사례</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>OpenAPI 기능이 포함된 Dynamic Media</b></a>
+        </td>
+        <td>
+            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets 개발자 설명서</b></a>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="새 항목">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime 및 Ultimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="새 항목">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="새 항목">
+            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Edge Delivery Services과 AEM Assets 통합</b></a>
+        </td>
+        <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="새 항목">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI 확장성</b></a>
+        </td>
+          <td>
+            <img src="assets/new2.gif" width="20px" height="25px" alt="새 항목">
             <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime 및 Ultimate 사용</b></a>
         </td>
     </tr>
