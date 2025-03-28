@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산의 메타데이터 관리'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
-workflow-type: ht
-source-wordcount: '1964'
-ht-degree: 100%
+source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
+workflow-type: tm+mt
+source-wordcount: '2159'
+ht-degree: 89%
 
 ---
 
@@ -169,16 +169,47 @@ Assets Essentials 배포 내의 폴더에 메타데이터 양식을 할당할 �
 
 ### 메타데이터 양식의 링크 구성 요소 작업 {#link-component-metadata-form}
 
-링크 구성 요소는 스토리지 링크, 저작권 정보, 연락처 양식 등을 포함한 외부 URL을 활성화하는 데 사용됩니다. 메타데이터 양식에서 링크 구성 요소를 사용하려면 [메타데이터 양식을 구성](#metadata-forms)해야 합니다. URL 구성 요소는 메타데이터 편집기 페이지에서 특정 메타데이터 속성에 매핑할 수 있으며, 이는 다른 메타데이터 구성 요소와 동일한 방식으로 작동합니다. 이 메타데이터 양식은 폴더에 할당할 수 있습니다. 따라서 할당된 폴더 자산의 세부 정보 페이지에서 자산 링크 메타데이터 값을 확인할 수 있습니다.
+링크 구성 요소는 스토리지 링크, 저작권 정보, 연락처 양식 등을 포함한 외부 URL을 활성화하는 데 사용됩니다. 메타데이터 양식에서 링크 구성 요소를 사용하려면 [메타데이터 양식을 구성](#metadata-forms)해야 합니다. URL 구성 요소는 메타데이터 편집기 페이지에서 특정 메타데이터 속성에 매핑할 수 있으며, 이는 다른 메타데이터 구성 요소와 동일한 방식으로 작동합니다. 이 메타데이터 양식은 폴더에 할당할 수 있습니다. 따라서 할당된 폴더 자산의 세부 정보 페이지에서 자산 링크 메타데이터 값을 볼 수 있습니다.
 
-자산 세부 정보 페이지에서 링크 구성 요소를 사용하려면 아래 단계를 따르십시오.
+자산 세부 사항 페이지에서 링크 구성 요소를 사용하려면 아래 단계를 따르십시오.
 
-1. 자산 세부 정보 페이지로 이동한 후 **[!UICONTROL 링크 URL]**&#x200B;로 이동합니다.
+1. 자산 세부 정보 페이지로 이동하여 **[!UICONTROL 링크 URL]**&#x200B;로 이동합니다.
 1. 선택한 자산을 리디렉션하는 데 사용할 URL을 추가합니다.
 1. **[!UICONTROL 링크 추가]**&#x200B;를 클릭합니다. 다음 작업 중 하나를 수행하십시오.
    * ![복사 아이콘](assets/do-not-localize/copy.svg)을 클릭하여 URL을 복사합니다.
    * ![편집 아이콘](assets/do-not-localize/edit.svg)을 클릭하여 URL을 편집합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
+
+### 메타데이터 양식에서 태그 구성 요소 작업 {#tag-component-metadata-form}
+
+루트 요소는 에셋과 연결할 수 있는 태그의 트리 구조를 나타내며 에셋에 지정된 태그를 기반으로 에셋을 식별하는 데 도움이 됩니다. 또한 메타데이터 편집기에서 메타데이터 양식을 구성하는 동안 특정 분류법에 대한 액세스를 제한할 수 있습니다.
+
+#### 태그 구성 요소 구성 {#tags-component-configuration}
+
+다음 단계를 실행하여 태그 구성 요소를 구성합니다.
+
+1. 메타데이터 편집기로 이동하여 **[!UICONTROL 태그]**(으)로 이동하여 캔버스에 배치합니다.
+1. 캔버스에서 구성 요소의 이름을 변경합니다. 이렇게 하려면 설정 패널의 [!UICONTROL 메타데이터 속성] 아래에 있는 **[!UICONTROL 레이블]**(으)로 이동하여 식별을 위한 텍스트를 추가하십시오.
+1. 설정 패널의 [!UICONTROL 메타데이터 속성]에서 구성 요소에 할당할 메타데이터 속성을 검색합니다.
+1. 분류법의 루트 경로를 제한하려면 **[!UICONTROL 특정 분류법으로 제한]**&#x200B;을 클릭합니다. 이렇게 하려면 태그를 찾은 다음 특정 경로에 대한 분류를 선택합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
+
+   ![루트 태그 구성](assets/root-tag-config.png)
+1. [폴더에 메타데이터 양식을 할당](#assign-metadata-form-folder).
+
+<!--
+#### Mapping between assets and taxonomy {#asset-taxonomy-mapping}
+
+See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the steps below to perform mapping between folder and taxonomy:
+
+1. Go back to the Settings and click **[!UICONTROL Metadata forms]**.
+1. Select a Metadata form that needs mapping. 
+1. Click **[!UICONTROL Assign to folder(s)]**. **[!UICONTROL Select Folder(s)]** screen appears. 
+1. Navigate to the folder that you want to assign to the metadata form. You can select multiple folders.
+1. Click **[!UICONTROL Assign]**.
+-->
+
+구성된 루트 태그를 보려면 메타데이터 양식과 루트 태그 간의 매핑이 수행되는 자산의 세부 정보 페이지로 이동합니다.
 
 ## 다음 단계 {#next-steps}
 
