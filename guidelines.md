@@ -37,7 +37,7 @@ ht-degree: 100%
 
 [!DNL Experience Manager] 설명서를 개선하기 위한 모든 아이디어를 기여로 제출할 수 있습니다. 그러나 주석, 문제 및 가져오기 요청만 *기여*&#x200B;에 해당합니다. 이러한 기여는 [!DNL Experience Manager]를 사용하거나, [!DNL Experience Manager] 프로젝트를 구현하거나, 기술적인 문제를 해결하는 방법에 대한 질문에 답하기 위한 것은 아닙니다.
 
-[!DNL Experience Manager] 사용 또는 기술 오류에 대한 질문은 [[!DNL Experience Manager] 지원 포털](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)에서의 일반적인 지원 프로세스를 통해 보고하거나 [Experience Manager 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)에서 다루어야 합니다.
+[!DNL Experience Manager] 사용 또는 기술 오류에 대한 질문은 [[!DNL Experience Manager] 지원 포털](https://experienceleague.adobe.com/ko?support-solution=Experience+Manager#support)에서의 일반적인 지원 프로세스를 통해 보고하거나 [Experience Manager 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko)에서 다루어야 합니다.
 
 ***[!DNL Experience Manager]설명서 기여는 Adobe 고객 지원 센터를 대체할 수 없으며*** 지원 관련 질문에 대한 답변을 구하는 기여는 거부됩니다.
 

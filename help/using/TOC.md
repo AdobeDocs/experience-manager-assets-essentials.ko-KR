@@ -56,6 +56,6 @@ ht-degree: 100%
    + [Adobe Workfront와 통합](integrate-with-workfront.md)
 + Creative Cloud와 통합 {#integration-with-creative-cloud}
    + [AEM Assets를 Creative Cloud에 연결](connect-assets-with-creative-cloud.md)
-+ [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
++ [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=ko)
 + [Dynamic Media 템플릿](dynamic-media-templates.md)
 

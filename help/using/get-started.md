@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## [!DNL Assets Essentials]에 대한 액세스 권한 받기 {#get-access}
 
-Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/admin-console.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 부여할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
+Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 부여할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
 
 로그인할 때 자격 증명을 제공한 후 [!DNL Assets Essentials]에서 계정을 선택하라는 메시지가 표시됩니다. 이 경우 계속 진행하려면 `Company or School Account`을(를) 선택합니다.
 
@@ -57,13 +57,13 @@ Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials를 시작하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
+* [Assets Essentials를 시작하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=ko)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
 
 
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.

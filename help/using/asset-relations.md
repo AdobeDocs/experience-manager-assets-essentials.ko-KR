@@ -48,7 +48,7 @@ ht-degree: 9%
 
 관련 에셋 기능을 사용하여 에셋 간의 소스/파생 관계를 만드는 것도 번역 워크플로에서 유용합니다. 파생된 에셋에서 번역 워크플로우를 실행하면 [!DNL Experience Manager Assets]에서 원본 파일이 참조하는 모든 에셋을 자동으로 가져와서 번역을 위해 포함합니다. 이렇게 하면 소스 에셋에서 참조하는 에셋이 소스 및 파생된 에셋과 함께 번역됩니다. 원본 파일이 다른 에셋과 관련된 경우 [!DNL Experience Manager Assets]은(는) 참조된 에셋을 가져와서 번역을 위해 포함시킵니다.
 
-[AEM에서 자산 번역](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)을 참조하세요.
+[AEM에서 자산 번역](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)을 참조하세요.
 
 ## 다음 단계 {#next-steps}
 
@@ -56,10 +56,10 @@ ht-degree: 9%
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
 
 >[!MORELIKETHIS]
 >
 >* [자산의 버전 보기](manage-organize.md#view-versions)
->* [AEM에서 자산 번역](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
+>* [AEM에서 자산 번역](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
 >* [Assets 보기에서 지원되는 파일 형식](supported-file-formats.md).

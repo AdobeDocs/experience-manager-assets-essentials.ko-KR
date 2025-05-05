@@ -75,11 +75,11 @@ Assets Essentials 제품 프로필에 사용자를 할당하는 방법에 대한
 
 크리에이티브 사용자는 이제 Photoshop, Illustrator, InDesign 또는 XD에서 Adobe Asset Link를 사용할 수 있습니다. InDesign 또는 Illustrator에서 패널을 열려면 Windows > 확장 기능 > Adobe Asset Link로 이동합니다. Photoshop에서는 창 > 확장 기능 (레거시) > Adobe Asset Link로 이동합니다.
 
-Adobe XD용 Adobe Asset Link 설정 방법에 대한 자세한 내용을 확인하려면 [여기](https://helpx.adobe.com/enterprise/using/adobe-asset-link-for-xd.html)를 클릭하십시오.
+Adobe XD용 Adobe Asset Link 설정 방법에 대한 자세한 내용을 확인하려면 [여기](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link-for-xd.html)를 클릭하십시오.
 
 >[!NOTE]
 >
->Apple Silicon/M1 하드웨어에서 작업할 때 Adobe Photoshop은 CEP 확장 기술을 사용하여 빌드되었기 때문에 크리에이티브 사용자가 Adobe Asset Link 패널에 액세스할 수 있도록 Rosetta 호환 모드를 사용하여 시작해야 합니다. 자세한 내용은 [Apple Silicon용 Photoshop](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html)을 참조하십시오.
+>Apple Silicon/M1 하드웨어에서 작업할 때 Adobe Photoshop은 CEP 확장 기술을 사용하여 빌드되었기 때문에 크리에이티브 사용자가 Adobe Asset Link 패널에 액세스할 수 있도록 Rosetta 호환 모드를 사용하여 시작해야 합니다. 자세한 내용은 [Apple Silicon용 Photoshop](https://helpx.adobe.com/kr/photoshop/kb/photoshop-for-apple-silicon.html)을 참조하십시오.
 
 
 Adobe Asset Link를 통해 Assets Essentials 저장소에 저장된 에셋을 사용하여 작업하고 수정합니다. 다음과 같은 다양한 작업을 수행할 수 있습니다.

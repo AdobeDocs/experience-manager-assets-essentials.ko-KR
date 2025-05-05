@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Dynamic Media 템플릿{#dynamic-media-templates}
 
-| [모범 사례 검색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [메타데이터 모범 사례](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 개발자 설명서](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [모범 사례 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [메타데이터 모범 사례](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 개발자 설명서](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 >[!CONTEXTUALHELP]
@@ -22,7 +22,7 @@ ht-degree: 2%
 >abstract="사용하기 쉬운 WYSIWYG 인터페이스로 이미지와 텍스트 배너를 빠르게 만들어 개인화하고, 모든 퍼스트파티 또는 서드파티 애플리케이션에 Dynamic Media URL을 임베드하여 참여도 높은 경험을 유도할 수 있습니다. 시도해 보십시오!"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="비디오 시청"
 
-WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지 및 텍스트 레이어를 포함하여 배너 및 전단을 빠르게 만들고 다운스트림 애플리케이션에서 사용합니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
+WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지 및 텍스트 레이어를 포함하여 배너 및 전단을 빠르게 만들고 다운스트림 애플리케이션에서 사용합니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
 
 몇 가지 주요 기능은 다음과 같습니다.
 
@@ -109,7 +109,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 다음 단계를 실행하여 캔버스에 이미지를 추가합니다.
 
-1. ![즉시 배너 만들기](/help/using/assets/add-image.svg)를 클릭하여 [자산 선택기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector) 패널을 표시합니다. 패널에는 Dynamic Media에 동기화된 AEM Assets 인스턴스의 이미지가 표시됩니다.
+1. ![즉시 배너 만들기](/help/using/assets/add-image.svg)를 클릭하여 [자산 선택기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector) 패널을 표시합니다. 패널에는 Dynamic Media에 동기화된 AEM Assets 인스턴스의 이미지가 표시됩니다.
 1. 패널을 찾아보거나 검색 막대에서 키워드를 사용하여 특정 이미지를 찾습니다.
 1. 캔버스에 이미지를 드래그하여 놓아 사용하십시오. 캔버스에서 레이어 크기 조정 또는 위치 조정은 [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 참조하세요.
    ![초 내에 배너 만들기](/help/using/assets/add-image-to-canvas.png)
@@ -166,7 +166,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 패널의 **[!UICONTROL 텍스트]** 섹션 아래에 있는 각 필드의 값을 변경하여 원하는 글꼴, 크기, 색상, 스타일, 정렬(레이어)로 텍스트 서식을 지정합니다.
 
-**[!UICONTROL 스마트 텍스트 크기 조정]** 글꼴 크기와 길이를 스마트하게 조정하여 지정된 영역에 있는 모든 텍스트에 최적으로 맞도록 **[!UICONTROL 스마트 텍스트 크기 조정]**([자동 맞춤](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting))을 포함해야 합니다. 이 기능은 텍스트 오버플로를 방지하거나 텍스트 하단에 있는 추가 공백을 최소화합니다.
+**[!UICONTROL 스마트 텍스트 크기 조정]** 글꼴 크기와 길이를 스마트하게 조정하여 지정된 영역에 있는 모든 텍스트에 최적으로 맞도록 **[!UICONTROL 스마트 텍스트 크기 조정]**([자동 맞춤](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting))을 포함해야 합니다. 이 기능은 텍스트 오버플로를 방지하거나 텍스트 하단에 있는 추가 공백을 최소화합니다.
 ![시간 내에 콘텐츠 만들기](/help/using/assets/smart-text-resize.png)
 
 ### 매개 변수 레이어 {#parameterise-a-layer}
@@ -287,5 +287,5 @@ URL에서 직접 매개 변수를 편집하는 것은 지루할 수 있습니다
 
 ## 추가 참조
 
-1. [Dynamic Media 및 해당 기능 탐색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
-1. OpenAPI 기능을 사용하여 [Dynamic Media 살펴보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
+1. [Dynamic Media 및 해당 기능 탐색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. OpenAPI 기능을 사용하여 [Dynamic Media 살펴보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)

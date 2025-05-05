@@ -33,7 +33,7 @@ ht-degree: 100%
 
 * Creative Cloud 서비스 및 애플리케이션(Creative Cloud for enterprise Pro 및 선택 모듈)은 [Creative Cloud 배포를 위한 Adobe Admin Console](https://helpx.adobe.com/content/help/kr/enterprise/admin-guide.html)에서 관리됩니다.
 
-* Adobe Workfront 및 Adobe Experience Manager Assets Essentials는 [Experience Cloud 솔루션에 대한 Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)에서 관리됩니다.
+* Adobe Workfront 및 Adobe Experience Manager Assets Essentials는 [Experience Cloud 솔루션에 대한 Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko)에서 관리됩니다.
 
 Creative Cloud와 Assets Essentials 애플리케이션을 통합하려면 Creative Cloud용 Admin Console에서 사용 가능한 사용자를 Experience Cloud용 Admin Console에서 사용 가능하도록 해야 합니다. Experience Cloud Admin Console에서 사용자를 사용할 수 있도록 하려면 두 Admin Console 간에 [디렉터리 위임](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html#directory-trusting)을 설정하는 디렉터리를 만듭니다.
 
@@ -49,7 +49,7 @@ Documentation Journey는 Assets Essentials를 처음 접할 수 있는 독자가
 
 ## 전제 조건
 
-* [Experience Cloud 솔루션에 대한 Adobe Admin Console에 액세스](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
+* [Experience Cloud 솔루션에 대한 Adobe Admin Console에 액세스](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko)
 
 * [Creative Cloud for enterprise 배포용 Adobe Admin Console에 액세스](https://helpx.adobe.com/kr/enterprise/admin-guide.html)
 
