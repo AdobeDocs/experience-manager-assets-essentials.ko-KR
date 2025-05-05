@@ -70,7 +70,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 사용자 그
 
    * **[!DNL Assets Essentials]사용자**&#x200B;는 전체 사용자 인터페이스에 액세스할 수 있습니다. 이들 사용자는 디지털 에셋을 업로드하고, 구성하고, 태그를 지정하고, 찾을 수 있습니다.
 
-   * **[!DNL Assets Essentials]소비자 사용자**는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
+   * **[!DNL Assets Essentials]소비자 사용자**&#x200B;는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
 자세한 내용은 [다른 솔루션과 통합](integration.md)을 참조하십시오.
 
    ![Admin Console 관리자 프로필](assets/admin-console-admin-profile.png)
