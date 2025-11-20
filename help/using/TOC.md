@@ -29,7 +29,7 @@ ht-degree: 0%
       + [폴더 권한 관리](manage-permissions.md)
       + [권한 관리에 대한 모범 사례](permission-management-best-practices.md)
    + [작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials에 대한 관리자 여정](assets-essentials-cc-pro-work-management-admin-journey.md)
-+ [ [!DNL Assets Essentials] 사용 시작하기](get-started.md)
++ [&#x200B; [!DNL Assets Essentials] 사용 시작하기](get-started.md)
 + [지원되는 파일 형식 및 사용 사례](supported-file-formats.md)
 + [자산 보기](navigate-view.md)
 + [자산 업로드 및 추가](add-delete.md)
