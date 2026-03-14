@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
 description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '2019'
-ht-degree: 98%
+source-wordcount: '2217'
+ht-degree: 95%
 
 ---
 
@@ -14,24 +14,24 @@ ht-degree: 98%
 <table>
     <tr>
         <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="새 항목">
+            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
             <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime 및 Ultimate</b></a>
         </td>
         <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="새 항목">
+            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
             <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
         </td>
         <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="새 항목">
-            <a href="http://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Edge Delivery Services과 AEM Assets 통합</b></a>
+            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
+            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Edge Delivery Services와 AEM Assets 통합</b></a>
         </td>
         <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="새 항목">
+            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
             <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI 확장성</b></a>
         </td>
           <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="새 항목">
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>사용자 지정 검색 필터</b></a>
+            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
+            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>사용자 정의 검색 필터</b></a>
         </td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@ ht-degree: 98%
 >abstract="검색창에서 키워드를 지정하거나 상태, 파일 유형, MIME 유형, 크기, 생성, 수정 및 만료 일자를 기준으로 필터링하여 자산을 검색하십시오. 표준 필터 외에도 사용자 정의 필터를 적용할 수 있습니다. 필터링된 결과를 “저장된 검색” 또는 “스마트 컬렉션”으로 저장할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko#manage-smart-collection" text="스마트 컬렉션 만들기"
 
-[!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 자산을 빠르게 찾고 콘텐츠 속도를 높일 수 있습니다. [!DNL Assets Essentials]는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
+[!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 에셋을 빠르게 찾고 콘텐츠 속도를 높일 수 있습니다. [!DNL Assets Essentials] 는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
 
 자산을 검색하려면
 
@@ -179,7 +179,7 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 
    ![Firefly 통합](assets/firefly-integration.png)
 
-   새 자산이 정상적으로 생성되었습니다. 또한 설명 상자에 새 텍스트 프롬프트를 입력하여 이미지 설명을 변경할 수도 있습니다. [뛰어나고 관련성 높은 콘텐츠를 생성하는 효율적인 AI 프롬프트를 작성하는 방법을 알아보십시오.](https://helpx.adobe.com/kr/firefly/using/tips-and-tricks.html) 또는 [스타일 변경, 이미지 차원 등 다양한 다른 기능으로 이미지를 편집](https://helpx.adobe.com/kr/firefly/using/text-to-image.html)할 수 있습니다.
+   새 자산이 정상적으로 생성되었습니다. 설명 상자에 새 텍스트 프롬프트를 입력하여 이미지 설명을 변경할 수도 있습니다. [우수하고 관련성 높은 콘텐츠를 생성하기 위해 좋은 AI 프롬프트를 작성하는 방법에 대해 알아봅니다.](https://helpx.adobe.com/kr/firefly/using/tips-and-tricks.html) 또는 스타일, 이미지 치수 변경 등 다양한 기능을 사용하여 [이미지를 편집할 수 있습니다.](https://helpx.adobe.com/kr/firefly/using/text-to-image.html)
 
    ![Firefly 통합](assets/bugatti-type-57.png)
 
@@ -200,7 +200,7 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 생성된 자산을 자산 저장소에 업로드하려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
-1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**&#x200B;을 클릭합니다.
+1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**을 클릭합니다.
    ![자산 업로드](assets/upload-asset-firefly.jpg)
 
 ## 저장된 검색 {#saved-search}
@@ -213,7 +213,8 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 
 ![스마트 컬렉션 만들기](assets/create-smart-collection.png)
 
-<!-- TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
+<!--
+TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
 Report poor UX that users can only save a filtered search and not a simple search.
 .
 Are other supported files fully indexed and support full-text search? Eg. audio/videos files can at best have metadata indexed.
@@ -279,7 +280,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
 1. **[!UICONTROL 홈 페이지]** 아래의 **[!UICONTROL 배경 및 로고 이미지]** 섹션으로 이동합니다.
 1. 기존의 자산 저장소에서 이미지를 찾아보려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 수정 사항을 검토하려면 변경 사항을 [미리 봅니다](#preview-configured-homepage).
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [수정 사항을 검토하려면 변경 내용을 ](#preview-configured-homepage)하세요.
 
 ### 구성된 홈 페이지 미리보기 {#preview-configured-homepage}
 
@@ -293,7 +294,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
 ## 상황별 검색 {#contextual-search}
 
-텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 자산을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창을 사용하여 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
+텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 자산을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창에서 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
 
 ### 상황별 검색 액세스 {#access-contextual-search}
 
@@ -379,11 +380,11 @@ Experience Manager Assets에서 상황별 검색에 액세스하는 방법:
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 자산 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=ko)
+* [Assets Essentials의 에셋 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백을 제공합니다.
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 

@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials]에서 자산을 이동하고, 삭제하�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 96%
 
 ---
 
@@ -79,11 +79,12 @@ ht-degree: 100%
 ## 자산 버전 관리 {#versions-of-assets}
 
 <!-- 
-TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? -->
+TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? 
+-->
 
 [!DNL Assets Essentials]는 업데이트되거나 편집된 자산이 다시 업로드될 때 자산의 버전을 지정합니다. 버전 내역 및 이전 버전을 볼 수 있고 자산의 이전 버전을 최신 버전으로 복원할 수 있으며 필요한 경우 이전 버전으로 되돌릴 수 있습니다. 자산 버전은 다음 시나리오에서 생성됩니다.
 
-* 기존 자산과 동일한 폴더에 동일한 파일 이름으로 새 자산을 업로드합니다. [!DNL Assets Essentials]는 이전 자산을 덮어쓰거나 새 자산을 버전으로 저장하라는 메시지를 표시합니다. [중복 자산 업로드](/help/using/add-delete.md#resolve-upload-fails)를 참조하십시오.
+* 기존 에셋과 파일 이름이 같고 기존 에셋과 같은 폴더에 있는 새 에셋을 업로드합니다. [!DNL Assets Essentials] 이전 에셋을 덮어쓰거나 새 에셋을 버전으로 저장하라는 메시지가 표시됩니다. [중복 자산 업로드](/help/using/add-delete.md#resolve-upload-fails)를 참조하십시오.
 
   ![업로드 시 버전 생성](assets/uploads-manage-duplicates.png)
 
@@ -169,10 +170,10 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 자산 관리에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html?lang=ko)
+* [Assets Essentials에서 에셋을 관리하기 위한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의

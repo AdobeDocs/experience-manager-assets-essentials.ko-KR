@@ -3,21 +3,21 @@ title: ' [!DNL Assets Essentials] 소개'
 description: Experience Cloud 애플리케이션 내에서 작동하는 간단한 디지털 에셋 관리 툴인 Experience Manager Assets Essentials를 통해 에셋을 관리하십시오.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 97%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets Essentials] 개요 {#assets-essentials}
 
-<!-- TBD: Update this banner to remove Beta label. 
+<!-- 
+TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
-
 -->
 
-Adobe는 디지털 에셋을 최대한 활용할 수 있는 강력한 DAM(디지털 에셋 관리) 솔루션을 제공합니다. Adobe Experience Manager Assets Essentials는 디지털 에셋을 저장, 관리, 검색 및 사용하기 위한 Adobe의 간단한 에셋 관리 솔루션입니다.
+Adobe는 디지털 에셋을 최대한 활용할 수 있는 강력한 DAM(디지털 에셋 관리) 솔루션을 제공합니다. Adobe Experience Manager Assets Essentials is Adobe&#39;s lightweight asset management solution to store, manage, discover, and use digital assets.
 
 ## Assets Essentials란 무엇입니까? {#assets-essemtials-overview}
 
@@ -90,7 +90,7 @@ Assets Essentials를 신속하게 시작하고 실행하여 다양한 팀에서 
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 
 >[!MORELIKETHIS]

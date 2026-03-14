@@ -2,10 +2,10 @@
 title: Assets Essentials를 사용하여 자산 일괄 가져오기
 description: 새 자산 UI(Assets Essentials)를 사용하여 자산을 일괄적으로 가져오는 방법에 대해 알아봅니다. 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 100%
+source-wordcount: '1849'
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,7 @@ Dropbox 계정에서 AEM Assets로 자산을 가져오기 전에 Dropbox 개발�
 
 다음 단계를 실행합니다.
 
-1. [Dropbox 계정](https://www.dropbox.com/developers)으로 로그인한 다음 **[!UICONTROL 앱 만들기]**&#x200B;를 클릭합니다. <br>기업용 Dropbox 계정을 사용하는 경우 콘텐츠 관리자 역할을 사용할 수 있어야 합니다.
+1. [Dropbox 계정](https://www.dropbox.com/developers)에 로그인하고 **[!UICONTROL 앱 만들기]**&#x200B;를 클릭합니다. <br>기업 Dropbox 계정을 사용하는 경우 콘텐츠 관리자 역할에 액세스할 수 있어야 합니다.
 
 1. **[!UICONTROL API 선택]** 섹션에서 사용 가능한 라디오 버튼만 선택합니다.
 
@@ -129,7 +129,7 @@ OneDrive 계정에서 AEM Assets로 자산을 가져오기 전에 OneDrive 개�
    >
    >Dropbox를 데이터 소스로 사용하는 경우 다음 규칙에 따라 소스 폴더 경로를 지정합니다.
    >* Dropbox 애플리케이션 및 `https://www.dropbox.com/home/bulkimport-assets`에 있는 자산이 포함된 폴더를 만드는 동안 **전체 Dropbox**&#x200B;를 선택하는 경우 **[!UICONTROL 소스 폴더]** 필드에서 `bulkimport-assets`를 지정합니다.
-   >* Dropbox 애플리케이션 및 `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`에 있는 자산이 포함된 폴더를 만드는 동안 **앱 폴더**&#x200B;를 선택하는 경우 **[!UICONTROL 소스 폴더]** 필드에서 `bulkimport-assets`를 지정합니다. 여기에서 `BulkImportAppFolderScope`은 애플리케이션의 이름을 나타냅니다. 이 경우 `Apps`가 `home` 다음에 자동으로 추가됩니다.
+   >* Dropbox 응용 프로그램을 만드는 동안 **앱 폴더**&#x200B;를 선택한 경우 에셋이 포함된 폴더가 `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`에 있으면 **[!UICONTROL 원본 폴더]** 필드에 `bulkimport-assets`을(를) 지정하십시오. 여기서 `BulkImportAppFolderScope`은(는) 응용 프로그램의 이름을 나타냅니다. `Apps` 이 경우 `home` 뒤에 자동으로 추가됩니다.
 
 1. (선택사항) **[!UICONTROL 가져오기 후 소스 파일 삭제]** 옵션을 선택하여 파일을 [!DNL Experience Manager Assets]로 가져온 후에 소스 데이터 저장소에서 원본 파일을 삭제합니다.
 1. **[!UICONTROL 가져오기 모드]**&#x200B;를 선택합니다. **[!UICONTROL 건너뛰기]**, **[!UICONTROL 바꾸기]** 또는 **[!UICONTROL 버전 만들기]**를 선택합니다. 건너뛰기 모드는 기본값이고, 자산이 이미 존재하는 경우 이 모드에서 수집기는 자산 가져오기를 건너뜁니다.
@@ -157,7 +157,7 @@ OneDrive 계정에서 AEM Assets로 자산을 가져오기 전에 OneDrive 개�
 
 ### 일괄 가져오기 도중 파일 이름 처리 {#filename-handling-bulkimport-assets-view}
 
-자산이나 폴더를 대량으로 가져올 때 [!DNL Experience Manager Assets]는 가져오기 소스에 존재하는 전체 구조를 가져옵니다. [!DNL Experience Manager]는 자산 및 폴더 이름의 특수 문자에 대해 내장된 규칙을 따르므로 이러한 파일 이름을 정리해야 합니다. 폴더 이름과 자산 이름 모두 사용자가 정의한 제목은 변경되지 않으며 `jcr:title`에 저장됩니다.
+에셋 또는 폴더를 대량으로 가져올 때 [!DNL Experience Manager Assets]은(는) 가져오기 소스에 있는 항목의 전체 구조를 가져옵니다. [!DNL Experience Manager] 에셋 및 폴더 이름에 포함된 특수 문자에 대한 내장 규칙을 따르므로 이러한 파일 이름은 기밀 정보를 가려야 합니다. 폴더 이름과 자산 이름 모두 사용자가 정의한 제목은 변경되지 않으며 `jcr:title`에 저장됩니다.
 
 일괄 가져오기 도중 [!DNL Experience Manager]는 자산과 폴더를 다시 가져오는 것을 방지하기 위해 기존 폴더를 찾고, 가져오기가 수행되는 상위 폴더에 적용된 정리 규칙도 확인합니다. 정리 규칙이 상위 폴더에 적용되면 가져오기 소스에도 동일한 규칙이 적용됩니다. 새로운 가져오기의 경우 자산 및 폴더의 파일 이름을 관리하기 위해 다음과 같은 정리 규칙이 적용됩니다.
 
@@ -165,16 +165,18 @@ OneDrive 계정에서 AEM Assets로 자산을 가져오기 전에 OneDrive 개�
 
 ## 기존 일괄 가져오기 구성 보기 {#view-import-configuration}
 
-기존의 일괄 가져오기를 보려면 왼쪽 창에서 **[!UICONTROL 일괄 가져오기]** 옵션을 선택합니다. **[!UICONTROL 실행된 가져오기]** 목록과 함께 일괄 가져오기 페이지가 나타납니다. <br>
-드롭다운 옵션에서 **[!UICONTROL 저장된 가져오기]** 및 **[!UICONTROL 예약된 가져오기]**&#x200B;를 볼 수도 있습니다.
+기존의 일괄 가져오기를 보려면 왼쪽 창에서 **[!UICONTROL 일괄 가져오기]** 옵션을 선택합니다. 대량 가져오기 페이지가 **[!UICONTROL 실행된 가져오기]** 목록과 함께 나타납니다. <br>
+드롭다운 옵션에서 **[!UICONTROL 저장된 가져오기]** 및 **[!UICONTROL 예정된 가져오기]**&#x200B;를 볼 수도 있습니다.
 
 ![일괄 가져오기 구성 저장](assets/bulk-import-options.png)
 
-<!-- If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
+<!-- 
+If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
 
 ![Save bulk import configuration](assets/bulk-import-executed.png)
 
-If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  -->
+If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  
+-->
 
 ## 일괄 가져오기 구성 편집 {#edit-import-configuration}
 

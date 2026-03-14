@@ -1,13 +1,13 @@
 ---
 title: 메타데이터 관리
 description: ' [!DNL Assets Essentials]에서 자산의 메타데이터 관리'
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
-workflow-type: ht
-source-wordcount: '2159'
-ht-degree: 100%
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+workflow-type: tm+mt
+source-wordcount: '2195'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ## 키워드 추가 또는 업데이트 {#manually-tag}
 
-[!DNL Adobe Sensei] 스마트 서비스를 사용하여 자동으로 추가되는 스마트 태그 외에도 자산에 태그를 추가할 수 있습니다. 미리보기를 위해 자산을 열고 [!UICONTROL 태그]를 클릭한 다음 [!UICONTROL 키워드] 필드에 원하는 키워드를 입력합니다. 태그를 추가하려면 Return 키를 누릅니다. [!DNL Assets Essentials]는 키워드를 실시간에 가깝게 세부 조정하며, 팀은 새 키워드를 사용하여 업데이트된 자산을 곧 검색할 수 있습니다.
+[!DNL Adobe Sensei] 스마트 서비스를 사용하여 자동으로 추가되는 스마트 태그 외에도 자산에 태그를 추가할 수 있습니다. 미리보기를 위해 자산을 열고 [!UICONTROL 태그]를 클릭한 다음 [!UICONTROL 키워드] 필드에 원하는 키워드를 입력합니다. 태그를 추가하려면 Return 키를 누릅니다. [!DNL Assets Essentials] 키워드를 실시간에 가깝게 인덱싱하면 팀에서 곧 새 키워드를 사용하여 업데이트된 에셋을 검색할 수 있습니다.
 
 업로드된 모든 자산에 [!DNL Assets Essentials]에서 자동으로 추가하는 태그를 [!UICONTROL 스마트 태그] 섹션에서 제거할 수도 있습니다.
 
@@ -128,10 +128,10 @@ MIME 하위 유형 > MIME 유형 > `default` 양식 > 기본 제공 양식
 | 확인란 | 부울 값을 추가합니다. 값이 저장되면 TRUE 또는 FALSE로 저장됩니다. |
 | 날짜 | 날짜 구성 요소를 추가합니다. |
 | 드롭다운 | 드롭다운 목록을 추가합니다. |
-| 상태 | 저장소 상태 속성 추가(repo:state에 매핑됨) |
-| 자산 상태 | 기본 자산 상태 속성 추가(dam:assetStatus에 매핑됨) |
-| 태그 | 분류 체계 관리에 저장된 값에서 태그를 추가합니다(xcm:tags에 매핑됨). |
-| 키워드 | 자유 형식 키워드를 추가합니다(dc:subject에 매핑됨). |
+| 상태 | 리포지토리 상태 속성(리포지토리:state에 매핑됨) 추가 |
+| 자산 상태 | 기본 에셋 상태 속성 추가(dam:assetStatus에 매핑됨) |
+| 태그 | Taxonomy Management(xcm:tags에 매핑됨)에 저장된 값에서 태그를 추가합니다. |
+| 키워드 | 자유 형식 키워드 추가(dc:subject에 매핑됨) |
 | 스마트 태그 | 메타데이터 태그를 자동으로 추가하여 검색 기능을 보강합니다. |
 | 링크 | 외부 URL을 활성화하려면 추가하십시오. 메타데이터 양식에서 구성하고 나면 URL 구성 요소를 메타데이터 편집기 페이지에서 특정 메타데이터 속성에 매핑할 수 있습니다. 이 [메타데이터 양식은 폴더에 할당할 수 있습니다](#assign-metadata-form-folder). |
 
@@ -213,15 +213,16 @@ See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the 
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 메타데이터 양식 관리에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=ko)
+* [Assets Essentials에서 메타데이터 양식을 관리하는 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
-<!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
+<!-- 
+TBD: Cannot create a form using the second option. Documenting only the first option for now.
 To reuse an existing form to create a new form, do one of these:
 
 * Select a metadata form and click **[!UICONTROL Copy]** from the toolbar, provide a name, and click **[!UICONTROL Confirm]**.
@@ -229,7 +230,8 @@ To reuse an existing form to create a new form, do one of these:
 * Click **[!UICONTROL Create]**, select **[!UICONTROL Use existing form structure as template]** option, and select an existing form. 
 -->
 
-<!-- TBD: Queries for PM and engg.
+<!-- 
+TBD: Queries for PM and engg.
 
 Can we edit the existing metadata in any form?
 
@@ -244,7 +246,8 @@ Is there a detailed metadata tab. Where do the other details of an asset go?
 How can one search based strictly on the metadata. Similar to AEM Assets GQL queries.
 -->
 
-<!-- TBD: Link to related articles if any.
+<!-- 
+TBD: Link to related articles if any.
 
 >[!MORELIKETHIS]
 >

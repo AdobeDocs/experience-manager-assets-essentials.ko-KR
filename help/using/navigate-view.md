@@ -3,10 +3,10 @@ title: '[!DNL Assets Essentials] 사용자 인터페이스'
 description: ' [!DNL Assets Essentials]의 사용자 인터페이스 및 탐색을 이해합니다.'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 5abb9a2ca6136c08479f9a48855522f4fd982e95
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 99%
+source-wordcount: '1107'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 * [내 작업 영역](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ko): 이제 Assets에는 Assets 사용자 인터페이스의 주요 영역과 사용자와 가장 관련성이 높은 정보에 편리하게 액세스할 수 있는 위젯을 제공하는 사용자 정의 가능한 작업 영역이 포함됩니다. 이 페이지는 작업 항목에 대한 개요 및 주요 워크플로에 대한 빠른 액세스를 제공하는 종합적인 솔루션 역할을 합니다. 이러한 옵션에 보다 편리하게 액세스하면 효율성과 콘텐츠 속도가 향상됩니다.
 * [작업](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ko): **내 작업** 탭 아래에서 본인에게 할당된 작업을 볼 수 있습니다. 반면 본인이 만든 작업은 **할당된 작업** 탭 아래에서 볼 수 있습니다. 또한 완료한 작업은 **완료된 작업** 탭 아래에 있습니다.
 * [자산](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ko): 액세스 권한이 있는 트리 보기의 모든 폴더 목록입니다.
-* **최근에 본 항목**: 최근에 미리 본 자산 목록입니다. [!DNL Assets Essentials]는 미리보기하는 자산만 표시합니다. 저장소 파일 또는 폴더를 탐색할 때 스크롤한 자산은 표시되지 않습니다.
+* **최근에 본 항목**: 최근에 미리 본 에셋의 목록입니다. [!DNL Assets Essentials] 미리 보는 에셋만 표시합니다. 저장소 파일 또는 폴더를 탐색할 때 스크롤한 자산은 표시되지 않습니다.
 * [컬렉션](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko): 컬렉션은 Adobe Experience Manager Assets Essentials 내의 자산, 폴더 또는 기타 컬렉션 세트입니다. 컬렉션을 사용하여 사용자 간에 자산을 공유합니다. 폴더와 달리 컬렉션에는 서로 다른 위치의 자산이 포함될 수 있습니다. 사용자와 여러 컬렉션을 공유할 수 있습니다. 각 컬렉션에는 자산에 대한 참조가 포함되어 있습니다. 자산의 참조 무결성은 컬렉션에 간에 유지됩니다.
 
 * [인사이트](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=ko#view-live-statistics): [!DNL Assets Essentials]의 대시보드에서 실시간 인사이트를 볼 수 있습니다. Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Assets Essentials 환경에 대한 실시간 데이터를 볼 수 있습니다. 지난 30일 동안 또는 지난 12개월 동안의 실시간 이벤트 지표를 볼 수 있습니다.
@@ -46,11 +46,13 @@ ht-degree: 99%
 
 * **설정**: **설정**&#x200B;을 사용하여 메타데이터 양식, 보고서, 분류 체계 관리 등 Assets Essentials의 다양한 옵션을 설정할 수 있습니다.
 
-<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+<!-- 
+TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
 -->
 
-<!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
+<!-- 
+TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
 
 왼쪽 사이드바를 펼치거나 접고 사용 가능한 자산 보기 영역을 늘릴 수 있습니다.
@@ -86,7 +88,8 @@ ht-degree: 99%
 
 자산을 명시적으로 미리 보는 경우 [!DNL Assets Essentials]는 해당 자산을 최근에 본 자산으로 표시합니다.
 
-<!-- TBD: Describe the options.
+<!-- 
+TBD: Describe the options.
 
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
@@ -105,10 +108,8 @@ Other use cases after previewing.
 ## 다음 단계 {#next-steps}
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
-
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
-
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 >[!MORELIKETHIS]
 >

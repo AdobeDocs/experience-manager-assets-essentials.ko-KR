@@ -1,13 +1,13 @@
 ---
 title: 릴리스 정보
 description: ' [!DNL Assets Essentials]의 릴리스 정보 및 알려진 문제'
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
-workflow-type: ht
-source-wordcount: '2976'
-ht-degree: 100%
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+workflow-type: tm+mt
+source-wordcount: '3041'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +17,11 @@ Assets Essentials의 현재 릴리스는 2024년 7월 25일에 출시되었습�
 
 최근에 추가된 일부 기능은 다음과 같습니다.
 
-**콘텐츠 자격 증명 통합**
+**Content Credentials 통합**
 
-이제 Experience Manager Assets는 지원되는 이미지 형식에 대해 콘텐츠 자격 증명을 지원합니다. 이를 통해 생성형 AI를 사용하여 수정되었는지 여부 등 자산의 계보와 생성 방법에 대한 정보를 제공합니다.
+이제 Experience Manager Assets는 지원되는 이미지 형식에 대해 Content Credentials을 지원합니다. 이를 통해 생성형 AI를 사용하여 수정되었는지 여부 등 자산의 계보와 생성 방법에 대한 정보를 제공합니다.
 
-![콘텐츠 자격 증명](/help/using/assets/content-credentials.png)
+![Content Credentials](/help/using/assets/content-credentials.png)
 
 **폴더 콘텐츠의 시각적 미리보기**
 
@@ -29,7 +29,7 @@ Assets Essentials의 현재 릴리스는 2024년 7월 25일에 출시되었습�
 
 **상황별 검색**
 
-이제 텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 자산을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창을 사용하여 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
+이제 텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 자산을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창에서 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
 
 ![스토리지 사용량 한 눈에 보기](/help/using/assets/contextual-search-text-prompt1.png)
 
@@ -186,9 +186,9 @@ Experience Manager Assets는 이제 이미지 스마트 태그에 대해 향상�
 
 ![태그 지정 관리](assets/tags-hierarchy.png)
 
-**바로 가기를 위해 파일, 폴더 및 컬렉션 고정**
+**빠른 액세스를 위해 파일, 폴더 및 컬렉션 고정**
 
-이제 나중에 필요할 때 파일, 폴더 및 컬렉션에 더 빠르게 액세스할 수 있도록 이러한 항목을 고정할 수 있습니다. 고정된 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다. 저장소 내에서 저장된 위치로 이동하는 대신 내 작업 영역을 사용하여 액세스할 수 있습니다.
+이제 나중에 필요할 때 파일, 폴더 및 컬렉션에 더 빠르게 액세스할 수 있도록 이러한 항목을 고정할 수 있습니다. 고정된 항목은 내 작업 영역의 **빠른 액세스** 섹션에 표시됩니다. 저장소 내에서 저장된 위치로 이동하는 대신 내 작업 영역을 사용하여 액세스할 수 있습니다.
 
 ![작업 영역의 작업](assets/quick-access.png)
 
@@ -330,11 +330,11 @@ Assets Essentials는 이제 스마트 컬렉션을 만드는 동안 사용되는
 
 **알림**
 
-Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 자산 또는 폴더에서 수행된 작업을 모니터링](manage-notifications.md)할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
+Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 자산 또는 폴더에서 수행된 작업을 모니터링](manage-notifications.md)할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 카테고리를 구성할 수도 있습니다.
 
 **보고**
 
-자산 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 내의 사용자 활동을 평가할 수 있습니다. 보고서 및 라이브 통계 대시보드는 사용자가 배포에서 사용할 수 있는 자산과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. [보고서의 정보를 사용](manage-reports.md)하여 기업 내 또는 고객에 의한 Assets의 채택률을 측정하기 위한 주요 성공 지표를 도출할 수 있습니다.
+자산 보고를 사용하여 관리자는 Adobe Experience Manager Assets Essentials 내의 사용자 활동을 평가할 수 있습니다. 보고서 및 라이브 통계 대시보드는 사용자가 배포에서 사용할 수 있는 에셋과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. [보고서](manage-reports.md)의 정보를 사용하여 기업 내 및 고객별 자산 채택을 측정하는 주요 성공 메트릭을 도출합니다.
 
 자산 다운로드 보고서 및 라이브 통계 대시보드 모듈을 보고 다운로드 중인 자산 및 다운로드 빈도를 확인할 수 있습니다.
 
@@ -404,7 +404,7 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 [!DNL Assets Essentials]는 다음 업데이트와 함께 2022년 3월 9일에 출시됩니다.
 
-* 이제 [!DNL Assets Essentials]에서는 [링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 자산을 공유](share-links-for-assets.md)할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 자산을 미리보고 다운로드할 수 있습니다.
+* 이제 [!DNL Assets Essentials]에서는 [링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 자산을 공유](share-links-for-assets.md)할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 자산을 미리 보고 다운로드할 수 있습니다.
 
 * 이제 [!DNL Assets Essentials]는 기존 기본 및 소비자 사용자 제품 프로필과 더불어 Admin Console의 [관리자 제품 프로필](deploy-administer.md#add-users-to-essentials)로 구성됩니다. 이제 관리자는 관리자 제품 프로필에 다른 사용자를 할당할 수 있습니다.
 
@@ -427,7 +427,9 @@ Assets Essentials 알림을 사용하면 [저장소에서 사용할 수 있는 �
 
 * Adobe는 프로비저닝 프로세스를 완료한 후 Assets Essentials를 자동으로 배포합니다. 관리자는 [!DNL Cloud Manager] 사용자 인터페이스를 사용하여 Assets Essentials를 배포하기 위해 추가 단계를 수행할 필요가 없습니다. 이 자동 배포는 2022년 1월 6일 이후에 프로비저닝된 환경에서 사용할 수 있습니다.
 * Assets Essentials와 함께 작동하는 Creative Cloud 플러그인의 새 버전은 Adobe Exchange(Adobe XD용 [Adobe Asset Link v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) 및 [Adobe Asset Link for Photoshop/InDesign/Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html))에서 사용할 수 있습니다.
-* 이전에 알려진 문제를 포함한 다양한 버그 수정 및 제품 개선 사항(업로드<!-- CQ-4337638 --> 후 폴더가 이제 왼쪽 탐색 트리에 올바르게 표시되며, 드래그 앤 드롭 업로드를 통해 사용자가 업로드<!-- CQ-4327753 -->를 위해 드롭할 때 현재 폴더 또는 하위 폴더를 선택할 수 있음)
+* 이전의 알려진 문제를 포함하여 다양한 버그 수정 및 제품 개선 사항이 적용되었습니다(이제 업로드 후 폴더가 왼쪽 탐색 트리에 올바르게 표시됨<!-- CQ-4337638 -->, 드래그 앤 드롭 업로드 시 현재 폴더 또는 업로드할 때 하위 폴더를 선택할 수 있음).
+
+<!-- CQ-4327753 -->
 
 ### 2021.8.0 릴리스 {#august2021}
 

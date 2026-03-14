@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] 사용 시작하기'
 description: ' [!DNL Assets Essentials]의 액세스 방법, 로그인 경험, 지원되는 사용 사례 및 알려진 문제'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## [!DNL Assets Essentials]에 대한 액세스 권한 받기 {#get-access}
 
-Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 부여할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
+Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관리자로 추가합니다. 관리자는 [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/admin-console.html)을 사용하여 조직의 다양한 사용자에게 액세스 권한을 부여할 수 있습니다. 액세스와 관련된 요청은 조직의 관리자에게 문의하십시오.
 
 로그인할 때 자격 증명을 제공한 후 [!DNL Assets Essentials]에서 계정을 선택하라는 메시지가 표시됩니다. 이 경우 계속 진행하려면 `Company or School Account`을(를) 선택합니다.
 
@@ -57,21 +57,21 @@ Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials를 시작하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=ko)
+* [Assets Essentials를 시작하려면 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 
-<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+<!--
+TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/using/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
-
 -->
 
 <!-- 
@@ -94,6 +94,7 @@ To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit 
 >* [사용자 인터페이스 이해](/help/using/navigate-view.md)
 >* [릴리스 정보 및 알려진 문제](/help/using/release-notes.md)
 
-<!-- TBD: 
+<!-- 
+TBD: 
 >* [Supported file types](/help/using/supported-file-formats.md).
 -->

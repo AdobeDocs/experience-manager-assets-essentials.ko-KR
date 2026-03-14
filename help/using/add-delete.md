@@ -3,10 +3,10 @@ title: 저장소에 에셋 업로드
 description: 에셋을  [!DNL Assets Essentials]에 업로드하고, 업로드 상태를 보고, 업로드 관련 문제를 해결합니다.
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,10 @@ ht-degree: 100%
 * 사용자 인터페이스에서 에셋 또는 폴더를 드래그하고 화면에 표시되는 안내를 따릅니다.
 * 도구 모음에서 **[!UICONTROL 에셋 추가]** 옵션을 클릭하고 업로드 대화 상자에 일부 파일을 추가하십시오.
 
-<!-- TBD: Update this GIF
-![Asset and nested folder upload demo](assets/do-not-localize/upload-assets.gif) -->
+<!-- 
+TBD: Update this GIF
+![Asset and nested folder upload demo](assets/do-not-localize/upload-assets.gif) 
+-->
 
 폴더를 만든 후 이러한 방법을 사용하여 에셋을 업로드할 수 있습니다. 빈 폴더를 만들려면 도구 모음에서 **[!UICONTROL 폴더 만들기]**&#x200B;를 클릭합니다. [!DNL Assets Essentials]는 강력한 전체 텍스트 검색 기능을 제공하며 폴더를 사용하여 에셋을 보다 효율적으로 구성할 수도 있습니다.
 
@@ -98,10 +100,10 @@ ht-degree: 100%
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 에셋 업로드에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html?lang=ko)
+* [Assets Essentials에 에셋을 업로드하는 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의

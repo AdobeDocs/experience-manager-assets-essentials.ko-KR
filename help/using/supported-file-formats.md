@@ -1,12 +1,12 @@
 ---
 title: 지원되는 파일 형식
 description: ' [!DNL Assets Essentials]의 다양한 사용 사례에 대해 지원되는 파일 형식'
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: 243a41aef81cd1fdcbad8f4355fe2d888db394d1
-workflow-type: ht
-source-wordcount: '527'
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+workflow-type: tm+mt
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -30,12 +30,13 @@ ht-degree: 100%
 | 지원 수준 | 설명 |
 |-------------------|-------------------------|
 | ✓ | 지원됨 |
-| ✓ ‡ | 조건부로 지원됨 |
+| ✓ + | 조건부로 지원됨 |
 | − | 해당되지 않음 |
 
 ## 에셋 추가, 업로드 및 보기 {#support-to-upload-view}
 
-<!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
+<!-- 
+TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
 | 에셋 유형 | [찾아보기](/help/using/navigate-view.md) | 복사 | [업로드](/help/using/add-delete.md) | 만들기 | [삭제](/help/using/add-delete.md#delete-assets) | 세부 사항 | 이미지 확대/축소 | [최근에 본 항목](/help/using/navigate-view.md) |
@@ -43,12 +44,13 @@ ht-degree: 100%
 | 래스터 이미지 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | RAW 파일 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | 폴더 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
-| MP4 비디오 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| MP4 비디오 | ✓ | ✓ | ✓ | − | ✓ | ✓ + | − | ✓ |
 | PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD, AI, PSB 및 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| PSD, AI, PSB 및 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ + | − | ✓ |
 | 기타 바이너리 파일 | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
-<!-- Hiding CC Libraries (considered beta) as per PM feedback.
+<!-- 
+Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
 -->
 
@@ -57,7 +59,7 @@ ht-degree: 100%
 | 에셋 유형 | [다운로드](/help/using/manage-organize.md#download) | 드래그 앤 드롭 | [이미지 편집기](/help/using/edit-images.md) | [검색](/help/using/search.md) | [스마트 태그](/help/using/metadata.md#tags) | [이름 변경](/help/using/manage-organize.md) | [버전](/help/using/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | 래스터 이미지 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RAW 파일 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
+| RAW 파일 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | 폴더 | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | 비디오 | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | CC Libraries | − | − | − | − | − | ✓ | ✓ |
@@ -104,7 +106,8 @@ ht-degree: 100%
 
 [!DNL Adobe Asset Link] 사용자는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 애플리케이션에서 [!DNL Assets Essentials] 저장소에 파일을 업로드하고 체크인(새 버전 업로드)할 수 있습니다.
 
-<!-- TBD: Saving the template table separately for later use.
+<!-- 
+TBD: Saving the template table separately for later use.
 | Asset type    | Features |
 |---------------|----------|
 | Raster images |          |
@@ -127,4 +130,4 @@ ht-degree: 100%
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
