@@ -53,7 +53,7 @@ Adobe는 솔루션을 프로비저닝하고 조직의 지정된 사용자를 관
 | 저장소에서 자산을 검색합니다. | <ul> <li>[특정 폴더에서 검색](/help/using/search.md#refine-search-results)</li> <li>[저장된 검색](/help/using/search.md#saved-search)</li> <li>[최근에 본 자산 검색](/help/using/search.md)</li> <li>[전체 텍스트 검색](/help/using/search.md) |
 | 자산 다운로드 | <ul> <li> [자산 미리보기](/help/using/navigate-view.md#preview-assets) </li> <li> [자산 다운로드](/help/using/manage-organize.md#download) <li> [렌디션 다운로드](/help/using/add-delete.md#renditions) </li></ul> |
 | 메타데이터 작업 | <ul> <li>[세부 메타데이터 보기](/help/using/metadata.md) </li> <li> [메타데이터 업데이트](/help/using/metadata.md#update-metadata)</li> <li> [새 메타데이터 양식 만들기](/help/using/metadata.md#metadata-forms) </li> </ul> |
-| 다른 솔루션과 통합 | <ul> <li>[ [!DNL Adobe Journey Optimizer]](/help/using/integration.md)에서 에셋 선택기 사용</li> <li>[[!DNL Adobe Asset Link] 대상 [!DNL Creative Cloud]](/help/using/integration.md)</li> <li>[ [!DNL Adobe Workfront]](/help/using/integration.md)와 통합</li> </ul> |
+| 다른 솔루션과 통합 | <ul> <li>[&#x200B; [!DNL Adobe Journey Optimizer]](/help/using/integration.md)에서 에셋 선택기 사용</li> <li>[[!DNL Adobe Asset Link] 대상 [!DNL Creative Cloud]](/help/using/integration.md)</li> <li>[&#x200B; [!DNL Adobe Workfront]](/help/using/integration.md)와 통합</li> </ul> |
 
 ## 다음 단계 {#next-steps}
 
