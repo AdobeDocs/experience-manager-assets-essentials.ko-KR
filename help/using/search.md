@@ -200,7 +200,7 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 생성된 자산을 자산 저장소에 업로드하려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
-1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**을 클릭합니다.
+1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**&#x200B;을 클릭합니다.
    ![자산 업로드](assets/upload-asset-firefly.jpg)
 
 ## 저장된 검색 {#saved-search}
@@ -280,7 +280,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
 1. **[!UICONTROL 홈 페이지]** 아래의 **[!UICONTROL 배경 및 로고 이미지]** 섹션으로 이동합니다.
 1. 기존의 자산 저장소에서 이미지를 찾아보려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [수정 사항을 검토하려면 변경 내용을 ](#preview-configured-homepage)하세요.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [수정 사항을 검토하려면 변경 내용을 &#x200B;](#preview-configured-homepage)하세요.
 
 ### 구성된 홈 페이지 미리보기 {#preview-configured-homepage}
 
