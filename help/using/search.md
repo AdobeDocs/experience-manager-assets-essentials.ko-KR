@@ -200,7 +200,7 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 생성된 자산을 자산 저장소에 업로드하려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
-1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**&#x200B;을 클릭합니다.
+1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**을 클릭합니다.
    ![자산 업로드](assets/upload-asset-firefly.jpg)
 
 ## 저장된 검색 {#saved-search}
@@ -280,7 +280,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
 1. **[!UICONTROL 홈 페이지]** 아래의 **[!UICONTROL 배경 및 로고 이미지]** 섹션으로 이동합니다.
 1. 기존의 자산 저장소에서 이미지를 찾아보려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [수정 사항을 검토하려면 변경 내용을 &#x200B;](#preview-configured-homepage)하세요.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [수정 사항을 검토하려면 변경 내용을 ](#preview-configured-homepage)하세요.
 
 ### 구성된 홈 페이지 미리보기 {#preview-configured-homepage}
 
@@ -380,11 +380,11 @@ Experience Manager Assets에서 상황별 검색에 액세스하는 방법:
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 에셋 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=ko)
+* [Assets Essentials의 에셋 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백을 제공합니다.
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 

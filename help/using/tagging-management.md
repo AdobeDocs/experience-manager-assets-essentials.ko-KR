@@ -4,8 +4,8 @@ description: Assets Essentials에서 태그를 관리하는 방법에 대해 알
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: eef4aec6f67700d0a5b096577b9637d96949b488
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 100%
+source-wordcount: '1770'
+ht-degree: 97%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 ## 메타데이터 양식에 태그 구성 요소 추가 {#add-tags-to-metadata-form}
 
-태그 구성 요소는 `default` 메타데이터 양식에 자동으로 추가됩니다. 템플릿을 사용하거나 처음부터 직접 [메타데이터 양식](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=ko-KR#metadata-forms)을 설계할 수 있습니다. 기존 메타데이터 양식 템플릿을 사용하지 않는 경우 메타데이터 양식을 수정하고 태그 구성 요소를 추가할 수 있습니다. 메타데이터 속성 매핑은 자동으로 채워지며 현재로서는 수정할 수 없습니다. [!DNL Assets as a Cloud Service] 사용자는 사용자 정의 네임스페이스를 사용하여 태그 값을 저장하도록 매핑을 업데이트하고 루트 경로를 사용하여 계층의 하위 집합만 노출할 수 있습니다.
+태그 구성 요소는 `default` 메타데이터 양식에 자동으로 추가됩니다. 템플릿을 사용하거나 처음부터 직접 [메타데이터 양식](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms)을 설계할 수 있습니다. 기존 메타데이터 양식 템플릿을 사용하지 않는 경우 메타데이터 양식을 수정하고 태그 구성 요소를 추가할 수 있습니다. 메타데이터 속성 매핑이 자동으로 입력되므로 지금은 수정할 수 없습니다. [!DNL Assets as a Cloud Service] 사용자는 매핑을 업데이트하여 사용자 정의 네임스페이스를 사용하여 태그 값을 저장하고 루트 경로를 사용하여 계층의 하위 집합만 표시할 수 있습니다.
 
 메타데이터 양식에 태그 구성 요소를 추가하는 방법을 보려면 이 빠른 비디오를 시청하십시오.
 
