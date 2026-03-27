@@ -4,15 +4,15 @@ description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 �
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
-workflow-type: ht
-source-wordcount: '1182'
+workflow-type: tm+mt
+source-wordcount: '1258'
 ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials]에서 이미지 편집 {#edit-images-in-assets-essentials}
 
-Assets Essentials UI는 UI에 통합된 Adobe Express으로 구동되는 기본적인 이미지 편집 기능을 제공합니다. 이 편집 기능에는 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환이 포함됩니다. 또한 Essentials UI에 포함된 Adobe Express 인터페이스를 통해 고급 편집을 사용할 수도 있습니다.
+Assets Essentials UI는 UI에 통합된 Adobe Express으로 구동되는 기본적인 이미지 편집 기능을 제공합니다. 이 편집 기능에는 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환이 포함됩니다. 또한 Essentials UI에 임베드된 Adobe Express 인터페이스를 통해 고급 편집을 사용할 수도 있습니다.
 
 이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원본 자산으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
 
