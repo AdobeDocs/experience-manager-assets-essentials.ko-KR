@@ -132,7 +132,7 @@ OneDrive 계정에서 AEM Assets로 자산을 가져오기 전에 OneDrive 개�
    >* Dropbox 응용 프로그램을 만드는 동안 **앱 폴더**&#x200B;을(를) 선택하고 에셋이 포함된 폴더가 `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`에 있는 경우 **[!UICONTROL Source 폴더]** 필드에 `bulkimport-assets`을(를) 지정하십시오. 여기서 `BulkImportAppFolderScope`은(는) 응용 프로그램의 이름을 나타냅니다. `Apps` 이 경우 `home` 뒤에 자동으로 추가됩니다.
 
 1. (선택사항) **[!UICONTROL 가져오기 후 소스 파일 삭제]** 옵션을 선택하여 파일을 [!DNL Experience Manager Assets]로 가져온 후에 소스 데이터 저장소에서 원본 파일을 삭제합니다.
-1. **[!UICONTROL 가져오기 모드]**&#x200B;를 선택합니다. **[!UICONTROL 건너뛰기]**, **[!UICONTROL 바꾸기]** 또는 **[!UICONTROL 버전 만들기]**를 선택합니다. 건너뛰기 모드는 기본값이고, 자산이 이미 존재하는 경우 이 모드에서 수집기는 자산 가져오기를 건너뜁니다.
+1. **[!UICONTROL 가져오기 모드]**&#x200B;를 선택합니다. **[!UICONTROL 건너뛰기]**, **[!UICONTROL 바꾸기]** 또는 **[!UICONTROL 버전 만들기]**&#x200B;를 선택합니다. 건너뛰기 모드는 기본값이고, 자산이 이미 존재하는 경우 이 모드에서 수집기는 자산 가져오기를 건너뜁니다.
    ![소스 세부 정보 가져오기](assets/bulk-import-source-details.png)
 
 1. (선택 사항) **[!UICONTROL 메타데이터 파일]** 필드에서 가져올 메타데이터 파일(CSV 형식으로 제공)을 지정합니다. 메타데이터 소스 파일은 소스 폴더에 있어야 합니다. **[!UICONTROL 다음]**&#x200B;을 클릭하여 **[!UICONTROL 위치 및 필터]**&#x200B;로 이동합니다.
