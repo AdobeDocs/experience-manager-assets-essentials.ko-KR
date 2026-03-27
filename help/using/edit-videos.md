@@ -5,14 +5,14 @@ role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
 source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '841'
 ht-degree: 24%
 
 ---
 
 # [!DNL Assets Essentials]에서 비디오 편집 {#edit-videos}
 
-Assets 사용자는 비디오에 대한 [!DNL Adobe Express] 빠른 작업이 임베드되어 있으므로 비디오 컨텐츠의 변형을 쉽게 만들 수 있습니다. [!DNL Adobe Express]에서 제공하는 [!DNL Assets Essentials]의 빠른 작업은 비디오 자르기, 비디오 크기 조정, 비디오 트리밍, 비디오를 GIF으로 변환 등 사용자에게 친숙한 비디오 편집 옵션을 제공합니다.
+Assets 사용자는 비디오에 대한 [!DNL Adobe Express] 빠른 작업이 임베드되어 있으므로 비디오 컨텐츠의 변형을 쉽게 만들 수 있습니다. [!DNL Adobe Express]에서 제공하는 [!DNL Assets Essentials]의 빠른 작업은 비디오 자르기, 비디오 크기 조정, 비디오 트리밍, 비디오를 GIF으로 변환하는 등의 사용자 친화적인 비디오 편집 옵션을 제공합니다.
 
 비디오를 편집하려면 비디오 세부 정보로 이동하여 [!UICONTROL 비디오 편집]을 클릭하세요. 또는 에셋을 선택하고 세부 정보를 클릭한 다음 오른쪽 창에 있는 ![가위](assets/do-not-localize/cut.svg) 아이콘을 클릭합니다. 비디오를 편집한 후 새 비디오를 새 버전 또는 새 에셋으로 저장할 수 있습니다.
 
@@ -39,21 +39,21 @@ AEM Assets 내의 [!DNL Adobe Express] 및 하나 이상의 환경에 액세스�
 2. 왼쪽 창에서 사용할 수 있는 빠른 작업에서 **[!UICONTROL 비디오 자르기]**&#x200B;를 클릭합니다.
 3. 비디오 모서리에 있는 핸들을 드래그하여 원하는 자르기를 만들거나 기존 화면 크기 중에서 원하는 크기를 선택합니다.
 4. 비디오를 음소거 또는 음소거 해제하도록 선택할 수 있습니다.
-5. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+5. **[!UICONTROL 적용]**을 클릭합니다.
    ![Adobe Express로 비디오 자르기](/help/using/assets/adobe-express-crop-video.png)
 
-   자른 비디오를 다운로드할 수 있습니다. 편집된 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다. ![Adobe Express으로 비디오 저장](/help/using/assets/adobe-express-save-video.png)
+   자른 비디오를 다운로드할 수 있습니다. 편집된 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다. ![Adobe Express](/help/using/assets/adobe-express-save-video.png)을(를) 사용하여 비디오 저장
 
 ### 비디오 크기 조정 {#resize-video-using-express}
 
-DAM의 최종 비디오 콘텐츠는 특정 채널에 배포하기 위해 크기를 조정해야 하는 경우가 많습니다. [!DNL Assets Essentials]을(를) 사용하면 일반적인 소셜 채널에 필요한 크기에 맞게 비디오의 크기를 쉽게 조정할 수 있으며 사용자 지정 해상도에도 맞출 수 있습니다. [!DNL Assets Essentials]을(를) 사용하여 비디오의 크기를 조정하려면 아래 단계를 실행하십시오.
+DAM의 최종 비디오 콘텐츠는 특정 채널에 배포하기 위해 크기를 조정해야 하는 경우가 많습니다. [!DNL Assets Essentials] 에서는 일반적인 소셜 채널에 필요한 크기에 맞게 비디오의 크기를 쉽게 조정할 수 있으며 사용자 지정 해상도에도 맞출 수 있습니다. [!DNL Assets Essentials]을(를) 사용하여 비디오의 크기를 조정하려면 아래 단계를 실행하십시오.
 
 1. 비디오를 선택하고 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
 2. 왼쪽 창에서 사용할 수 있는 빠른 작업에서 **[!UICONTROL 비디오 크기 조정]**&#x200B;을 클릭합니다.
 3. **[!UICONTROL 다음에 대한 크기 조정]** 드롭다운 목록의 소셜 미디어 플랫폼에서 적절한 차원을 선택합니다. 또는 비디오 모서리의 핸들을 드래그하여 원하는 자르기를 만듭니다.
 4. 필요한 경우 **[!UICONTROL 비디오 크기 조정]** 필드를 사용하여 비디오 크기를 조정합니다.
 5. 비디오를 음소거 또는 음소거 해제하도록 선택할 수 있습니다.
-6. **[!UICONTROL 적용]**&#x200B;을 클릭하여 변경 내용을 적용합니다.
+6. **[!UICONTROL 적용]**을 클릭하여 변경 내용을 적용합니다.
    ![Adobe Express으로 비디오 크기 조정](/help/using/assets/adobe-express-resize-video.png)
 
 크기 조정된 비디오를 다운로드할 수 있습니다. 편집한 자산을 동일한 자산의 새 버전으로 저장하거나 새 자산으로 저장할 수 있습니다.
@@ -67,7 +67,7 @@ DAM의 최종 비디오 콘텐츠는 특정 채널에 배포하기 위해 크기
 3. 비디오의 시작 및 종료 시간을 지정하여 비디오의 특정 부분을 트리밍합니다. 또는 비디오 모서리의 핸들을 드래그하여 원하는 트리밍을 만듭니다.
 4. **[!UICONTROL 크기]** 드롭다운 목록에서 적절한 차원을 선택합니다.
 5. 비디오를 음소거 또는 음소거 해제하도록 선택할 수 있습니다.
-6. **[!UICONTROL 적용]**&#x200B;을 클릭하여 변경 내용을 적용합니다.
+6. **[!UICONTROL 적용]**을 클릭하여 변경 내용을 적용합니다.
    ![Adobe Express으로 비디오 크기 조정](/help/using/assets/adobe-express-trim-video.png)
 
 트리밍한 비디오를 다운로드할 수 있습니다. 편집한 자산을 동일한 자산의 새 버전으로 저장하거나 새 자산으로 저장할 수 있습니다.
@@ -82,7 +82,7 @@ Adobe Express을 사용하여 MP4 비디오를 GIF 형식으로 빠르게 변환
 4. 비디오 모서리에 있는 핸들을 드래그하여 원하는 자르기를 만듭니다.
 5. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-   ![Adobe Express이 있는 GIF으로 비디오 변환](/help/using/assets/adobe-express-convert-video-to-gif.png)
+   ![Adobe Express을 사용하여 비디오를 GIF으로 변환](/help/using/assets/adobe-express-convert-video-to-gif.png)
 
 비디오를 GIF 형식으로 다운로드할 수 있습니다. 편집한 자산을 동일한 자산의 새 버전으로 저장하거나 새 자산으로 저장할 수 있습니다.
 
@@ -104,7 +104,7 @@ Adobe Express을 사용하여 MP4 비디오를 GIF 형식으로 빠르게 변환
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백을 제공합니다.
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support)에 문의하십시오.
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)에 문의하십시오.
 
 >[!MORELIKETHIS]
 >
