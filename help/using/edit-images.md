@@ -152,7 +152,7 @@ The brush samples the retouched area and makes the repaired pixels blend seamles
 
 <!-- 
 TBD: See if we should give backlinks to PS docs for these concepts.
-For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). 
+For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/kr/photoshop/using/retouching-repairing-images.html). 
 -->
 <!--
 ### Crop and straighten images {#crop-straighten-images-using-photoshop-express}
@@ -195,7 +195,7 @@ TBD: Insert a video of the available social media options.
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
 
 >[!MORELIKETHIS]
 >
