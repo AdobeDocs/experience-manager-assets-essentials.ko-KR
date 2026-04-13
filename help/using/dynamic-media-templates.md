@@ -4,7 +4,7 @@ description: WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
+source-git-commit: b0b103b91ca4f4c657fd6d6f526be5f5b05dc156
 workflow-type: tm+mt
 source-wordcount: '3000'
 ht-degree: 6%
@@ -75,7 +75,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 Dynamic Media Assets 아래에 템플릿을 저장하거나 폴더로 이동한 다음 **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 해당 폴더에 템플릿을 저장합니다. **[!UICONTROL 새 템플릿]** 대화 상자가 표시됩니다.
    ![실시간으로 사용자 지정할 수 있는 동적 템플릿을 만드는 방법](/help/using/assets/new-template.png)
-**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더를 만들기](/help/using/add-delete.md)하려면 **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에서 복제됩니다.
+**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더 만들기](/help/using/add-delete.md)하려면 **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에서 복제됩니다.
 1. 템플릿 이름을 지정하고 캔버스 너비 및 높이를 정의한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 템플릿을 만드는 데 사용할 메뉴 옵션이 양쪽에 있는 빈 캔버스가 표시됩니다. 메뉴 옵션 위로 마우스를 가져가면 해당 도구 설명을 볼 수 있습니다.
    ![실시간 사용자 지정 가능한 템플릿](/help/using/assets/blank-canvas-page.png)
 
@@ -167,7 +167,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 패널의 **[!UICONTROL 텍스트]** 섹션 아래에 있는 각 필드의 값을 변경하여 원하는 글꼴, 크기, 색상, 스타일, 정렬(레이어)로 텍스트 서식을 지정합니다.
 
 **[!UICONTROL 스마트 텍스트 크기 조정]** 글꼴 크기와 길이를 스마트하게 조정하여 지정된 영역에 있는 모든 텍스트에 최적으로 맞도록 **[!UICONTROL 스마트 텍스트 크기 조정]**([자동 맞춤](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting))을 포함해야 합니다. 이 기능은 텍스트 오버플로를 방지하거나 텍스트 하단에 있는 추가 공백을 최소화합니다.
-![](/help/using/assets/smart-text-resize.png) 내에 콘텐츠 만들기
+![시간 내에 콘텐츠 만들기](/help/using/assets/smart-text-resize.png)
 
 ### 매개 변수 레이어 {#parameterise-a-layer}
 
@@ -189,18 +189,18 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 **이미지 매개 변수:**
 
 **X:** URL에서 매개 변수의 값을 변경하여 레이어를 가운데선을 따라 템플릿 평면의 X축에 평행하게 수평으로 이동합니다.
-**Y:** URL에서 매개 변수의 값을 변경하여 레이어를 가운데 선을 따라 템플릿 평면의 Y축에 평행하게 수직으로 이동합니다.
-**너비:** URL에서 매개 변수의 값을 변경하여 레이어의 너비를 조정하려면 포함합니다.
-**높이:** URL에서 매개 변수의 값을 변경하여 레이어의 높이를 조정하려면 포함합니다.
-**숨기기:** 0(표시) 및 1(숨기기)을 사용하여 템플릿에서 레이어를 숨기거나 표시합니다.
-**Source:** URL의 매개 변수 값에서 이미지 경로를 변경하여 레이어의 이미지를 새 이미지로 바꾸려면 을(를) 포함합니다.
+**Y:** URL에서 매개 변수의 값을 변경하여 레이어를 가운데 선을 따라 템플릿 평면의 Y축에 평행하게 수직으로 이동하는 것을 포함합니다.
+**너비:** URL에서 매개 변수의 값을 변경하여 레이어의 너비를 조정하려면 포함하십시오.
+**높이:** URL에서 매개 변수의 값을 변경하여 레이어의 높이를 조정하려면 포함하십시오.
+**숨기기:** 0(표시)과 1(숨기기)을 사용하여 템플릿에서 레이어를 숨기거나 표시하는 포함
+**Source:** URL에서 매개 변수 값의 이미지 경로를 변경하여 레이어의 이미지를 새 이미지로 바꾸려면 다음을 포함하십시오.
 
 **텍스트 서식 매개 변수:**
 
 URL에서 매개 변수 값을 업데이트하여 URL에서 텍스트, 글꼴, 색상 및 크기를 편집하려면 아래 매개 변수를 포함하십시오.
 
 **텍스트:** URL에서 텍스트를 업데이트하는 데 포함합니다.
-**Font Family:** URL에서 텍스트 글꼴을 업데이트하는 데 포함합니다.
+**글꼴 모음:** URL에서 텍스트 글꼴을 업데이트하는 데 포함합니다.
 **글꼴 크기:** URL에서 텍스트의 글꼴 크기를 업데이트하는 데 포함합니다.
 **텍스트 색상:** URL에서 텍스트의 글꼴 색상을 업데이트하는 데 포함합니다.
 
@@ -232,7 +232,7 @@ URL에서 매개 변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
 1. 템플릿에서 함께 표시하거나 숨기려면 목록에서 [그룹화된 레이어](#group-layers)에 대한 숨기기 매개 변수를 선택하십시오.
 1. **선택 사항:** **[!UICONTROL Hide]** 매개 변수 값을 0과 1 사이에서 변경하고 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하여 변경 사항을 확인합니다. 동일한 숨기기 매개변수가 있는 레이어는 함께 숨기거나 표시합니다. 마찬가지로 URL에서 레이어의 가시성을 제어할 수 있습니다.
 
-   ![즉시 콘텐츠 만들기](/help/using/assets/dm-templates-publish-status.png)
+   ![즉석으로 콘텐츠 만들기](/help/using/assets/dm-templates-publish-status.png)
 **[!UICONTROL 모든 매개 변수 포함]**&#x200B;을 전환하여 표시된 모든 매개 변수 값을 편집하고 템플릿 미리 보기에서 업데이트를 볼 수도 있습니다.
    <br>
 1. 미리 보기 페이지에 템플릿을 게시하려면 **[!UICONTROL 게시]**&#x200B;를 클릭하고 게시를 확인합니다. 게시 완료 메시지가 표시되고 게시 상태가 게시됨으로 업데이트됩니다.
