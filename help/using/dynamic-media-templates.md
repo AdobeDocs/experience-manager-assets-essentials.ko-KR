@@ -4,7 +4,7 @@ description: WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
+source-git-commit: b0b103b91ca4f4c657fd6d6f526be5f5b05dc156
 workflow-type: tm+mt
 source-wordcount: '3000'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 >abstract="사용하기 쉬운 WYSIWYG 인터페이스로 이미지와 텍스트 배너를 빠르게 만들어 개인화하고, 모든 퍼스트파티 또는 서드파티 애플리케이션에 Dynamic Media URL을 임베드하여 참여도 높은 경험을 유도할 수 있습니다. 시도해 보십시오!"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="비디오 시청"
 
-WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지 및 텍스트 레이어를 포함하여 배너 및 전단을 빠르게 만들고 다운스트림 애플리케이션에서 사용합니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
+WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고 여러 이미지 및 텍스트 레이어를 포함하여 배너 및 전단을 빠르게 만들고 다운스트림 애플리케이션에서 사용합니다. 템플릿에 포함된 이미지 및 텍스트 레이어에 매개 변수를 추가하고 [Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media)을(를) 사용하여 해당 레이어의 값을 실시간으로 업데이트할 수도 있습니다.
 
 몇 가지 주요 기능은 다음과 같습니다.
 
@@ -75,8 +75,8 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 Dynamic Media Assets 아래에 템플릿을 저장하거나 폴더로 이동한 다음 **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 해당 폴더에 템플릿을 저장합니다. **[!UICONTROL 새 템플릿]** 대화 상자가 표시됩니다.
    ![실시간으로 사용자 지정할 수 있는 동적 템플릿을 만드는 방법](/help/using/assets/new-template.png)
-**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더를 만들기](/help/using/add-delete.md)하려면 **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에서 복제됩니다.
-1. 템플릿 이름을 지정하고 캔버스 너비 및 높이를 정의한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 템플릿을 만드는 데 사용할 메뉴 옵션이 양쪽에 있는 빈 캔버스가 표시됩니다. 메뉴 옵션 위로 마우스를 가져가면 해당 도구 설명을 볼 수 있습니다.
+**[!UICONTROL Dynamic Media Assets]**&#x200B;에 [폴더 만들기](/help/using/add-delete.md)하려면 **[!UICONTROL Assets]**&#x200B;에 폴더를 만드십시오. **[!UICONTROL Assets]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에서 복제됩니다.
+1. 템플릿 이름을 지정하고 캔버스 너비 및 높이를 정의한 다음 **[!UICONTROL 만들기]**를 클릭합니다. 템플릿을 만드는 데 사용할 메뉴 옵션이 양쪽에 있는 빈 캔버스가 표시됩니다. 메뉴 옵션 위로 마우스를 가져가면 해당 도구 설명을 볼 수 있습니다.
    ![실시간 사용자 지정 가능한 템플릿](/help/using/assets/blank-canvas-page.png)
 
 >[!NOTE]
@@ -109,7 +109,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 다음 단계를 실행하여 캔버스에 이미지를 추가합니다.
 
-1. ![즉시 배너 만들기](/help/using/assets/add-image.svg)를 클릭하여 [자산 선택기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector) 패널을 표시합니다. 패널에는 Dynamic Media에 동기화된 AEM Assets 인스턴스의 이미지가 표시됩니다.
+1. ![즉시 배너 만들기](/help/using/assets/add-image.svg)를 클릭하여 [자산 선택기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector) 패널을 표시합니다. 패널에는 Dynamic Media에 동기화된 AEM Assets 인스턴스의 이미지가 표시됩니다.
 1. 패널을 찾아보거나 검색 막대에서 키워드를 사용하여 특정 이미지를 찾습니다.
 1. 캔버스에 이미지를 드래그하여 놓아 사용하십시오. 캔버스에서 레이어 크기 조정 또는 위치 조정은 [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 참조하세요.
    ![초 내에 배너 만들기](/help/using/assets/add-image-to-canvas.png)
@@ -120,7 +120,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 1. ![새 배너를 빠르게 만들기](/help/using/assets/add-text.svg)를 클릭하여 텍스트 레이어를 캔버스에 추가하고 속성 패널을 엽니다.
 1. 레이어를 선택하고 텍스트를 클릭하여 업데이트합니다.
-1. [속성] 패널에서 **[!UICONTROL 스마트 텍스트 크기 조정]**&#x200B;을 활성화하여 지정된 영역에 맞게 텍스트 길이 및 글꼴 크기를 자동으로 조정합니다.
+1. [속성] 패널에서 **[!UICONTROL 스마트 텍스트 크기 조정]**을 활성화하여 지정된 영역에 맞게 텍스트 길이 및 글꼴 크기를 자동으로 조정합니다.
    ![최고의 사용자 지정 배너](/help/using/assets/add-text-layer.png)
 
 레이어를 위치 변경, 크기 조정, 회전 또는 삭제하려면 [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 참조하세요. 패널의 **[!UICONTROL 텍스트]** 섹션 아래에 있는 각 필드의 값을 변경하여 원하는 글꼴, 크기, 색상, 스타일, 정렬(레이어)로 텍스트 서식을 지정합니다.
@@ -136,7 +136,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 1. ![동적 업데이트를 지원하는 템플릿](/help/using/assets/show-layers-list.svg)을 클릭하고 캔버스 또는 레이어 목록에서 레이어를 선택합니다.
 1. 레이어를 편집하거나 삭제하려면 **추가 옵션**(![실시간 업데이트를 지원하는 템플릿](/help/using/assets/three-dots.svg))을 클릭하십시오.
 1. 레이어를 삭제하려면 **[!UICONTROL 삭제]**&#x200B;를 클릭하십시오.
-1. [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 사용하여 레이어를 편집하려면 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
+1. [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 사용하여 레이어를 편집하려면 **[!UICONTROL 편집]**을 클릭하세요.
    ![빠른 배너 만들기](/help/using/assets/edit-delete-layer.png)
 
 ### 속성 패널{#properties-panel}
@@ -166,8 +166,8 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 
 패널의 **[!UICONTROL 텍스트]** 섹션 아래에 있는 각 필드의 값을 변경하여 원하는 글꼴, 크기, 색상, 스타일, 정렬(레이어)로 텍스트 서식을 지정합니다.
 
-**[!UICONTROL 스마트 텍스트 크기 조정]** 글꼴 크기와 길이를 스마트하게 조정하여 지정된 영역에 있는 모든 텍스트에 최적으로 맞도록 **[!UICONTROL 스마트 텍스트 크기 조정]**([자동 맞춤](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting))을 포함해야 합니다. 이 기능은 텍스트 오버플로를 방지하거나 텍스트 하단에 있는 추가 공백을 최소화합니다.
-![](/help/using/assets/smart-text-resize.png) 내에 콘텐츠 만들기
+**[!UICONTROL 스마트 텍스트 크기 조정]** 글꼴 크기와 길이를 스마트하게 조정하여 지정된 영역에 있는 모든 텍스트에 최적으로 맞도록 **[!UICONTROL 스마트 텍스트 크기 조정]**([자동 맞춤](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting))을 포함해야 합니다. 이 기능은 텍스트 오버플로를 방지하거나 텍스트 하단에 있는 추가 공백을 최소화합니다.
+![시간 내에 콘텐츠 만들기](/help/using/assets/smart-text-resize.png)
 
 ### 매개 변수 레이어 {#parameterise-a-layer}
 
@@ -178,7 +178,7 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 1. ![즉시 콘텐츠 만들기](/help/using/assets/show-layers-list.svg)를 클릭하고 레이어를 선택한 다음 **[!UICONTROL 매개 변수]**&#x200B;를 클릭합니다. **[!UICONTROL 매개 변수]** 패널이 표시됩니다.
 1. 속성을 매개 변수화하려면 **[!UICONTROL 매개 변수 포함]**&#x200B;을 전환하십시오. 매개 변수화 후 속성의 동작을 알려면 [this](#parameterisation-options-or-allowed-parameters)을(를) 참조하십시오.
 1. **선택 사항:** 매개 변수 이름을 변경합니다. 매개 변수 이름에는 레이어 이름 뒤에 접미사가 붙습니다. 선택한 레이어의 경우 매개 변수가 있는 모든 속성은 같은 레이어 이름 다음에 다양한 접미사를 공유합니다. 시맨틱 이름 지정 규칙에 따라 레이어 이름의 이름을 바꾸십시오. 그러면 URL에 매개 변수를 포함할 때 매개 변수 이름 자체가 레이어의 콘텐츠 또는 목적에 대해 설명하도록 할 수 있습니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**을 클릭합니다.
    ![즉시 콘텐츠 만들기](/help/using/assets/parameterise-a-layer.png)
 이미지의 매개 변수 패널과 텍스트 레이어 사이를 전환하려면 캔버스에서 레이어를 선택하고 **[!UICONTROL 매개 변수]**&#x200B;를 클릭하십시오.
 
@@ -189,18 +189,18 @@ DM 템플릿을 만들려면 다음 단계를 수행하십시오.
 **이미지 매개 변수:**
 
 **X:** URL에서 매개 변수의 값을 변경하여 레이어를 가운데선을 따라 템플릿 평면의 X축에 평행하게 수평으로 이동합니다.
-**Y:** URL에서 매개 변수의 값을 변경하여 레이어를 가운데 선을 따라 템플릿 평면의 Y축에 평행하게 수직으로 이동합니다.
-**너비:** URL에서 매개 변수의 값을 변경하여 레이어의 너비를 조정하려면 포함합니다.
-**높이:** URL에서 매개 변수의 값을 변경하여 레이어의 높이를 조정하려면 포함합니다.
-**숨기기:** 0(표시) 및 1(숨기기)을 사용하여 템플릿에서 레이어를 숨기거나 표시합니다.
-**Source:** URL의 매개 변수 값에서 이미지 경로를 변경하여 레이어의 이미지를 새 이미지로 바꾸려면 을(를) 포함합니다.
+**Y:** URL에서 매개 변수의 값을 변경하여 레이어를 가운데 선을 따라 템플릿 평면의 Y축에 평행하게 수직으로 이동하는 것을 포함합니다.
+**너비:** URL에서 매개 변수의 값을 변경하여 레이어의 너비를 조정하려면 포함하십시오.
+**높이:** URL에서 매개 변수의 값을 변경하여 레이어의 높이를 조정하려면 포함하십시오.
+**숨기기:** 0(표시)과 1(숨기기)을 사용하여 템플릿에서 레이어를 숨기거나 표시하는 포함
+**Source:** URL에서 매개 변수 값의 이미지 경로를 변경하여 레이어의 이미지를 새 이미지로 바꾸려면 다음을 포함하십시오.
 
 **텍스트 서식 매개 변수:**
 
 URL에서 매개 변수 값을 업데이트하여 URL에서 텍스트, 글꼴, 색상 및 크기를 편집하려면 아래 매개 변수를 포함하십시오.
 
 **텍스트:** URL에서 텍스트를 업데이트하는 데 포함합니다.
-**Font Family:** URL에서 텍스트 글꼴을 업데이트하는 데 포함합니다.
+**글꼴 모음:** URL에서 텍스트 글꼴을 업데이트하는 데 포함합니다.
 **글꼴 크기:** URL에서 텍스트의 글꼴 크기를 업데이트하는 데 포함합니다.
 **텍스트 색상:** URL에서 텍스트의 글꼴 색상을 업데이트하는 데 포함합니다.
 
@@ -232,8 +232,8 @@ URL에서 매개 변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
 1. 템플릿에서 함께 표시하거나 숨기려면 목록에서 [그룹화된 레이어](#group-layers)에 대한 숨기기 매개 변수를 선택하십시오.
 1. **선택 사항:** **[!UICONTROL Hide]** 매개 변수 값을 0과 1 사이에서 변경하고 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하여 변경 사항을 확인합니다. 동일한 숨기기 매개변수가 있는 레이어는 함께 숨기거나 표시합니다. 마찬가지로 URL에서 레이어의 가시성을 제어할 수 있습니다.
 
-   ![즉시 콘텐츠 만들기](/help/using/assets/dm-templates-publish-status.png)
-**[!UICONTROL 모든 매개 변수 포함]**&#x200B;을 전환하여 표시된 모든 매개 변수 값을 편집하고 템플릿 미리 보기에서 업데이트를 볼 수도 있습니다.
+   ![즉석으로 콘텐츠 만들기](/help/using/assets/dm-templates-publish-status.png)
+**[!UICONTROL 모든 매개 변수 포함]**을 전환하여 표시된 모든 매개 변수 값을 편집하고 템플릿 미리 보기에서 업데이트를 볼 수도 있습니다.
    <br>
 1. 미리 보기 페이지에 템플릿을 게시하려면 **[!UICONTROL 게시]**&#x200B;를 클릭하고 게시를 확인합니다. 게시 완료 메시지가 표시되고 게시 상태가 게시됨으로 업데이트됩니다.
 
@@ -287,5 +287,5 @@ URL에서 직접 매개 변수를 편집하는 것은 지루할 수 있습니다
 
 ## 추가 참조
 
-1. [Dynamic Media 및 해당 기능 탐색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. [Dynamic Media 및 해당 기능 탐색](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
 1. OpenAPI 기능을 사용하여 [Dynamic Media 살펴보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
