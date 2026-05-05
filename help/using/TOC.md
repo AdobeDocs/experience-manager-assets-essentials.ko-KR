@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: bbc08d7762f1f8f87e5874977b65136522ba8a4a
+source-git-commit: daef55564f4e5c05df2ac167de804261ca714f90
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '159'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
       + [폴더 권한 관리](manage-permissions.md)
       + [권한 관리에 대한 모범 사례](permission-management-best-practices.md)
    + [작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials에 대한 관리자 여정](assets-essentials-cc-pro-work-management-admin-journey.md)
-+ [&#x200B; [!DNL Assets Essentials] 사용 시작하기](get-started.md)
++ [ [!DNL Assets Essentials] 사용 시작하기](get-started.md)
 + [지원되는 파일 형식 및 사용 사례](supported-file-formats.md)
 + [자산 보기](navigate-view.md)
 + [자산 업로드 및 추가](add-delete.md)
@@ -56,6 +56,5 @@ ht-degree: 0%
    + [Adobe Workfront와 통합](integrate-with-workfront.md)
 + Creative Cloud와 통합 {#integration-with-creative-cloud}
    + [AEM Assets를 Creative Cloud에 연결](connect-assets-with-creative-cloud.md)
-+ [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=ko)
-+ [Dynamic Media 템플릿](dynamic-media-templates.md)
++ [비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
 
