@@ -3,9 +3,13 @@ title: Assets Essentials를 사용하여 자산 일괄 가져오기
 description: 새 자산 UI(Assets Essentials)를 사용하여 자산을 일괄적으로 가져오는 방법에 대해 알아봅니다. 관리자에게 데이터 소스에서 AEM Assets로 수많은 자산을 가져올 수 있는 기능을 제공합니다.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 TQID: https://experienceleague.adobe.com/6Fq368rg7WeWVL4E098y0skHagS8y1kTbEcvgVn9l94
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1849
