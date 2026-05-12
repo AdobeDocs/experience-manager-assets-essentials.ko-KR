@@ -3,10 +3,14 @@ title: 사용자 관리
 description: ' [!DNL Assets Essentials]에서의 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+TQID: https://experienceleague.adobe.com/q-Eq1tZANfkgtIpwSifDVfLakJvRhia0pO2lXEMCYYg
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 99%
+source-wordcount: 1364
+ht-degree: 100%
 
 ---
 
@@ -70,7 +74,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 사용자 그
 
    * **[!DNL Assets Essentials]사용자**&#x200B;는 전체 사용자 인터페이스에 액세스할 수 있습니다. 이들 사용자는 디지털 에셋을 업로드하고, 구성하고, 태그를 지정하고, 찾을 수 있습니다.
 
-   * **[!DNL Assets Essentials]소비자 사용자**&#x200B;는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
+   * **[!DNL Assets Essentials]소비자 사용자**는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
 자세한 내용은 [다른 솔루션과 통합](integration.md)을 참조하십시오.
 
    ![Admin Console 관리자 프로필](assets/admin-console-admin-profile.png)
@@ -131,11 +135,11 @@ Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더
 
 자세한 내용은 [폴더 권한 관리](manage-permissions.md)를 참조하십시오.
 
-### 메타데이터 Forms 설정(선택 사항) {#metadata-forms}
+### 메타데이터 양식 설정(선택 사항) {#metadata-forms}
 
-Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 자산의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 에셋의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
+Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 에셋의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 에셋의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
 
-다양한 유형의 자산(다양한 MIME 유형)에 대한 메타데이터 양식을 구성할 수 있습니다. 파일의 MIME 유형과 동일한 양식 이름을 사용합니다. Essentials는 업로드된 에셋 MIME 유형을 양식 이름과 자동으로 일치시키고 양식 필드를 기반으로 업로드된 에셋의 메타데이터를 업데이트합니다.
+다양한 유형의 에셋(다양한 MIME 유형)에 대한 메타데이터 양식을 구성할 수 있습니다. 파일의 MIME 유형과 동일한 양식 이름을 사용합니다. Essentials는 업로드된 에셋 MIME 유형을 양식 이름과 자동으로 일치시키고 양식 필드를 기반으로 업로드된 에셋의 메타데이터를 업데이트합니다.
 
 예를 들어 이름이 `PDF` 또는 `pdf`인 메타데이터 양식이 있는 경우 업로드된 PDF 문서에는 양식에 정의된 메타데이터 필드가 포함됩니다.
 
@@ -145,11 +149,11 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 메타데이터 양식에 대한 자세한 내용은 [Assets Essentials의 메타데이터 양식](metadata.md#metadata-forms)을 참조하십시오.
 
-### 공개 컬렉션 만들기 (선택 사항) {#create-public-collections}
+### 공개 컬렉션 만들기(선택 사항) {#create-public-collections}
 
-컬렉션은 Experience Manager Assets Essentials 내의 자산 세트입니다. 컬렉션을 사용하여 사용자 간에 자산을 공유합니다.
+컬렉션은 Experience Manager Assets Essentials 내의 에셋 세트입니다. 컬렉션을 사용하여 사용자 간에 에셋을 공유합니다.
 
-폴더와 달리 컬렉션에는 서로 다른 위치의 에셋이 포함될 수 있습니다. 사용자와 여러 컬렉션을 공유할 수 있습니다. 각 컬렉션에는 자산에 대한 참조가 포함되어 있습니다. 에셋의 참조 무결성은 컬렉션에 간에 유지됩니다. 자세한 내용은 [컬렉션 관리](manage-collections.md)를 참조하십시오.
+폴더와 달리 컬렉션에는 서로 다른 위치의 자산이 포함될 수 있습니다. 사용자와 여러 컬렉션을 공유할 수 있습니다. 각 컬렉션에는 에셋에 대한 참조가 포함되어 있습니다. 자산의 참조 무결성은 컬렉션에 간에 유지됩니다. 자세한 내용은 [컬렉션 관리](manage-collections.md)를 참조하십시오.
 
 ![컬렉션](assets/collections.png)
 
@@ -161,7 +165,7 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 
 

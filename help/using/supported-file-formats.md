@@ -4,9 +4,13 @@ description: ' [!DNL Assets Essentials]의 다양한 사용 사례에 대해 지
 role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+TQID: https://experienceleague.adobe.com/0hWe6e61MkYR2MMF-AWn-ywVZXCIetXer5Mlq3B98jI
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 372
 ht-degree: 100%
 
 ---
@@ -30,7 +34,7 @@ ht-degree: 100%
 | 지원 수준 | 설명 |
 |-------------------|-------------------------|
 | ✓ | 지원됨 |
-| ✓ + | 조건부로 지원됨 |
+| ✓ ‡ | 조건부로 지원됨 |
 | − | 해당되지 않음 |
 
 ## 에셋 추가, 업로드 및 보기 {#support-to-upload-view}
@@ -44,9 +48,9 @@ TBD: For AEM, AI files require the PDF option to be selected when saving the AI 
 | 래스터 이미지 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | RAW 파일 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | 폴더 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
-| MP4 비디오 | ✓ | ✓ | ✓ | − | ✓ | ✓ + | − | ✓ |
+| MP4 비디오 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD, AI, PSB 및 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ + | − | ✓ |
+| PSD, AI, PSB 및 INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | 기타 바이너리 파일 | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
 <!-- 
@@ -130,4 +134,4 @@ TBD: Saving the template table separately for later use.
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의

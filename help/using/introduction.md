@@ -3,10 +3,15 @@ title: ' [!DNL Assets Essentials] 소개'
 description: Experience Cloud 애플리케이션 내에서 작동하는 간단한 디지털 에셋 관리 툴인 Experience Manager Assets Essentials를 통해 에셋을 관리하십시오.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/GpMzdyeYFVMhrLhiS-AbTH08VKXkEfiel-0mJ6lNqf8
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 97%
+source-wordcount: 660
+ht-degree: 100%
 
 ---
 
@@ -17,7 +22,7 @@ TBD: Update this banner to remove Beta label.
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
 -->
 
-Adobe는 디지털 에셋을 최대한 활용할 수 있는 강력한 DAM(디지털 에셋 관리) 솔루션을 제공합니다. Adobe Experience Manager Assets Essentials is Adobe&#39;s lightweight asset management solution to store, manage, discover, and use digital assets.
+Adobe는 디지털 에셋을 최대한 활용할 수 있는 강력한 DAM(디지털 에셋 관리) 솔루션을 제공합니다. Adobe Experience Manager Assets Essentials는 디지털 에셋을 저장, 관리, 검색 및 사용하기 위한 Adobe의 간단한 에셋 관리 솔루션입니다.
 
 ## Assets Essentials란 무엇입니까? {#assets-essemtials-overview}
 
@@ -81,7 +86,7 @@ Adobe 클라우드 인프라를 기반으로 하는 Assets Essentials를 통해 
 
 Assets Essentials를 신속하게 시작하고 실행하여 다양한 팀에서 주요 디지털 에셋 관리 기능을 활용할 수 있습니다.
 
-비즈니스 요구가 증가하고 사용자 정의, 확장성 및 통합, 자동화, 다이내믹 미디어, Brand Portal과 같은 고급 디지털 에셋 관리 요구 사항에 대한 지원이 필요한 경우 [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=kr)도 제공합니다.
+비즈니스 요구가 증가하고 사용자 정의, 확장성 및 통합, 자동화, 다이내믹 미디어, Brand Portal과 같은 고급 디지털 에셋 관리 요구 사항에 대한 지원이 필요한 경우 [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ko)도 제공합니다.
 
 
 ## 다음 단계 {#next-steps}
@@ -90,9 +95,9 @@ Assets Essentials를 신속하게 시작하고 실행하여 다양한 팀에서 
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Assets Essentials] 튜토리얼 페이지](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=kr)
+>* [[!DNL Assets Essentials] 튜토리얼 페이지](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=ko)

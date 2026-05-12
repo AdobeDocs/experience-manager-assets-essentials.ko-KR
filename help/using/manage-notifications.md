@@ -2,16 +2,19 @@
 title: 알림 관리
 description: Assets Essentials 알림을 사용하여 저장소에서 사용할 수 있는 자산 또는 폴더에서 수행된 작업을 모니터링합니다.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
+TQID: https://experienceleague.adobe.com/oof4Q5dEhhExX-pBZMbxqm5WV43wij2GJ4LxEcUQV7Q
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 617
 ht-degree: 100%
 
 ---
 
 # 자산, 폴더 및 폴더 보기 {#watch-assets-folders}
 
-Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 자산, 폴더 또는 컬렉션에서 수행된 작업을 모니터링할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 범주를 구성할 수도 있습니다.
+Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 자산, 폴더 또는 컬렉션에서 수행된 작업을 모니터링할 수 있습니다. 알림을 받을 콘텐츠를 선택하고 구독해야 합니다. 알림을 받을 카테고리를 구성할 수도 있습니다.
 
 ## 알림 범주 가입 {#subscribe-to-notification-categories}
 
@@ -66,7 +69,7 @@ Assets Essentials 알림을 사용하면 저장소에서 사용할 수 있는 �
 
 1. 왼쪽 창에서 사용할 수 있는 **[!UICONTROL 알림]** 옵션을 클릭합니다.
 
-1. **[!UICONTROL 알림]** 섹션에서 [!UICONTROL Assets Essentials] 섹션으로 이동한 다음 전환 옵션이 “켜짐” 상태로 전환되어 있는지 확인합니다.
+1. **[!UICONTROL 알림]** 섹션에서 [!UICONTROL Assets Essentials] 섹션으로 이동한 다음 토글 옵션이 “켜짐” 상태로 전환되어 있는지 확인합니다.
 
    ![Assets Essentials의 알림](assets/enable-notifications.png)
 
