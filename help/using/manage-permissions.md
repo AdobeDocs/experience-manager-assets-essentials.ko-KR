@@ -2,10 +2,16 @@
 title: AEM Assets Essentials의 폴더에 대한 권한을 관리하는 방법
 description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
+TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1700'
-ht-degree: 97%
+source-wordcount: 1700
+ht-degree: 100%
 
 ---
 
@@ -32,7 +38,7 @@ Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서
 
 관리자를 추가하려면:
 
-1. 조직의 [Admin Console](https://adminconsole.adobe.com)에 액세스하고 상단 막대에서 **[!UICONTROL 제품]**&#x200B;을 클릭하고 **[!UICONTROL AEM Assets Essentials]**&#x200B;을 클릭한 다음 [!DNL Assets Essentials] 환경을 클릭합니다. [!DNL Assets Essentials] 에는 관리자, 일반 사용자 및 소비자 사용자의 액세스를 나타내는 세 가지 제품 프로필이 있습니다.
+1. 조직의 [Admin Console](https://adminconsole.adobe.com)에 액세스하고 상단 막대에서 **[!UICONTROL 제품]**&#x200B;을 클릭하고 **[!UICONTROL AEM Assets Essentials]**&#x200B;를 클릭한 다음 [!DNL Assets Essentials] 환경을 클릭합니다. [!DNL Assets Essentials]에는 관리자, 일반 사용자 및 소비자 사용자의 액세스를 나타내는 세 가지 제품 프로필이 있습니다.
 
    ![Admin Console 관리자 프로필](assets/admin-console-admin-profile.png)
 
@@ -81,7 +87,7 @@ Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서
 
 | 권한 이름 | 설명 |
 |-----|------|
-| 보기 가능 | <ul><li>읽기 액세스(폴더 보기 및 탐색 가능) </li><li>자산 미리보기</li><li>자산 다운로드</li><li>에셋 복사</li><li>에셋으로의 링크 공유</li><ul> |
+| 보기 가능 | <ul><li>읽기 액세스(폴더 보기 및 탐색 가능) </li><li>에셋 미리보기</li><li>에셋 다운로드</li><li>에셋 복사</li><li>에셋으로의 링크 공유</li><ul> |
 | 편집 가능 | <ul><li>[보기 가능] 권한에 대해 사용할 수 있는 모든 권한 </li><li>폴더 만들기</li><li>폴더 제거</li><li>폴더 이름 바꾸기</li><li>에셋 만들기</li><li>에셋 업데이트</li><li>에셋 제거</li><li>에셋 이동</li><li>에셋 이름 바꾸기</li><ul> |
 | 소유자 | <ul><li>[편집 가능] 권한에 대해 사용할 수 있는 모든 권한</li><li>폴더 및 그 하위 폴더에 대한 권한 관리</li>이 권한을 사용하면 관리자는 폴더 및 그 하위 폴더에 대한 관리자 권한을 다른 사용자에게 위임할 수 있습니다.<ul> |
 | 액세스 거부 | 폴더 및 그 하위 폴더에 대한 [보기 가능], [편집 가능] 및 [소유자] 권한을 제거합니다. |

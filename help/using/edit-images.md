@@ -3,9 +3,16 @@ title: 이미지 편집
 description: ' [!DNL Adobe Express] 기반 옵션을 사용하여 이미지를 편집하고 업데이트된 이미지를 버전으로 저장합니다.'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
+TQID: https://experienceleague.adobe.com/DAhAV4RClHSyCj-NgVALulD0gzddSip5f56LsUq0bHU
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: 1258
 ht-degree: 100%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 100%
 
 Assets Essentials UI는 UI에 통합된 Adobe Express으로 구동되는 기본적인 이미지 편집 기능을 제공합니다. 이 편집 기능에는 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환이 포함됩니다. 또한 Essentials UI에 임베드된 Adobe Express 인터페이스를 통해 고급 편집을 사용할 수도 있습니다.
 
-이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원본 자산으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
+이미지를 편집한 후 새 이미지를 새 버전으로 저장할 수 있습니다. 필요한 경우 버전 관리를 통해 나중에 원본 에셋으로 되돌릴 수 있습니다. 이미지를 편집하려면 [미리보기를 열고](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) **이미지 편집**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
@@ -34,7 +41,7 @@ Assets Essentials UI는 UI에 통합된 Adobe Express으로 구동되는 기본�
 >title="Adobe Express 통합"
 >abstract="AEM Assets 내에서 바로 사용할 수 있는 Adobe Express 기반의 쉽고 직관적인 이미지 편집 도구를 사용하면 콘텐츠 재사용률과 콘텐츠 속도를 높일 수 있습니다."
 
-Essentials UI으로 이동한 후 **자산**&#x200B;을 클릭하고 이미지를 선택한 다음 상단 레일에서 **편집**&#x200B;을 클릭합니다. 새 화면에는 Adobe Express에서 제공하는 사용 가능한 편집 옵션이 표시됩니다. 여기에는 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환이 포함됩니다.
+Essentials UI으로 이동한 후 **에셋**&#x200B;을 클릭하고 이미지를 선택한 다음 상단 레일에서 **편집**&#x200B;을 클릭합니다. 새 화면에는 Adobe Express에서 제공하는 사용 가능한 편집 옵션이 표시됩니다. 여기에는 크기 조정, 배경 제거, 자르기, JPEG와 PNG 포맷 간 변환이 포함됩니다.
 
 #### 이미지 크기 조정 {#resize-image-using-express}
 
@@ -46,7 +53,7 @@ Essentials UI으로 이동한 후 **자산**&#x200B;을 클릭하고 이미지�
 4. **적용**을 클릭하여 변경 내용을 적용합니다.
    ![Adobe Express를 사용하여 이미지 편집](/help/using/assets/adobe-express-resize-image.png)
 
-   편집한 이미지를 다운로드할 수 있습니다. 편집한 자산을 동일한 자산의 새 버전으로 저장하거나 새 자산으로 저장할 수 있습니다.
+   편집한 이미지를 다운로드할 수 있습니다. 편집한 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다.
    ![Adobe Express로 이미지 저장](/help/using/assets/adobe-express-resize-save.png)
 
 #### 배경 제거 {#remove-background-using-express}
@@ -57,7 +64,7 @@ Essentials UI으로 이동한 후 **자산**&#x200B;을 클릭하고 이미지�
 2. **[!UICONTROL 적용]**을 클릭하여 변경 내용을 적용합니다.
    ![Adobe Express로 이미지 저장](/help/using/assets/adobe-express-remove-background.png)
 
-   편집한 이미지를 다운로드할 수 있습니다. 편집한 자산을 동일한 자산의 새 버전으로 저장하거나 새 자산으로 저장할 수 있습니다.
+   편집한 이미지를 다운로드할 수 있습니다. 편집한 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다.
 
 #### 이미지 자르기 {#crop-image-using-express}
 
@@ -67,7 +74,7 @@ Essentials UI으로 이동한 후 **자산**&#x200B;을 클릭하고 이미지�
 2. 이미지 모퉁이의 핸들을 드래그하여 원하는 자르기를 만듭니다.
 3. **[!UICONTROL 적용]**을 클릭합니다.
    ![Adobe Express로 이미지 저장](/help/using/assets/adobe-express-crop-image.png)
-잘린 이미지를 다운로드할 수 있습니다. 편집한 자산을 동일한 자산의 새 버전으로 저장하거나 새 자산으로 저장할 수 있습니다.
+자른 이미지를 다운로드할 수 있습니다. 편집한 에셋을 동일한 에셋의 새 버전으로 저장하거나 새 에셋으로 저장할 수 있습니다.
 
 #### JPEG를 PNG로 변환하기 {#Convert-JPEG-to-PNG}
 
@@ -84,51 +91,51 @@ Adobe Express를 사용하여 JPEG 및 PNG 이미지 포맷 간 빠르게 변환
 
 ### 임베드된 Adobe Express 편집기에서 이미지 편집 {#edit-images-in-adobe-express-embedded-editor}
 
-Express 권한이 있는 사용자는 Assets Essentials UI 내에서 임베드된 Express 편집기를 사용하여 Adobe Firefly의 생성형 AI로 간편하게 콘텐츠를 편집하고 새 콘텐츠를 만들 수 있습니다. 이 기능을 통해 콘텐츠 재사용이 향상되고 콘텐츠 속도가 빨라집니다. 또한 사전 정의된 요소를 사용하여 자산을 멋지게 보이게 하거나 몇 번의 클릭만으로 빠른 작업을 수행하여 이미지를 편집할 수 있습니다.
+Express 권한이 있는 사용자는 Assets Essentials UI 내에서 임베드된 Express 편집기를 사용하여 Adobe Firefly의 생성형 AI로 간편하게 콘텐츠를 편집하고 새 콘텐츠를 만들 수 있습니다. 이 기능을 통해 콘텐츠 재사용이 향상되고 콘텐츠 속도가 빨라집니다. 또한 사전 정의된 요소를 사용하여 에셋을 멋지게 보이게 하거나 몇 번의 클릭만으로 빠른 작업을 수행하여 이미지를 편집할 수 있습니다.
 
-![Essentials의 Express UI](/help/using/assets/express-in-essentials-ui.jpg)
-임베드된 Adobe Express 편집기 내에서 이미지를 편집하려면 다음 단계를 따릅니다.
+![essentials UI의 express](/help/using/assets/express-in-essentials-ui.jpg)
+Adobe Express 임베드 편집기 내에서 이미지를 편집하려면 다음 단계를 따르십시오.
 
 1. [AEM Assets Essentials UI](https://experience.adobe.com/#/assets) 링크를 사용하고 올바른 저장소를 선택하여 AEM Assets Essentials UI로 이동합니다.
-1. **자산**&#x200B;을 클릭하고 폴더를 입력한 다음 이미지를 선택합니다.
+1. **에셋**&#x200B;을 클릭하고 폴더를 입력한 다음 이미지를 선택합니다.
 1. **Adobe Express에서 열기**&#x200B;를 클릭합니다. Express 캔버스에서 이미지가 열립니다.
 1. 이미지에 필요한 편집을 수행합니다.
-1. 프로젝트에 페이지를 더 추가해야 하는 경우 **추가**&#x200B;를 클릭하고, 자산을 선택한 다음 폴더를 입력하고, 캔버스 페이지로 가져올 이미지를 선택한 다음 이미지에 필요한 편집을 수행합니다.
-1. 하나 이상의 자산을 저장하려면 **저장**&#x200B;을 클릭합니다. 저장 옵션이 있는 저장 대화 상자가 표시됩니다. 저장 옵션을 선택하려면 아래의 지침 중 요구 사항에 맞는 것을 따르십시오.
+1. 프로젝트에 페이지를 더 추가해야 하는 경우 **추가**&#x200B;를 클릭하고, 에셋을 선택한 다음 폴더를 입력하고, 캔버스 페이지로 가져올 이미지를 선택한 다음 이미지에 필요한 편집을 수행합니다.
+1. 하나 이상의 에셋을 저장하려면 **저장**&#x200B;을 클릭합니다. 저장 옵션이 있는 저장 대화 상자가 표시됩니다. 저장 옵션을 선택하려면 아래의 지침 중 요구 사항에 맞는 것을 따르십시오.
    1. 단일 페이지를 저장하려면 **다른 버전으로 저장**&#x200B;을 클릭하여 이미지를 원본 포맷을 유지한 채로 새 버전으로 내보내고 동일한 폴더에 저장합니다.
 
-   1. 단일 페이지를 저장하려면 **새 자산으로 저장**&#x200B;을 클릭하여 자산을 다른 포맷으로 내보내고 모든 폴더에 새 자산으로 저장합니다.
+   1. 단일 페이지를 저장하려면 **새 에셋으로 저장**&#x200B;을 클릭하여 에셋을 다른 포맷으로 내보내고 모든 폴더에 새 에셋으로 저장합니다.
 
-   1. 여러 페이지에서 단일 페이지를 저장하려면 **다른 버전으로 저장**&#x200B;을 클릭하여 자산을 원래 포맷으로 원래 위치에 저장합니다.
+   1. 여러 페이지에서 단일 페이지를 저장하려면 **다른 버전으로 저장**&#x200B;을 클릭하여 에셋을 원래 포맷으로 원래 위치에 저장합니다.
 
-   1. 여러 페이지 또는 여러 페이지 중 한 페이지를 저장하려면 **새 자산으로 저장**&#x200B;을 클릭합니다. 이 작업을 수행하면 하나 또는 여러 개의 자산을 원하는 폴더로 내보내고 이를 새 자산으로 저장하거나 원본 포맷 또는 다른 포맷의 자산으로 저장할 수 있습니다.
+   1. 여러 페이지 또는 여러 페이지 중 한 페이지를 저장하려면 **새 에셋으로 저장**&#x200B;을 클릭합니다. 이 작업을 수행하면 하나 또는 여러 개의 에셋을 원하는 폴더로 내보내고 이를 새 에셋으로 저장하거나 원본 포맷 또는 다른 포맷의 에셋으로 저장할 수 있습니다.
 
 1. [저장] 대화 상자에서 다음 작업을 수행합니다.
    1. **다른 이름으로 저장** 필드에 파일 이름을 입력합니다.
    1. 대상 폴더를 선택합니다.
    1. 선택 사항: 프로젝트 또는 캠페인 이름, 키워드, 채널, 시간대 및 지역과 같은 세부 정보를 입력합니다.
-1. 하나 이상의 자산을 저장하려면 **버전으로 저장** 또는 **새 자산으로 저장**&#x200B;을 클릭합니다.
+1. 하나 이상의 에셋을 저장하려면 **버전으로 저장** 또는 **새 에셋으로 저장**&#x200B;을 클릭합니다.
 
 #### Express Editor에서의 이미지 편집 제한 사항 {#limitations-of-editing-images-in-the-express-editor}
 
 * 지원되는 파일 포맷: JPEG 또는 PNG.
 * 지원되는 최대 파일 크기: 40 MB.
 * 지원되는 폭 및 높이 범위: 50~8000픽셀.
-* 소스 폴더에 최근 저장된 새 자산을 보려면 페이지를 다시 로드합니다.
+* 소스 폴더에 최근 저장된 새 에셋을 보려면 페이지를 다시 로드합니다.
 
-### Adobe Express를 사용하여 새 자산 만들기 {#create-new-assets-using-embedded-editor}
+### Adobe Express를 사용하여 새 에셋 만들기 {#create-new-assets-using-embedded-editor}
 
-Assets Essentials를 사용하여 임베드된 Adobe Express 편집기로 처음부터 새 템플릿을 만들 수 있습니다. Adobe Express를 사용하여 새 자산을 만들려면 아래 단계를 실행하십시오.
+Assets Essentials를 사용하여 임베드된 Adobe Express 편집기로 처음부터 새 템플릿을 만들 수 있습니다. Adobe Express를 사용하여 새 에셋을 만들려면 아래 단계를 실행하십시오.
 
 1. **내 작업 영역**&#x200B;으로 이동하여 Adobe Express 상단에 표시되는 Adobe Express 배너 내의 **만들기**&#x200B;를 클릭합니다. Adobe Express 빈 캔버스가 Assets Essentials 사용자 인터페이스 내에 표시됩니다.
 1. [템플릿](https://helpx.adobe.com/kr/express/using/work-with-templates.html)을 사용하여 콘텐츠를 만듭니다. 그렇지 않은 경우 [내 항목]으로 이동하여 기존의 콘텐츠를 수정합니다.
 1. 편집이 완료되면 **저장**&#x200B;을 클릭합니다.
-1. 생성된 자산의 대상 경로를 지정하고 **새 자산으로 저장**&#x200B;을 클릭합니다.
+1. 생성된 에셋의 대상 경로를 지정하고 **새 에셋으로 저장**&#x200B;을 클릭합니다.
 
 #### 제한 사항 {#limitations}
 
 * `JPEG` 및 `PNG` 포맷 유형의 이미지만 수정할 수 있습니다.
-* 자산 크기는 40MB보다 작아야 합니다.
+* 에셋 크기는 40MB보다 작아야 합니다.
 * `PDF`, `JPEG` 또는 `PNG` 포맷에 이미지를 저장할 수 있습니다.
 
 <!--
@@ -199,4 +206,4 @@ TBD: Insert a video of the available social media options.
 
 >[!MORELIKETHIS]
 >
->* [자산의 버전 기록 보기](/help/using/navigate-view.md)
+>* [에셋의 버전 기록 보기](/help/using/navigate-view.md)

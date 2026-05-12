@@ -2,16 +2,22 @@
 title: 자산으로의 링크 공유 방법
 description: 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 다른 사용자와 자산을 공유할 수 있습니다.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
+TQID: https://experienceleague.adobe.com/7emFt0d0IFyOdeDx4BGB7O1Ks4hQvK9W2sEdWk0mz-I
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 428
 ht-degree: 100%
 
 ---
 
 # 자산으로의 링크 공유 {#share-links-assets}
 
-[!DNL Assets Essentials]에서 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 자산을 공유할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 자산을 미리 보고 다운로드할 수 있습니다.
+[!DNL Assets Essentials]에서 링크를 생성하고 [!DNL Assets Essentials] 애플리케이션에 대한 액세스 권한이 없는 외부 관련자와 자산을 공유할 수 있습니다. 해당 링크에 대한 만료일을 정의한 다음 이메일 또는 메시징 서비스와 같이 선호하는 커뮤니케이션 수단을 사용하여 다른 사용자와 공유할 수 있습니다. 링크 수신자는 에셋을 미리 보고 다운로드할 수 있습니다.
 
 ## 자산에 대한 링크 생성 {#generate-link-for-assets}
 
@@ -36,7 +42,7 @@ ht-degree: 100%
 
 자산에 대한 공개 링크를 공유하면 수신자는 해당 링크를 클릭하여 [!DNL Assets Essentials]에 로그인할 필요 없이 웹 브라우저에서 공유 자산을 미리 보거나 다운로드할 수 있습니다.
 
-링크를 클릭하고, 자산으로 이동할 폴더를 클릭한 다음 자산을 클릭하여 미리 봅니다. [목록 보기] 또는 [카드 보기]에서 공유 자산을 보도록 선택할 수 있습니다.
+링크를 클릭하고, 에셋으로 이동할 폴더를 클릭한 다음 에셋을 클릭하여 미리 봅니다. [목록 보기] 또는 [카드 보기]에서 공유 자산을 보도록 선택할 수 있습니다.
 
 공유 자산 또는 공유 자산 폴더에 마우스를 가져다 대고 자산을 선택하거나 다운로드할 수 있습니다.
 

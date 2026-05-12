@@ -2,9 +2,17 @@
 title: Adobe Workfront와 Assets Essentials 통합
 description: Assets Essentials를 Adobe Workfront 애플리케이션과 통합하면 Workfront 애플리케이션 내에서 Assets Essentials 저장소에 액세스할 수 있습니다.
 exl-id: 9605fa3a-d454-48b5-9f84-b384eb1ad493
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+TQID: https://experienceleague.adobe.com/VpoSSKnrDT7do5QtUolcbPiw4lsO2DEbgLGvJxUslaw
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: 570
 ht-degree: 100%
 
 ---
@@ -39,7 +47,7 @@ Workfront 제품 프로필에 사용자를 추가하려면:
 
 1. 그룹에서 사용자를 제거하려면 그룹을 클릭하고 기존 사용자를 선택한 다음 **[!UICONTROL 사용자 제거]**&#x200B;를 선택합니다.
 
-Adobe Admin Console을 사용하여 Workfront에서 사용자 및 시스템 관리자를 생성하는 방법에 대한 자세한 내용은 [Adobe Admin Console에서 사용자 관리](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FCreate_and_manage_users%2Fadmin-console.htm&amp;_LANG=enus)를 참조하십시오.
+Adobe Admin Console을 사용하여 Workfront에서 사용자 및 시스템 관리자를 생성하는 방법에 대한 자세한 내용은 [Adobe Admin Console에서 사용자 관리](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FCreate_and_manage_users%2Fadmin-console.htm&_LANG=enus)를 참조하십시오.
 
 ## Assets Essentials 제품 프로필에 사용자 추가 {#add-workfront-users-assets-essentials-product-profiles}
 
@@ -54,14 +62,14 @@ Assets Essentials 제품 프로필에 사용자를 할당하는 방법에 대한
 
 ## Experience Manager Assets Essentials 통합 구성 {#configure-assets-essentials-integration}
 
-Admin Console을 사용하여 Workfront 및 Assets Essentials 제품 프로필에 사용자를 추가한 후 [Adobe Workfront와 Experience Manager Assets Essentials 통합을 구성](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)할 수 있습니다.
+Admin Console을 사용하여 Workfront 및 Assets Essentials 제품 프로필에 사용자를 추가한 후 [Adobe Workfront와 Experience Manager Assets Essentials 통합을 구성](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)할 수 있습니다.
 
 통합을 설정한 후 다음과 같은 작업을 수행할 수 있습니다.
 
-* [Experience Manager Assets Essentials에서 에셋 및 폴더 연결](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Flink-to-aem.htm&amp;_LANG=enus)
+* [Experience Manager Assets Essentials에서 에셋 및 폴더 연결](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Flink-to-aem.htm&_LANG=enus)
 
-* [Adobe Experience Manager Assets Essentials로 문서 전송](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fsend-to-aem.htm&amp;_LANG=enus)
+* [Adobe Experience Manager Assets Essentials로 문서 전송](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fsend-to-aem.htm&_LANG=enus)
 
-* [Experience Manager Assets Essentials에 대해 연결된 에셋 증명](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fproof-linked-asset-aem.htm)
+* [Experience Manager Assets Essentials에 대해 연결된 에셋 증명](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fproof-linked-asset-aem.htm)
 
-* [Experience Manager Assets Essentials에서 연결된 에셋 조회 또는 다운로드](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fview-download-asset.htm)
+* [Experience Manager Assets Essentials에서 연결된 에셋 조회 또는 다운로드](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fview-download-asset.htm)

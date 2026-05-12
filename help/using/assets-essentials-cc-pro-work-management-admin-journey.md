@@ -2,9 +2,19 @@
 title: 작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials 설정
 description: 이 튜토리얼에서는 Assets Essentials 애플리케이션을 Creative Cloud 데스크탑 애플리케이션 및 Adobe Workfront 애플리케이션과 통합할 수 있도록 하는 관리자 여정을 설명합니다. Creative Cloud 데스크탑 애플리케이션에는 Adobe Photoshop, Adobe Illustrator, Adobe InDesign 및 Adobe XD가 있습니다.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
+TQID: https://experienceleague.adobe.com/nYLF2t3wzkhjKS-cdR1dhW-CZ8YwQcJS4FxS2FAYXzg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 917
 ht-degree: 100%
 
 ---
@@ -57,7 +67,7 @@ Documentation Journey는 Assets Essentials를 처음 접할 수 있는 독자가
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-assets.png)
 
-Adobe Experience Manager Assets Essentials는 Adobe Experience Manager Assets의 가벼운 버전의 새로운 에디션입니다. Assets Essentials는 간소화되고 일관된 사용자 인터페이스로 통합된 자산 관리 및 공동 작업 기능을 제공합니다. 사용 편의성을 통해 보다 창의적인 작업을 수행할 수 있으며 마케팅 팀에서 디지털 자산을 저장하고, 검색하고, 배포할 수 있습니다.
+Adobe Experience Manager Assets Essentials는 Adobe Experience Manager Assets의 가벼운 버전의 새로운 에디션입니다. Assets Essentials는 간소화되고 일관된 사용자 인터페이스로 통합된 에셋 관리 및 공동 작업 기능을 제공합니다. 사용 편의성을 통해 보다 창의적인 작업을 수행할 수 있으며 마케팅 팀에서 디지털 에셋을 저장하고, 검색하고, 배포할 수 있습니다.
 
 Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프로비저닝합니다. 프로비저닝의 일부로 Assets Essentials는 Adobe Admin Console에서 고객의 조직에 추가됩니다.
 
@@ -85,7 +95,7 @@ Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프�
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-creative-cloud.png)
 
-[Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 자산에 대한 액세스 단계를 간소화하여 콘텐츠 속도를 높입니다.
+[Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 에셋에 대한 액세스 단계를 간소화하여 콘텐츠 속도를 높입니다.
 
 이 튜토리얼은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD] 애플리케이션을 Experience Manager Assets Essentials와 통합하는 방법에 대해 안내합니다.
 
@@ -107,7 +117,7 @@ Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프�
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-workfront.png)
 
-[[!DNL Adobe Workfront]](https://www.workfront.com/)는 업무의 전체 라이프사이클을 한 곳에서 관리할 수 있도록 도와주는 작업 관리 애플리케이션입니다. [!DNL Adobe Workfront]와 [!DNL Assets Essentials] 간의 기본 통합을 통해 조직은 작업과 자산 관리를 본질적으로 연결하여 콘텐츠 제작과 마켓 출시 속도를 개선할 수 있습니다. 작업 관리의 맥락에서 사용자는 동일한 솔루션에서 필요한 문서와 이미지에 액세스할 수 있습니다.
+[[!DNL Adobe Workfront]](https://www.workfront.com/)는 업무의 전체 라이프사이클을 한 곳에서 관리할 수 있도록 도와주는 작업 관리 애플리케이션입니다. [!DNL Adobe Workfront]와 [!DNL Assets Essentials] 간의 기본 통합을 통해 조직은 작업과 에셋 관리를 본질적으로 연결하여 콘텐츠 제작과 마켓 출시 속도를 개선할 수 있습니다. 작업 관리의 맥락에서 사용자는 동일한 솔루션에서 필요한 문서와 이미지에 액세스할 수 있습니다.
 
 이 튜토리얼에서는 Adobe Workfront를 관리한 다음 이를 Experience Manager Assets Essentials와 통합하도록 안내합니다.
 

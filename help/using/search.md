@@ -1,15 +1,24 @@
 ---
-title: ' [!DNL Assets Essentials]에서 자산 검색 및 탐색'
-description: ' [!DNL Assets Essentials]에서 자산을 검색하고 탐색합니다.'
+title: ' [!DNL Assets Essentials]에서 에셋 검색 및 탐색'
+description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합니다.'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/V--WXU30ed6P-HWqE1rquXPupmJwImyYfARZ006RpDg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '2217'
-ht-degree: 95%
+source-wordcount: 2217
+ht-degree: 100%
 
 ---
-
 
 <table>
     <tr>
@@ -53,17 +62,17 @@ ht-degree: 95%
     </tr>
 </table>
 
-# [!DNL Assets Essentials]에서 자산 검색 {#search-assets}
+# [!DNL Assets Essentials]에서 에셋 검색 {#search-assets}
 
 >[!CONTEXTUALHELP]
 >id="assets_search"
->title="자산 검색"
->abstract="검색창에서 키워드를 지정하거나 상태, 파일 유형, MIME 유형, 크기, 생성, 수정 및 만료 일자를 기준으로 필터링하여 자산을 검색하십시오. 표준 필터 외에도 사용자 정의 필터를 적용할 수 있습니다. 필터링된 결과를 “저장된 검색” 또는 “스마트 컬렉션”으로 저장할 수 있습니다."
+>title="에셋 검색"
+>abstract="검색창에서 키워드를 지정하거나 상태, 파일 유형, MIME 유형, 크기, 생성, 수정 및 만료 일자를 기준으로 필터링하여 에셋을 검색하십시오. 표준 필터 외에도 사용자 정의 필터를 적용할 수 있습니다. 필터링된 결과를 “저장된 검색” 또는 “스마트 컬렉션”으로 저장할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko#manage-smart-collection" text="스마트 컬렉션 만들기"
 
-[!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 에셋을 빠르게 찾고 콘텐츠 속도를 높일 수 있습니다. [!DNL Assets Essentials] 는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
+[!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 에셋을 빠르게 찾고 콘텐츠 속도를 높일 수 있습니다. [!DNL Assets Essentials]는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
 
-자산을 검색하려면
+에셋을 검색하려면
 
 * 페이지 상단의 검색 상자를 클릭합니다. 기본적으로 현재 탐색 중인 폴더 내에서 검색됩니다. 다음 중 하나를 수행하십시오.
 
@@ -71,7 +80,7 @@ ht-degree: 95%
 
    * 키워드를 사용하여 검색하고 필요한 경우 폴더를 변경합니다. Return 키를 누릅니다.
 
-   * 직접 검색하여 최근에 본 자산으로 작업을 시작하십시오. 검색 상자를 클릭하고 제안에서 최근에 본 자산을 선택합니다.
+   * 직접 검색하여 최근에 본 에셋으로 작업을 시작하십시오. 검색 상자를 클릭하고 제안에서 최근에 본 에셋을 선택합니다.
 
 ## 검색 결과 필터링 {#refine-search-results}
 
@@ -79,19 +88,19 @@ ht-degree: 95%
 
 ![검색 필터](assets/filters1.png)
 
-* 자산 상태: `Approved`, `Rejected` 또는 `No Status` 자산 상태를 사용하여 검색 결과를 필터링합니다.
+* 에셋 상태: `Approved`, `Rejected` 또는 `No Status` 에셋 상태를 사용하여 검색 결과를 필터링합니다.
 
 * 파일 형식: 지원되는 파일 형식(`Images`, `Documents` 및 `Videos`)으로 검색 결과를 필터링합니다.
 * MIME 유형: 지원되는 파일 형식 중 하나 이상을 필터링합니다. <!-- TBD:  [supported file formats](/help/using/supported-file-formats.md). -->
 * 이미지 크기: 이미지를 필터링할 최소 및 최대 크기 중 하나 이상을 제공합니다. 크기는 픽셀 단위의 치수로 제공되며 이는 이미지의 파일 크기가 아닙니다.
-* 생성 날짜: 메타데이터에 입력된 자산 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
-* 수정 날짜: 자산이 마지막으로 수정된 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
+* 생성 날짜: 메타데이터에 입력된 에셋 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
+* 수정 날짜: 에셋이 마지막으로 수정된 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
 
-* 만료 날짜: `Expired` 자산 상태를 기반으로 검색 결과를 필터링합니다. 또한 자산의 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
+* 만료 날짜: `Expired` 에셋 상태를 기반으로 검색 결과를 필터링합니다. 또한 에셋의 만료 날짜 범위를 지정하여 검색 결과를 추가로 필터링할 수 있습니다.
 
 * 사용자 정의 필터: Assets Essentials 사용자 인터페이스에 [사용자 정의 필터를 추가](#custom-filters)합니다. 표준 필터 외에 사용자 정의 필터를 적용하여 검색 결과를 구체화합니다.
 
-검색된 자산을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다. 기본적으로 검색된 자산은 `Relevance`를 기준으로 정렬됩니다.
+검색된 에셋을 `Name`, `Relevance`, `Size`, `Modified` 및 `Created`의 오름차순 또는 내림차순으로 정렬할 수 있습니다. 기본적으로 검색된 에셋은 `Relevance`를 기준으로 정렬됩니다.
 
 ## 사용자 정의 필터 관리 {#custom-filters}
 
@@ -109,19 +118,19 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
      </tr>
      <tr>
       <td>제목</td>
-      <td>자산 제목을 사용하여 자산을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 제목은 결과에 표시할 자산의 정확한 제목과 일치해야 합니다.</td>
+      <td>에셋 제목을 사용하여 에셋을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 제목은 결과에 표시할 에셋의 정확한 제목과 일치해야 합니다.</td>
      </tr>
      <tr>
       <td>이름</td>
-      <td>자산 필터 이름을 사용하여 자산을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 이름은 결과에 표시할 자산의 정확한 파일 이름과 일치해야 합니다.</td>
+      <td>에셋 필터 이름을 사용하여 에셋을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 이름은 결과에 표시할 에셋의 정확한 파일 이름과 일치해야 합니다.</td>
      </tr>
      <tr>
-      <td>자산 크기</td>
-      <td>결과에 표시할 자산의 검색 기준에서 크기 범위를 바이트 단위로 정의하여 자산을 필터링합니다.</td>
+      <td>에셋 크기</td>
+      <td>결과에 표시할 에셋의 검색 기준에서 크기 범위를 바이트 단위로 정의하여 에셋을 필터링합니다.</td>
      </tr>
      <tr>
       <td>예측된 태그</td>
-      <td>자산 스마트 태그를 사용하여 자산을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 스마트 태그 이름은 결과에 표시할 자산의 정확한 스마트 태그 이름과 일치해야 합니다. 검색 기준에 여러 스마트 태그를 지정할 수 없습니다.</td>
+      <td>에셋 스마트 태그를 사용하여 에셋을 필터링합니다. 대/소문자 구분 검색 기준에 지정하는 스마트 태그 이름은 결과에 표시할 에셋의 정확한 스마트 태그 이름과 일치해야 합니다. 검색 기준에 여러 스마트 태그를 지정할 수 없습니다.</td>
      </tr>    
     </tbody>
    </table>
@@ -161,31 +170,31 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 사용자 인터페이스에서 필터를 제거합니다.
 
-## [!DNL Adobe Firefly]를 사용하여 자산 검색 {#search-firefly}
+## [!DNL Adobe Firefly]를 사용하여 에셋 검색 {#search-firefly}
 
-[!DNL Experience Manager Assets] 내에서 [!DNL Adobe Firefly] 자산 검색 기능을 활용하면 어떤 자산 폴더에서도 사용할 수 없는 자산을 검색할 수 있습니다. 이를 통해 자산 폴더에 저장되지 않은 자산을 실시간으로 효율적으로 생성할 수 있습니다.
+[!DNL Experience Manager Assets] 내에서 [!DNL Adobe Firefly] 에셋 검색 기능을 활용하면 어떤 에셋 폴더에서도 사용할 수 없는 에셋을 검색할 수 있습니다. 이를 통해 에셋 폴더에 저장되지 않은 에셋을 실시간으로 효율적으로 생성할 수 있습니다.
 
 ### 시작하기에 앞서 {#search-assets-firefly-prereqs}
 
 활성 [!DNL Adobe Express] 구독이 있어야 합니다.
 
-### 자산 생성 {#generate-assets-firefly}
+### 에셋 생성 {#generate-assets-firefly}
 
-[!DNL Adobe Firefly]를 사용하여 새 자산을 생성하려면:
+[!DNL Adobe Firefly]를 사용하여 새 에셋을 생성하려면:
 
 1. [!DNL AEM Assets] 작업 영역으로 이동합니다.
 
-1. 검색 창에 자산 이름을 입력합니다. 예를 들어 `Bugatti Type 57` 키워드를 사용하여 자산을 검색할 수 있습니다. 자산을 검색할 때 자산이 자산 폴더에 없기 때문에 결과를 찾을 수 없습니다. AI를 사용하여 자산을 생성하려면 **[!UICONTROL Firefly로 생성]**&#x200B;을 클릭합니다. [!DNL Adobe Firefly] 화면이 나타납니다.
+1. 검색 창에 에셋 이름을 입력합니다. 예를 들어 `Bugatti Type 57` 키워드를 사용하여 에셋을 검색할 수 있습니다. 에셋을 검색할 때 에셋이 에셋 폴더에 없기 때문에 결과를 찾을 수 없습니다. AI를 사용하여 에셋을 생성하려면 **[!UICONTROL Firefly로 생성]**&#x200B;을 클릭합니다. [!DNL Adobe Firefly] 화면이 나타납니다.
 
    ![Firefly 통합](assets/firefly-integration.png)
 
-   새 자산이 정상적으로 생성되었습니다. 설명 상자에 새 텍스트 프롬프트를 입력하여 이미지 설명을 변경할 수도 있습니다. [우수하고 관련성 높은 콘텐츠를 생성하기 위해 좋은 AI 프롬프트를 작성하는 방법에 대해 알아봅니다.](https://helpx.adobe.com/kr/firefly/using/tips-and-tricks.html) 또는 스타일, 이미지 치수 변경 등 다양한 기능을 사용하여 [이미지를 편집할 수 있습니다.](https://helpx.adobe.com/kr/firefly/using/text-to-image.html)
+   새 에셋이 정상적으로 생성되었습니다. 또한 설명 상자에 새 텍스트 프롬프트를 입력하여 이미지 설명을 변경할 수도 있습니다. [뛰어나고 관련성 높은 콘텐츠를 생성하는 효율적인 AI 프롬프트를 작성하는 방법을 알아보십시오.](https://helpx.adobe.com/kr/firefly/using/tips-and-tricks.html) 또는 [스타일 변경, 이미지 차원 등 다양한 다른 기능으로 이미지를 편집할 수 있습니다.](https://helpx.adobe.com/kr/firefly/using/text-to-image.html)
 
    ![Firefly 통합](assets/bugatti-type-57.png)
 
-1. 저장하려는 이미지를 선택합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하여 원하는 폴더에 자산을 저장한 다음 간편하게 액세스하도록 합니다.
+1. 저장하려는 이미지를 선택합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하여 원하는 폴더에 에셋을 저장한 다음 간편하게 액세스하도록 합니다.
 
-1. 자산 저장 양식이 나타납니다. 다음 필드를 지정합니다.
+1. 에셋 저장 양식이 나타납니다. 다음 필드를 지정합니다.
 
    * **다른 이름으로 저장** 필드에 파일 이름을 입력합니다.
    * 대상 폴더를 선택합니다.
@@ -193,23 +202,23 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 
    ![Firefly 통합](assets/save-generated-asset.png)
 
-1. **새 자산으로 저장**&#x200B;을 클릭하여 자산을 저장합니다.
+1. **새 에셋으로 저장**&#x200B;을 클릭하여 에셋을 저장합니다.
 
-### 자산 업로드 {#upload-assets-firefly}
+### 에셋 업로드 {#upload-assets-firefly}
 
-생성된 자산을 자산 저장소에 업로드하려면 다음 작업을 수행하십시오.
+생성된 에셋을 에셋 저장소에 업로드하려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
-1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**&#x200B;을 클릭합니다.
-   ![자산 업로드](assets/upload-asset-firefly.jpg)
+1. 에셋을 업로드해야 하는 에셋 폴더를 선택하고 **[!UICONTROL 폴더 선택]**을 클릭합니다.
+   ![에셋 업로드](assets/upload-asset-firefly.jpg)
 
 ## 저장된 검색 {#saved-search}
 
 검색 기능은 [!DNL Assets Essentials]에서 사용하기 매우 간단합니다. 검색 상자 내에서 키워드를 입력하고 Return 키를 눌러 결과를 볼 수 있을 뿐만 아니라, 한 번의 클릭으로 최근 검색한 키워드를 빠르게 다시 검색할 수 있습니다.
 
-메타데이터 및 자산 유형에 대한 특정 기준에 따라 검색 결과를 필터링할 수도 있습니다. 자주 사용하는 필터의 경우 검색 경험을 개선하기 위해 [!DNL Assets Essentials]을 사용하여 검색 매개변수를 저장할 수 있습니다. 그런 다음 저장된 검색을 선택하여 한 번의 클릭으로 필터를 검색하고 적용할 수 있습니다.
+메타데이터 및 에셋 유형에 대한 특정 기준에 따라 검색 결과를 필터링할 수도 있습니다. 자주 사용하는 필터의 경우 검색 경험을 개선하기 위해 [!DNL Assets Essentials]을 사용하여 검색 매개변수를 저장할 수 있습니다. 그런 다음 저장된 검색을 선택하여 한 번의 클릭으로 필터를 검색하고 적용할 수 있습니다.
 
-저장된 검색을 생성하려면 일부 자산을 검색하고 하나 이상의 필터를 적용한 다음 [!UICONTROL 필터] 패널에서 **[!UICONTROL 다른 이름으로 저장]** > **[!UICONTROL 저장된 검색]**&#x200B;을 클릭하십시오. **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭하고 **[!UICONTROL 스마트 컬렉션]**&#x200B;을 선택하여 결과를 스마트 컬렉션으로 저장할 수도 있습니다. 자세한 내용은 [스마트 컬렉션 만들기](manage-collections.md#create-a-smart-collection)를 참조하십시오.
+저장된 검색을 생성하려면 일부 에셋을 검색하고 하나 이상의 필터를 적용한 다음 [!UICONTROL 필터] 패널에서 **[!UICONTROL 다른 이름으로 저장]** > **[!UICONTROL 저장된 검색]**&#x200B;을 클릭하십시오. **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭하고 **[!UICONTROL 스마트 컬렉션]**&#x200B;을 선택하여 결과를 스마트 컬렉션으로 저장할 수도 있습니다. 자세한 내용은 [스마트 컬렉션 만들기](manage-collections.md#create-a-smart-collection)를 참조하십시오.
 
 ![스마트 컬렉션 만들기](assets/create-smart-collection.png)
 
@@ -227,37 +236,37 @@ When userA is searching and userB add an asset that matches search results, will
 
 ## 검색 결과를 사용하여 작업 {#work-with-search-results}
 
-검색 결과에 표시되는 자산을 선택하고 다음 작업을 수행할 수 있습니다.
+검색 결과에 표시되는 에셋을 선택하고 다음 작업을 수행할 수 있습니다.
 
-* **유사 이미지 찾기**: 메타데이터 및 스마트 태그를 기반으로 Assets UI에서 유사한 이미지 자산을 찾습니다.
+* **유사 이미지 찾기**: 메타데이터 및 스마트 태그를 기반으로 Assets UI에서 유사한 이미지 에셋을 찾습니다.
 
-* **세부 정보**: 자산 속성을 보고 편집합니다.
+* **세부 정보**: 에셋 속성을 보고 편집합니다.
 
-* **다운로드**: 자산을 다운로드합니다.
+* **다운로드**: 에셋을 다운로드합니다.
 
-* **컬렉션에 추가**: 선택한 자산을 컬렉션에 추가합니다.
+* **컬렉션에 추가**: 선택한 에셋을 컬렉션에 추가합니다.
 
-* **바로 가기에 고정**: 나중에 필요할 때 더 빠르게 액세스할 수 있도록 [자산을 고정](my-workspace.md)합니다. 고정된 모든 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다.
+* **바로 가기에 고정**: 나중에 필요할 때 더 빠르게 액세스할 수 있도록 [에셋을 고정](my-workspace.md)합니다. 고정된 모든 항목은 내 작업 영역의 **바로 가기** 섹션에 표시됩니다.
 
 * **Adobe Express에서 열기**: Adobe Experience Manager Assets 화면에서 통합된 Adobe Express 이미지를 편집합니다.
 
 * **편집**: Adobe Express를 사용하여 이미지를 편집합니다.
 
-* **링크 공유**: 자산에 대한 [링크 공유](share-links-for-assets.md)를 통해 다른 사용자가 액세스하고 다운로드할 수 있도록 합니다.
+* **링크 공유**: 에셋에 대한 [링크 공유](share-links-for-assets.md)를 통해 다른 사용자가 액세스하고 다운로드할 수 있도록 합니다.
 
-* **삭제**: 자산을 삭제합니다.
+* **삭제**: 에셋을 삭제합니다.
 
-* **복사**: 자산을 다른 폴더 위치에 복사합니다.
+* **복사**: 에셋을 다른 폴더 위치에 복사합니다.
 
-* **이동**: 자산을 다른 폴더 위치로 이동합니다.
+* **이동**: 에셋을 다른 폴더 위치로 이동합니다.
 
-* **이름 바꾸기**: 자산의 이름을 바꿉니다.
+* **이름 바꾸기**: 에셋의 이름을 바꿉니다.
 
-* **라이브러리에 복사**: 라이브러리에 자산을 추가합니다.
+* **라이브러리에 복사**: 라이브러리에 에셋을 추가합니다.
 
-* **작업 할당**: 사용자에게 자산에 대한 작업을 할당합니다.
+* **작업 할당**: 사용자에게 에셋에 대한 작업을 할당합니다.
 
-* **보기**: 자산에서 수행된 [작업을 모니터링](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/search-assets)합니다.
+* **보기**: 에셋에서 수행된 [작업을 모니터링](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/search-assets)합니다.
 
 ## 검색 우선 홈 페이지 구성 {#configuring-search-first-homepage}
 
@@ -279,8 +288,8 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 검색 우선 홈 페이지에 브랜드 로고와 배경 이미지를 추가할 수 있습니다. 다음 단계를 실행합니다.
 
 1. **[!UICONTROL 홈 페이지]** 아래의 **[!UICONTROL 배경 및 로고 이미지]** 섹션으로 이동합니다.
-1. 기존의 자산 저장소에서 이미지를 찾아보려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [수정 사항을 검토하려면 변경 내용을 &#x200B;](#preview-configured-homepage)하세요.
+1. 기존의 에셋 저장소에서 이미지를 찾아보려면 **[!UICONTROL 바꾸기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 수정 사항을 검토하려면 변경 사항을 [미리 봅니다](#preview-configured-homepage).
 
 ### 구성된 홈 페이지 미리보기 {#preview-configured-homepage}
 
@@ -294,7 +303,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
 ## 상황별 검색 {#contextual-search}
 
-텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 자산을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창에서 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
+텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 에셋을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창에서 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
 
 ### 상황별 검색 액세스 {#access-contextual-search}
 
@@ -329,9 +338,9 @@ Experience Manager Assets에서 상황별 검색에 액세스하는 방법:
 
 * 만료일
 
-* 자산 상태: 승인됨, 거부됨 또는 모두
+* 에셋 상태: 승인됨, 거부됨 또는 모두
 
-* 만료된 자산
+* 만료된 에셋
 
 ### 텍스트 프롬프트의 예 {#text-prompts-examples}
 
