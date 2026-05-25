@@ -3,8 +3,8 @@ title: Experience Manager Assets Essentials 관리
 description: Admin Console을 사용하여 Assets Essentials 애플리케이션에 대한 액세스를 구성한 다음 Assets Essentials 애플리케이션에 로그인하고 수행할 수 있는 작업을 관리합니다.
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
-source-wordcount: '1382'
+workflow-type: ht
+source-wordcount: '1417'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## 목표
 
-* **대상**: Assets Essentials 관리자
+* **대상자**: Assets Essentials 관리자
 
 * **목표**: Admin Console을 사용하여 Assets Essentials 애플리케이션에 대한 액세스를 구성한 다음 Assets Essentials 애플리케이션에 로그인하고 수행할 수 있는 작업을 관리합니다.
 
@@ -79,7 +79,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 제품 프로
 
 사용자 그룹을 만든 다음 사용자를 사용자 그룹에 할당합니다. 이러한 사용자 그룹은 Assets Essentials 애플리케이션에서 폴더에 대한 권한을 설정하는 데 사용할 수 있습니다.
 
-사용자 그룹에 사용자를 추가(1)하고 [Assets Essentials 제품 프로필에 사용자를 추가(2)](#add-admin-users)할 수 있습니다. 단, Assets Essentials 제품 프로필에 사용자 그룹을 바로 추가(3)할 수는 없습니다.
+사용자 그룹에 사용자를 추가(1)하고 [Assets Essentials 제품 프로필에 사용자를 추가(2)](#add-admin-users)할 수 있습니다. 그러나 Assets Essentials 제품 프로필에 사용자 그룹을 바로 추가(3)할 수는 없습니다.
 
 ![그룹 및 제품 프로필에 사용자 추가](assets/user-groups-product-profiles.svg)
 
@@ -145,7 +145,7 @@ Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더
 
 ### 메타데이터 양식 설정 {#metadata-forms}
 
-Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 자산의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 에셋의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
+Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 자산의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 자산의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
 
 다양한 유형의 자산(다양한 MIME 유형)에 대한 메타데이터 양식을 구성할 수 있습니다. 파일의 MIME 유형과 동일한 양식 이름을 사용합니다. Essentials는 업로드된 에셋 MIME 유형을 양식 이름과 자동으로 일치시키고 양식 필드를 기반으로 업로드된 에셋의 메타데이터를 업데이트합니다.
 
