@@ -25,7 +25,7 @@ ht-degree: 100%
 
 임베드된 [!DNL Assets Essentials] 경험은 다음 솔루션과 통합할 수 있습니다.
 
-* **[!DNL Creative Cloud for Enterprise]**: [Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 에셋에 대한 액세스 단계를 간소화하여 콘텐츠 속도를 높입니다. [ [!DNL Adobe Asset Link]를 사용하여 에셋 관리](https://helpx.adobe.com/kr/enterprise/using/manage-assets-using-adobe-asset-link.html)를 참조하십시오.
+* **[!DNL Creative Cloud for Enterprise]**: [Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 자산에 대한 액세스 단계를 간소화하여 콘텐츠 속도를 높입니다. [ [!DNL Adobe Asset Link]를 사용하여 에셋 관리](https://helpx.adobe.com/kr/enterprise/using/manage-assets-using-adobe-asset-link.html)를 참조하십시오.
 
   [Assets Essentials를 Adobe Creative Cloud Libraries와 통합하는 방법에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html?lang=ko)
 
