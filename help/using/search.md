@@ -4,63 +4,17 @@ description: ' [!DNL Assets Essentials]에서 에셋을 검색하고 탐색합�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 TQID: https://experienceleague.adobe.com/V--WXU30ed6P-HWqE1rquXPupmJwImyYfARZ006RpDg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: a292d5bf73e5c366cbc3d5e9695fecdcc930d31b
 workflow-type: tm+mt
-source-wordcount: 2217
+source-wordcount: 1662
 ht-degree: 100%
 
 ---
 
-<table>
-    <tr>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime 및 Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
-            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Edge Delivery Services와 AEM Assets 통합</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI 확장성</b></a>
-        </td>
-          <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="신규">
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>사용자 정의 검색 필터</b></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>모범 사례 검색</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>메타데이터 모범 사례</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>OpenAPI 기능이 포함된 Dynamic Media</b></a>
-        </td>
-        <td>
-            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets 개발자 설명서</b></a>
-        </td>
-    </tr>
-</table>
 
 # [!DNL Assets Essentials]에서 에셋 검색 {#search-assets}
 
@@ -70,7 +24,7 @@ ht-degree: 100%
 >abstract="검색창에서 키워드를 지정하거나 상태, 파일 유형, MIME 유형, 크기, 생성, 수정 및 만료 일자를 기준으로 필터링하여 에셋을 검색하십시오. 표준 필터 외에도 사용자 정의 필터를 적용할 수 있습니다. 필터링된 결과를 “저장된 검색” 또는 “스마트 컬렉션”으로 저장할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ko#manage-smart-collection" text="스마트 컬렉션 만들기"
 
-[!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 에셋을 빠르게 찾고 콘텐츠 속도를 높일 수 있습니다. [!DNL Assets Essentials]는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
+[!DNL Assets Essentials]는 기본적으로 작동하는 효과적인 검색 기능을 제공합니다. 검색 기능은 전체 텍스트 검색이므로 포괄적입니다. 강력한 검색 기능을 통해 적절한 에셋을 빠르게 찾고 콘텐츠 제작 속도를 높일 수 있습니다. [!DNL Assets Essentials]는 스마트 태그, 제목, 생성 날짜 및 저작권과 같은 메타데이터를 통해 전체 텍스트 검색 및 다중 검색 기능을 제공합니다.
 
 에셋을 검색하려면
 
@@ -78,9 +32,9 @@ ht-degree: 100%
 
   ![검색 상자](assets/search-box.png)
 
-   * 키워드를 사용하여 검색하고 필요한 경우 폴더를 변경합니다. Return 키를 누릅니다.
+  * 키워드를 사용하여 검색하고 필요한 경우 폴더를 변경합니다. Return 키를 누릅니다.
 
-   * 직접 검색하여 최근에 본 에셋으로 작업을 시작하십시오. 검색 상자를 클릭하고 제안에서 최근에 본 에셋을 선택합니다.
+  * 직접 검색하여 최근에 본 에셋으로 작업을 시작하십시오. 검색 상자를 클릭하고 제안에서 최근에 본 에셋을 선택합니다.
 
 ## 검색 결과 필터링 {#refine-search-results}
 
@@ -92,7 +46,7 @@ ht-degree: 100%
 
 * 파일 형식: 지원되는 파일 형식(`Images`, `Documents` 및 `Videos`)으로 검색 결과를 필터링합니다.
 * MIME 유형: 지원되는 파일 형식 중 하나 이상을 필터링합니다. <!-- TBD:  [supported file formats](/help/using/supported-file-formats.md). -->
-* 이미지 크기: 이미지를 필터링할 최소 및 최대 크기 중 하나 이상을 제공합니다. 크기는 픽셀 단위의 치수로 제공되며 이는 이미지의 파일 크기가 아닙니다.
+* 이미지 크기: 이미지를 필터링하려면 최소 및 최대 치수 중 하나 이상을 지정합니다. 크기는 픽셀 단위의 치수로 제공되며 이는 이미지의 파일 크기가 아닙니다.
 * 생성 날짜: 메타데이터에 입력된 에셋 생성 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
 * 수정 날짜: 에셋이 마지막으로 수정된 날짜입니다. 사용되는 표준 날짜 형식은 `yyyy-mm-dd`입니다.
 
@@ -184,7 +138,7 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 
 1. [!DNL AEM Assets] 작업 영역으로 이동합니다.
 
-1. 검색 창에 에셋 이름을 입력합니다. 예를 들어 `Bugatti Type 57` 키워드를 사용하여 에셋을 검색할 수 있습니다. 에셋을 검색할 때 에셋이 에셋 폴더에 없기 때문에 결과를 찾을 수 없습니다. AI를 사용하여 에셋을 생성하려면 **[!UICONTROL Firefly로 생성]**&#x200B;을 클릭합니다. [!DNL Adobe Firefly] 화면이 나타납니다.
+1. 검색 창에 에셋 이름을 입력합니다. 예를 들어 `Bugatti Type 57` 키워드를 사용하여 에셋을 검색할 수 있습니다. 에셋을 검색할 때 에셋이 어떤 에셋 폴더에도 없기 때문에 결과를 찾을 수 없습니다. AI를 사용하여 에셋을 생성하려면 **[!UICONTROL Firefly로 생성]**&#x200B;을 클릭합니다. [!DNL Adobe Firefly] 화면이 나타납니다.
 
    ![Firefly 통합](assets/firefly-integration.png)
 
@@ -209,12 +163,12 @@ Assets Essentials는 다음과 같은 사용자 정의 필터를 제공합니다
 생성된 에셋을 에셋 저장소에 업로드하려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
-1. 에셋을 업로드해야 하는 에셋 폴더를 선택하고 **[!UICONTROL 폴더 선택]**을 클릭합니다.
-   ![에셋 업로드](assets/upload-asset-firefly.jpg)
+1. 자산을 업로드해야 하는 자산 폴더를 선택하고 **[!UICONTROL 폴더 선택]**을 클릭합니다.
+   ![자산 업로드](assets/upload-asset-firefly.jpg)
 
 ## 저장된 검색 {#saved-search}
 
-검색 기능은 [!DNL Assets Essentials]에서 사용하기 매우 간단합니다. 검색 상자 내에서 키워드를 입력하고 Return 키를 눌러 결과를 볼 수 있을 뿐만 아니라, 한 번의 클릭으로 최근 검색한 키워드를 빠르게 다시 검색할 수 있습니다.
+검색 기능은 [!DNL Assets Essentials]에서 사용하기 매우 간단합니다. 검색 상자 내에서 키워드를 입력하고 Enter 키를 눌러 결과를 볼 수 있을 뿐만 아니라, 한 번의 클릭으로 최근 검색한 키워드를 빠르게 다시 검색할 수 있습니다.
 
 메타데이터 및 에셋 유형에 대한 특정 기준에 따라 검색 결과를 필터링할 수도 있습니다. 자주 사용하는 필터의 경우 검색 경험을 개선하기 위해 [!DNL Assets Essentials]을 사용하여 검색 매개변수를 저장할 수 있습니다. 그런 다음 저장된 검색을 선택하여 한 번의 클릭으로 필터를 검색하고 적용할 수 있습니다.
 
@@ -275,7 +229,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 검색 우선 홈 페이지를 구성하려면 아래 단계를 실행하십시오.
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동합니다.
-1. **[!UICONTROL 검색 우선]**&#x200B;을 선택합니다. 검색 우선 관련된 구성이 열립니다. 홈 페이지의 [정렬](#setting-alignment-search-bar) 또는 [배경 및 로고 이미지 설정](#setting-background-image-and-logo)을 설정할 수 있습니다.
+1. **[!UICONTROL 검색 우선]**&#x200B;을 선택합니다. 검색 우선 관련 구성이 열립니다. 홈 페이지의 [정렬](#setting-alignment-search-bar) 또는 [배경 및 로고 이미지 설정](#setting-background-image-and-logo)을 설정할 수 있습니다.
 
 ### 검색 창 정렬 설정 {#setting-alignment-search-bar}
 
@@ -293,7 +247,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
 ### 구성된 홈 페이지 미리보기 {#preview-configured-homepage}
 
-검색 우선 홈 페이지의 레이아웃과 서식을 미리보기로 확인할 수 있습니다. **[!UICONTROL 미리보기]**&#x200B;를 사용하면 레이아웃을 수정하거나 요구 사항에 따라 수정할 수 있습니다. 구성된 홈 페이지를 미리 보려면 아래 단계를 수행하십시오.
+검색 우선 홈 페이지의 레이아웃과 서식을 미리 보고 확인할 수 있습니다. **[!UICONTROL 미리보기]**&#x200B;를 사용하면 레이아웃을 수정하거나 요구 사항에 따라 수정할 수 있습니다. 구성된 홈 페이지를 미리 보려면 아래 단계를 수행하십시오.
 
 1. **[!UICONTROL 일반 설정]**&#x200B;을 클릭하고 **[!UICONTROL 검색 우선]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 검색 우선 홈 페이지 사용자 정의]**&#x200B;로 이동하고 **[!UICONTROL 미리보기]**&#x200B;를 클릭합니다. 홈 페이지를 어둡거나 밝은 테마로 미리 보려면 **[!UICONTROL 어두운 테마]** 버튼을 토글합니다.
@@ -301,99 +255,13 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
    ![검색 우선 홈 페이지 미리보기](assets/search-first-preview.gif)
 
-## 상황별 검색 {#contextual-search}
-
-텍스트 프롬프트를 정의하여 저장소에서 사용 가능한 에셋을 검색할 수도 있습니다. Experience Manager Assets는 해당 텍스트 프롬프트를 검색 필터로 자동 변환하고 검색 결과를 표시합니다. 필터 창에서 자동 필터를 확인하여 수정하고 검색 결과의 범위를 더 좁힐 수 있습니다.
-
-### 상황별 검색 액세스 {#access-contextual-search}
-
-Experience Manager Assets에서 상황별 검색에 액세스하는 방법:
-
-1. 왼쪽 창에서 **[!UICONTROL 검색]**&#x200B;을 클릭합니다.
-
-   ![상황별 검색](/help/using/assets/access-contextual-search.png)
-
-1. 검색 텍스트 상자에서 텍스트 프롬프트를 정의하고 **[!UICONTROL 상황별 검색]**&#x200B;을 클릭합니다.
-
-   ![상황별 검색 텍스트 프롬프트](/help/using/assets/wknd-contextual-search.png)
-
-   [!DNL Experience Manager Assets]는 검색 결과를 표시합니다.
-
-
-### 지원되는 필터 {#supported-filters}
-
-상황별 검색은 기본적으로 다음 필터를 지원합니다. 이러한 필터를 기반으로 텍스트 프롬프트를 사용하여 적절한 검색 결과를 확인할 수 있습니다.
-
-* 이미지 높이
-
-* 이미지 폭
-
-* 파일 유형: 이미지, 문서, 비디오 또는 폴더.
-
-* MIME 유형: JPG, PNG, TIFF, GIF, MP4, PDF, PPTX, DOCX 또는 XLSX
-
-* 생성된 일자
-
-* 수정일
-
-* 만료일
-
-* 에셋 상태: 승인됨, 거부됨 또는 모두
-
-* 만료된 에셋
-
-### 텍스트 프롬프트의 예 {#text-prompts-examples}
-
-**예 1**
-
-**텍스트 프롬프트**: 이번 달에 생성된 이미지입니다.
-
-[!DNL Experience Manager Assets]는 다음 필터를 자동으로 적용하고 검색 결과를 표시합니다.
-
-![상황별 검색 예 1](/help/using/assets/contextual-search-example1.png)
-
-**예 2**
-
-**텍스트 프롬프트**: 해변과 맑은 하늘이 포함된 높이가 200px 이상, 너비가 100px 이상인 이미지입니다.
-
-[!DNL Experience Manager Assets]는 다음 필터를 자동으로 적용하고 검색 결과를 표시합니다.
-
-![상황별 검색 예 2](/help/using/assets/contextual-search-example2.png)
-
-**예 3**
-
-**텍스트 프롬프트**: 높이가 1500 및 2500픽셀이고 지난 달에 생성되었으며 만료 및 승인되지 않은 푸른 하늘 이미지가 필요합니다.
-
-[!DNL Experience Manager Assets]는 다음 필터를 자동으로 적용하고 검색 결과를 표시합니다.
-
-![상황별 검색 예 3](/help/using/assets/contextual-search-example3.png)
-
-다음 비디오는 상황별 검색 사용자 인터페이스에 액세스하는 것부터 텍스트 프롬프트를 정의하고 검색 결과를 보는 것까지의 전체 프로세스를 보여 줍니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/3428407)
-
-### 상황별 검색 비활성화 {#disable-contextual-search}
-
-관리자는 조직 내 사용자에 대해 상황별 검색을 비활성화할 수도 있습니다. 이렇게 하려면 다음 단계를 실행합니다.
-
-1. **[!UICONTROL 설정]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동합니다.
-
-1. [!UICONTROL 상황별 검색] 섹션에서 **[!UICONTROL 조직에 대한 상황별 검색 활성화]** 토글을 꺼서 조직의 모든 사용자에 대한 상황별 검색 기능을 비활성화합니다.
-
-### 상황별 검색 피드백 {#contextual-search-feedback}
-
-상황별 검색 기능에 대한 피드백을 제공해야 하는 경우, ![상황별 검색 아이콘](assets/do-not-localize/Smock_Help_18_N.svg)을 클릭하고 피드백 아이콘을 클릭합니다. 피드백 유형을 선택하고 제목과 설명을 지정한 후에 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
-
-![상황별 검색 피드백](/help/using/assets/contextual-search-feedback.png)
-
-
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 에셋 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=ko)
+* [Assets Essentials의 에셋 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백을 제공합니다.
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
