@@ -262,7 +262,7 @@ Assets Essentials를 사용하면 조직의 기본 랜딩 페이지를 선택할
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 에셋 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+* [Assets Essentials의 에셋 검색에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=ko)
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
