@@ -5,19 +5,22 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 TQID: https://experienceleague.adobe.com/fTzTJd0JhjMbexn1ffynNQM7wx-nX-8Os1Y-c79FKdo
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Insights
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: 1243
+source-wordcount: '1261'
 ht-degree: 100%
-
 ---
-
 # 보고서 관리 {#manage-reports}
 
 에셋 보고는 관리자가 Adobe Experience Manager Assets Essentials 환경의 활동을 볼 수 있도록 합니다. 이 데이터는 사용자가 콘텐츠 및 제품과 상호 작용하는 방법에 대한 유용한 정보를 제공합니다. 모든 사용자는 인사이트 대시보드에 액세스할 수 있으며 관리자 제품 프로필에 할당된 사용자는 사용자 정의 보고서를 만들 수 있습니다.
@@ -151,7 +154,7 @@ AEM Essentials UI에서 **보고서 예약** 기능을 사용하면 매일, 매�
    1. **보고서 예약** 토글: 나중에 또는 반복해서 실행되도록 보고서를 예약합니다.
       ![보고서 예약](/help/using/assets/schedule-reports1.svg)
 
-   1. **빈도 선택:** 보고서 생성 간격(예: 매일, 매주, 매월, 매년 또는 한 번)을 지정하고, 보고서를 실행할 날짜와 시간을 설정하고, 반복 실행 종료 일자를 설정합니다. 일회성 보고서의 경우에는 AEM 환경에서 선택한 활동 유형에 대한 보고서의 날짜 범위를 선택합니다. 예를 들어 특정 월의 10일부터 29일(미래 날짜)까지 다운로드된 에셋에 대한 보고서가 필요하다면 **날짜 간격 선택** 필드에서 해당 날짜를 선택합니다.
+   1. **빈도 선택:** 보고서 생성 간격(예: 매일, 매주, 매월, 매년 또는 한 번)을 지정하고, 보고서를 실행할 날짜와 시간을 설정하고, 반복 실행 종료 일자를 설정합니다. 일회성 보고서의 경우에는 AEM 환경에서 선택한 활동 유형에 대한 보고서의 날짜 범위를 선택합니다. 예를 들어 특정 월의 10일부터 29일(미래 날짜)까지 다운로드된 자산에 대한 보고서가 필요하다면 **날짜 간격 선택** 필드에서 해당 날짜를 선택합니다.
 
    >[!NOTE]
    >
@@ -192,10 +195,10 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 
 자동 생성된 다음과 같은 차트를 보려면 왼쪽 탐색 창에 있는 **[!UICONTROL 인사이트]**&#x200B;를 클릭하십시오.
 
-* **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 에셋 수를 선 차트로 표시합니다.
+* **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 자산 수를 선 차트로 표시합니다.
   ![다운로드](/help/using/assets/insights-downloads2341.svg)
 
-* **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 에셋 수를 선 차트로 표시합니다.
+* **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 자산 수를 선 차트로 표시합니다.
   ![업로드](/help/using/assets/insights-uplods2.svg)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
@@ -214,9 +217,9 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
    ![Insights](assets/insights2.png)
    -->
 
-* **크기별 에셋 수:** Assets Essentials 환경의 총 에셋 수를 다양한 크기 범위로 세그먼트화하고 도넛 차트로 표시되는 각 크기 범위의 에셋 수와 비율을 강조 표시합니다.
-  ![인사이트-크기별-에셋-수](/help/using/assets/insights-assets-count-by-size.svg)
+* **크기별 자산 수:** Assets Essentials 환경의 총 자산 수를 다양한 크기 범위로 세그먼트화하고 도넛 차트로 표시되는 각 크기 범위의 자산 수와 비율을 강조 표시합니다.
+  ![인사이트-크기별-자산-수](/help/using/assets/insights-assets-count-by-size.svg)
 
-* **에셋 유형별 에셋 수:** Assets Essentials 환경의 총 에셋 수를 세그먼트화하여 도넛 차트로 나타나는 파일 유형 기준 에셋 수 및 비율을 강조 표시합니다.
-  ![인사이트-크기별-에셋-수](/help/using/assets/insights-assest-count-by-asset-type1.svg)
+* **자산 유형별 자산 수:** Assets Essentials 환경의 총 자산 수를 세그먼트화하여 도넛 차트로 나타나는 파일 유형 기준 자산 수 및 비율을 강조 표시합니다.
+  ![인사이트-크기별-자산-수](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 

@@ -5,13 +5,11 @@ hide: true
 hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '3017'
 ht-degree: 99%
-
 ---
-
 # Dynamic Media 템플릿{#dynamic-media-templates}
 
 | [모범 사례 검색](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [메타데이터 모범 사례](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 개발자 설명서](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
@@ -35,7 +33,7 @@ WYSIWYG 템플릿 편집기를 사용하여 Dynamic Media 템플릿을 만들고
 
 Dynamic Media 템플릿의 주요 이점은 다음과 같습니다.
 
-* **최적화 1:1 개인화:** 콘텐츠를 실시간 고객 신호에 맞게 조정합니다.
+* **1:1 최적화 Personalization:** 콘텐츠를 실시간 고객 신호에 맞게 조정합니다.
 * **수작업 감소:** 콘텐츠 생성 및 관리를 자동화 및 가속화합니다.
 * **일관성 있는 옴니채널 경험 보장:** 채널 전반에서 브랜드 일관성을 유지합니다.
 * **효과적으로 콘텐츠 재사용:** 매개변수가 있는 동적 템플릿을 사용하여 콘텐츠와 크기의 일회성 사용을 방지합니다.
@@ -44,7 +42,7 @@ Dynamic Media 템플릿의 주요 이점은 다음과 같습니다.
 
 >[!NOTE]
 >
->향상된 보안 SKU를 구독하는 고객은 해당 클라우드 서비스 프로그램에서 Dynamic Media 템플릿 등의 Dynamic Media 기능을 사용할 수 없습니다.
+>향상된 보안 SKU를 구독하는 고객은 해당 클라우드 서비스 프로그램에서 Dynamic Media 템플릿을 포함한 모든 Dynamic Media 기능을 사용할 수 없습니다.
 
 ## 시작하기에 앞서{#prerequisites-for-dynamic-media-wysiwyg-template}
 
@@ -76,8 +74,8 @@ DM 템플릿을 만들려면 다음 단계를 따릅니다.
 
 1. **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 Dynamic Media Assets 아래에 템플릿을 저장하거나 폴더로 이동한 다음 **[!UICONTROL 템플릿 만들기]**&#x200B;를 클릭하여 해당 폴더에 템플릿을 저장합니다. **[!UICONTROL 새 템플릿]** 대화 상자가 표시됩니다.
    ![실시간으로 사용자 정의 가능한 동적 템플릿을 만드는 방법](/help/using/assets/new-template.png)
-**[!UICONTROL Dynamic Media 에셋]**&#x200B;에 [폴더를 생성](/help/using/add-delete.md)하려면 **[!UICONTROL 에셋]**&#x200B;에서 폴더를 만듭니다. **[!UICONTROL 에셋]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에서 복제됩니다.
-1. 템플릿 이름을 지정하고 캔버스 너비 및 높이를 정의한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 템플릿을 만드는 데 사용할 메뉴 옵션이 양쪽에 있는 빈 캔버스가 표시됩니다. 메뉴 옵션 위로 마우스를 가져가면 해당 툴팁을 볼 수 있습니다.
+   **[!UICONTROL Dynamic Media 에셋]**&#x200B;에 [폴더를 생성](/help/using/add-delete.md)하려면 **[!UICONTROL 에셋]**&#x200B;에서 폴더를 만듭니다. **[!UICONTROL 에셋]**&#x200B;의 폴더 트리가 **[!UICONTROL Dynamic Media Assets]**&#x200B;에서 복제됩니다.
+1. 템플릿 이름을 지정하고 캔버스 너비 및 높이를 정의한 다음 **[!UICONTROL 만들기]**를 클릭합니다. 템플릿을 만드는 데 사용할 메뉴 옵션이 양쪽에 있는 빈 캔버스가 표시됩니다. 메뉴 옵션 위로 마우스를 가져가면 해당 툴팁을 볼 수 있습니다.
    ![실시간으로 사용자 정의 가능한 템플릿](/help/using/assets/blank-canvas-page.png)
 
 >[!NOTE]
@@ -121,14 +119,14 @@ DM 템플릿을 만들려면 다음 단계를 따릅니다.
 
 1. ![빠르게 새 배너 만들기](/help/using/assets/add-text.svg)를 클릭하여 텍스트 레이어를 캔버스에 추가하고 속성 패널을 엽니다.
 1. 레이어를 선택하고 텍스트를 클릭하여 업데이트합니다.
-1. 속성 패널에서 **[!UICONTROL 스마트 텍스트 크기 조정]**&#x200B;을 활성화하여 지정된 영역에 맞게 텍스트 길이 및 글꼴 크기를 자동 조정합니다.
+1. 속성 패널에서 **[!UICONTROL 스마트 텍스트 크기 조정]**을 활성화하여 지정된 영역에 맞게 텍스트 길이 및 글꼴 크기를 자동 조정합니다.
    ![최고의 사용자 정의 가능 배너](/help/using/assets/add-text-layer.png)
 
 레이어를 위치 변경하거나 크기 조정, 회전 또는 삭제하려면 [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 참조하십시오. 패널의 **[!UICONTROL 텍스트]** 섹션 아래에 있는 각 필드의 값을 변경하여 원하는 글꼴, 크기, 색상, 스타일, 정렬(레이어)로 텍스트 서식을 지정합니다.
 
 >[!NOTE]
 >
-> 기본 Adobe Sans F2 글꼴 모음 이외의 글꼴을 사용하려면 글꼴 파일을 업로드하고 AEM Assets 및 Dynamic Media에 게재해야 합니다. 인스턴스에 이전 글꼴이 있는 경우, 해당 글꼴을 템플릿 편집기에서 보려면 [재처리](/help/using/reprocessing.md)해야 합니다.
+> 기본 Adobe Sans F2 글꼴 모음 이외의 글꼴을 사용하려면 글꼴 파일을 업로드하고 AEM Assets 및 Dynamic Media에 게시해야 합니다. 인스턴스에 이전 글꼴이 있는 경우, 해당 글꼴을 템플릿 편집기에서 보려면 [재처리](/help/using/reprocessing.md)해야 합니다.
 
 ### 레이어 편집 또는 삭제 {#edit-or-delete-a-layer}
 
@@ -137,7 +135,7 @@ DM 템플릿을 만들려면 다음 단계를 따릅니다.
 1. ![동적 업데이트를 지원하는 템플릿](/help/using/assets/show-layers-list.svg)을 클릭하고 캔버스 또는 레이어 목록에서 레이어를 선택합니다.
 1. 레이어를 편집하거나 삭제하려면 **추가 옵션**(![실시간 업데이트를 지원하는 템플릿](/help/using/assets/three-dots.svg))을 클릭합니다.
 1. 레이어를 삭제하려면 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
-1. [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 사용하여 레이어를 편집하려면 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. [**[!UICONTROL 속성 패널]**](#reposition-resize-delete-a-layer)을 사용하여 레이어를 편집하려면 **[!UICONTROL 편집]**을 클릭합니다.
    ![빠른 배너 만들기](/help/using/assets/edit-delete-layer.png)
 
 ### 속성 패널{#properties-panel}
@@ -178,10 +176,10 @@ DM 템플릿을 만들려면 다음 단계를 따릅니다.
 
 1. ![즉시 콘텐츠 만들기](/help/using/assets/show-layers-list.svg)를 클릭하고 레이어를 선택한 다음 **[!UICONTROL 매개변수]**&#x200B;를 클릭합니다. **[!UICONTROL 매개변수]** 패널이 표시됩니다.
 1. 속성을 매개변수화하려면 **[!UICONTROL 매개변수 포함]**&#x200B;을 토글합니다. 매개변수화 후 속성의 동작을 알려면 [여기](#parameterisation-options-or-allowed-parameters)를 참조하십시오.
-1. **선택 사항:** 매개변수 이름을 변경합니다. 매개변수 이름은 레이어 이름 뒤에 접미사가 붙습니다. 선택한 레이어의 경우 매개변수가 있는 모든 속성은 같은 레이어 이름 다음에 다양한 접미사를 공유합니다. 시맨틱 명명 규칙에 따라 레이어 이름의 이름을 변경합니다. 이렇게 하면 URL에 매개변수를 포함할 때 매개변수 이름 자체가 레이어의 콘텐츠 또는 목적에 대해 설명하도록 할 수 있습니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **선택 사항:** 매개변수 이름을 변경합니다. 매개변수 이름은 레이어 이름 뒤에 접미사가 붙습니다. 선택한 레이어의 경우 매개변수화된 모든 속성은 동일한 레이어 이름을 공유하며 그 뒤에 서로 다른 접미사가 붙습니다. 시맨틱 명명 규칙에 따라 레이어 이름의 이름을 변경합니다. 이렇게 하면 URL에 매개변수를 포함할 때 매개변수 이름 자체가 레이어의 콘텐츠 또는 목적에 대해 설명하도록 할 수 있습니다.
+1. **[!UICONTROL 저장]**을 클릭합니다.
    ![즉시 콘텐츠 만들기](/help/using/assets/parameterise-a-layer.png)
-이미지의 매개변수 패널과 텍스트 레이어 간을 전환하려면 캔버스에서 레이어를 선택하고 **[!UICONTROL 매개변수]**&#x200B;를 클릭합니다.
+   이미지의 매개변수 패널과 텍스트 레이어 간을 전환하려면 캔버스에서 레이어를 선택하고 **[!UICONTROL 매개변수]**&#x200B;를 클릭합니다.
 
 #### 매개변수 패널 옵션 {#parameterisation-options-or-allowed-parameters}
 
@@ -222,7 +220,7 @@ URL에서 매개변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
 
 ## 템플릿을 미리 보고 게재하여 게재 URL 복사{#preview-and-publish-template-and-copy-template-deliver-url}
 
-다음 단계를 수행하여 템플릿을 미리보고 게재하고 게재 URL을 복사합니다.
+다음 단계를 수행하여 템플릿을 미리보고 게시하고 게재 URL을 복사합니다.
 
 1. 캔버스 페이지에서 **[!UICONTROL 미리보기]**&#x200B;를 클릭합니다. **[!UICONTROL Assets Essentials]** **>** **[!UICONTROL Dynamic Media Assets]** **>** 템플릿 찾기 및 선택 **>** 클릭 **[!UICONTROL 템플릿 편집]** **>** 클릭 **[!UICONTROL 미리보기]**&#x200B;로 이동할 수도 있습니다. 미리보기 페이지에는 템플릿, 해당 매개변수(매개변수가 있는 레이어 및 속성), 게재 상태 및 **[!UICONTROL 게재]** 옵션이 표시됩니다.
 1. **[!UICONTROL 템플릿 매개변수]** 패널에서 매개변수를 선택하여 해당 값을 편집하고 미리보기에서 해당 템플릿 레이어의 콘텐츠, 크기, 위치 또는 텍스트 서식을 즉시 업데이트합니다. 예:
@@ -231,10 +229,10 @@ URL에서 매개변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
 
    템플릿이 즉시 업데이트되어 편집된 텍스트가 표시되고 이전 이미지가 새 이미지로 교체됩니다. 또한 이미지 매개변수 값이 새 이미지 경로를 반영합니다. 마찬가지로 값을 조정하여 레이어의 크기를 조정할 수 있으며 변경 내용은 템플릿에 실시간으로 적용됩니다.
 1. 템플릿에서 함께 표시하거나 숨기려면 목록에서 [그룹화된 레이어](#group-layers)에 대한 숨기기 매개변수를 선택합니다.
-1. **선택 사항:** **[!UICONTROL 숨기기]** 매개변수 값을 0과 1 사이에서 변경하고 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하여 변경 사항을 확인합니다. 동일한 숨기기 매개변수가 있는 레이어는 함께 숨기거나 표시합니다. 마찬가지로 URL에서 레이어의 가시성을 제어할 수 있습니다.
+1. **선택 사항:** **[!UICONTROL 숨기기]** 매개변수 값을 0과 1 사이에서 변경하고 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하여 변경 사항을 확인합니다. 동일한 숨기기 매개변수가 있는 레이어는 함께 숨겨지거나 표시됩니다. 마찬가지로 URL에서 레이어의 가시성을 제어할 수 있습니다.
 
    ![즉석으로 콘텐츠 만들기](/help/using/assets/dm-templates-publish-status.png)
-**[!UICONTROL 모든 매개변수 포함]**&#x200B;을 토글하여 표시된 모든 매개변수 값을 편집하고 템플릿 미리보기에서 업데이트를 볼 수도 있습니다.
+**[!UICONTROL 모든 매개변수 포함]**을 토글하여 표시된 모든 매개변수 값을 편집하고 템플릿 미리보기에서 업데이트를 볼 수도 있습니다.
    <br>
 1. 미리보기 페이지에 템플릿을 게재하려면 **[!UICONTROL 게재]**&#x200B;를 클릭하고 게재를 확인합니다. 게재 완료 메시지가 표시되고 게재 상태가 게재됨으로 업데이트됩니다.
 
@@ -249,7 +247,7 @@ URL에서 매개변수 값을 업데이트하여 URL에서 텍스트, 글꼴, �
 게재되어 미리보기에 표시된 템플릿의 URL을 복사하려면 다음 단계를 따릅니다.
 
 1. **[!UICONTROL URL 복사]**&#x200B;를 클릭합니다. **[!UICONTROL URL 복사]** 대화 상자가 표시됩니다. 표시된 URL을 선택하고 복사합니다. URL의 첫 번째 매개변수가 물음표 **(?)** 이후에 시작하고 키-값 쌍이 **$**&#x200B;로 시작되고 **&amp;**&#x200B;로 끝나는지 확인합니다. 키와 값이 등호 **(=)**&#x200B;로 구분되며 왼쪽에는 키가 있고 오른쪽에는 값이 있습니다.
-1. 이 URL을 브라우저 탭에 붙여넣고 라이브 템플릿을 확인합니다. **미리보기 및 게재** 섹션의 [2단계](#preview-and-publish-template-and-copy-template-deliver-url)에서 설명한 바와 같이, URL에서 필요한 매개변수의 값(키 값)을 직접 업데이트하여 실시간으로 템플릿을 사용자 정의합니다.
+1. 이 URL을 브라우저 탭에 붙여넣고 라이브 템플릿을 확인하십시오. **미리보기 및 게재** 섹션의 [2단계](#preview-and-publish-template-and-copy-template-deliver-url)에서 설명한 바와 같이, URL에서 필요한 매개변수의 값(키 값)을 직접 업데이트하여 실시간으로 템플릿을 사용자 정의합니다.
 1. 제품 또는 서비스의 빠른 머천다이징에 이 URL을 사용합니다. 이 URL을 고객과 공유하거나 웹 사이트 또는 다운스트림 제3자 애플리케이션에 통합하여 배너를 표시하고 진행 중인 오퍼를 반영하도록 실시간 업데이트할 수 있습니다.
 
 이 비디오에서는 단계별로 Dynamic Media 템플릿을 만드는 방법을 알아봅니다.
@@ -275,15 +273,15 @@ URL에서 직접 매개변수를 편집하는 것은 지루한 작업일 수 있
 1. Assets Essentials에서 **[!UICONTROL Dynamic Media Assets]**&#x200B;을 클릭합니다.
 2. 템플릿 위치로 이동합니다.
 3. 템플릿을 선택합니다.
-4. **[!UICONTROL 템플릿 편집]**&#x200B;을 클릭합니다. 템플릿 캔버스에는 템플릿과 해당 레이어의 모든 목록이 레이어 패널에 표시됩니다. 요구 사항에 따라 템플릿 편집을 시작합니다.
+4. **[!UICONTROL 템플릿 편집]**&#x200B;을 클릭합니다. 템플릿 캔버스에는 템플릿이 표시되고, 레이어 패널에는 해당 레이어의 전체 목록이 표시됩니다. 요구 사항에 따라 템플릿 편집을 시작합니다.
 
 ## 중요 참고 사항 {#important-points-to-note}
 
-* 동적 업데이트를 위해 매개변수화된 이미지 레이어가 있는 템플릿을 만든 후 향후 업데이트하려는 이미지가 매개변수화된 이미지와 동일한 차원을 공유하는지 확인합니다. 이렇게 하면 이미지가 넘치거나 빈 공간을 남기지 않고 레이어 내에 완벽히 맞게 됩니다. 현재 템플릿에서는 레이어에 이미지를 맞추기 위한 자동 치수 조정을 지원하지 않습니다.
+* 동적 업데이트를 위해 매개변수화된 이미지 레이어가 있는 템플릿을 만든 후 향후 업데이트하려는 이미지가 매개변수화된 이미지와 동일한 크기인지 확인합니다. 이렇게 하면 이미지가 넘치거나 빈 공간을 남기지 않고 레이어 내에 완벽히 맞게 됩니다. 현재 템플릿에서는 레이어에 이미지를 맞추기 위한 자동 치수 조정을 지원하지 않습니다.
 * 텍스트 레이어에는 하위 문자열 지원이 없습니다. 사용자는 텍스트 레이어의 하위 문자열에 다른 글꼴 속성을 적용할 수 없습니다.
 * 현재 Dynamic Media 템플릿에서는 여러 Dynamic Media 회사에 대한 지원을 사용할 수 없습니다.
 * 복사 또는 이동의 경우 대상 선택기에 모든 폴더(비 Dynamic Media 동기화 폴더 포함)가 표시됩니다. 또한 현재 Dynamic Media 템플릿 에셋은 표시되지 않습니다(두 가지 모두 대상 선택기의 제한 사항).
-* 에셋 섹션의 폴더에 대한 모든 업데이트 작업(예: 게재 또는 삭제)은 해당 폴더 내에서 사용할 수 있는 Dynamic Media 템플릿에 영향을 줍니다.
+* 에셋 섹션의 폴더에 대한 모든 업데이트 작업(예: 게시 또는 삭제)은 해당 폴더 내에서 사용할 수 있는 Dynamic Media 템플릿에 영향을 줍니다.
 * Dynamic Media 템플릿에 대해 휴지통이 작동하지 않습니다. 에셋을 휴지통으로 이동한 다음 복원하는 경우 에셋은 AEM에서 복원되지만 Dynamic Media에서는 복원되지 않습니다. Dynamic Media 템플릿의 경우도 마찬가지입니다.
 
 ## 추가 참조
