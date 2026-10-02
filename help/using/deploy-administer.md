@@ -1,24 +1,27 @@
 ---
 title: 사용자 관리
-description: ' [!DNL Assets Essentials]에서의 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
+description: '[!DNL Assets Essentials]에서 배포 및 사용자 관리와 같은 관리 사용 사례입니다.'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 TQID: https://experienceleague.adobe.com/q-Eq1tZANfkgtIpwSifDVfLakJvRhia0pO2lXEMCYYg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: 1364
-ht-degree: 100%
-
+source-wordcount: '1365'
+ht-degree: 99%
 ---
-
 # [!DNL Assets Essentials] 관리 및 사용자 추가 {#administer}
 
 [!DNL Adobe Experience Manager Assets Essentials]는 Adobe에서 고객을 위해 프로비저닝합니다. 프로비저닝의 일부로 [!DNL Assets Essentials]가 [!DNL Adobe Admin Console]의 고객 조직에 추가됩니다. 관리자는 [!DNL Admin Console]을 사용하여 [!DNL Assets Essentials] 솔루션에 대한 사용자 권한을 관리하며 [!DNL Assets Essentials]에서 권한 및 메타데이터 양식을 설정하도록 애플리케이션 관리자를 할당합니다.
@@ -34,7 +37,7 @@ Assets Essentials 솔루션이 프로비저닝되면 관리자는 Adobe로부터
 
 이메일에 포함된 링크에서 [Admin Console](https://adminconsole.adobe.com)에 액세스하고 로그인합니다. 둘 이상의 조직 계정에 대한 관리자 액세스 권한을 보유하고 있다면 적절한 조직을 선택하거나 [조직 선택기](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)를 사용하여 해당 조직으로 전환합니다. 자동 배포 프로세스가 완료되면 [!DNL AEM Assets Essentials]에 대한 제품 카드가 [!DNL Admin Console]에 표시됩니다.
 
-Admin Console을 사용하여 다음과 같은 사용자 권한 부여 작업을 수행합니다.
+Admin Console을 사용하여 다음과 같은 사용자 권한 부여 작업을 수행하십시오.
 
 * [Assets Essentials 애플리케이션 관리자 생성](#create-assets-essentials-administrator)
 
@@ -56,7 +59,7 @@ Admin Console 관리자는 Assets Essentials 관리자 제품 프로필을 사�
 
 >[!NOTE]
 >
->Admin Console을 Azure 또는 Google 커넥터, 사용자 동기화 도구 또는 User Management REST API와 같은 내부 시스템을 활용하여 사용자/그룹 할당을 관리하도록 설정한 경우 그룹 및 사용자 할당은 자동으로 구성됩니다. 자세한 내용은 [Adobe Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
+>Admin Console을 Azure 또는 Google 커넥터, 사용자 동기화 도구 또는 User Management REST API와 같은 외부 시스템을 활용하여 사용자/그룹 할당을 관리하도록 설정한 경우 그룹 및 사용자 할당은 자동으로 구성됩니다. 자세한 내용은 [Adobe Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
 
 사용자 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html#add-users-to-groups)에서 `Add users to groups`를 추가하십시오.
 
@@ -79,8 +82,8 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 사용자 그
 
    * **[!DNL Assets Essentials]사용자**&#x200B;는 전체 사용자 인터페이스에 액세스할 수 있습니다. 이들 사용자는 디지털 에셋을 업로드하고, 구성하고, 태그를 지정하고, 찾을 수 있습니다.
 
-   * **[!DNL Assets Essentials]소비자 사용자**는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
-자세한 내용은 [다른 솔루션과 통합](integration.md)을 참조하십시오.
+   * **[!DNL Assets Essentials]소비자 사용자**&#x200B;는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
+     자세한 내용은 [다른 솔루션과 통합](integration.md)을 참조하십시오.
 
    ![Admin Console 관리자 프로필](assets/admin-console-admin-profile.png)
 
@@ -88,7 +91,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 사용자 그
 
    ![사용자 관리자 프로필 추가](assets/add-users-admin-profile.png)
 
-   사용자를 추가하면 사용자는 시작하라는 이메일 초대를 수신하게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
+   사용자를 추가하면 사용자는 시작할 수 있도록 이메일 초대를 받게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
 
    >[!NOTE]
    >
@@ -96,7 +99,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 사용자 그
 
 ## Assets Essentials 애플리케이션에 액세스 {#access-assets-essentials-application}
 
-Admin Console에서 사용자 권한을 수행했으므로 Assets Essentials 애플리케이션에 액세스하여 다음 작업을 수행할 수 있습니다.
+Admin Console에서 사용자 권한 부여를 수행한 후 Assets Essentials 애플리케이션에 액세스하여 다음 작업을 수행할 수 있습니다.
 
 * [폴더 구조 만들기](#create-folder-structure)
 
@@ -118,7 +121,7 @@ Admin Console에서 사용자 권한을 수행했으므로 Assets Essentials 애
 
 조직의 비즈니스 목표에 적합한 폴더 구조를 생성합니다. 기존 폴더 구조를 Assets Essentials 저장소에 업로드할 때에는 해당 폴더 구조를 검토해 보아야 합니다. 자세한 내용은 [효율적인 권한 관리에 대한 폴더 구조 모범 사례](permission-management-best-practices.md##folder-structure-assets-essentials)를 참조하십시오.
 
-귀사에 사용할 수 있는 폴더 구조 유형에는 여러 가지가 있습니다. 다음은 일반적인 폴더 구조의 몇 가지 예입니다.
+조직에 사용할 수 있는 폴더 구조 유형에는 여러 가지가 있습니다. 다음은 일반적인 폴더 구조의 몇 가지 예입니다.
 
 ![일반적인 폴더 구조](assets/folder-structure.svg)
 
@@ -140,9 +143,9 @@ Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더
 
 자세한 내용은 [폴더 권한 관리](manage-permissions.md)를 참조하십시오.
 
-### 메타데이터 양식 설정(선택 사항) {#metadata-forms}
+### 메타데이터 양식 설정 (선택 사항) {#metadata-forms}
 
-Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 에셋의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 에셋의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
+Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 에셋의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 자산의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
 
 다양한 유형의 에셋(다양한 MIME 유형)에 대한 메타데이터 양식을 구성할 수 있습니다. 파일의 MIME 유형과 동일한 양식 이름을 사용합니다. Essentials는 업로드된 에셋 MIME 유형을 양식 이름과 자동으로 일치시키고 양식 필드를 기반으로 업로드된 에셋의 메타데이터를 업데이트합니다.
 
