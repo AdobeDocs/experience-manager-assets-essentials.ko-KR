@@ -1,14 +1,17 @@
 ---
 title: Experience Manager Assets Essentials 관리
-description: Admin Console을 사용하여 Assets Essentials 애플리케이션에 대한 액세스를 구성한 다음 Assets Essentials 애플리케이션에 로그인하고 수행할 수 있는 작업을 관리합니다.
+description: Admin Console을 사용하여 Assets Essentials 애플리케이션에 대한 액세스를 구성한 다음 Assets Essentials 애플리케이션에 로그인한 후 수행할 수 있는 작업을 관리합니다.
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
-
 ---
-
 # Experience Manager Assets Essentials 관리 {#administer-assets-essentials}
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-assets.png)
@@ -67,7 +70,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 제품 프로
 
    ![사용자 관리자 프로필 추가](assets/add-users-admin-profile.png)
 
-   사용자를 추가하면 사용자는 시작하라는 이메일 초대를 수신하게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
+   사용자를 추가하면 사용자는 시작할 수 있도록 이메일 초대를 받게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
 
 1. 그룹에서 사용자를 제거하려면 그룹을 클릭하고 기존 사용자를 선택한 다음 **[!UICONTROL 사용자 제거]**&#x200B;를 선택합니다.
 
@@ -87,7 +90,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 제품 프로
 
 >[!NOTE]
 >
->Admin Console을 Azure 또는 Google 커넥터, 사용자 동기화 도구 또는 User Management REST API와 같은 내부 시스템을 활용하여 사용자/그룹 할당을 관리하도록 설정한 경우 그룹 및 사용자 할당은 자동으로 구성됩니다. 자세한 내용은 [Adobe Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
+>Admin Console을 Azure 또는 Google 커넥터, 사용자 동기화 도구 또는 User Management REST API와 같은 외부 시스템을 활용하여 사용자/그룹 할당을 관리하도록 설정한 경우 그룹 및 사용자 할당은 자동으로 구성됩니다. 자세한 내용은 [Adobe Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
 
 
 ### 그룹에 사용자 추가 {#add-users-to-user-groups}
@@ -96,7 +99,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 제품 프로
 
 사용자 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html#add-users-to-groups)에서 `Add users to groups`를 추가하십시오.
 
-## Assets Essentials 관리 작업 관리 {#manage-assets-essentials-tasks}
+## Assets Essentials 관리 작업 {#manage-assets-essentials-tasks}
 
 Admin Console 작업을 수행했으므로 이제 Assets Essentials 애플리케이션에서 다음 관리 작업을 수행할 수 있습니다.
 
@@ -121,7 +124,7 @@ Admin Console 작업을 수행했으므로 이제 Assets Essentials 애플리케
 
 조직의 비즈니스 목표에 적합한 폴더 구조를 생성합니다. 기존 폴더 구조를 Assets Essentials 저장소에 업로드할 때에는 해당 폴더 구조를 검토해 보아야 합니다. 자세한 내용은 [효율적인 권한 관리에 대한 모범 사례](permission-management-best-practices.md)를 참조하십시오.
 
-Assets Essentials 저장소에 폴더 구조를 생성할 때에는 다음 사항을 고려하십시오.
+Assets Essentials 저장소에 폴더 구조를 만들 계획을 시작할 때에는 다음 사항을 고려하십시오.
 
 * 향후 거버넌스: 관리자가 제어하는 폴더 및 [다른 사용자에게 소유자로 권한이 위임된](manage-permissions.md##manage-permissions-folders) 폴더
 
@@ -129,7 +132,7 @@ Assets Essentials 저장소에 폴더 구조를 생성할 때에는 다음 사�
 
 * 크기: 폴더는 너무 많은 에셋을 포함할 수 없습니다. 그렇지 않으면 가용성 문제가 발생할 수 있으며 관리가 어려워질 수 있습니다.
 
-* 직관성: 폴더 구조는 최종 사용자가 검색하기 쉽고 직관적이어야 합니다. 사용자는 폴더 구조에서 새 에셋을 업로드할 위치를 쉽게 식별할 수 있어야 합니다.
+* 직관성: 폴더 구조는 최종 사용자가 쉽게 탐색할 수 있고 직관적이어야 합니다. 사용자는 폴더 구조에서 새 에셋을 업로드할 위치를 쉽게 식별할 수 있어야 합니다.
 
 귀사에 사용할 수 있는 폴더 구조 유형에는 여러 가지가 있습니다. 다음은 일반적인 폴더 구조의 몇 가지 예입니다.
 
@@ -145,13 +148,13 @@ Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더
 
 ### 메타데이터 양식 설정 {#metadata-forms}
 
-Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 자산의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 자산의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
+Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제공합니다. 조직에서는 추가 메타데이터가 필요하며 비즈니스별 메타데이터를 추가하려면 더 많은 메타데이터 필드가 필요합니다. 메타데이터 양식을 통해 기업은 에셋의 [!UICONTROL 세부 정보] 페이지에 사용자 정의 메타데이터 필드를 추가할 수 있습니다. 비즈니스별 메타데이터는 자산의 거버넌스 및 검색 기능을 개선합니다. 양식을 처음부터 만들거나 기존 양식의 용도를 변경할 수 있습니다.
 
-다양한 유형의 자산(다양한 MIME 유형)에 대한 메타데이터 양식을 구성할 수 있습니다. 파일의 MIME 유형과 동일한 양식 이름을 사용합니다. Essentials는 업로드된 에셋 MIME 유형을 양식 이름과 자동으로 일치시키고 양식 필드를 기반으로 업로드된 에셋의 메타데이터를 업데이트합니다.
+다양한 유형의 에셋(다양한 MIME 유형)에 대한 메타데이터 양식을 구성할 수 있습니다. 파일의 MIME 유형과 동일한 양식 이름을 사용합니다. Essentials는 업로드된 에셋 MIME 유형을 양식 이름과 자동으로 일치시키고 양식 필드를 기반으로 업로드된 에셋의 메타데이터를 업데이트합니다.
 
 예를 들어 이름이 `PDF` 또는 `pdf`인 메타데이터 양식이 있는 경우 업로드된 PDF 문서에는 양식에 정의된 메타데이터 필드가 포함됩니다.
 
-Assets Essentials는 다음 순서를 사용하여 기존 메타데이터 양식 이름을 검색하여 특정 유형의 업로드된 자산에 메타데이터 필드를 적용합니다.
+Assets Essentials는 다음 순서를 사용하여 기존 메타데이터 양식 이름을 검색하여 특정 유형의 업로드된 에셋에 메타데이터 필드를 적용합니다.
 
 MIME 하위 유형 > MIME 유형 > `default` 양식 > 기본 제공 양식
 

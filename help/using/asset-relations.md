@@ -5,24 +5,33 @@ role: User
 feature: Collaboration,Asset Management
 solution: Experience Manager, Experience Manager Assets
 exl-id: db3c30e4-a0c2-4686-a291-36a959fc3d05
-TQID: https://experienceleague.adobe.com/BIGrPj6x-EjokkE23Kg4gYU-2QA1PAUikAA1tvMZv1k
+TQID: 'https://experienceleague.adobe.com/BIGrPj6x-EjokkE23Kg4gYU-2QA1PAUikAA1tvMZv1k'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: ac365bec-0634-4744-9473-c42f47320593
+    internal-label: Asset management and governance
+subfeature_v2:
+  - id: f7212149-7f65-4e43-89c2-1f075f45be16
+    internal-label: Collaboration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: User
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 100%
-
 ---
-
 # 에셋 관계 {#related-assets}
 
 [!DNL Adobe Experience Manager Assets]에서 관련 에셋 기능을 사용하여 조직의 필요에 따라 에셋을 수동으로 연결할 수 있습니다. 예를 들어 유사한 주제에 대한 에셋 또는 이미지/비디오와 라이선스 파일을 연결할 수 있습니다. 특정 공통 속성을 공유하는 에셋의 관계를 설정할 수 있습니다. 이 기능을 사용하여 에셋 간의 소스/파생 관계를 만들 수도 있습니다. 예를 들어 INDD 파일에서 생성된 PDF 파일이 있는 경우 PDF 파일을 해당 소스 INDD 파일과 연결할 수 있습니다.
 
-이 기능을 사용하면 저해상도 PDF 파일 또는 JPG 파일을 공급업체 또는 에이전시와 공유할 수 있으며 고해상도 INDD 파일을 요청 시에만 사용할 수 있습니다.
+이 기능을 사용하면 저해상도 PDF 파일 또는 JPG 파일을 공급업체 또는 에이전시와 공유하고 고해상도 INDD 파일은 요청 시에만 제공할 수 있습니다.
 
 >[!NOTE]
 >
@@ -38,8 +47,8 @@ ht-degree: 100%
 1. 다음 중 하나를 수행하십시오.
 
    * 에셋의 원본 파일을 연결하려면 목록에서 **[!UICONTROL 소스 추가]**&#x200B;를 선택합니다. 단일 에셋만 소스로 연결할 수 있습니다.
-   * 파생 파일을 연결하려면 목록에서 **[!UICONTROL 파생 추가]**&#x200B;를 선택합니다. 이 카테고리에서 여러 에셋을 연결할 수 있습니다.
-   * 에셋 간에 양방향 관계를 만들려면 목록에서 **[!UICONTROL 기타 추가]**&#x200B;를 선택합니다. 이 카테고리에서 여러 에셋을 연결할 수 있습니다.
+   * 파생 파일을 연결하려면 목록에서 **[!UICONTROL 파생 추가]**&#x200B;를 선택합니다. 이 카테고리에 여러 에셋을 연결할 수 있습니다.
+   * 에셋 간에 양방향 관계를 만들려면 목록에서 **[!UICONTROL 기타 추가]**&#x200B;를 선택합니다. 이 카테고리에 여러 에셋을 연결할 수 있습니다.
 
 1. **[!UICONTROL 에셋 선택]** 화면에서 연결할 에셋의 위치로 이동하여 선택합니다. 한 번에 하나의 에셋을 선택하거나 Shift 키를 누른 채 클릭하여 여러 에셋을 선택할 수 있습니다. 이 경우 에셋 보기에서 [지원되는 파일 형식](supported-file-formats.md)이 포함될 수 있습니다.
 
@@ -67,6 +76,6 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [에셋의 버전 보기](manage-organize.md#view-versions)
+>* [자산의 버전 보기](manage-organize.md#view-versions)
 >* [AEM의 에셋 번역](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
 >* [에셋 보기에서 지원되는 파일 형식](supported-file-formats.md).
