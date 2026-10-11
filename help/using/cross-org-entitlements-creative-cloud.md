@@ -2,13 +2,16 @@
 title: Creative Cloud 통합을 위한 AEM Assets의 조직 간 권한
 description: Creative Cloud 통합을 위해 AEM Assets에서 조직 간 권한을 구성하는 방법에 대해 알아봅니다. 다른 IMS 조직에 프로비저닝된 Creative Cloud 권한에 연결하면 Express 및 Creative Cloud Libraries를 포함한 AEM Assets의 최신 Creative Cloud 통합을 손쉽게 사용할 수 있습니다.
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
-source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
-
 ---
-
 # Creative Cloud 통합을 위한 조직 간 권한  {#cross-org-entitlements}
 
 Experience Manager Assets에서는 다른 IMS 조직에 프로비저닝된 Creative Cloud 권한에 연결하여 Express 및 Creative Cloud Libraries를 포함한 AEM Assets의 최신 Creative Cloud 통합을 간편하게 사용할 수 있습니다.
@@ -19,7 +22,7 @@ Creative Cloud 제품 및 AEM Assets가 별도의 IMS 조직에 프로비저닝�
 
 * Experience Manager Assets에 대한 관리자 권한
 
-* Creative Cloud 및 Experience Manager에서 사용되는 동일한 사용자 ID에 대한 Creative Cloud의 활성 권한입니다. 동일한 이메일 주소를 사용하는 개인 및 Federated ID에 대한 자격은 다른 사용자 ID로 처리됩니다.
+* Creative Cloud 및 Experience Manager에서 사용되는 동일한 사용자 ID에 대한 Creative Cloud의 활성 권한입니다. 동일한 이메일 주소를 사용하는 개인 및 페더레이션된 ID에 대한 자격은 다른 사용자 ID로 처리됩니다.
 
 ## 새 Creative Cloud 조직에 연결 {#connect-to-creative-cloud-org}
 

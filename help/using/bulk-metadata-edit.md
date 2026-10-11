@@ -1,24 +1,29 @@
 ---
 title: Assets Essentials에서 메타데이터 일괄 편집
-description: Assets Essentials에서 동시에 사용할 수 있는 여러 에셋에 대해 사전 정의된 표준 메타데이터 필드 세트를 업데이트하는 방법에 대해 알아봅니다.
+description: Assets Essentials에서 여러 에셋에 대해 사전 정의된 표준 메타데이터 필드 세트를 동시에 업데이트하는 방법에 대해 알아봅니다.
 exl-id: 17185160-6c51-4581-a716-77b365ef3dd9
-TQID: https://experienceleague.adobe.com/zfRAzwQWEhdCwSVuWKDz-ndudFtv-mIhmjzyNkg8sOQ
+TQID: 'https://experienceleague.adobe.com/zfRAzwQWEhdCwSVuWKDz-ndudFtv-mIhmjzyNkg8sOQ'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Metadata
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '679'
 ht-degree: 100%
-
 ---
-
 <table>
     <tr>
         <td>
@@ -84,10 +89,10 @@ Assets Essentials에서 **일괄 메타데이터 편집** 기능을 사용하면
 
      >[!NOTE]
      >
-     >한 번에 100개의 에셋의 메타데이터를 편집할 수 있습니다.
+     >한 번에 에셋 100개의 메타데이터를 편집할 수 있습니다.
 
 에셋에 적용된 메타데이터 업데이트를 보려면 에셋 세부 정보 페이지로 이동(에셋을 선택하고 **세부 정보**&#x200B;를 클릭)한 다음 ![](/help/using/assets/info-icon-solid-black.svg)를 클릭하여 **정보** 패널에서 에셋의 메타데이터를 확인합니다.
 
 >[!NOTE]
 >
->**상태**, **만료 날짜**, **작성자**, **키워드** 및 **태그**&#x200B;는 폴더별 메타데이터와 관계없이 일괄 메타데이터 편집에 사용할 수 있는 표준 메타데이터 속성입니다. 이러한 메타데이터 속성은 에셋의 폴더에 적용된 메타데이터 양식에 포함된 경우에만 에셋 세부 정보 페이지에 표시됩니다. 에셋 세부 정보 페이지에서 이러한 표준 메타데이터 속성을 찾을 수 없는 경우 포함할 에셋 폴더의 메타데이터 양식을 편집합니다. 메타데이터 양식을 만들거나 편집하고 폴더에 적용하는 방법에 대해 알아보려면 [Assets Essentials의 메타데이터](/help/using/metadata.md)를 참조하십시오.
+>**상태**, **만료 날짜**, **작성자**, **키워드** 및 **태그**&#x200B;는 폴더별 메타데이터와 관계없이 일괄 메타데이터 편집에 사용할 수 있는 표준 메타데이터 속성입니다. 이러한 메타데이터 속성은 에셋의 폴더에 적용된 메타데이터 양식에 포함된 경우에만 에셋 세부 정보 페이지에 표시됩니다. 에셋 세부 정보 페이지에서 이러한 표준 메타데이터 속성을 찾을 수 없는 경우, 해당 속성이 포함되도록 에셋 폴더의 메타데이터 양식을 편집합니다. 메타데이터 양식을 만들거나 편집하고 폴더에 적용하는 방법에 대해 알아보려면 [Assets Essentials의 메타데이터](/help/using/metadata.md)를 참조하십시오.

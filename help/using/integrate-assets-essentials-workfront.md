@@ -2,13 +2,16 @@
 title: Adobe Workfront와 Assets Essentials 통합
 description: Assets Essentials를 Adobe Workfront 애플리케이션과 통합하면 Workfront 애플리케이션 내에서 Assets Essentials 저장소에 액세스할 수 있습니다.
 exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
-
 ---
-
 # Adobe Workfront와 Assets Essentials 통합 {#integrate-assets-essentials-workfront}
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-workfront.png)
@@ -49,7 +52,7 @@ Workfront 제품 프로필에 사용자를 추가하려면:
 
    ![사용자 관리자 프로필 추가](assets/add-users-workfront.png)
 
-   사용자를 추가하면 사용자는 시작하라는 이메일 초대를 수신하게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
+   사용자를 추가하면 사용자는 시작할 수 있도록 이메일 초대를 받게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
 
 1. 그룹에서 사용자를 제거하려면 그룹을 클릭하고 기존 사용자를 선택한 다음 **[!UICONTROL 사용자 제거]**&#x200B;를 선택합니다.
 

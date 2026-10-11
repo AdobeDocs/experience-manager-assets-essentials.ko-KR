@@ -2,13 +2,16 @@
 title: Assets Essentials를 Creative Cloud 애플리케이션과 통합
 description: Assets Essentials를 Creative Cloud 애플리케이션과 통합하여 Adobe Asset 링크 인앱 패널을 사용하여 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 애플리케이션 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다.
 exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '879'
-ht-degree: 100%
-
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 96%
 ---
-
 # Assets Essentials를 Creative Cloud 애플리케이션과 통합 {#integrate-assets-essentials-creative-cloud-applications}
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-creative-cloud.png)
@@ -31,7 +34,7 @@ Creative Cloud 애플리케이션 사용자는 Creative Cloud 애플리케이션
 
 Assets Essentials를 Creative Cloud 애플리케이션과 통합하려면 다음 작업을 실행하십시오.
 
-* [Creative Cloud와 Experience Cloud Admin Console 간에 디렉터리 위임 생성](#directory-trusting-cc-assets-essentials-consoles)
+* [Creative Cloud와 Experience Cloud Admin Console 간에 디렉터리 신뢰 생성](#directory-trusting-cc-assets-essentials-consoles)
 
 * [Assets Essentials 제품 프로필에 Creative Cloud 사용자 추가](#add-cc-users-assets-essentials-product-profiles)
 
@@ -39,7 +42,7 @@ Assets Essentials를 Creative Cloud 애플리케이션과 통합하려면 다음
 
 * [Adobe Asset Link 사용](#use-asset-link)
 
-## Creative Cloud와 Experience Cloud Admin Console 간에 디렉터리 위임 생성 {#directory-trusting-cc-assets-essentials-consoles}
+## Creative Cloud와 Experience Cloud Admin Console 간에 디렉터리 신뢰 생성 {#directory-trusting-cc-assets-essentials-consoles}
 
 Assets Essentials(Experience Cloud 솔루션)가 있는 것과 별도의 Adobe Admin Console에 Creative Cloud가 배포된 경우 두 콘솔 간에 트러스트 관계를 추가해야 합니다.
 
@@ -75,14 +78,14 @@ Assets Essentials 제품 프로필에 사용자를 할당하는 방법에 대한
 
 크리에이티브 사용자는 이제 Photoshop, Illustrator, InDesign 또는 XD에서 Adobe Asset Link를 사용할 수 있습니다. InDesign 또는 Illustrator에서 패널을 열려면 Windows > 확장 기능 > Adobe Asset Link로 이동합니다. Photoshop에서는 창 > 확장 기능 (레거시) > Adobe Asset Link로 이동합니다.
 
-Adobe XD용 Adobe Asset Link 설정 방법에 대한 자세한 내용을 확인하려면 [여기](https://helpx.adobe.com/kr/enterprise/using/adobe-asset-link-for-xd.html)를 클릭하십시오.
+Adobe XD용 Adobe Asset Link 설정 방법에 대한 자세한 내용을 확인하려면 [여기](https://helpx.adobe.com/enterprise/using/adobe-asset-link-for-xd.html)를 클릭하십시오.
 
 >[!NOTE]
 >
->Apple Silicon/M1 하드웨어에서 작업할 때 Adobe Photoshop은 CEP 확장 기술을 사용하여 빌드되었기 때문에 크리에이티브 사용자가 Adobe Asset Link 패널에 액세스할 수 있도록 Rosetta 호환 모드를 사용하여 시작해야 합니다. 자세한 내용은 [Apple Silicon용 Photoshop](https://helpx.adobe.com/kr/photoshop/kb/photoshop-for-apple-silicon.html)을 참조하십시오.
+>Apple Silicon/M1 하드웨어에서 작업할 때 Adobe Photoshop은 CEP 확장 기술을 사용하여 빌드되었기 때문에 크리에이티브 사용자가 Adobe 에셋 링크 패널에 액세스할 수 있도록 Rosetta 호환 모드를 사용하여 시작해야 합니다. 자세한 내용은 [Apple Silicon용 Photoshop](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html)을 참조하십시오.
 
 
-Adobe Asset Link를 통해 Assets Essentials 저장소에 저장된 에셋을 사용하여 작업하고 수정합니다. 다음과 같은 다양한 작업을 수행할 수 있습니다.
+Adobe Asset Link를 사용하여 Assets Essentials 저장소에 저장된 에셋으로 작업하고 수정합니다. 다음과 같은 다양한 작업을 수행할 수 있습니다.
 
 * 에셋 검색 및 찾아보기
 
