@@ -1,26 +1,27 @@
 ---
 title: AEM Assets Essentials의 폴더에 대한 권한을 관리하는 방법
-description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
+description: Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 액세스 수준을 관리하기 위해 사용자 그룹을 만들고 해당 그룹에 권한을 할당합니다. 또한 관리자는 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수 있습니다.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Leader
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 1700
+source-wordcount: '1700'
 ht-degree: 100%
-
 ---
-
 # 폴더 권한 관리 {#manage-permissions}
 
 >[!CONTEXTUALHELP]
 >id="assets_permissions_folders"
 >title="권한 관리"
->abstract="[!DNL Assets Essentials]를 통해 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 관리자는 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다."
+>abstract="[!DNL Assets Essentials]를 통해 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 관리자는 액세스 수준을 관리하기 위해 사용자 그룹을 만들고 해당 그룹에 권한을 할당할 수 있습니다. 또한 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다."
 
 Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더에 대한 액세스 수준을 관리할 수 있습니다. 관리자는 사용자 그룹을 만든 다음 해당 그룹에 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 또한 폴더 수준에서 사용자 그룹에 권한 관리 권한을 위임할 수도 있습니다.
 
@@ -30,7 +31,7 @@ Assets Essentials에서 관리자는 저장소에서 사용할 수 있는 폴더
 
 ## 폴더 권한을 관리하기에 앞서 {#before-managing-permissions}
 
-Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서, 논리적 폴더 구조를 생성하고 다양한 사용자 그룹에 대한 폴더 권한을 관리하는 관리자를 추가하는 등의 특정 작업을 수행해야 합니다.
+Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서, 논리적 폴더 구조를 생성하고 사용자 그룹을 만들며 다양한 사용자 그룹에 대한 폴더 권한을 관리할 수 있는 관리자를 추가하는 등의 특정 작업을 수행해야 합니다.
 
 ### 관리자 추가 {#add-admin-users}
 
@@ -46,7 +47,7 @@ Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서
 
    ![사용자 관리자 프로필 추가](assets/add-users-admin-profile.png)
 
-   사용자를 추가하면 사용자는 시작하라는 이메일 초대를 수신하게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
+   사용자를 추가하면 사용자는 시작할 수 있도록 이메일 초대를 받게 됩니다. [!DNL Admin Console]의 제품 프로필 설정에서 이메일 초대를 비활성화할 수 있습니다.
 
 1. 그룹에서 사용자를 제거하려면 그룹을 클릭하고 기존 사용자를 선택한 다음 **[!UICONTROL 사용자 제거]**&#x200B;를 선택합니다.
 
@@ -54,7 +55,7 @@ Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서
 
 사용자 그룹을 만든 다음 해당 그룹에 Assets Essentials 저장소의 폴더 액세스 수준을 관리하도록 권한을 할당할 수 있습니다. 그런 다음 사용자 그룹에 사용자를 할당할 수 있습니다.
 
-![그룹 및 제품 프로필에 사용자 추가](assets/user-groups-product-profiles.svg)
+![그룹 및 제품 프로필에 사용자 추가](assets/user-group-product-profiles.png)
 
 사용자 그룹에 사용자를 추가(1)하고 [Assets Essentials 제품 프로필에 사용자를 추가(2)](#add-admin-users)할 수 있습니다. 그러나 Assets Essentials 제품 프로필에 사용자 그룹을 바로 추가(3)할 수는 없습니다.
 
@@ -62,7 +63,7 @@ Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서
 
 >[!NOTE]
 >
->Admin Console을 Azure 또는 Google 커넥터, 사용자 동기화 도구 또는 User Management REST API와 같은 내부 시스템을 활용하여 사용자/그룹 할당을 관리하도록 설정한 경우 그룹 및 사용자 할당은 자동으로 구성됩니다. 자세한 내용은 [Adobe Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
+>Admin Console을 Azure 또는 Google 커넥터, 사용자 동기화 도구 또는 User Management REST API와 같은 외부 시스템을 활용하여 사용자/그룹 할당을 관리하도록 설정한 경우 그룹 및 사용자 할당은 자동으로 구성됩니다. 자세한 내용은 [Adobe Admin Console 사용자](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
 
 
 ### 그룹에 사용자 추가 {#add-users-to-uesr-groups}
@@ -87,8 +88,8 @@ Assets Essentials 저장소의 폴더에 대한 권한을 관리하기에 앞서
 
 | 권한 이름 | 설명 |
 |-----|------|
-| 보기 가능 | <ul><li>읽기 액세스(폴더 보기 및 탐색 가능) </li><li>에셋 미리보기</li><li>에셋 다운로드</li><li>에셋 복사</li><li>에셋으로의 링크 공유</li><ul> |
-| 편집 가능 | <ul><li>[보기 가능] 권한에 대해 사용할 수 있는 모든 권한 </li><li>폴더 만들기</li><li>폴더 제거</li><li>폴더 이름 바꾸기</li><li>에셋 만들기</li><li>에셋 업데이트</li><li>에셋 제거</li><li>에셋 이동</li><li>에셋 이름 바꾸기</li><ul> |
+| 보기 가능 | <ul><li>읽기 액세스(폴더 보기 및 탐색 가능) </li><li>에셋 미리보기</li><li>에셋 다운로드</li><li>에셋 복사</li><ul> |
+| 편집 가능 | <ul><li>[보기 가능] 권한에 대해 사용할 수 있는 모든 권한 </li><li>폴더 만들기</li><li>폴더 제거</li><li>폴더 이름 바꾸기</li><li>에셋 만들기</li><li>에셋 업데이트</li><li>에셋 제거</li><li>에셋 이동</li><li>에셋 이름 바꾸기</li><li>에셋 링크 공유</li><ul> |
 | 소유자 | <ul><li>[편집 가능] 권한에 대해 사용할 수 있는 모든 권한</li><li>폴더 및 그 하위 폴더에 대한 권한 관리</li>이 권한을 사용하면 관리자는 폴더 및 그 하위 폴더에 대한 관리자 권한을 다른 사용자에게 위임할 수 있습니다.<ul> |
 | 액세스 거부 | 폴더 및 그 하위 폴더에 대한 [보기 가능], [편집 가능] 및 [소유자] 권한을 제거합니다. |
 
@@ -104,13 +105,13 @@ Assets Essentials 애플리케이션에 로그인할 수 있는 인증된 모든
 
 `Marketing` 폴더에 대한 편집 권한을 귀사의 마케팅 부서에만 제공하며 다른 사용자에게는 보기 권한을 제공해야 하는 경우, 상위 그룹인 `All Authenticated Users`에 `Can View` 권한을 할당하고 그 하위 그룹인 `Marketing`에 `Can Edit` 권한을 할당하면 됩니다.
 
-![권한 할당](assets/permissions-management-groups.svg)
+![권한 할당](assets/permissions-management-group.png)
 
 **권한 상속**
 
-Assets Essentials는 상위 폴더 안의 하위 폴더에 설정된 권한을 상속할 수 있도록 하는 권한 상속을 사용합니다. 예를 들어 상위 폴더에는 `All Authenticated Users` 그룹에 대한 `Can View` 권한이 있고 하위 폴더에는 `Marketing` 사용자 그룹에 대한 `Can Edit` 권한이 있는 경우, 인증된 모든 사용자는 하위 폴더에 대한 보기 권한을 가지며 `Marketing` 사용자 그룹은 하위 폴더에 대한 편집 권한을 갖게 됩니다. `Marketing` 사용자 그룹은 하위 폴더(마케팅) 아래에 있는 추가 수준의 폴더에 대해 편집 권한을 갖게 됩니다.
+Assets Essentials는 하위 폴더에서 상위 폴더에 설정된 권한을 상속할 수 있도록 하는 권한 상속을 사용합니다. 예를 들어 상위 폴더에는 `All Authenticated Users` 그룹에 대한 `Can View` 권한이 있고 하위 폴더에는 `Marketing` 사용자 그룹에 대한 `Can Edit` 권한이 있는 경우, 인증된 모든 사용자는 하위 폴더에 대한 보기 권한을 가지며 `Marketing` 사용자 그룹은 하위 폴더에 대한 편집 권한을 갖게 됩니다. `Marketing` 사용자 그룹은 하위 폴더(마케팅) 아래에 있는 추가 수준의 폴더에 대해 편집 권한을 갖게 됩니다.
 
-![권한 할당](assets/permissions-inheritance.svg)
+![권한 할당](assets/permission-inheritance.png)
 
 >[!NOTE]
 >
@@ -206,9 +207,9 @@ Admin Console에 다음과 같은 사용자 그룹을 생성합니다.
 
 * /projects: 모든 사용자는 권한 상속에 따라 폴더 및 그 하위 폴더를 볼 수 있습니다. [프로젝트 관리 팀] 사용자 그룹은 다음과 같은 권한을 가집니다.
 
-   * [편집] 권한
+  * [편집] 권한
 
-   * [소유자] 권한: 폴더 및 그 하위 폴더에 대한 권한을 관리합니다.
+  * 소유자 권한: 폴더 및 그 하위 폴더에 대한 권한을 관리합니다.
 
 * /projects/project-x: 모든 사용자는 폴더 및 그 하위 폴더를 볼 수 있습니다. [프로젝트 관리 팀] 사용자 그룹은 편집 권한을 가지며 폴더 및 그 하위 폴더에 대한 권한([소유자] 권한)을 관리할 수 있습니다. [프로젝트 X 팀] 사용자 그룹은 편집 권한을 가집니다.
 
@@ -216,8 +217,8 @@ Admin Console에 다음과 같은 사용자 그룹을 생성합니다.
 
 ## 다음 단계 {#next-steps}
 
-* [Assets Essentials의 권한 관리에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=ko)
+* [Assets Essentials의 권한 관리에 대한 비디오 보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의

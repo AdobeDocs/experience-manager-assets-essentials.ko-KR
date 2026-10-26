@@ -7,7 +7,7 @@ product_v2:
     internal-label: Experience Manager
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
-source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+source-git-commit: f15fe91faf6a1f1341e4f4cda45bbe10bcd19544
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 다음 데이터 흐름 다이어그램은 Assets Essentials를 구성하고 관리하기 위해 관리자가 수행해야 하는 작업의 순서를 보여 줍니다.
 
-![Assets Essentials 관리 플로우](assets/permissions-management-cce-next.svg)
+![Assets Essentials 관리 플로우](assets/permission-management-cce-next.png)
 
 ## Admin Console에 액세스 {#access-admin-console}
 
@@ -84,7 +84,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 제품 프로
 
 사용자 그룹에 사용자를 추가(1)하고 [Assets Essentials 제품 프로필에 사용자를 추가(2)](#add-admin-users)할 수 있습니다. 그러나 Assets Essentials 제품 프로필에 사용자 그룹을 바로 추가(3)할 수는 없습니다.
 
-![그룹 및 제품 프로필에 사용자 추가](assets/user-groups-product-profiles.svg)
+![그룹 및 제품 프로필에 사용자 추가](assets/user-group-product-profiles.png)
 
 사용자 그룹 관리 방법에 대한 자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)에서 `Create user groups` 및 `Edit user groups`를 참조하십시오.
 
@@ -136,7 +136,7 @@ Assets Essentials 저장소에 폴더 구조를 만들 계획을 시작할 때�
 
 귀사에 사용할 수 있는 폴더 구조 유형에는 여러 가지가 있습니다. 다음은 일반적인 폴더 구조의 몇 가지 예입니다.
 
-![일반적인 폴더 구조](assets/folder-structure.svg)
+![일반적인 폴더 구조](assets/folder-structure-new.png)
 
 ### 폴더에 대한 권한 관리 {#manage-permissions-for-folders}
 

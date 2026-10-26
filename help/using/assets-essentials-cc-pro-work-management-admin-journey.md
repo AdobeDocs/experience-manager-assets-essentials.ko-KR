@@ -5,20 +5,24 @@ exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 TQID: https://experienceleague.adobe.com/nYLF2t3wzkhjKS-cdR1dhW-CZ8YwQcJS4FxS2FAYXzg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: '917'
 ht-degree: 100%
-
 ---
-
 # 작업 관리 솔루션이 포함된 Creative Cloud Pro용 Assets Essentials {#creative-cloud-enterprise-user-journeys}
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-next-banner-landing-page.png)
@@ -43,13 +47,13 @@ ht-degree: 100%
 
 * Creative Cloud 서비스 및 애플리케이션(Creative Cloud for enterprise Pro 및 선택 모듈)은 [Creative Cloud 배포를 위한 Adobe Admin Console](https://helpx.adobe.com/content/help/kr/enterprise/admin-guide.html)에서 관리됩니다.
 
-* Adobe Workfront 및 Adobe Experience Manager Assets Essentials는 [Experience Cloud 솔루션에 대한 Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko)에서 관리됩니다.
+* Adobe Workfront 및 Adobe Experience Manager Assets Essentials는 [Experience Cloud 솔루션에 대한 Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)에서 관리됩니다.
 
 Creative Cloud와 Assets Essentials 애플리케이션을 통합하려면 Creative Cloud용 Admin Console에서 사용 가능한 사용자를 Experience Cloud용 Admin Console에서 사용 가능하도록 해야 합니다. Experience Cloud Admin Console에서 사용자를 사용할 수 있도록 하려면 두 Admin Console 간에 [디렉터리 위임](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html#directory-trusting)을 설정하는 디렉터리를 만듭니다.
 
-![Creative Cloud 사용자](assets/creative-cloud-users.svg)
+![Creative Cloud 사용자](assets/creative-cloud-users.png)
 
-다이어그램에 표시된 것처럼 Creative Cloud 사용자는 두 콘솔 간의 트러스트 관계를 기반으로 Experience Cloud Admin Console에서 자동으로 사용할 수 있게 됩니다. 그런 다음 Asset Essentials 제품 프로필에 사용자를 추가할 수 있습니다. 이에 따라 Creative Cloud 사용자는 Assets Essentials 저장소와 상호 작용할 수 있는 Adobe Asset Link 애플리케이션에 액세스할 수 있습니다. 자세한 내용은 [Assets Essentials를 Creative Cloud 애플리케이션과 통합](integrate-with-creative-cloud.md)을 참조하십시오.
+다이어그램에 표시된 것처럼 Creative Cloud 사용자는 두 콘솔 간의 트러스트 관계를 기반으로 Experience Cloud Admin Console에서 자동으로 사용할 수 있게 됩니다. 그런 다음 Assets Essentials 제품 프로필에 사용자를 추가할 수 있습니다. 이에 따라 Creative Cloud 사용자는 Assets Essentials 저장소와 상호 작용할 수 있는 Adobe Asset Link 애플리케이션에 액세스할 수 있습니다. 자세한 내용은 [Assets Essentials를 Creative Cloud 애플리케이션과 통합](integrate-with-creative-cloud.md)을 참조하십시오.
 
 ## Experience Manager 설명서 여정 {#documentation-journeys}
 
@@ -59,7 +63,7 @@ Documentation Journey는 Assets Essentials를 처음 접할 수 있는 독자가
 
 ## 전제 조건
 
-* [Experience Cloud 솔루션에 대한 Adobe Admin Console에 액세스](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko)
+* [Experience Cloud 솔루션용 Adobe Admin Console 액세스](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
 
 * [Creative Cloud for enterprise 배포용 Adobe Admin Console에 액세스](https://helpx.adobe.com/kr/enterprise/admin-guide.html)
 
@@ -67,9 +71,9 @@ Documentation Journey는 Assets Essentials를 처음 접할 수 있는 독자가
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-assets.png)
 
-Adobe Experience Manager Assets Essentials는 Adobe Experience Manager Assets의 가벼운 버전의 새로운 에디션입니다. Assets Essentials는 간소화되고 일관된 사용자 인터페이스로 통합된 에셋 관리 및 공동 작업 기능을 제공합니다. 사용 편의성을 통해 보다 창의적인 작업을 수행할 수 있으며 마케팅 팀에서 디지털 에셋을 저장하고, 검색하고, 배포할 수 있습니다.
+Adobe Experience Manager Assets Essentials는 Adobe Experience Manager Assets의 새롭고 가벼운 에디션입니다. Assets Essentials는 간소화되고 일관된 사용자 인터페이스로 통합된 에셋 관리 및 공동 작업 기능을 제공합니다. 사용 편의성 덕분에 더 많은 크리에이티브 팀과 마케팅 팀이 디지털 에셋을 저장하고, 검색하고, 배포할 수 있습니다.
 
-Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프로비저닝합니다. 프로비저닝의 일부로 Assets Essentials는 Adobe Admin Console에서 고객의 조직에 추가됩니다.
+Adobe Experience Manager Assets Essentials는 고객을 위해 Adobe에서 프로비전됩니다. 프로비저닝의 일부로 Assets Essentials는 Adobe Admin Console에서 고객의 조직에 추가됩니다.
 
 관리자는 Admin Console을 사용하여 Assets Essentials 제품에 대한 사용자 권한을 관리합니다.
 
@@ -81,7 +85,7 @@ Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프�
 
 관리자는 Admin Console에서 사용자 권한을 관리한 후 Assets Essentials 애플리케이션을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
-* 조직의 요구 사항에 적합한 지원을 제공하는 폴더 구조 만들기
+* 조직의 요구 사항을 가장 잘 지원하는 폴더 구조 만들기
 
 * 폴더 구조에 대한 권한 관리
 
@@ -95,13 +99,13 @@ Adobe Experience Manager Assets Essentials는 Adobe에서 고객을 위해 프�
 
 ![어두운 테마 및 밝은 테마 전환 환경 설정](assets/cce-creative-cloud.png)
 
-[Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 에셋에 대한 액세스 단계를 간소화하여 콘텐츠 속도를 높입니다.
+[Adobe Asset Link 인앱 패널](https://www.adobe.com/kr/creativecloud/business/enterprise/adobe-asset-link.html)을 통해 크리에이티브 전문가는 지원되는 [!DNL Adobe Creative Cloud] 데스크탑 앱 내에서 [!DNL Assets Essentials] 저장소에 연결할 수 있습니다. 패널은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD]에 사용할 수 있습니다. 에셋에 대한 액세스 단계를 간소화하여 콘텐츠 제작 속도를 높입니다.
 
 이 튜토리얼은 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] 및 [!DNL Adobe XD] 애플리케이션을 Experience Manager Assets Essentials와 통합하는 방법에 대해 안내합니다.
 
 목표:
 
-* Creative Cloud와 Experience Cloud Admin Console 간에 디렉터리 위임 생성
+* Creative Cloud와 Experience Cloud Admin Console 간에 디렉터리 신뢰 설정 생성
 
 * Assets Essentials 제품 프로필에 Creative Cloud 사용자 추가
 

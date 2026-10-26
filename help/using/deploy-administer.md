@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 다음 데이터 흐름 다이어그램은 Assets Essentials를 구성하고 관리하기 위해 관리자가 수행해야 하는 작업의 순서를 보여 줍니다.
 
-![Assets Essentials 배포](assets/deploy-assets-essentials.svg)
+![Assets Essentials 배포](assets/deploy-assets-essentials.png)
 
 ## Admin Console에 액세스 {#access-admin-console}
 
@@ -82,7 +82,7 @@ Assets Essentials 애플리케이션에 액세스할 수 있도록 사용자 그
 
    * **[!DNL Assets Essentials]사용자**&#x200B;는 전체 사용자 인터페이스에 액세스할 수 있습니다. 이들 사용자는 디지털 에셋을 업로드하고, 구성하고, 태그를 지정하고, 찾을 수 있습니다.
 
-   * **[!DNL Assets Essentials]소비자 사용자**&#x200B;는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
+   * **[!DNL Assets Essentials]소비자 사용자**는 Assets Essentials에서 검색, 미리보기 및 다운로드 작업을 수행할 수 있습니다. 또한 Adobe Journey Optimizer에서 에셋을 찾아 선택하고 Workfront 내에서 사용할 에셋을 찾아 선택할 수 있습니다.
      자세한 내용은 [다른 솔루션과 통합](integration.md)을 참조하십시오.
 
    ![Admin Console 관리자 프로필](assets/admin-console-admin-profile.png)
@@ -123,7 +123,7 @@ Admin Console에서 사용자 권한 부여를 수행한 후 Assets Essentials �
 
 조직에 사용할 수 있는 폴더 구조 유형에는 여러 가지가 있습니다. 다음은 일반적인 폴더 구조의 몇 가지 예입니다.
 
-![일반적인 폴더 구조](assets/folder-structure.svg)
+![일반적인 폴더 구조](assets/folder-structure-new.png)
 
 >[!NOTE]
 >
@@ -167,13 +167,13 @@ Assets Essentials는 기본적으로 많은 표준 메타데이터 필드를 제
 
 ## 다음 단계 {#next-steps}
 
-<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=ko) -->
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
 
 * Assets Essentials 사용자 인터페이스에서 사용 가능한 [!UICONTROL 피드백] 옵션을 사용하여 제품 피드백 제공
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL 이 페이지 편집], ![페이지 편집](assets/do-not-localize/edit-page.png), [!UICONTROL 문제 기록] 또는 ![GitHub 문제 생성](assets/do-not-localize/github-issue.png)을 사용하여 설명서 피드백 제공
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 
 
