@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 다음 데이터 흐름 다이어그램은 Assets Essentials를 구성하고 관리하기 위해 관리자가 수행해야 하는 작업의 순서를 보여 줍니다.
 
-![Assets Essentials 배포](assets/deploy-assets-essentials.svg)
+![Assets Essentials 배포](assets/deploy-assets-essentials.png)
 
 ## Admin Console에 액세스 {#access-admin-console}
 
@@ -123,7 +123,7 @@ Admin Console에서 사용자 권한 부여를 수행한 후 Assets Essentials �
 
 조직에 사용할 수 있는 폴더 구조 유형에는 여러 가지가 있습니다. 다음은 일반적인 폴더 구조의 몇 가지 예입니다.
 
-![일반적인 폴더 구조](assets/folder-structure.svg)
+![일반적인 폴더 구조](assets/folder-structure-new.png)
 
 >[!NOTE]
 >

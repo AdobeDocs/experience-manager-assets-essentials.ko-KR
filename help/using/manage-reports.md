@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 100%
@@ -50,7 +50,7 @@ AEM Assets Essentials 환경은 보고서 대시보드를 통해 포괄적인 �
 **보고서를 만들려면 다음 작업을 수행하십시오.**
 
 1. **보고서**&#x200B;로 이동하고 **보고서 만들기**(오른쪽 상단)를 클릭합니다. **보고서 만들기** 대화 상자에 아래와 같은 필드가 표시됩니다.
-   ![보고서 만들기](/help/using/assets/executed-reports1.svg)
+   ![보고서 만들기](/help/using/assets/executed-reports1.png)
 
    **구성 탭:**
 
@@ -152,7 +152,7 @@ AEM Essentials UI에서 **보고서 예약** 기능을 사용하면 매일, 매�
    1. **설명**: 원하는 경우 보고서에 설명을 추가합니다.
    1. **폴더 경로 선택:** 나중에 특정 폴더에 업로드되거나 해당 폴더에서 다운로드될 에셋에 대한 보고서를 생성하려면 폴더 경로를 선택합니다.
    1. **보고서 예약** 토글: 나중에 또는 반복해서 실행되도록 보고서를 예약합니다.
-      ![보고서 예약](/help/using/assets/schedule-reports1.svg)
+      ![보고서 예약](/help/using/assets/schedule-reports1.png)
 
    1. **빈도 선택:** 보고서 생성 간격(예: 매일, 매주, 매월, 매년 또는 한 번)을 지정하고, 보고서를 실행할 날짜와 시간을 설정하고, 반복 실행 종료 일자를 설정합니다. 일회성 보고서의 경우에는 AEM 환경에서 선택한 활동 유형에 대한 보고서의 날짜 범위를 선택합니다. 예를 들어 특정 월의 10일부터 29일(미래 날짜)까지 다운로드된 자산에 대한 보고서가 필요하다면 **날짜 간격 선택** 필드에서 해당 날짜를 선택합니다.
 
@@ -196,21 +196,21 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
 자동 생성된 다음과 같은 차트를 보려면 왼쪽 탐색 창에 있는 **[!UICONTROL 인사이트]**&#x200B;를 클릭하십시오.
 
 * **다운로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 다운로드된 자산 수를 선 차트로 표시합니다.
-  ![다운로드](/help/using/assets/insights-downloads2341.svg)
+  ![다운로드](/help/using/assets/insights-downloads2341.png)
 
 * **업로드**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에 업로드된 자산 수를 선 차트로 표시합니다.
-  ![업로드](/help/using/assets/insights-uplods2.svg)
+  ![업로드](/help/using/assets/insights-uplods2.png)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **스토리지 사용량**: 막대 그래프를 사용하여 표현되는 Assets Essentials 환경의 스토리지 사용량(바이트 단위)입니다.
-  ![스토리지 사용량](/help/using/assets/insights-storage-usage1.svg)
+  ![스토리지 사용량](/help/using/assets/insights-storage-usage1.png)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **인기 검색어**: 지난 30일 또는 12개월 동안 Assets Essentials 환경에서 해당 용어가 검색된 횟수와 함께 가장 많이 검색된 용어를 표 형식으로 표시합니다.
-  ![스토리지 사용량](/help/using/assets/insights-top-search.svg)
+  ![스토리지 사용량](/help/using/assets/insights-top-search.png)
 
   <!--
    ![Insights](assets/insights1.png)
@@ -218,8 +218,8 @@ Assets Essentials를 사용하면 인사이트 대시보드를 사용하여 Asse
    -->
 
 * **크기별 자산 수:** Assets Essentials 환경의 총 자산 수를 다양한 크기 범위로 세그먼트화하고 도넛 차트로 표시되는 각 크기 범위의 자산 수와 비율을 강조 표시합니다.
-  ![인사이트-크기별-자산-수](/help/using/assets/insights-assets-count-by-size.svg)
+  ![인사이트-크기별-자산-수](/help/using/assets/insights-assets-count-by-size.png)
 
 * **자산 유형별 자산 수:** Assets Essentials 환경의 총 자산 수를 세그먼트화하여 도넛 차트로 나타나는 파일 유형 기준 자산 수 및 비율을 강조 표시합니다.
-  ![인사이트-크기별-자산-수](/help/using/assets/insights-assest-count-by-asset-type1.svg)
+  ![인사이트-크기별-자산-수](/help/using/assets/insights-assest-count-by-asset-type1.png)
 
